@@ -1,8 +1,8 @@
-#Solve.Care Platform Developer Application
+# Solve.Care Platform Developer Application
 
-Develop Care.Cards, Care Journeys and Care Networks on the Solve.Care full stack healthcare platform. 
+* Develop Care.Cards, Care Journeys and Care Networks on the Solve.Care full stack healthcare platform. 
 
-Change healthcare for the better! 
+* Change healthcare for the better! 
 
 
 Please fill in the following form

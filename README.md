@@ -3,7 +3,7 @@
 Care.Protocol allows everyone author fully decentralized, multi-party digital networks that are personalized, autonomous, tokenized and immutable, comprising of decentralized applications (Care.Cards)
 
 
-#Updates
+## Updates
 
 Sample authoring/scripting using Care.Protocol to build Care Cards in Korean Language
 

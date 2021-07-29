@@ -1,5 +1,6 @@
 {
   "Name": "CAN",
+  "NetworkId":"1001",
   "Description": "Care Administration Network",
   "Version": "1.0",
   "Certificates": "CERT-001",

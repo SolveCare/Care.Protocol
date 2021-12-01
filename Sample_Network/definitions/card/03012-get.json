@@ -1,0 +1,183 @@
+{
+    "cardData": {
+        "00t1v1": "Name",
+        "00t1v2": "Height",
+        "00t1v3": "BMI",
+        "00t1v4": "Response",
+        "00t1v5": "Send",
+        "00t1v6": "Action"
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "00t2",
+                "name": "Coordinator",
+                "tileComponent": [
+                    {
+                        "id": "",
+                        "subView": [
+                            {
+                                "id": "${00t1v1}",
+                                "position": "center",
+                                "type": "LABEL",
+                                "uiAction": ""
+                            },
+                            {
+                                "id": "${00t1v3}",
+                                "position": "center",
+                                "type": "LABEL",
+                                "uiAction": ""
+                            },
+                            {
+                                "id": "${00t1v4}",
+                                "position": "center",
+                                "type": "LABEL",
+                                "uiAction": ""
+                            },
+                            {
+                                "id": "${00t1v6}",
+                                "position": "center",
+                                "type": "LABEL",
+                                "uiAction": ""
+                            }
+                        ],
+                        "type": "CONTAINER",
+                        "uiAction": ""
+                    },
+                    {
+                        "id": "",
+                        "isSearchable": false,
+                        "subView": [
+                            {
+                                "bind": "createdAt",
+                                "capture": "createdAt",
+                                "id": "${00t1v1}",
+                                "isCapturable": true,
+                                "position": "START",
+                                "text_color": "default_color",
+                                "text_size": "header3",
+                                "type": "LABEL",
+                                "uiAction": ""
+                            },
+                            {
+                                "bind": "bmi",
+                                "capture": "bmi",
+                                "id": "${00t1v1}",
+                                "isCapturable": true,
+                                "position": "CENTER",
+                                "text_color": "default_color",
+                                "text_size": "header3",
+                                "type": "LABEL",
+                                "uiAction": ""
+                            },
+                            {
+                                "bind": "providerResponse",
+                                "capture": "providerResponse",
+                                "id": "${00t1v1}",
+                                "isCapturable": true,
+                                "position": "CENTER",
+                                "text_color": "default_color",
+                                "text_size": "header3",
+                                "type": "LABEL",
+                                "uiAction": ""
+                            },
+                            {
+                                "bind": "",
+                                "capture": "",
+                                "id": "${00t1v5}",
+                                "isCapturable": false,
+                                "position": "CENTER",
+                                "text_color": "white",
+                                "text_size": "header3",
+                                "type": "BUTTON",
+                                "uiAction": "${action1}"
+                            }
+                        ],
+                        "type": "LIST",
+                        "uiAction": "${action1}"
+                    }
+                ],
+                "tileType": "Wrap",
+                "uiAction": ""
+            }
+        ]
+    },
+    "cardUIAction": {
+        "action1": {
+            "action": "ev-4014w"
+        }
+    },
+    "id": "00jc2",
+    "name": "Doctor Response List",
+    "private": {
+        "cardData": {
+            "00d2": "https://i.picsum.photos/id/10/2500/1667.jpg?hmac=J04WWC_ebchx3WwzbM-Z4_KC_LeLBWr5LZMaAkWkF68",
+            "00t1v1": "Date",
+            "00t1v2": "Height",
+            "00t1v3": "BMI",
+            "00v10": [
+                {
+                    "item": "item1",
+                    "value": 2
+                },
+                {
+                    "item": "item2",
+                    "value": 1
+                },
+                {
+                    "item": "item3",
+                    "value": 1
+                },
+                {
+                    "item": "item4",
+                    "value": 1
+                }
+            ]
+        },
+        "cardLayout": {
+            "body": [
+                {
+                    "id": "00t1v1",
+                    "name": "first tile",
+                    "tileComponent": [
+                        {
+                            "id": "",
+                            "subView": [
+                                {
+                                    "id": "${00d2}",
+                                    "position": "CENTER",
+                                    "ratio": "1",
+                                    "size": "xlarge",
+                                    "type": "checkBox",
+                                    "uiAction": ""
+                                }
+                            ],
+                            "type": "CONTAINER",
+                            "uiAction": ""
+                        }
+                    ],
+                    "tileType": "Wrap",
+                    "uiAction": ""
+                },
+                {
+                    "id": "00t5",
+                    "name": "first tile",
+                    "tileComponent": [
+                        {
+                            "graph_type": "bar",
+                            "id": "${00v10}",
+                            "text_color": "default_color",
+                            "text_size": "header4",
+                            "type": "WEBWALLET",
+                            "uiAction": ""
+                        }
+                    ],
+                    "tileType": "Wrap",
+                    "uiAction": ""
+                }
+            ]
+        },
+        "id": "00jc3",
+        "name": "Private View"
+    }
+}

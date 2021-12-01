@@ -1,0 +1,27 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "ev-4002w",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "eventDefinitionRef": "eh-5002w",
+                            "name": "submit",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "POST",
+                                    "url": "/events"
+                                }
+                            ]
+                        }
+                    ],
+                    "eventDefinitionRef": "",
+                    "postAction": "HOME",
+                    "refId": "ev-4002w"
+                }
+            ]
+        }
+    ]
+}

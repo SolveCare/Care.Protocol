@@ -1,0 +1,1832 @@
+[ {
+  "value" : {
+    "id" : "2230",
+    "type" : "node",
+    "properties" : {
+      "distributionType" : "self",
+      "code" : "SHARE.RECOMMENDATION",
+      "eventDefinitionRef" : "event/04015n.json",
+      "name" : "SHARE.RECOMMENDATION",
+      "description" : "Event to share Provider' recommendation with Patient.",
+      "type" : "NODE",
+      "version" : 9,
+      "referenceId" : "ev-4015n",
+      "status" : "ACTIVE"
+    },
+    "labels" : [ "Event" ]
+  }
+}, {
+  "value" : {
+    "id" : "2231",
+    "type" : "node",
+    "properties" : {
+      "name" : "NH.CR.SHARE.RECOMMENDATION-2",
+      "description" : "Event handler to share provider' recommendation.",
+      "type" : "NODE_EVENT_HANDLER",
+      "eventHandlerDefinitionRef" : "event-handler/05015n.json",
+      "version" : 2,
+      "referenceId" : "eh-5015n",
+      "status" : "ACTIVE"
+    },
+    "labels" : [ "EventHandler" ]
+  }
+}, {
+  "value" : {
+    "id" : "2232",
+    "type" : "node",
+    "properties" : {
+      "name" : "PATIENT",
+      "description" : "Patient role for the CAN",
+      "type" : "WALLET",
+      "version" : 5,
+      "referenceId" : "rl-1001",
+      "network" : "dev-trinity",
+      "status" : "ACTIVE"
+    },
+    "labels" : [ "Role" ]
+  }
+}, {
+  "value" : {
+    "id" : "2233",
+    "type" : "node",
+    "properties" : {
+      "name" : "COORDINATOR",
+      "description" : "Coordinator role for the CAN 18",
+      "type" : "WALLET",
+      "version" : 32,
+      "referenceId" : "rl-1003",
+      "status" : "ACTIVE",
+      "network" : "dev-trinity"
+    },
+    "labels" : [ "Role" ]
+  }
+}, {
+  "value" : {
+    "id" : "2234",
+    "type" : "node",
+    "properties" : {
+      "name" : "DOCTOR",
+      "description" : "Doctor role for the CAN",
+      "type" : "WALLET",
+      "version" : 10,
+      "referenceId" : "rl-1002",
+      "network" : "dev-trinity",
+      "status" : "ACTIVE"
+    },
+    "labels" : [ "Role" ]
+  }
+}, {
+  "value" : {
+    "id" : "2235",
+    "type" : "node",
+    "properties" : {
+      "name" : "NH.PR.SHARE.RECOMMENDATION-2",
+      "description" : "Event handler to share patient's medical records with Coordinator.",
+      "type" : "NODE_EVENT_HANDLER",
+      "eventHandlerDefinitionRef" : "event-handler/05023n.json",
+      "version" : 2,
+      "referenceId" : "eh-5023n",
+      "status" : "ACTIVE"
+    },
+    "labels" : [ "EventHandler" ]
+  }
+}, {
+  "value" : {
+    "id" : "2236",
+    "type" : "node",
+    "properties" : {
+      "distributionType" : "self",
+      "code" : "SUBMIT.RECOMMENDATION",
+      "eventDefinitionRef" : "event/04023n.json",
+      "name" : "SUBMIT.RECOMMENDATION",
+      "description" : "Event to submit recommendation from Provider according to shared medical records.",
+      "type" : "NODE",
+      "version" : 2,
+      "referenceId" : "ev-4023n",
+      "status" : "ACTIVE"
+    },
+    "labels" : [ "Event" ]
+  }
+}, {
+  "value" : {
+    "id" : "2237",
+    "type" : "node",
+    "properties" : {
+      "distributionType" : "self",
+      "code" : "SHARE.MEDICAL.RECORDS",
+      "eventDefinitionRef" : "event/04013n.json",
+      "name" : "SHARE.MEDICAL.RECORDS",
+      "description" : "Event to share medical records with Provider.",
+      "type" : "NODE",
+      "version" : 2,
+      "referenceId" : "ev-4013n",
+      "status" : "ACTIVE"
+    },
+    "labels" : [ "Event" ]
+  }
+}, {
+  "value" : {
+    "id" : "2238",
+    "type" : "node",
+    "properties" : {
+      "name" : "NH.CR.SHARE.MEDICAL.RECORDS-2",
+      "description" : "Event handler to share patient's medical records with Provider.",
+      "type" : "NODE_EVENT_HANDLER",
+      "eventHandlerDefinitionRef" : "event-handler/05013n.json",
+      "version" : 2,
+      "referenceId" : "eh-5013n",
+      "status" : "ACTIVE"
+    },
+    "labels" : [ "EventHandler" ]
+  }
+}, {
+  "value" : {
+    "id" : "2239",
+    "type" : "node",
+    "properties" : {
+      "certificates" : "CERT-2345-2021",
+      "publishDate" : "09-09-2021",
+      "name" : "TrinityCAN",
+      "description" : "Trinity Care Administration Network Updated 18",
+      "nodeUrl" : "https://cn-traefik.solvecare.net",
+      "version" : 14,
+      "effectiveDate" : "30-05-2022",
+      "referenceId" : "dev-trinity",
+      "status" : "ACTIVE"
+    },
+    "labels" : [ "Network" ]
+  }
+}, {
+  "value" : {
+    "id" : "2240",
+    "type" : "node",
+    "properties" : {
+      "code" : "FETCH.SUBMITTED.PATIENTS",
+      "name" : "FETCH.SUBMITTED.PATIENTS",
+      "description" : "Event to fetch the patients whom submit medical records.",
+      "type" : "WALLET",
+      "version" : 1,
+      "referenceId" : "ev-4011w",
+      "status" : "ACTIVE"
+    },
+    "labels" : [ "Event" ]
+  }
+}, {
+  "value" : {
+    "id" : "2241",
+    "type" : "node",
+    "properties" : {
+      "name" : "ReplaceMe8",
+      "description" : "ReplaceMe9",
+      "type" : "WALLET_EVENT_HANDLER",
+      "eventHandlerDefinitionRef" : "event-handler/05011w.json",
+      "version" : 1,
+      "referenceId" : "eh-5011w",
+      "status" : "ACTIVE"
+    },
+    "labels" : [ "EventHandler" ]
+  }
+}, {
+  "value" : {
+    "id" : "2242",
+    "type" : "node",
+    "properties" : {
+      "code" : "GET.SUBMITTED.PATIENT.DATA",
+      "name" : "GET.SUBMITTED.PATIENT.DATA",
+      "description" : "Event to fetch the patient's medical records.",
+      "type" : "WALLET",
+      "version" : 2,
+      "referenceId" : "ev-4012w",
+      "status" : "ACTIVE"
+    },
+    "labels" : [ "Event" ]
+  }
+}, {
+  "value" : {
+    "id" : "2243",
+    "type" : "node",
+    "properties" : {
+      "name" : "ReplaceMe10",
+      "description" : "ReplaceMe11",
+      "type" : "WALLET_EVENT_HANDLER",
+      "eventHandlerDefinitionRef" : "event-handler/05012w.json",
+      "version" : 1,
+      "referenceId" : "eh-5012w",
+      "status" : "ACTIVE"
+    },
+    "labels" : [ "EventHandler" ]
+  }
+}, {
+  "value" : {
+    "id" : "2244",
+    "type" : "node",
+    "properties" : {
+      "code" : "GET.SUBMITTED.PATIENTS",
+      "name" : "GET.SUBMITTED.PATIENTS",
+      "description" : "Event to fetch the patients whom submit medical records.",
+      "type" : "WALLET",
+      "version" : 2,
+      "referenceId" : "ev-4001w",
+      "status" : "ACTIVE"
+    },
+    "labels" : [ "Event" ]
+  }
+}, {
+  "value" : {
+    "id" : "2245",
+    "type" : "node",
+    "properties" : {
+      "name" : "ReplaceMe4",
+      "description" : "ReplaceMe5",
+      "type" : "WALLET_EVENT_HANDLER",
+      "eventHandlerDefinitionRef" : "event-handler/05001w.json",
+      "version" : 1,
+      "referenceId" : "eh-5001w",
+      "status" : "ACTIVE"
+    },
+    "labels" : [ "EventHandler" ]
+  }
+}, {
+  "value" : {
+    "id" : "2246",
+    "type" : "node",
+    "properties" : {
+      "code" : "SELECT.SUBMITTED.PATIENT",
+      "name" : "SELECT.SUBMITTED.PATIENT",
+      "description" : "Event to fetch the patients whom submit medical records.",
+      "type" : "WALLET",
+      "version" : 1,
+      "referenceId" : "ev-4002w",
+      "status" : "ACTIVE"
+    },
+    "labels" : [ "Event" ]
+  }
+}, {
+  "value" : {
+    "id" : "2247",
+    "type" : "node",
+    "properties" : {
+      "name" : "ReplaceMe6",
+      "description" : "ReplaceMe7",
+      "type" : "WALLET_EVENT_HANDLER",
+      "eventHandlerDefinitionRef" : "event-handler/05002w.json",
+      "version" : 1,
+      "referenceId" : "eh-5002w",
+      "status" : "ACTIVE"
+    },
+    "labels" : [ "EventHandler" ]
+  }
+}, {
+  "value" : {
+    "id" : "2248",
+    "type" : "node",
+    "properties" : {
+      "distributionType" : "self",
+      "code" : "SUBMIT.MEDICAL.RECORDS",
+      "eventDefinitionRef" : "event/04002n.json",
+      "name" : "SUBMIT.MEDICAL.RECORDS",
+      "description" : "Event to submit medical records.",
+      "type" : "NODE",
+      "version" : 9,
+      "referenceId" : "ev-4002n",
+      "status" : "ACTIVE"
+    },
+    "labels" : [ "Event" ]
+  }
+}, {
+  "value" : {
+    "id" : "2249",
+    "type" : "node",
+    "properties" : {
+      "name" : "NH.PT.SUBMIT.MEDICAL.RECORDS-2",
+      "description" : "Event to submit medical records to coordinator.",
+      "type" : "NODE_EVENT_HANDLER",
+      "eventHandlerDefinitionRef" : "event-handler/05002n.json",
+      "version" : 2,
+      "referenceId" : "eh-5002n",
+      "status" : "ACTIVE"
+    },
+    "labels" : [ "EventHandler" ]
+  }
+}, {
+  "value" : {
+    "id" : "2250",
+    "type" : "node",
+    "properties" : {
+      "distributionType" : "self",
+      "code" : "W.SHARE.MEDICAL.RECORDS",
+      "name" : "W.SHARE.MEDICAL.RECORDS",
+      "description" : "Event to share medical records with Provider.",
+      "type" : "WALLET",
+      "version" : 1,
+      "referenceId" : "ev-4013w",
+      "status" : "ACTIVE"
+    },
+    "labels" : [ "Event" ]
+  }
+}, {
+  "value" : {
+    "id" : "2251",
+    "type" : "node",
+    "properties" : {
+      "name" : "ReplaceMe12",
+      "description" : "ReplaceMe13",
+      "type" : "WALLET_EVENT_HANDLER",
+      "eventHandlerDefinitionRef" : "event-handler/05013w.json",
+      "version" : 1,
+      "referenceId" : "eh-5013w",
+      "status" : "ACTIVE"
+    },
+    "labels" : [ "EventHandler" ]
+  }
+}, {
+  "value" : {
+    "id" : "2252",
+    "type" : "node",
+    "properties" : {
+      "name" : "SUBMIT MEDICAL DATA",
+      "description" : "Care.Journeys for Submitting Medical Record.",
+      "version" : 1,
+      "referenceId" : "jn-1002",
+      "status" : "ACTIVE"
+    },
+    "labels" : [ "Journey" ]
+  }
+}, {
+  "value" : {
+    "id" : "2253",
+    "type" : "node",
+    "properties" : {
+      "cardDefinitionRef" : "card/03002.json",
+      "name" : "SUBMIT_MY_MEDICAL_RECORDS",
+      "description" : "Care.card to submit user's medical records.",
+      "transactionDataRef" : "td/06002.json",
+      "version" : 1,
+      "referenceId" : "cd-3002",
+      "status" : "ACTIVE"
+    },
+    "labels" : [ "Card" ]
+  }
+}, {
+  "value" : {
+    "id" : "2254",
+    "type" : "node",
+    "properties" : {
+      "name" : "GET MEDICAL LOGS",
+      "description" : "Care.Journeys for Getting Medical Record.",
+      "version" : 1,
+      "referenceId" : "jn-1001",
+      "status" : "ACTIVE"
+    },
+    "labels" : [ "Journey" ]
+  }
+}, {
+  "value" : {
+    "id" : "2255",
+    "type" : "node",
+    "properties" : {
+      "cardDefinitionRef" : "card/03001.json",
+      "name" : "SHOW_MY_MEDICAL_RECORDS",
+      "description" : "Care.Card to show user's medical records.",
+      "transactionDataRef" : "td/06001.json",
+      "version" : 9,
+      "referenceId" : "cd-3001",
+      "status" : "ACTIVE"
+    },
+    "labels" : [ "Card" ]
+  }
+}, {
+  "value" : {
+    "id" : "2256",
+    "type" : "node",
+    "properties" : {
+      "cardDefinitionRef" : "card/03012-get.json",
+      "name" : "GET_PROVIDER_MEDICAL_RESPONSE",
+      "description" : "Care.card to get provider response.",
+      "transactionDataRef" : "td/06014.json",
+      "version" : 1,
+      "referenceId" : "cd-3014",
+      "status" : "ACTIVE"
+    },
+    "labels" : [ "Card" ]
+  }
+}, {
+  "value" : {
+    "id" : "2257",
+    "type" : "node",
+    "properties" : {
+      "distributionType" : "self",
+      "code" : "ReplaceMe2",
+      "name" : "ReplaceMe1",
+      "description" : "ReplaceMe3",
+      "type" : "WALLET",
+      "version" : 1,
+      "referenceId" : "ev-4014w",
+      "status" : "ACTIVE"
+    },
+    "labels" : [ "Event" ]
+  }
+}, {
+  "value" : {
+    "id" : "2258",
+    "type" : "node",
+    "properties" : {
+      "name" : "ReplaceMe14",
+      "description" : "ReplaceMe15",
+      "type" : "WALLET_EVENT_HANDLER",
+      "eventHandlerDefinitionRef" : "event-handler/05014w.json",
+      "version" : 1,
+      "referenceId" : "eh-5014w",
+      "status" : "ACTIVE"
+    },
+    "labels" : [ "EventHandler" ]
+  }
+}, {
+  "value" : {
+    "id" : "2259",
+    "type" : "node",
+    "properties" : {
+      "name" : "SHARE DOCTOR RECORDS",
+      "description" : "Care.Journeys for sharing Medical Records with Patient.",
+      "version" : 1,
+      "referenceId" : "jn-2002",
+      "status" : "ACTIVE"
+    },
+    "labels" : [ "Journey" ]
+  }
+}, {
+  "value" : {
+    "id" : "2260",
+    "type" : "node",
+    "properties" : {
+      "cardDefinitionRef" : "card/03012.json",
+      "name" : "SHOW_PROVIDER_MEDICAL_RESPONSE",
+      "description" : "Care.card to show provider response.",
+      "transactionDataRef" : "td/06001.json",
+      "version" : 1,
+      "referenceId" : "cd-3012",
+      "status" : "ACTIVE"
+    },
+    "labels" : [ "Card" ]
+  }
+}, {
+  "value" : {
+    "id" : "2261",
+    "type" : "node",
+    "properties" : {
+      "cardDefinitionRef" : "card/03011-get.json",
+      "name" : "GET_PATIENT_MEDICAL_RECORDS",
+      "description" : "Care.card to get patient's medical records.",
+      "transactionDataRef" : "td/06013.json",
+      "version" : 1,
+      "referenceId" : "cd-3013",
+      "status" : "ACTIVE"
+    },
+    "labels" : [ "Card" ]
+  }
+}, {
+  "value" : {
+    "id" : "2262",
+    "type" : "node",
+    "properties" : {
+      "cardDefinitionRef" : "card/03011.json",
+      "name" : "SHOW_PATIENT_MEDICAL_RECORDS",
+      "description" : "Care.card to show patient's medical records.",
+      "version" : 1,
+      "referenceId" : "cd-3011",
+      "status" : "ACTIVE"
+    },
+    "labels" : [ "Card" ]
+  }
+}, {
+  "value" : {
+    "id" : "2263",
+    "type" : "node",
+    "properties" : {
+      "name" : "ReplaceMe16",
+      "description" : "ReplaceMe17",
+      "type" : "WALLET_EVENT_HANDLER",
+      "eventHandlerDefinitionRef" : "event-handler/05021w.json",
+      "version" : 1,
+      "referenceId" : "eh-5021w",
+      "status" : "ACTIVE"
+    },
+    "labels" : [ "EventHandler" ]
+  }
+}, {
+  "value" : {
+    "id" : "2264",
+    "type" : "node",
+    "properties" : {
+      "code" : "GET.SHARED.PATIENTS",
+      "name" : "GET.SHARED.PATIENTS",
+      "description" : "Event to fetch all shared Patients by Coordinator.",
+      "type" : "WALLET",
+      "version" : 2,
+      "referenceId" : "ev-4021w",
+      "status" : "ACTIVE"
+    },
+    "labels" : [ "Event" ]
+  }
+}, {
+  "value" : {
+    "id" : "2300",
+    "type" : "node",
+    "properties" : {
+      "code" : "GET.SHARED.PATIENTS.DATA",
+      "name" : "GET.SHARED.PATIENTS.DATA",
+      "description" : "Event to fetch the shared patient's medical records.",
+      "type" : "WALLET",
+      "version" : 2,
+      "referenceId" : "ev-4022w",
+      "status" : "ACTIVE"
+    },
+    "labels" : [ "Event" ]
+  }
+}, {
+  "value" : {
+    "id" : "2301",
+    "type" : "node",
+    "properties" : {
+      "name" : "ReplaceMe18",
+      "description" : "ReplaceMe19",
+      "type" : "WALLET_EVENT_HANDLER",
+      "eventHandlerDefinitionRef" : "event-handler/05022w.json",
+      "version" : 1,
+      "referenceId" : "eh-5022w",
+      "status" : "ACTIVE"
+    },
+    "labels" : [ "EventHandler" ]
+  }
+}, {
+  "value" : {
+    "id" : "2302",
+    "type" : "node",
+    "properties" : {
+      "dataTags" : [ "Referred speciality", "Pre-authorization", "Urgency", "Reason" ],
+      "referenceId" : "2928839",
+      "allowedNetworks" : "global"
+    },
+    "labels" : [ "CareTags" ]
+  }
+}, {
+  "value" : {
+    "id" : "2303",
+    "type" : "node",
+    "properties" : {
+      "name" : "MANAGE MEDICAL RECORDS",
+      "description" : "Care.Journeys for managing Patients' Medical Records.",
+      "version" : 1,
+      "referenceId" : "jn-2003",
+      "status" : "ACTIVE"
+    },
+    "labels" : [ "Journey" ]
+  }
+}, {
+  "value" : {
+    "id" : "2304",
+    "type" : "node",
+    "properties" : {
+      "cardDefinitionRef" : "card/03021.json",
+      "name" : "SHOW_PATIENT_MEDICAL_REPORTS",
+      "description" : "Care.card to show patient reports for provider.",
+      "version" : 1,
+      "referenceId" : "cd-3021",
+      "status" : "ACTIVE"
+    },
+    "labels" : [ "Card" ]
+  }
+}, {
+  "value" : {
+    "id" : "2305",
+    "type" : "node",
+    "properties" : {
+      "name" : "SHARE PATIENT RECORDS",
+      "description" : "Care.Journeys for sharing Medical Records with Provider.",
+      "version" : 1,
+      "referenceId" : "jn-2001",
+      "status" : "ACTIVE"
+    },
+    "labels" : [ "Journey" ]
+  }
+}, {
+  "value" : {
+    "id" : "2306",
+    "type" : "node",
+    "properties" : {
+      "cardDefinitionRef" : "card/03001-get.json",
+      "name" : "GET_MY_MEDICAL_RECORDS",
+      "description" : "Care.card to get user's medical records.",
+      "transactionDataRef" : "td/06001.json",
+      "version" : 1,
+      "referenceId" : "cd-3003",
+      "status" : "ACTIVE"
+    },
+    "labels" : [ "Card" ]
+  }
+}, {
+  "value" : {
+    "id" : "2307",
+    "type" : "node",
+    "properties" : {
+      "cardDefinitionRef" : "card/03021-get.json",
+      "name" : "GET_PATIENT_MEDICAL_REPORTS",
+      "description" : "Care.card to get patient reports for provider.",
+      "transactionDataRef" : "td/06022.json",
+      "version" : 1,
+      "referenceId" : "cd-3022",
+      "status" : "ACTIVE"
+    },
+    "labels" : [ "Card" ]
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2256",
+      "labels" : [ "Card" ]
+    },
+    "end" : {
+      "id" : "2257",
+      "labels" : [ "Event" ]
+    },
+    "id" : "43935",
+    "label" : "HAS_EVENT",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2256",
+      "labels" : [ "Card" ]
+    },
+    "end" : {
+      "id" : "2233",
+      "labels" : [ "Role" ]
+    },
+    "id" : "43944",
+    "label" : "AVAILABLE_IN_ROLE",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2256",
+      "labels" : [ "Card" ]
+    },
+    "end" : {
+      "id" : "2259",
+      "labels" : [ "Journey" ]
+    },
+    "id" : "43945",
+    "label" : "AVAILABLE_IN_JOURNEY",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2261",
+      "labels" : [ "Card" ]
+    },
+    "end" : {
+      "id" : "2250",
+      "labels" : [ "Event" ]
+    },
+    "id" : "43963",
+    "label" : "HAS_EVENT",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2261",
+      "labels" : [ "Card" ]
+    },
+    "end" : {
+      "id" : "2233",
+      "labels" : [ "Role" ]
+    },
+    "id" : "43972",
+    "label" : "AVAILABLE_IN_ROLE",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2261",
+      "labels" : [ "Card" ]
+    },
+    "end" : {
+      "id" : "2259",
+      "labels" : [ "Journey" ]
+    },
+    "id" : "43973",
+    "label" : "AVAILABLE_IN_JOURNEY",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2251",
+      "labels" : [ "EventHandler" ]
+    },
+    "end" : {
+      "id" : "2250",
+      "labels" : [ "Event" ]
+    },
+    "id" : "44049",
+    "label" : "HAS_EVENT",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2250",
+      "labels" : [ "Event" ]
+    },
+    "end" : {
+      "id" : "2251",
+      "labels" : [ "EventHandler" ]
+    },
+    "id" : "44050",
+    "label" : "HAS_EVENT_HANDLER",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2250",
+      "labels" : [ "Event" ]
+    },
+    "end" : {
+      "id" : "2234",
+      "labels" : [ "Role" ]
+    },
+    "id" : "44051",
+    "label" : "TO_ROLE",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2250",
+      "labels" : [ "Event" ]
+    },
+    "end" : {
+      "id" : "2233",
+      "labels" : [ "Role" ]
+    },
+    "id" : "44056",
+    "label" : "FROM_ROLE",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2257",
+      "labels" : [ "Event" ]
+    },
+    "end" : {
+      "id" : "2258",
+      "labels" : [ "EventHandler" ]
+    },
+    "id" : "44110",
+    "label" : "HAS_EVENT_HANDLER",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2258",
+      "labels" : [ "EventHandler" ]
+    },
+    "end" : {
+      "id" : "2257",
+      "labels" : [ "Event" ]
+    },
+    "id" : "44111",
+    "label" : "HAS_EVENT",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2257",
+      "labels" : [ "Event" ]
+    },
+    "end" : {
+      "id" : "2234",
+      "labels" : [ "Role" ]
+    },
+    "id" : "44112",
+    "label" : "TO_ROLE",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2257",
+      "labels" : [ "Event" ]
+    },
+    "end" : {
+      "id" : "2233",
+      "labels" : [ "Role" ]
+    },
+    "id" : "44117",
+    "label" : "FROM_ROLE",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2305",
+      "labels" : [ "Journey" ]
+    },
+    "end" : {
+      "id" : "2262",
+      "labels" : [ "Card" ]
+    },
+    "id" : "44157",
+    "label" : "HAS_START_CARD",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2262",
+      "labels" : [ "Card" ]
+    },
+    "end" : {
+      "id" : "2240",
+      "labels" : [ "Event" ]
+    },
+    "id" : "44158",
+    "label" : "HAS_EVENT",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2240",
+      "labels" : [ "Event" ]
+    },
+    "end" : {
+      "id" : "2241",
+      "labels" : [ "EventHandler" ]
+    },
+    "id" : "44159",
+    "label" : "HAS_EVENT_HANDLER",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2241",
+      "labels" : [ "EventHandler" ]
+    },
+    "end" : {
+      "id" : "2240",
+      "labels" : [ "Event" ]
+    },
+    "id" : "44160",
+    "label" : "HAS_EVENT",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2240",
+      "labels" : [ "Event" ]
+    },
+    "end" : {
+      "id" : "2242",
+      "labels" : [ "Event" ]
+    },
+    "id" : "44161",
+    "label" : "NEXT_EVENT",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2262",
+      "labels" : [ "Card" ]
+    },
+    "end" : {
+      "id" : "2233",
+      "labels" : [ "Role" ]
+    },
+    "id" : "44164",
+    "label" : "AVAILABLE_IN_ROLE",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2262",
+      "labels" : [ "Card" ]
+    },
+    "end" : {
+      "id" : "2259",
+      "labels" : [ "Journey" ]
+    },
+    "id" : "44169",
+    "label" : "AVAILABLE_IN_JOURNEY",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2259",
+      "labels" : [ "Journey" ]
+    },
+    "end" : {
+      "id" : "2260",
+      "labels" : [ "Card" ]
+    },
+    "id" : "44170",
+    "label" : "HAS_START_CARD",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2260",
+      "labels" : [ "Card" ]
+    },
+    "end" : {
+      "id" : "2242",
+      "labels" : [ "Event" ]
+    },
+    "id" : "44171",
+    "label" : "HAS_EVENT",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2260",
+      "labels" : [ "Card" ]
+    },
+    "end" : {
+      "id" : "2237",
+      "labels" : [ "Event" ]
+    },
+    "id" : "44172",
+    "label" : "HAS_EVENT",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2260",
+      "labels" : [ "Card" ]
+    },
+    "end" : {
+      "id" : "2230",
+      "labels" : [ "Event" ]
+    },
+    "id" : "44177",
+    "label" : "HAS_EVENT",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2230",
+      "labels" : [ "Event" ]
+    },
+    "end" : {
+      "id" : "2231",
+      "labels" : [ "EventHandler" ]
+    },
+    "id" : "44178",
+    "label" : "HAS_EVENT_HANDLER",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2231",
+      "labels" : [ "EventHandler" ]
+    },
+    "end" : {
+      "id" : "2230",
+      "labels" : [ "Event" ]
+    },
+    "id" : "44179",
+    "label" : "HAS_EVENT",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2230",
+      "labels" : [ "Event" ]
+    },
+    "end" : {
+      "id" : "2232",
+      "labels" : [ "Role" ]
+    },
+    "id" : "44180",
+    "label" : "TO_ROLE",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2230",
+      "labels" : [ "Event" ]
+    },
+    "end" : {
+      "id" : "2233",
+      "labels" : [ "Role" ]
+    },
+    "id" : "44181",
+    "label" : "FROM_ROLE",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2260",
+      "labels" : [ "Card" ]
+    },
+    "end" : {
+      "id" : "2233",
+      "labels" : [ "Role" ]
+    },
+    "id" : "44182",
+    "label" : "AVAILABLE_IN_ROLE",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2260",
+      "labels" : [ "Card" ]
+    },
+    "end" : {
+      "id" : "2259",
+      "labels" : [ "Journey" ]
+    },
+    "id" : "44183",
+    "label" : "AVAILABLE_IN_JOURNEY",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2259",
+      "labels" : [ "Journey" ]
+    },
+    "end" : {
+      "id" : "2233",
+      "labels" : [ "Role" ]
+    },
+    "id" : "44184",
+    "label" : "HAS_ROLE",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2305",
+      "labels" : [ "Journey" ]
+    },
+    "end" : {
+      "id" : "2233",
+      "labels" : [ "Role" ]
+    },
+    "id" : "44185",
+    "label" : "HAS_ROLE",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2306",
+      "labels" : [ "Card" ]
+    },
+    "end" : {
+      "id" : "2232",
+      "labels" : [ "Role" ]
+    },
+    "id" : "44191",
+    "label" : "AVAILABLE_IN_ROLE",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2306",
+      "labels" : [ "Card" ]
+    },
+    "end" : {
+      "id" : "2252",
+      "labels" : [ "Journey" ]
+    },
+    "id" : "44196",
+    "label" : "AVAILABLE_IN_JOURNEY",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2252",
+      "labels" : [ "Journey" ]
+    },
+    "end" : {
+      "id" : "2253",
+      "labels" : [ "Card" ]
+    },
+    "id" : "44197",
+    "label" : "HAS_START_CARD",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2252",
+      "labels" : [ "Journey" ]
+    },
+    "end" : {
+      "id" : "2232",
+      "labels" : [ "Role" ]
+    },
+    "id" : "44217",
+    "label" : "HAS_ROLE",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2253",
+      "labels" : [ "Card" ]
+    },
+    "end" : {
+      "id" : "2246",
+      "labels" : [ "Event" ]
+    },
+    "id" : "44218",
+    "label" : "HAS_EVENT",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2253",
+      "labels" : [ "Card" ]
+    },
+    "end" : {
+      "id" : "2248",
+      "labels" : [ "Event" ]
+    },
+    "id" : "44230",
+    "label" : "HAS_EVENT",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2253",
+      "labels" : [ "Card" ]
+    },
+    "end" : {
+      "id" : "2232",
+      "labels" : [ "Role" ]
+    },
+    "id" : "44231",
+    "label" : "AVAILABLE_IN_ROLE",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2253",
+      "labels" : [ "Card" ]
+    },
+    "end" : {
+      "id" : "2254",
+      "labels" : [ "Journey" ]
+    },
+    "id" : "44232",
+    "label" : "AVAILABLE_IN_JOURNEY",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2255",
+      "labels" : [ "Card" ]
+    },
+    "end" : {
+      "id" : "2244",
+      "labels" : [ "Event" ]
+    },
+    "id" : "44241",
+    "label" : "HAS_EVENT",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2244",
+      "labels" : [ "Event" ]
+    },
+    "end" : {
+      "id" : "2245",
+      "labels" : [ "EventHandler" ]
+    },
+    "id" : "44242",
+    "label" : "HAS_EVENT_HANDLER",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2245",
+      "labels" : [ "EventHandler" ]
+    },
+    "end" : {
+      "id" : "2244",
+      "labels" : [ "Event" ]
+    },
+    "id" : "44243",
+    "label" : "HAS_EVENT",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2244",
+      "labels" : [ "Event" ]
+    },
+    "end" : {
+      "id" : "2246",
+      "labels" : [ "Event" ]
+    },
+    "id" : "44244",
+    "label" : "NEXT_EVENT",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2255",
+      "labels" : [ "Card" ]
+    },
+    "end" : {
+      "id" : "2232",
+      "labels" : [ "Role" ]
+    },
+    "id" : "44256",
+    "label" : "AVAILABLE_IN_ROLE",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2255",
+      "labels" : [ "Card" ]
+    },
+    "end" : {
+      "id" : "2254",
+      "labels" : [ "Journey" ]
+    },
+    "id" : "44257",
+    "label" : "AVAILABLE_IN_JOURNEY",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2254",
+      "labels" : [ "Journey" ]
+    },
+    "end" : {
+      "id" : "2255",
+      "labels" : [ "Card" ]
+    },
+    "id" : "44258",
+    "label" : "HAS_START_CARD",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2254",
+      "labels" : [ "Journey" ]
+    },
+    "end" : {
+      "id" : "2232",
+      "labels" : [ "Role" ]
+    },
+    "id" : "44259",
+    "label" : "HAS_ROLE",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2307",
+      "labels" : [ "Card" ]
+    },
+    "end" : {
+      "id" : "2300",
+      "labels" : [ "Event" ]
+    },
+    "id" : "44260",
+    "label" : "HAS_EVENT",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2307",
+      "labels" : [ "Card" ]
+    },
+    "end" : {
+      "id" : "2237",
+      "labels" : [ "Event" ]
+    },
+    "id" : "44263",
+    "label" : "HAS_EVENT",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2237",
+      "labels" : [ "Event" ]
+    },
+    "end" : {
+      "id" : "2238",
+      "labels" : [ "EventHandler" ]
+    },
+    "id" : "44264",
+    "label" : "HAS_EVENT_HANDLER",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2238",
+      "labels" : [ "EventHandler" ]
+    },
+    "end" : {
+      "id" : "2237",
+      "labels" : [ "Event" ]
+    },
+    "id" : "44265",
+    "label" : "HAS_EVENT",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2237",
+      "labels" : [ "Event" ]
+    },
+    "end" : {
+      "id" : "2234",
+      "labels" : [ "Role" ]
+    },
+    "id" : "44266",
+    "label" : "TO_ROLE",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2237",
+      "labels" : [ "Event" ]
+    },
+    "end" : {
+      "id" : "2233",
+      "labels" : [ "Role" ]
+    },
+    "id" : "44271",
+    "label" : "FROM_ROLE",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2307",
+      "labels" : [ "Card" ]
+    },
+    "end" : {
+      "id" : "2236",
+      "labels" : [ "Event" ]
+    },
+    "id" : "44272",
+    "label" : "HAS_EVENT",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2236",
+      "labels" : [ "Event" ]
+    },
+    "end" : {
+      "id" : "2235",
+      "labels" : [ "EventHandler" ]
+    },
+    "id" : "44273",
+    "label" : "HAS_EVENT_HANDLER",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2235",
+      "labels" : [ "EventHandler" ]
+    },
+    "end" : {
+      "id" : "2236",
+      "labels" : [ "Event" ]
+    },
+    "id" : "44274",
+    "label" : "HAS_EVENT",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2236",
+      "labels" : [ "Event" ]
+    },
+    "end" : {
+      "id" : "2233",
+      "labels" : [ "Role" ]
+    },
+    "id" : "44275",
+    "label" : "TO_ROLE",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2236",
+      "labels" : [ "Event" ]
+    },
+    "end" : {
+      "id" : "2234",
+      "labels" : [ "Role" ]
+    },
+    "id" : "44276",
+    "label" : "FROM_ROLE",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2307",
+      "labels" : [ "Card" ]
+    },
+    "end" : {
+      "id" : "2234",
+      "labels" : [ "Role" ]
+    },
+    "id" : "44277",
+    "label" : "AVAILABLE_IN_ROLE",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2307",
+      "labels" : [ "Card" ]
+    },
+    "end" : {
+      "id" : "2303",
+      "labels" : [ "Journey" ]
+    },
+    "id" : "44278",
+    "label" : "AVAILABLE_IN_JOURNEY",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2304",
+      "labels" : [ "Card" ]
+    },
+    "end" : {
+      "id" : "2264",
+      "labels" : [ "Event" ]
+    },
+    "id" : "44291",
+    "label" : "HAS_EVENT",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2264",
+      "labels" : [ "Event" ]
+    },
+    "end" : {
+      "id" : "2263",
+      "labels" : [ "EventHandler" ]
+    },
+    "id" : "44292",
+    "label" : "HAS_EVENT_HANDLER",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2263",
+      "labels" : [ "EventHandler" ]
+    },
+    "end" : {
+      "id" : "2264",
+      "labels" : [ "Event" ]
+    },
+    "id" : "44293",
+    "label" : "HAS_EVENT",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2264",
+      "labels" : [ "Event" ]
+    },
+    "end" : {
+      "id" : "2300",
+      "labels" : [ "Event" ]
+    },
+    "id" : "44294",
+    "label" : "NEXT_EVENT",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2304",
+      "labels" : [ "Card" ]
+    },
+    "end" : {
+      "id" : "2234",
+      "labels" : [ "Role" ]
+    },
+    "id" : "44297",
+    "label" : "AVAILABLE_IN_ROLE",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2304",
+      "labels" : [ "Card" ]
+    },
+    "end" : {
+      "id" : "2303",
+      "labels" : [ "Journey" ]
+    },
+    "id" : "44302",
+    "label" : "AVAILABLE_IN_JOURNEY",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2303",
+      "labels" : [ "Journey" ]
+    },
+    "end" : {
+      "id" : "2304",
+      "labels" : [ "Card" ]
+    },
+    "id" : "44303",
+    "label" : "HAS_START_CARD",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2303",
+      "labels" : [ "Journey" ]
+    },
+    "end" : {
+      "id" : "2234",
+      "labels" : [ "Role" ]
+    },
+    "id" : "44304",
+    "label" : "HAS_ROLE",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2301",
+      "labels" : [ "EventHandler" ]
+    },
+    "end" : {
+      "id" : "2300",
+      "labels" : [ "Event" ]
+    },
+    "id" : "44309",
+    "label" : "HAS_EVENT",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2300",
+      "labels" : [ "Event" ]
+    },
+    "end" : {
+      "id" : "2301",
+      "labels" : [ "EventHandler" ]
+    },
+    "id" : "44310",
+    "label" : "HAS_EVENT_HANDLER",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2247",
+      "labels" : [ "EventHandler" ]
+    },
+    "end" : {
+      "id" : "2246",
+      "labels" : [ "Event" ]
+    },
+    "id" : "44311",
+    "label" : "HAS_EVENT",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2246",
+      "labels" : [ "Event" ]
+    },
+    "end" : {
+      "id" : "2247",
+      "labels" : [ "EventHandler" ]
+    },
+    "id" : "44312",
+    "label" : "HAS_EVENT_HANDLER",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2246",
+      "labels" : [ "Event" ]
+    },
+    "end" : {
+      "id" : "2248",
+      "labels" : [ "Event" ]
+    },
+    "id" : "44313",
+    "label" : "NEXT_EVENT",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2248",
+      "labels" : [ "Event" ]
+    },
+    "end" : {
+      "id" : "2249",
+      "labels" : [ "EventHandler" ]
+    },
+    "id" : "44314",
+    "label" : "HAS_EVENT_HANDLER",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2249",
+      "labels" : [ "EventHandler" ]
+    },
+    "end" : {
+      "id" : "2248",
+      "labels" : [ "Event" ]
+    },
+    "id" : "44315",
+    "label" : "HAS_EVENT",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2248",
+      "labels" : [ "Event" ]
+    },
+    "end" : {
+      "id" : "2233",
+      "labels" : [ "Role" ]
+    },
+    "id" : "44316",
+    "label" : "TO_ROLE",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2233",
+      "labels" : [ "Role" ]
+    },
+    "end" : {
+      "id" : "2232",
+      "labels" : [ "Role" ]
+    },
+    "id" : "44317",
+    "label" : "ALLOW_EVENTS",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2232",
+      "labels" : [ "Role" ]
+    },
+    "end" : {
+      "id" : "2233",
+      "labels" : [ "Role" ]
+    },
+    "id" : "44318",
+    "label" : "ALLOW_EVENTS",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2233",
+      "labels" : [ "Role" ]
+    },
+    "end" : {
+      "id" : "2234",
+      "labels" : [ "Role" ]
+    },
+    "id" : "44319",
+    "label" : "ALLOW_EVENTS",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2234",
+      "labels" : [ "Role" ]
+    },
+    "end" : {
+      "id" : "2233",
+      "labels" : [ "Role" ]
+    },
+    "id" : "44320",
+    "label" : "ALLOW_EVENTS",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2248",
+      "labels" : [ "Event" ]
+    },
+    "end" : {
+      "id" : "2232",
+      "labels" : [ "Role" ]
+    },
+    "id" : "44321",
+    "label" : "FROM_ROLE",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2243",
+      "labels" : [ "EventHandler" ]
+    },
+    "end" : {
+      "id" : "2242",
+      "labels" : [ "Event" ]
+    },
+    "id" : "44322",
+    "label" : "HAS_EVENT",
+    "type" : "relationship"
+  }
+}, {
+  "value" : {
+    "start" : {
+      "id" : "2242",
+      "labels" : [ "Event" ]
+    },
+    "end" : {
+      "id" : "2243",
+      "labels" : [ "EventHandler" ]
+    },
+    "id" : "44323",
+    "label" : "HAS_EVENT_HANDLER",
+    "type" : "relationship"
+  }
+} ]

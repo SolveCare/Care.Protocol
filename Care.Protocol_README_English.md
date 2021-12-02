@@ -17,7 +17,7 @@ Care.Protocol has the following configurable definitions to build an end-to-end 
 
 - **Care Network Metadata** 
 
-This section describes the overall Network information such as Network Name and version of Care.Protocol in action. Network author can define the high level Network meta data
+This section at start of JSON root document describes the overall Network information such as Network Name and version of Care.Protocol in action. Network author can define the high level Network meta data
 
 
 |Field Name|Value Type|Description|

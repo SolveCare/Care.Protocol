@@ -1,5 +1,5 @@
 {
-    "code": "SUBMIT.RECOMMENDATION",
+    "code": "SHARE.RECOMMENDATION",
     "definition": {
         "description": "Patient submitted BMI parameters",
         "name": "PT_BMI_SUBMITTED",
@@ -8,8 +8,8 @@
         "version": 1
     },
     "event_type": "NODE",
-    "id": "eh-5008",
-    "journey": "MANAGE_MEDICAL_RECORDS",
+    "id": "eh-5014w",
+    "journey": "SHARE_MEDICAL_RECORDS",
     "structure": {
         "attributes": [
             {

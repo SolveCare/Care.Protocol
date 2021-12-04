@@ -7,12 +7,12 @@
   "type": "Node_Event_Handler",
   "nodeEventHandlers": [
     {
-      "jarUrl": "https://a.solvecare.net/artifactory/libs-snapshot-local/care/solve/generic/node/hello-world-handler/1.0.3-SNAPSHOT/hello-world-handler-1.0.3-20211117.080859-1.jar",
+      "jarUrl": "https://a.solvecare.net/artifactory/libs-snapshot-local/care/solve/generic/node/hello-world-handler/1.0.3-SNAPSHOT/hello-world-handler-1.0.3-20211202.125820-3.jar",
       "className": "care.solve.node.handler.bmi.BmiComputeHandler",
       "order": 1
     },
     {
-      "jarUrl": "https://a.solvecare.net/artifactory/libs-snapshot-local/care/solve/generic/node/hello-world-handler/1.0.3-SNAPSHOT/hello-world-handler-1.0.3-20211117.080859-1.jar",
+      "jarUrl": "https://a.solvecare.net/artifactory/libs-snapshot-local/care/solve/generic/node/hello-world-handler/1.0.3-SNAPSHOT/hello-world-handler-1.0.3-20211202.125820-3.jar",
       "className": "care.solve.node.handler.demo.CreateBmiHandler",
       "order": 2
     }

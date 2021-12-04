@@ -6,7 +6,7 @@
                 {
                     "actions": [
                         {
-                            "eventDefinitionRef": "eh-5021w",
+                            "eventDefinitionRef": "",
                             "name": "getbmilogs",
                             "order": 1,
                             "parameter": [

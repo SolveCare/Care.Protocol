@@ -8,7 +8,7 @@
         "version": 1
     },
     "event_type": "NODE",
-    "id": "eh-5002",
+    "id": "eh-5002w",
     "journey": "SUBMIT_MEDICAL_RECORDS",
     "structure": {
         "attributes": [

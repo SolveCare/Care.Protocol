@@ -3,7 +3,7 @@
     "network_id": "dev-trinity",
     "node_url": "https://cn-traefik.solvecare.net",
     "name": "TrinityCAN",
-    "description": "Trinity Care Administration Network Updated 18",
+    "description": "Trinity Care Administration Network",
     "certificates": "CERT-2345-2021",
     "publish_date": "09-09-2021",
     "effective_date": "30-05-2022",
@@ -36,7 +36,7 @@
       {
         "id": "rl-1003",
         "name": "COORDINATOR",
-        "description": "Coordinator role for the CAN 18",
+        "description": "Coordinator role for the CAN",
         "type": "Wallet",
         "status": "Active",
         "version": 1,
@@ -133,7 +133,7 @@
         "role": "rl-1001",
         "journey": "jn-1001",
         "card_definition_ref": "card/03002.json",
-        "transaction_data_ref": "td/06002.json",
+        "transaction_data_ref": "td/06001.json",
         "wallet_events": [
           "ev-4002w"
         ],
@@ -150,7 +150,7 @@
         "role": "rl-1001",
         "journey": "jn-1002",
         "card_definition_ref": "card/03001-get.json",
-        "transaction_data_ref": "td/06001.json",
+        "transaction_data_ref": "td/06003.json",
         "wallet_events": [
 
         ]
@@ -161,6 +161,7 @@
         "description": "Care.card to show patient's medical records.",
         "status": "Active",
         "card_definition_ref": "card/03011.json",
+        "transaction_data_ref": "td/06011.json",
         "wallet_events": [
           "ev-4011w"
         ],
@@ -191,7 +192,6 @@
         "description": "Care.card to get patient's medical records.",
         "status": "Active",
         "card_definition_ref": "card/03011-get.json",
-        "transaction_data_ref": "td/06013.json",
         "wallet_events": [
           "ev-4013w"
         ],
@@ -205,7 +205,6 @@
         "description": "Care.card to get provider response.",
         "status": "Active",
         "card_definition_ref": "card/03012-get.json",
-        "transaction_data_ref": "td/06014.json",
         "wallet_events": [
           "ev-4014w"
         ],
@@ -218,6 +217,7 @@
         "description": "Care.card to show patient reports for provider.",
         "status": "Active",
         "card_definition_ref": "card/03021.json",
+        "transaction_data_ref": "td/06021.json",
         "wallet_events": [
           "ev-4021w"
         ],
@@ -230,7 +230,7 @@
         "description": "Care.card to get patient reports for provider.",
         "status": "Active",
         "card_definition_ref": "card/03021-get.json",
-        "transaction_data_ref": "td/06022.json",
+        "transaction_data_ref": "td/06001.json",
         "wallet_events": [
           "ev-4022w"
         ],
@@ -276,6 +276,7 @@
         "status": "Active",
         "type": "Wallet_Event",
         "card": "cd-3002",
+        "event_definition_ref": "event/04002w.json",
         "wallet_event_handlers": [
           "eh-5002w"
         ],
@@ -287,7 +288,6 @@
         "code": "SUBMIT.MEDICAL.RECORDS",
         "description": "Event to submit medical records.",
         "status": "Active",
-        "version": 1,
         "type": "Node_Event",
         "distribution_type": "self",
         "from_role": "rl-1001",
@@ -304,7 +304,6 @@
         "code": "FETCH.SUBMITTED.PATIENTS",
         "description": "Event to fetch the patients whom submit medical records.",
         "status": "Active",
-        "version": 1,
         "type": "Wallet_Event",
         "card": "cd-3011",
         "wallet_event_handlers": [
@@ -318,7 +317,6 @@
         "code": "GET.SUBMITTED.PATIENT.DATA",
         "description": "Event to fetch the patient's medical records.",
         "status": "Active",
-        "version": 1,
         "type": "Wallet_Event",
         "wallet_event_handlers": [
           "eh-5012w"
@@ -330,7 +328,6 @@
         "code": "SHARE.MEDICAL.RECORDS",
         "description": "Event to share medical records with Provider.",
         "status": "Active",
-        "version": 1,
         "type": "Node_Event",
         "distribution_type": "self",
         "from_role": "rl-1003",
@@ -346,11 +343,11 @@
         "code": "W.SHARE.MEDICAL.RECORDS",
         "description": "Event to share medical records with Provider.",
         "status": "Active",
-        "version": 1,
         "type": "Wallet_Event",
         "distribution_type": "self",
         "from_role": "rl-1003",
         "to_role": "rl-1002",
+        "event_definition_ref": "event/04013w.json",
         "node_event_handlers": [
           "eh-5013w"
         ]
@@ -361,11 +358,11 @@
         "code": "ReplaceMe2",
         "description": "ReplaceMe3",
         "status": "Active",
-        "version": 1,
         "type": "Wallet_Event",
         "distribution_type": "self",
         "from_role": "rl-1003",
         "to_role": "rl-1002",
+        "event_definition_ref": "event/04014w.json",
         "node_event_handlers": [
           "eh-5014w"
         ]
@@ -376,7 +373,6 @@
         "code": "SHARE.RECOMMENDATION",
         "description": "Event to share Provider' recommendation with Patient.",
         "status": "Active",
-        "version": 1,
         "type": "Node_Event",
         "distribution_type": "self",
         "from_role": "rl-1003",
@@ -411,6 +407,7 @@
         "status": "Active",
         "version": 1,
         "type": "Wallet_Event",
+        "event_definition_ref": "event/04022w.json",
         "wallet_event_handlers": [
           "eh-5022w"
         ]
@@ -421,7 +418,6 @@
         "code": "SUBMIT.RECOMMENDATION",
         "description": "Event to submit recommendation from Provider according to shared medical records.",
         "status": "Active",
-        "version": 1,
         "type": "Node_Event",
         "distribution_type": "self",
         "from_role": "rl-1002",
@@ -438,7 +434,6 @@
         "name": "ReplaceMe4",
         "description": "ReplaceMe5",
         "status": "Active",
-        "version": 1,
         "event": "ev-4001w",
         "type": "Wallet_Event_Handler",
         "event_handler_definition_ref": "event-handler/05001w.json"
@@ -448,7 +443,6 @@
         "name": "ReplaceMe6",
         "description": "ReplaceMe7",
         "status": "Active",
-        "version": 1,
         "event": "ev-4002w",
         "type": "Wallet_Event_Handler",
         "event_handler_definition_ref": "event-handler/05002w.json"
@@ -458,7 +452,6 @@
         "name": "NH.PT.SUBMIT.MEDICAL.RECORDS-2",
         "description": "Event to submit medical records to coordinator.",
         "status": "Active",
-        "version": 1,
         "event": "ev-4002n",
         "type": "Node_Event_Handler",
         "event_handler_definition_ref": "event-handler/05002n.json"
@@ -468,7 +461,6 @@
         "name": "ReplaceMe8",
         "description": "ReplaceMe9",
         "status": "Active",
-        "version": 1,
         "event": "ev-4011w",
         "type": "Wallet_Event_Handler",
         "event_handler_definition_ref": "event-handler/05011w.json"
@@ -478,7 +470,6 @@
         "name": "ReplaceMe10",
         "description": "ReplaceMe11",
         "status": "Active",
-        "version": 1,
         "event": "ev-4012w",
         "type": "Wallet_Event_Handler",
         "event_handler_definition_ref": "event-handler/05012w.json"
@@ -488,7 +479,6 @@
         "name": "ReplaceMe12",
         "description": "ReplaceMe13",
         "status": "Active",
-        "version": 1,
         "event": "ev-4013w",
         "type": "Wallet_Event_Handler",
         "event_handler_definition_ref": "event-handler/05013w.json"
@@ -498,7 +488,6 @@
         "name": "NH.CR.SHARE.MEDICAL.RECORDS-2",
         "description": "Event handler to share patient's medical records with Provider.",
         "status": "Active",
-        "version": 1,
         "event": "ev-4013n",
         "type": "Node_Event_Handler",
         "event_handler_definition_ref": "event-handler/05013n.json"
@@ -508,7 +497,6 @@
         "name": "ReplaceMe14",
         "description": "ReplaceMe15",
         "status": "Active",
-        "version": 1,
         "event": "ev-4014w",
         "type": "Wallet_Event_Handler",
         "event_handler_definition_ref": "event-handler/05014w.json"
@@ -518,7 +506,6 @@
         "name": "NH.CR.SHARE.RECOMMENDATION-2",
         "description": "Event handler to share provider' recommendation.",
         "status": "Active",
-        "version": 1,
         "event": "ev-4015n",
         "type": "Node_Event_Handler",
         "event_handler_definition_ref": "event-handler/05015n.json"
@@ -528,7 +515,6 @@
         "name": "ReplaceMe16",
         "description": "ReplaceMe17",
         "status": "Active",
-        "version": 1,
         "event": "ev-4021w",
         "type": "Wallet_Event_Handler",
         "event_handler_definition_ref": "event-handler/05021w.json"
@@ -538,7 +524,6 @@
         "name": "ReplaceMe18",
         "description": "ReplaceMe19",
         "status": "Active",
-        "version": 1,
         "event": "ev-4022w",
         "type": "Wallet_Event_Handler",
         "event_handler_definition_ref": "event-handler/05022w.json"
@@ -548,7 +533,6 @@
         "name": "NH.PR.SHARE.RECOMMENDATION-2",
         "description": "Event handler to share patient's medical records with Coordinator.",
         "status": "Active",
-        "version": 1,
         "event": "ev-4023n",
         "type": "Node_Event_Handler",
         "event_handler_definition_ref": "event-handler/05023n.json"

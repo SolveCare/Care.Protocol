@@ -1,26 +1,26 @@
 {
-  "code": "SHARE.RECOMMENDATION",
-  "journey": "SHARE_MEDICAL_RECORDS",
-  "event_type": "NODE",
   "definition": {
-    "version": 9,
-    "description": "Coordinator share recommendation with patient",
-    "name": "SHARE_RECOMMENDATION",
-    "resource": "SHARE_RECOMMENDATION",
-    "type": "EVENT_DATA"
+    "version": 1,
+    "collection": "DEMO_BMI",
+    "description": "DEMO_BMI",
+    "name": "DEMO_BMI",
+    "resource": "DEMO_BMI",
+    "status": "RELEASED",
+    "type": "TRANSACTIONAL_DATA"
   },
   "structure": {
     "attributes": [
       {
         "code": "transactionalGuid",
         "name": "transactionalGuid",
-        "required": true,
-        "system": false,
-        "order": 1,
         "type_definition": {
           "type": "string"
-        }
-      },{
+        },
+        "order": 1,
+        "system": false,
+        "required": true
+      },
+      {
         "code": "bmi",
         "name": "bmi",
         "type_definition": {
@@ -33,23 +33,23 @@
       {
         "code": "owner",
         "name": "owner",
-        "required": true,
-        "system": false,
-        "order": 3,
         "type_definition": {
           "type": "string"
-        }
+        },
+        "order": 3,
+        "system": false,
+        "required": true
       },
       {
         "code": "providerResponse",
         "name": "providerResponse",
-        "required": true,
-        "system": false,
-        "order": 4,
         "type_definition": {
           "type": "string"
-        }
-      }, {
+        },
+        "order": 4,
+        "system": false
+      },
+      {
         "code": "createdAt",
         "name": "createdAt",
         "type_definition": {
@@ -60,5 +60,18 @@
         "required": true
       }
     ]
-  }
+  },
+  "indexes": [
+    {
+      "name": "UK_DEMO_BMI_01",
+      "unique": true,
+      "definition": [
+        {
+          "attribute": "transactionalGuid",
+          "mode": "ASC",
+          "order": 1
+        }
+      ]
+    }
+  ]
 }

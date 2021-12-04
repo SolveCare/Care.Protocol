@@ -1,12 +1,9 @@
 {
   "care_protocol": {
-    "network_id": "dev-trinity",
-    "node_url": "https://cn-traefik.solvecare.net",
+    
+   
     "name": "TrinityCAN",
     "description": "Trinity Care Administration Network",
-    "certificates": "CERT-2345-2021",
-    "publish_date": "09-09-2021",
-    "effective_date": "30-05-2022",
     "network_settings": {},
     "roles": [
       {

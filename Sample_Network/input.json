@@ -2,8 +2,8 @@
   "care_protocol": {
     
    
-    "name": "TrinityCAN",
-    "description": "Trinity Care Administration Network",
+    "name": "SuperCAN",
+    "description": "Super Care Network for my mental health practice",
     "network_settings": {},
     "roles": [
       {
@@ -48,8 +48,8 @@
       {
         "id": "jn-1001",
         "icon": "HAYFT",
-        "name": "GET MEDICAL LOGS",
-        "description": "Care.Journeys for Getting Medical Record.",
+        "name": "View my medical logs",
+        "description": "Care.Journeys for Medical Logs",
         "sicon": "hayft.png",
         "status": "Active",
         "start_card_ref_id": "cd-3001",
@@ -60,7 +60,7 @@
       {
         "id": "jn-1002",
         "icon": "PATIENT_REQUESTS",
-        "name": "SUBMIT MEDICAL DATA",
+        "name": "Send my medical records",
         "description": "Care.Journeys for Submitting Medical Record.",
         "sicon": "hayft.png",
         "status": "Active",

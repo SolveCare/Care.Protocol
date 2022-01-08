@@ -48,7 +48,7 @@
       {
         "id": "jn-1001",
         "icon": "HAYFT",
-        "name": "View my medical logs",
+        "name": "View my medical data",
         "description": "Care.Journeys for Medical Logs",
         "sicon": "hayft.png",
         "status": "Active",

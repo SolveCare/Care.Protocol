@@ -1,0 +1,77 @@
+{
+  "definition": {
+    "version": 1,
+    "collection": "DEMO_BMI",
+    "description": "DEMO_BMI",
+    "name": "DEMO_BMI",
+    "resource": "DEMO_BMI",
+    "status": "RELEASED",
+    "type": "TRANSACTIONAL_DATA"
+  },
+  "structure": {
+    "attributes": [
+      {
+        "code": "transactionalGuid",
+        "name": "transactionalGuid",
+        "type_definition": {
+          "type": "string"
+        },
+        "order": 1,
+        "system": false,
+        "required": true
+      },
+      {
+        "code": "bmi",
+        "name": "bmi",
+        "type_definition": {
+          "type": "number"
+        },
+        "order": 2,
+        "system": false,
+        "required": true
+      },
+      {
+        "code": "owner",
+        "name": "owner",
+        "type_definition": {
+          "type": "string"
+        },
+        "order": 3,
+        "system": false,
+        "required": true
+      },
+      {
+        "code": "providerResponse",
+        "name": "providerResponse",
+        "type_definition": {
+          "type": "string"
+        },
+        "order": 4,
+        "system": false
+      },
+      {
+        "code": "createdAt",
+        "name": "createdAt",
+        "type_definition": {
+          "type": "timestamp"
+        },
+        "order": 5,
+        "system": false,
+        "required": true
+      }
+    ]
+  },
+  "indexes": [
+    {
+      "name": "UK_DEMO_BMI_01",
+      "unique": true,
+      "definition": [
+        {
+          "attribute": "transactionalGuid",
+          "mode": "ASC",
+          "order": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+    "cardData": {
+        "00f1v1": "Send",
+        "00fv1": "BACK",
+        "00fv2": "HOME",
+        "00i1": "ddd",
+        "00i2": "Stay Сonnected",
+        "00sv1": "지난 2 주 동안 우울하거나 절망적이었습니다.",
+        "00sv11": "label one!",
+        "00sv12": "good",
+        "00sv2": "It's important to stay safe wherever you are. When in doubt, you can always seek advice in Stay Healthy and Balanced and Protect Yourself and Others.",
+        "00sv21": "label two",
+        "00sv3": "Your last COVID-19 risk was",
+        "00sv4": "Answered",
+        "00sv5": "tick",
+        "00sv6": "good",
+        "00sv7": "neutral",
+        "00sv8": "document",
+        "00sv9": "document",
+        "00t1v1": "Date",
+        "00t1v2": "Weight",
+        "00t1v3": "Height",
+        "00v1": "male",
+        "00v2": "female",
+        "00v3": "Malehhhhhhhhhhh",
+        "00v31": "Tile2Value1",
+        "00v4": "Yes",
+        "00v41": "Dr.Anna Smith",
+        "00v5": "전혀",
+        "00v6": "며칠",
+        "00v7": "거의 매일",
+        "00v8": "반나절 이상",
+        "00v9": "반나절 이상"
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "background_color": "good",
+                "id": "000t1",
+                "name": "first tile",
+                "tileComponent": [
+                    {
+                        "id": "",
+                        "subView": [
+                            {
+                                "id": "${00t1v1}",
+                                "position": "START",
+                                "text_color": "default_color",
+                                "text_size": "header1",
+                                "type": "LABEL",
+                                "uiAction": ""
+                            },
+                            {
+                                "capture": "date",
+                                "id": "${00t1v1}",
+                                "isCapturable": false,
+                                "position": "CENTER",
+                                "text_color": "default_color",
+                                "text_size": "header1",
+                                "type": "date",
+                                "uiAction": ""
+                            }
+                        ],
+                        "type": "CONTAINER",
+                        "uiAction": ""
+                    },
+                    {
+                        "capture": "weight",
+                        "id": "${00t1v2}",
+                        "isCapturable": true,
+                        "isValidation": true,
+                        "text_color": "default_color",
+                        "text_size": "header4",
+                        "tileType": "Wrap",
+                        "type": "TEXT",
+                        "uiAction": "",
+                        "validation": {
+                            "length": "3",
+                            "message": ""
+                        }
+                    },
+                    {
+                        "capture": "height",
+                        "id": "${00t1v3}",
+                        "isCapturable": true,
+                        "isValidation": true,
+                        "text_color": "default_color",
+                        "text_size": "header4",
+                        "tileType": "Wrap",
+                        "type": "TEXT",
+                        "uiAction": "",
+                        "validation": {
+                            "length": "7",
+                            "message": ""
+                        }
+                    }
+                ],
+                "tileType": "Wrap",
+                "uiAction": ""
+            }
+        ],
+        "footer": {
+            "menu": [
+                {
+                    "id": "${00f1v1}",
+                    "type": "BUTTON",
+                    "uiAction": "${action1}"
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action1": {
+            "action": "ev-4002w"
+        },
+        "action2": {
+            "action": "event-002"
+        }
+    },
+    "id": "00jc1",
+    "name": "Calculate BMI"
+}

@@ -1,0 +1,27 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "ev-4021w",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "eventDefinitionRef": "",
+                            "name": "getbmilogs",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "GET",
+                                    "url": "/transactions/DEMO_BMI"
+                                }
+                            ]
+                        }
+                    ],
+                    "eventDefinitionRef": "",
+                    "postAction": "cd-3022",
+                    "refId": "ev-4021w"
+                }
+            ]
+        }
+    ]
+}

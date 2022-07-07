@@ -1,0 +1,67 @@
+{
+    "code": "SHARE.RECOMMENDATION",
+    "definition": {
+        "description": "Patient submitted BMI parameters",
+        "name": "PT_BMI_SUBMITTED",
+        "resource": "PT_BMI_SUBMITTED",
+        "type": "EVENT_DATA",
+        "version": 1
+    },
+    "event_type": "NODE",
+    "id": "eh-5014w",
+    "journey": "SHARE_MEDICAL_RECORDS",
+    "structure": {
+        "attributes": [
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "order": 1,
+                "required": true,
+                "system": false,
+                "type_definition": {
+                    "type": "string"
+                }
+            },
+            {
+                "code": "bmi",
+                "name": "bmi",
+                "order": 2,
+                "required": true,
+                "system": false,
+                "type_definition": {
+                    "type": "string"
+                }
+            },
+            {
+                "code": "owner",
+                "name": "owner",
+                "order": 3,
+                "required": true,
+                "system": false,
+                "type_definition": {
+                    "type": "number"
+                }
+            },
+            {
+                "code": "createdAt",
+                "name": "createdAt",
+                "order": 4,
+                "required": true,
+                "system": false,
+                "type_definition": {
+                    "type": "number"
+                }
+            },
+            {
+                "code": "providerResponse",
+                "name": "providerResponse",
+                "order": 5,
+                "required": true,
+                "system": false,
+                "type_definition": {
+                    "type": "number"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,56 @@
+{
+  "code": "SHARE.MEDICAL.RECORDS",
+  "journey": "SHARE_MEDICAL_RECORDS",
+  "event_type": "NODE",
+  "definition": {
+    "version": 2,
+    "description": "Coordinator share medical records",
+    "name": "SHARE_MEDICAL_RECORDS",
+    "resource": "SHARE_MEDICAL_RECORDS",
+    "type": "EVENT_DATA"
+  },
+  "structure": {
+    "attributes": [
+      {
+        "code": "transactionalGuid",
+        "name": "transactionalGuid",
+        "required": true,
+        "system": false,
+        "order": 1,
+        "type_definition": {
+          "type": "string"
+        }
+      },
+      {
+        "code": "bmi",
+        "name": "bmi",
+        "type_definition": {
+          "type": "number"
+        },
+        "order": 2,
+        "system": false,
+        "required": true
+      },
+      {
+        "code": "owner",
+        "name": "owner",
+        "required": true,
+        "system": false,
+        "order": 3,
+        "type_definition": {
+          "type": "string"
+        }
+      },
+      {
+        "code": "createdAt",
+        "name": "createdAt",
+        "type_definition": {
+          "type": "timestamp"
+        },
+        "order": 5,
+        "system": false,
+        "required": true
+      }
+    ]
+  }
+}

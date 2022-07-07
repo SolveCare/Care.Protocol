@@ -1,1 +1,0 @@
-{"walletEventHandler":[{"refId":"e-w-arole-submit-data-brole","walletEvents":[{"actions":[{"name":"submit","order":1,"parameter":[{"method":"POST","url":"/events"}]}],"postAction":"4-success-submit-by-patient","refId":"e-w-arole-submit-data-brole"}]}]}

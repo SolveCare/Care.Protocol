@@ -1,1 +1,0 @@
-{"walletEventHandler":[{"refId":"e-w-crole-submit-data-brole","walletEvents":[{"actions":[{"name":"submit","order":1,"parameter":[{"method":"POST","url":"/events"}]}],"eventDefinitionRef":"","postAction":"HOME","refId":"e-w-crole-submit-data-brole"}]}]}

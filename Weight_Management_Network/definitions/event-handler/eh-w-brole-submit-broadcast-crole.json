@@ -1,1 +1,0 @@
-{"walletEventHandler":[{"refId":"e-w-brole-submit-broadcast-crole","walletEvents":[{"actions":[{"name":"submit","order":1,"parameter":[{"method":"POST","url":"/events"}]}],"postAction":"7-dietician-success-send-to-doctor","refId":"e-w-brole-submit-broadcast-crole"}]}]}

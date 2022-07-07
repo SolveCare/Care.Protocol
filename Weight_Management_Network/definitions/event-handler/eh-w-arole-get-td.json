@@ -1,1 +1,0 @@
-{"walletEventHandler":[{"refId":"e-w-arole-get-td","walletEvents":[{"actions":[{"name":"getbmilogs","order":1,"parameter":[{"method":"GET","url":"/transactions/MEDICAL_DATA"}]}],"postAction":"2-patient-get-dietician-list","refId":"e-w-arole-get-td"}]}]}

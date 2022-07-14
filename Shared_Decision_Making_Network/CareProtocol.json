@@ -32,7 +32,7 @@
       },
       {
         "id": "rl-1003",
-        "name": "COORDINATOR",
+        "name": "CARE COORDINATOR",
         "description": "Coordinator role for the CAN",
         "type": "Wallet",
         "status": "Active",

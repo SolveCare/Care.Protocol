@@ -1,1 +1,26 @@
-{"walletEventHandler":[{"refId":"e-w-brole-submit-broadcast-arole","walletEvents":[{"actions":[{"name":"submit","order":1,"parameter":[{"method":"POST","url":"/events"}]}],"eventDefinitionRef":"","postAction":"HOME","refId":"e-w-brole-submit-broadcast-arole"}]}]}
+{
+  "walletEventHandler": [
+    {
+      "refId": "e-w-brole-submit-broadcast-arole",
+      "walletEvents": [
+        {
+          "actions": [
+            {
+              "name": "submit",
+              "order": 1,
+              "parameter": [
+                {
+                  "method": "POST",
+                  "url": "/events"
+                }
+              ]
+            }
+          ],
+          "eventDefinitionRef": "",
+          "postAction": "4-success-submit-by-patient",
+          "refId": "e-w-brole-submit-broadcast-arole"
+        }
+      ]
+    }
+  ]
+}

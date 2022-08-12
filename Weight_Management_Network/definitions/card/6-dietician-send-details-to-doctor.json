@@ -1,1 +1,165 @@
-{"cardData":{"00f1v1":"Send","00fv1":"BACK","00fv2":"HOME","00t1":"Calories Intake:","00t2":"Breakfast","00t3":"Lunch","00t4":"Dinner"},"cardLayout":{"body":[{"id":"000t1","tileComponent":[{"id":"EN01Custom011N","subView":[{"title":{"text":"$aRoleUserName"},"subTitle":{"text":"{$createdAt}"}}],"type":"CONTAINER","uiAction":"","order":1},{"id":"EN01HorizontalTS","subView":[{"title":{"text":"00t2"},"subTitle":{"text":"{$aRoleBreakfastCaloricExpenditure}"}}],"type":"CONTAINER","uiAction":"","order":2},{"id":"EN01HorizontalTS","subView":[{"title":{"text":"00t3"},"subTitle":{"text":"{$aRoleLunchCaloricExpenditure}"}}],"type":"CONTAINER","uiAction":"","order":3},{"id":"EN01HorizontalTS","subView":[{"title":{"text":"00t4"},"subTitle":{"text":"{$aRoleDinnerCaloricExpenditure}"}}],"type":"CONTAINER","uiAction":"","order":4}],"tileType":"Wrap","uiAction":""}],"footer":{"menu":[{"id":"EN01BottomButtonBack","isSearchable":false,"subView":[{"title":{"text":""}}],"order":1,"type":"BACK_BUTTON","uiAction":"${action2}"},{"id":"EN01BottomButton1","isSearchable":false,"subView":[{"title":{"text":"00f1v1"}}],"order":2,"type":"BUTTON","uiAction":"${action1}"}],"orientation":"HORIZONTAL"}},"cardUIAction":{"action1":{"action":"e-w-brole-submit-broadcast-crole"},"action2":{"action":"e-w-brole-navigate-back"}},"id":"00jc1","name":"Send Patient Details"}
+{
+    "cardData": {
+        "00f1v1": "Send",
+        "00fv1": "BACK",
+        "00fv2": "HOME",
+        "00t1": "Calories Intake:",
+        "00t2": "Breakfast",
+        "00t3": "Lunch",
+        "00t4": "Dinner",
+        "00t5": "Patient Answered: ",
+        "00t6":"Number of Calories at "
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    {
+                        "id": "EN01TileTitleSubtileVert1",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "$aRoleUserName"
+                                },
+                                "subTitle": {
+                                    "text": "{$createdAt}"
+                                }
+                            }
+                        ],
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "EN01TileTitleSubtileVert3",
+                        "subView": [
+                            {
+                                "img": {
+                                    "text": "HEART"
+                                },
+                                "title": {
+                                    "text": "00t6"
+                                },
+                                "subTitle": {
+                                    "text": "00t2"
+                                },
+                                "body": [
+                                    {
+                                        "text": "00t5"
+                                    },
+                                    {
+                                        "text": "{$aRoleBreakfastCaloricExpenditure}"
+                                    }
+                                ]
+                            }
+                        ],
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 2
+                    },
+                    {
+                        "id": "EN01TileTitleSubtileVert3",
+                        "subView": [
+                            {
+                                "img": {
+                                    "text": "HEART"
+                                },
+                                "title": {
+                                    "text": "00t6"
+                                },
+                                "subTitle": {
+                                    "text": "00t3"
+                                },
+                                "body": [
+                                    {
+                                        "text": "00t5"
+                                    },
+                                    {
+                                    "text": "{$aRoleLunchCaloricExpenditure}"
+                                    }
+                                ]
+                                
+                            }
+                        ],
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 3
+                    },
+                    {
+                        "id": "EN01TileTitleSubtileVert3",
+                        "subView": [
+                            {
+                                "img": {
+                                    "text": "HEART"
+                                },
+                                "title": {
+                                    "text": "00t6"
+                                },
+                                "subTitle": {
+                                    "text": "00t4"
+                                },
+                                "body": [
+                                    {
+                                        "text": "00t5"
+                                    },
+                                    {
+                                    "text": "{$aRoleDinnerCaloricExpenditure}"
+                                    }
+                                ]
+                            }
+                        ],
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 4
+                    }
+                ],
+                "tileType": "ScrollView",
+                "uiAction": ""
+            }
+        ],
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "isSearchable": false,
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "order": 1,
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action2}"
+                },
+                {
+                    "id": "EN01BottomButton1",
+                    "isSearchable": false,
+                    "subView": [
+                        {
+                            "title": {
+                                "text": "00f1v1"
+                            }
+                        }
+                    ],
+                    "order": 2,
+                    "type": "BUTTON",
+                    "uiAction": "${action1}"
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action1": {
+            "action": "e-w-brole-submit-broadcast-crole"
+        },
+        "action2": {
+            "action": "e-w-brole-navigate-back"
+        }
+    },
+    "id": "00jc1",
+    "name": "Send Patient Details"
+}

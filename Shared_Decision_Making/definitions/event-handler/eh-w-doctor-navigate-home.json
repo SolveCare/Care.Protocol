@@ -1,0 +1,25 @@
+{
+  "walletEventHandler": [
+    {
+      "refId": "ev-1-doctor-navigate-home",
+      "walletEvents": [
+        {
+          "actions": [
+            {
+              "name": "submit",
+              "order": 1,
+              "parameter": [
+                {
+                  "method": "",
+                  "url": ""
+                }
+              ]
+            }
+          ],
+          "postAction": "HOME",
+          "refId": "ev-1-doctor-navigate-home"
+        }
+      ]
+    }
+  ]
+}

@@ -1,1 +1,25 @@
-{"walletEventHandler":[{"refId":"e-w-arole-navigate-submit-details","walletEvents":[{"actions":[{"name":"submit","order":1,"parameter":[{"method":"DEATILS","url":""}]}],"postAction":"3-patient-submit-details-to-dietician","refId":"e-w-arole-navigate-submit-details"}]}]}
+{
+  "walletEventHandler": [
+    {
+      "refId": "e-w-arole-navigate-submit-details",
+      "walletEvents": [
+        {
+          "actions": [
+            {
+              "name": "submit",
+              "order": 1,
+              "parameter": [
+                {
+                  "method": "DETAILS",
+                  "url": ""
+                }
+              ]
+            }
+          ],
+          "postAction": "3-patient-submit-details-to-dietician",
+          "refId": "e-w-arole-navigate-submit-details"
+        }
+      ]
+    }
+  ]
+}

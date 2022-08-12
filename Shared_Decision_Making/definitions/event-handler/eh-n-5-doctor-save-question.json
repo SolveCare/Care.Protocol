@@ -1,0 +1,19 @@
+{
+  "nodeEventHandlers": [
+    {
+      "type": "MAPPER",
+      "name": "Append HAYFT payload",
+      "order": 1,
+      "dataSource": "EVENT_PAYLOAD"
+    },
+    {
+      "type": "VAULT_INSERT",
+      "name": "Insert HAYFT record",
+      "order": 2,
+      "collection": "HAYFT",
+      "collectionVersion": 1,
+      "dataSource": "HANDLER_ARGUMENTS",
+      "handlerOutput": "PERSISTED_ENTITY"
+    }
+  ]
+}

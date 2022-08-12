@@ -1,9 +1,10 @@
 {
   "care_protocol": {
-    "network_id": "test-network-0678",
+
+    "network_id": "${NETWORK_ID}",
     "node_url": "https://cn-traefik.solvecare.net",
-    "name": "Weight Management Network",
-    "description": "This network offers Weight Management services, involving an entire care team to be involved in the patient's healthcare journey",
+    "name": "${NETWORK_NAME}",
+    "description": "${NETWORK_DESCRIPTION}",
     "certificates": "CERT-12345-2022",
     "publish_date": "20-05-2022",
     "effective_date": "30-05-2023",
@@ -62,8 +63,8 @@
     "journeys": [
       {
         "id": "jn-arole-view-requests",
-        "icon": "BI",
-        "name": "Send my medical records",
+        "icon": "SEND",
+        "name": "Send My Caloric Intake",
         "description": "The patient sends its medical data to the Dietician                ",
         "status": "Active",
         "start_card_ref_id": "2-patient-get-dietician-list",
@@ -73,8 +74,8 @@
       },
       {
         "id": "jn-brole-submit-broadcast-crole",
-        "icon": "default.jpg",
-        "name": "Send Patient’s medical records",
+        "icon": "RECEIVE",
+        "name": "View Patient Response",
         "description": "Dietician receives Patient’s medical records and sends them to Primary Care Physician",
         "status": "Active",
         "start_card_ref_id": "5-dietician-get-patient-request",
@@ -84,8 +85,8 @@
       },
       {
         "id": "jn-brole-submit-broadcast-arole",
-        "icon": "STAY_HEALTHY_AND_BALANCED",
-        "name": "Send a request to Patients",
+        "icon": "SEND",
+        "name": "Send A Request To Patient",
         "description": "The dietician asks Patients to send their Caloric Intake",
         "status": "Active",
         "start_card_ref_id": "1-dietician-send-request-to-patient",
@@ -95,8 +96,8 @@
       },
       {
         "id": "jn-crole-submit-data-brole",
-        "icon": "default.jpg",
-        "name": "Recieve Patient’s Medical Records",
+        "icon": "RECEIVE",
+        "name": "View Patient Data",
         "description": "Provider receives patient's records via Dietician",
         "status": "Active",
         "start_card_ref_id": "8-doctor-get-dietician-request",

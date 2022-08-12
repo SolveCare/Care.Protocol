@@ -1,1 +1,13 @@
-{"nodeEventHandlers":[{"type":"VAULT_INSERT","name":"Insert MEDICAL_DATA record","order":1,"collection":"MEDICAL_DATA","collectionVersion":1,"dataSource":"EVENT_PAYLOAD","handlerOutput":"PERSISTED_ENTITY"}]}
+{
+  "nodeEventHandlers": [
+    {
+      "type": "VAULT_INSERT",
+      "name": "Insert MEDICAL_DATA record",
+      "order": 1,
+      "collection": "MEDICAL_DATA",
+      "collectionVersion": 1,
+      "dataSource": "EVENT_PAYLOAD",
+      "handlerOutput": "PERSISTED_ENTITY"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "walletEventHandler": [
+    {
+      "refId": "ev-1-patient-get-questions",
+      "walletEvents": [
+        {
+          "actions": [
+            {
+              "name": "getquestions",
+              "order": 1,
+              "parameter": [
+                {
+                  "method": "GET",
+                  "url": "/transactions/HAYFT_PREDEFINED_QUESTIONS"
+                }
+              ]
+            }
+          ],
+          "postAction": "",
+          "refId": "ev-1-patient-get-questions"
+        }
+      ]
+    }
+  ]
+}

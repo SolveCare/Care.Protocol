@@ -1,0 +1,37 @@
+{
+  "cardData": {
+    "00t1v1": "Get Doctor Report"
+  },
+  "cardLayout": {
+    "body": [
+      {
+        "id": "000t1",
+        "tileComponent": [
+          {
+            "id": "EN01Custom08N",
+            "isSearchable": false,
+            "subView": [
+              {
+                "title": {
+                  "text": "00t1v1"
+                }
+              }
+            ],
+            "order": 1,
+            "type": "BUTTON",
+            "uiAction": "${action1}"
+          }
+        ],
+        "tileType": "Wrap",
+        "uiAction": ""
+      }
+    ]
+  },
+  "cardUIAction": {
+    "action1": {
+      "action": "e-w-brole-submit-data-arole"
+    }
+  },
+  "id": "00jc2",
+  "name": "Doctor Report"
+}

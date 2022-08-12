@@ -1,0 +1,129 @@
+{
+  "definition": {
+    "version": 1,
+    "collection": "HAYFT",
+    "description": "HAYFT",
+    "name": "HAYFT",
+    "resource": "HAYFT",
+    "status": "RELEASED",
+    "type": "TRANSACTIONAL_DATA"
+  },
+  "structure": {
+    "attributes": [
+      {
+        "code": "transactionalGuid",
+        "name": "transactionalGuid",
+        "type_definition": {
+          "type": "string"
+        },
+        "order": 1,
+        "system": false
+      },
+      {
+        "code": "status",
+        "name": "status",
+        "type_definition": {
+          "type": "string"
+        },
+        "order": 2,
+        "system": false
+      },
+      {
+        "code": "sentAt",
+        "name": "sentAt",
+        "type_definition": {
+          "type": "timestamp"
+        },
+        "order": 3,
+        "system": false
+      },
+      {
+        "code": "answeredAt",
+        "name": "answeredAt",
+        "type_definition": {
+          "type": "timestamp"
+        },
+        "order": 4,
+        "system": false
+      },
+      {
+        "code": "question",
+        "name": "question",
+        "type_definition": {
+          "type": "string"
+        },
+        "order": 5,
+        "system": false,
+        "required": false
+      },
+      {
+        "code": "answer",
+        "name": "answer",
+        "type_definition": {
+          "type": "string"
+        },
+        "order": 6,
+        "system": false,
+        "required": false
+      },
+      {
+        "code": "doctorNodeAddress",
+        "name": "doctorNodeAddress",
+        "type_definition": {
+          "type": "string"
+        },
+        "order": 7,
+        "system": false,
+        "required": false
+      },
+      {
+        "code": "patientNodeAddress",
+        "name": "patientNodeAddress",
+        "type_definition": {
+          "type": "string"
+        },
+        "order": 8,
+        "system": false,
+        "required": false
+      },
+      {
+        "code": "coordinatorNodeAddress",
+        "name": "coordinatorNodeAddress",
+        "type_definition": {
+          "type": "string"
+        },
+        "order": 9,
+        "system": false,
+        "required": false
+      },
+      {
+        "code": "patientName",
+        "name": "patientName",
+        "system": false,
+        "order": 10,
+        "type_definition": {
+          "type": "string"
+        }
+      },
+      {
+        "code": "doctorName",
+        "name": "doctorName",
+        "system": false,
+        "order": 11,
+        "type_definition": {
+          "type": "string"
+        }
+      },
+      {
+        "code": "answerTitle",
+        "name": "answerTitle",
+        "system": false,
+        "order": 12,
+        "type_definition": {
+          "type": "string"
+        }
+      }
+
+    ]
+  }
+}

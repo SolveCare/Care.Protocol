@@ -1,1 +1,25 @@
-{"walletEventHandler":[{"refId":"e-w-arole-submit-data-brole","walletEvents":[{"actions":[{"name":"submit","order":1,"parameter":[{"method":"","url":""}]}],"postAction":"HOME","refId":"e-w-arole-submit-data-brole"}]}]}
+{
+  "walletEventHandler": [
+    {
+      "refId": "e-w-arole-submit-data-brole",
+      "walletEvents": [
+        {
+          "actions": [
+            {
+              "name": "submit",
+              "order": 1,
+              "parameter": [
+                {
+                  "method": "",
+                  "url": ""
+                }
+              ]
+            }
+          ],
+          "postAction": "HOME",
+          "refId": "e-w-arole-submit-data-brole"
+        }
+      ]
+    }
+  ]
+}

@@ -1,1 +1,39 @@
-{"nodeEventHandlers":[{"type":"VAULT_UPDATE","name":"Answer MEDICAL_DATA question","order":1,"collection":"MEDICAL_DATA","collectionVersion":1,"dataSource":"EVENT_PAYLOAD","searchCriteria":[{"queryMatcher":"EQUAL","fieldName":"transactionalGuid","dynamicValue":{"source":"EVENT_PAYLOAD","value":"transactionalGuid"}}],"handlerOutput":"PERSISTED_ENTITY"},{"type":"NEXT_EVENT_RECIPIENT","name":"Fetch target address","order":2,"recipientAddress":{"source":"HANDLER_ARGUMENTS","value":"aRoleUserAddress"},"handlerOutput":"HANDLER_ARGUMENTS"},{"type":"MAPPER","name":"Propagate payload","order":3,"dataSource":"EVENT_PAYLOAD"}]}
+{
+  "nodeEventHandlers": [
+    {
+      "type": "VAULT_UPDATE",
+      "name": "Answer MEDICAL_DATA question",
+      "order": 1,
+      "collection": "MEDICAL_DATA",
+      "collectionVersion": 1,
+      "dataSource": "EVENT_PAYLOAD",
+      "searchCriteria": [
+        {
+          "queryMatcher": "EQUAL",
+          "fieldName": "transactionalGuid",
+          "dynamicValue": {
+            "source": "EVENT_PAYLOAD",
+            "value": "transactionalGuid"
+          }
+        }
+      ],
+      "handlerOutput": "PERSISTED_ENTITY"
+    },
+    {
+      "type": "NEXT_EVENT_RECIPIENT",
+      "name": "Fetch target address",
+      "order": 2,
+      "recipientAddress": {
+        "source": "HANDLER_ARGUMENTS",
+        "value": "aRoleUserAddress"
+      },
+      "handlerOutput": "HANDLER_ARGUMENTS"
+    },
+    {
+      "type": "MAPPER",
+      "name": "Propagate payload",
+      "order": 3,
+      "dataSource": "EVENT_PAYLOAD"
+    }
+  ]
+}

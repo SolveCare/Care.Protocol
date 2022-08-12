@@ -1,0 +1,66 @@
+{
+  "definition": {
+    "description": "Broadcast question",
+    "name": "N_PATIENT_BROADCAST_QUESTION",
+    "resource": "N_PATIENT_BROADCAST_QUESTION",
+    "type": "EVENT_DATA"
+  },
+  "structure": {
+    "attributes": [
+      {
+        "code": "transactionalGuid",
+        "name": "transactionalGuid",
+        "system": false,
+        "order": 1,
+        "type_definition": {
+          "type": "string"
+        }
+      },
+      {
+        "code": "question",
+        "name": "question",
+        "system": false,
+        "order": 2,
+        "type_definition": {
+          "type": "string"
+        }
+      },
+      {
+        "code": "patientName",
+        "name": "patientName",
+        "system": false,
+        "order": 3,
+        "type_definition": {
+          "type": "string"
+        }
+      },
+      {
+        "code": "patientNodeAddress",
+        "name": "patientNodeAddress",
+        "system": false,
+        "order": 4,
+        "type_definition": {
+          "type": "string"
+        }
+      },
+      {
+        "code": "sentAt",
+        "name": "sentAt",
+        "type_definition": {
+          "type": "timestamp"
+        },
+        "order": 5,
+        "system": false
+      },
+      {
+        "code": "status",
+        "name": "status",
+        "system": false,
+        "order": 4,
+        "type_definition": {
+          "type": "string"
+        }
+      }
+    ]
+  }
+}

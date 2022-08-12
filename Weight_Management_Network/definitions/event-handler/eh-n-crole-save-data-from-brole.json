@@ -1,1 +1,40 @@
-{"nodeEventHandlers":[{"type":"MAPPER","name":"Append MEDICAL_DATA payload","order":1,"dataSource":"EVENT_PAYLOAD","additionalAttributes":{"bRoleUserAddress":{"source":"EVENT","value":"SENDER"}}},{"type":"VAULT_INSERT","name":"Insert MEDICAL_DATA record","order":2,"collection":"MEDICAL_DATA","collectionVersion":1,"dataSource":"HANDLER_ARGUMENTS","handlerOutput":"PERSISTED_ENTITY"}]}
+{
+  "nodeEventHandlers": [
+    {
+      "type": "MAPPER",
+      "name": "Append MEDICAL_DATA payload",
+      "order": 1,
+      "dataSource": "EVENT_PAYLOAD",
+      "additionalAttributes": {
+        "bRoleUserAddress": {
+          "source": "EVENT",
+          "value": "SENDER"
+        },
+        "createdAt": {
+          "source": "GENERATED",
+          "value": "CURRENT_TIMESTAMP"
+        }
+      }
+    },
+    {
+      "type": "VAULT_UPDATE",
+      "name": "Save MEDICAL_DATA",
+      "order": 2,
+      "collection": "MEDICAL_DATA",
+      "collectionVersion": 1,
+      "dataSource": "HANDLER_ARGUMENTS",
+      "insertIfAbsent": true,
+      "searchCriteria": [
+        {
+          "queryMatcher": "EQUAL",
+          "fieldName": "transactionalGuid",
+          "dynamicValue": {
+            "source": "EVENT_PAYLOAD",
+            "value": "transactionalGuid"
+          }
+        }
+      ],
+      "handlerOutput": "PERSISTED_ENTITY"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "data": {
+    "resource": "hayft_predefined_questions_v1.json",
+    "strategy": "MERGE"
+  },
+  "definition": {
+    "version": 1,
+    "collection": "HAYFT_PREDEFINED_QUESTIONS",
+    "description": "HAYFT_PREDEFINED_QUESTIONS",
+    "name": "HAYFT_PREDEFINED_QUESTIONS",
+    "resource": "HAYFT_PREDEFINED_QUESTIONS",
+    "status": "RELEASED",
+    "type": "TRANSACTIONAL_DATA"
+  },
+  "structure": {
+    "primary_key": "questionId",
+    "attributes": [
+      {
+        "code": "questionId",
+        "name": "questionId",
+        "type_definition": {
+          "type": "string"
+        },
+        "order": 1,
+        "system": false
+      },
+      {
+        "code": "question",
+        "name": "question",
+        "type_definition": {
+          "type": "string"
+        },
+        "order": 2,
+        "system": false,
+        "required": false
+      }
+    ]
+  }
+}

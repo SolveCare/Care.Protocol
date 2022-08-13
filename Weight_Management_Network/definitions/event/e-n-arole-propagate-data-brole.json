@@ -1,0 +1,66 @@
+{
+  "definition": {
+    "description": "Role a share data with role b",
+    "name": "N_AROLE_PROPAGATE_DATA_BROLE",
+    "resource": "N_AROLE_PROPAGATE_DATA_BROLE",
+    "type": "EVENT_DATA"
+  },
+  "structure": {
+    "attributes": [
+      {
+        "code": "transactionalGuid",
+        "name": "transactionalGuid",
+        "system": false,
+        "order": 1,
+        "type_definition": {
+          "type": "string"
+        }
+      },
+      {
+        "code": "aRoleUserAddress",
+        "name": "aRoleUserAddress",
+        "type_definition": {
+          "type": "string"
+        },
+        "order": 2,
+        "system": false
+      },
+      {
+        "code": "aRoleUserName",
+        "name": "aRoleUserName",
+        "system": false,
+        "order": 3,
+        "type_definition": {
+          "type": "string"
+        }
+      },
+      {
+        "code": "aRoleBreakfastCaloricExpenditure",
+        "name": "aRoleBreakfastCaloricExpenditure",
+        "type_definition": {
+          "type": "number"
+        },
+        "order": 4,
+        "system": false
+      },
+      {
+        "code": "aRoleLunchCaloricExpenditure",
+        "name": "aRoleLunchCaloricExpenditure",
+        "type_definition": {
+          "type": "number"
+        },
+        "order": 5,
+        "system": false
+      },
+      {
+        "code": "aRoleDinnerCaloricExpenditure",
+        "name": "aRoleDinnerCaloricExpenditure",
+        "type_definition": {
+          "type": "number"
+        },
+        "order": 6,
+        "system": false
+      }
+    ]
+  }
+}

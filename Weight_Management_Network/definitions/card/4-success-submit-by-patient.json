@@ -1,0 +1,60 @@
+{
+    "cardData": {
+        "00t1v1": "Care.Card has been sent successfully.",
+        "00t1v2":"Go To Home"
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    {
+                        "id": "EN01SuccessHorz1",
+                        "isSearchable": false,
+                        "subView": [
+                      {
+                               
+                                "img":{ 
+                                    "text":"SUCCESS"
+                                } ,"title":{
+                                    "text":"00t1v1"
+                                }                  
+                      }
+                        ],
+                        "order":1,
+                        "type": "CONTAINER",
+                        "uiAction": ""
+                    }
+                ],
+                "tileType": "Wrap",
+                "uiAction": ""
+            }
+        ],
+        "footer": {
+            "menu": [
+                 {
+                    "id": "EN01BottomButtonBack",
+                        "isSearchable": false,
+                        "subView": [
+                        {
+                            "title":{ 
+                                "text":""
+                            }                               
+                        }
+                    ],
+                    "order":1,
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action1}"
+                }            
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action1": {
+            "action": "e-w-brole-navigate-home"
+        }
+    },
+    "id": "00jc2",
+    "name": "Congratulations"
+}

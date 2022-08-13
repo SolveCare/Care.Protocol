@@ -1,0 +1,17 @@
+{
+  "nodeEventHandlers": [
+    {
+      "type": "SHARE_CONTACT",
+      "name": "Share Patient Contact",
+      "order": 1,
+      "dataSource": "EVENT_PAYLOAD",
+      "contactAddressKey": "patientNodeAddress"
+    },
+    {
+      "type": "MAPPER",
+      "name": "Propagate appointment payload",
+      "order": 2,
+      "dataSource": "EVENT_PAYLOAD"
+    }
+  ]
+}

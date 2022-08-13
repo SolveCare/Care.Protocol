@@ -1,0 +1,10 @@
+{
+  "nodeEventHandlers": [
+    {
+      "type": "MAPPER",
+      "name": "Propagate MEDICAL_DATA payload",
+      "order": 1,
+      "dataSource": "EVENT_PAYLOAD"
+    }
+  ]
+}

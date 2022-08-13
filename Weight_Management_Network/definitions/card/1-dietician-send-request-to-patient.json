@@ -1,0 +1,130 @@
+{
+    "cardData": {
+        "00t1v1": "Send Request To Patient",
+        "00t1v2": "The patient will be requested with the following caloric intake",
+        "00t1v3": "Breakfast",
+        "00t1v4": "Lunch",
+        "00t1v5": "Dinner",
+        "00t1v6":"Caloric intake at ",
+        "00t1v7":"Send"
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    {
+                        "id": "EN01HorizontalTS1",
+                        "isSearchable": false,
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "00t1v1"
+                                }, 
+                                "subTitle": {
+                                    "text": "00t1v2"
+                                }
+                            }
+                        ],
+                        "order": 1,
+                        "type": "CONTAINER",
+                        "uiAction": ""
+                    },{
+                        "id": "EN01TileTitleSubtileHorz1",
+                        "isSearchable": false,
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "00t1v6"
+                                }, 
+                                "subTitle": {
+                                    "text": "00t1v3"
+                                }
+                            }
+                        ],
+                        "order": 1,
+                        "type": "CONTAINER",
+                        "uiAction": ""
+                    },{
+                        "id": "EN01TileTitleSubtileHorz1",
+                        "isSearchable": false,
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "00t1v6"
+                                }, 
+                                "subTitle": {
+                                    "text": "00t1v4"
+                                }
+                            }
+                        ],
+                        "order": 1,
+                        "type": "CONTAINER",
+                        "uiAction": ""
+                    },{
+                        "id": "EN01TileTitleSubtileHorz1",
+                        "isSearchable": false,
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "00t1v6"
+                                }, 
+                                "subTitle": {
+                                    "text": "00t1v5"
+                                }
+                            }
+                        ],
+                        "order": 1,
+                        "type": "CONTAINER",
+                        "uiAction": ""
+                    }
+                ],
+                "tileType": "WRAP",
+                "uiAction": ""
+            }
+        ],
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "isSearchable": false,
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "order": 1,
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action2}"
+                },
+                {
+                    "id": "EN01BottomButton1",
+                    "isSearchable": false,
+                    "subView": [
+                        {
+                            "title": {
+                                "text": "00t1v7"
+                            }
+                        }
+                    ],
+                    "order": 2,
+                    "type": "BUTTON",
+                    "uiAction": "${action1}"
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action1": {
+            "action": "e-w-brole-submit-broadcast-arole"
+        },
+        "action2": {
+            "action": "e-w-brole-navigate-home"
+        }
+    },
+    "id": "00jc2",
+    "name": "Send Request To Patient"
+}

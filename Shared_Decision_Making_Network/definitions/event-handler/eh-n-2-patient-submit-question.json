@@ -1,0 +1,37 @@
+{
+  "nodeEventHandlers": [
+    {
+      "type": "MAPPER",
+      "name": "Append HAYFT payload",
+      "order": 1,
+      "dataSource": "EVENT_PAYLOAD",
+      "additionalAttributes": {
+        "status": {
+          "source": "CONSTANT",
+          "value": "SENT"
+        },
+        "sentAt": {
+          "source": "GENERATED",
+          "value": "CURRENT_TIMESTAMP"
+        },
+        "transactionalGuid": {
+          "source": "GENERATED",
+          "value": "UUID"
+        },
+        "patientNodeAddress": {
+          "source": "EVENT",
+          "value": "SENDER"
+        }
+      }
+    },
+    {
+      "type": "VAULT_INSERT",
+      "name": "Insert HAYFT record",
+      "order": 2,
+      "collection": "HAYFT",
+      "collectionVersion": 1,
+      "dataSource": "HANDLER_ARGUMENTS",
+      "handlerOutput": "PERSISTED_ENTITY"
+    }
+  ]
+}

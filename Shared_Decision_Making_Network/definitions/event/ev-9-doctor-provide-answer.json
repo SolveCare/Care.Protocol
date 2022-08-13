@@ -1,0 +1,66 @@
+{
+  "definition": {
+    "description": "Broadcast HAYFT to doctors",
+    "name": "N_DR_PROVIDE_ANSWER",
+    "resource": "N_DR_PROVIDE_ANSWER",
+    "type": "EVENT_DATA"
+  },
+  "structure": {
+    "attributes": [
+      {
+        "code": "transactionalGuid",
+        "name": "transactionalGuid",
+        "system": false,
+        "order": 1,
+        "type_definition": {
+          "type": "string"
+        }
+      },
+      {
+        "code": "answer",
+        "name": "answer",
+        "system": false,
+        "order": 2,
+        "type_definition": {
+          "type": "string"
+        }
+      },
+      {
+        "code": "answerTitle",
+        "name": "answerTitle",
+        "system": false,
+        "order": 3,
+        "type_definition": {
+          "type": "string"
+        }
+      },
+      {
+        "code": "doctorName",
+        "name": "doctorName",
+        "system": false,
+        "order": 4,
+        "type_definition": {
+          "type": "string"
+        }
+      },
+      {
+        "code": "status",
+        "name": "status",
+        "system": false,
+        "order": 5,
+        "type_definition": {
+          "type": "string"
+        }
+      },
+      {
+        "code": "answeredAt",
+        "name": "answeredAt",
+        "system": false,
+        "order": 6,
+        "type_definition": {
+          "type": "timestamp"
+        }
+      }
+    ]
+  }
+}

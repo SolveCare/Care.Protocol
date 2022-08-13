@@ -1,0 +1,398 @@
+{
+  "Name": "CAN",
+  "NetworkId":"1001",
+  "Description": "Care Administration Network",
+  "Version": "1.0",
+  "Certificates": "CERT-001",
+  "Publish Date": "25-03-2021",
+  "Effective Date": "01-04-201",
+  "Protocol Version Number": "1.0",
+  "Network_Settings": {
+    "SOLVE_Token_Usage": {
+      "Deposite_Value": "Market",
+      "Redeption_Value": "Deposite",
+      "SOLVE_Gas_Setting": {
+        "Event_Wise_Cost": [
+          {
+            "Event": "04001",
+            "Cost": "10"
+          },
+          {
+            "Event": "04002",
+            "Cost": "20"
+          },
+          {
+            "Event": "04003",
+            "Cost": "10"
+          },
+          {
+            "Event": "04004",
+            "Cost": "20"
+          },
+          {
+            "Event": "04005",
+            "Cost": "21"
+          },
+          {
+            "Event": "04006",
+            "Cost": "10.5"
+          }
+        ]
+      }
+    }
+  },
+  "Roles": [
+    {
+      "ID": "01001",
+      "Name": "Patient",
+      "Description": "Patient role for the CAN",
+      "Type": "Wallet",
+      "Status": "Active",
+      "Version": "1.0",
+      "Network": "CAN",
+      "AllowEventsWithRole": [
+        "01002"
+      ]
+    },
+    {
+      "ID": "01002",
+      "Name": "Doctor",
+      "Description": "Patient role for the CAN",
+      "Type": "Wallet",
+      "Status": "Active",
+      "Version": "1.0",
+      "Network": "CAN",
+      "AllowEventsWithRole": [
+        "01001"
+      ]
+    }
+  ],
+  "Journeys": [
+    {
+      "ID": "02001",
+      "Name": "Appointment",
+      "Description": "Appointment Journey",
+      "Status": "Active",
+      "Version": "1.0",
+      "Start_Card_Ref_ID": "03101",
+      "Roles": [
+        "01001",
+        "01002"
+      ]
+    },
+    {
+      "ID": "02003",
+      "Name": "Find Doctor",
+      "Description": "Find a doctor Journey for patient",
+      "Status": "Active",
+      "Version": "1.0",
+      "Start_Card_Ref_ID": "03201",
+      "Roles": [
+        "01001",
+        "01002"
+      ]
+    }
+  ],
+  "Cards": [
+    {
+      "ID": "03101",
+      "Name": "Request_Appointment",
+      "Description": "Request an appointment wallet card for the Patient ",
+      "Status": "Active",
+      "Version": "1.0",
+      "Role": "01001",
+      "Journey": "02001",
+      "Card_Definition_Ref": "03101.json",
+      "Wallet_Events": [
+        "04101"
+      ],
+      "Node_Events": [
+        "04102"
+      ]
+    },
+    {
+      "ID": "03102",
+      "Name": "Complete_Appointment",
+      "Description": "Appointment complete wallet card for the Doctor ",
+      "Status": "Active",
+      "Version": "1.0",
+      "Role": "01002",
+      "Journey": "02001",
+      "Card_Definition_Ref": "03102.json",
+      "Wallet_Events": [
+        "04103"
+      ],
+      "Node_Events": [
+        "04104"
+      ]
+    },
+    {
+      "ID": "03103",
+      "Name": "Find_Doctor_Request",
+      "Description": "Find a doctor wallet card for the Patient ",
+      "Status": "Active",
+      "Version": "1.0",
+      "Role": "01001",
+      "Journey": "02002",
+      "Card_Definition_Ref": "03103.json",
+      "Wallet_Events": [
+        "04106",
+        "04107"
+      ],
+      "Node_Events": [
+        "04108"
+      ]
+    },
+    {
+      "ID": "03104",
+      "Name": "Doctor_Available",
+      "Description": "Doctor wallet card to shared the profile, availability appointment type and cost",
+      "Status": "Active",
+      "Version": "1.0",
+      "Role": "01002",
+      "Journey": "02002",
+      "Card_Definition_Ref": "03104.json",
+      "Node_Events": [
+        "04109"
+      ]
+    }
+  ],
+  "Events": [
+    {
+      "ID": "04001",
+      "Name": "Available.Doctors",
+      "Code": "PT.AVAILABLE.DOCTORS",
+      "Description": "GET available doctors from the wallet node",
+      "Status": "Active",
+      "Version": "1.0",
+      "Type": "Wallet_Event",
+      "Card": "03101",
+      "Event_Definition_Ref": "04001.json",
+      "Wallet_Event_Handlers": [
+        "05001"
+      ],
+      "Next_Event": "04002"
+    },
+    {
+      "ID": "04002",
+      "Name": "Appointment.Request",
+      "Description": "Book an appointment with Doctor",
+      "Code": "PT.APPOINTMENT.REQUEST",
+      "Status": "Active",
+      "Version": "1.0",
+      "Type": "Node_Event",
+      "Event_Definition_Ref": "04002.json",
+      "Distribution_Type": "node_to_node",
+      "From_Role": "01001",
+      "To_Role": "01002",
+      "Wallet_Event_Handlers": [
+        "05002"
+      ],
+      "Node_Event_Handlers": [
+        "05003"
+      ],
+      "Next_Event": "04003"
+    },
+    {
+      "ID": "04003",
+      "Name": "Appointment_Requests",
+      "Code": "DC.APPOINTMENT.REQUESTS",
+      "Description": "Get patient appointment requests from doctor node",
+      "Status": "Active",
+      "Version": "1.0",
+      "Type": "Wallet_Event",
+      "Event_Definition_Ref": "04003.json",
+      "Wallet_Event_Handlers": [
+        "05004"
+      ],
+      "Next_Event": "04004"
+    },
+    {
+      "ID": "04004",
+      "Name": "Appointment_Completed",
+      "Code": "DC.APPOINTMENT.COMPLETED",
+      "Description": "Appointment completed event for patient node",
+      "Status": "Active",
+      "Version": "1.0",
+      "Type": "Node_Event",
+      "Event_Definition_Ref": "04004.json",
+      "Distribution_Type": "node_to_node",
+      "From_Role": "01001",
+      "To_Role": "01002",
+      "Wallet_Event_Handlers": [
+        "05005"
+      ],
+      "Node_Event_Handlers": [
+        "05006"
+      ],
+      "Next_Event": "04010"
+    },
+    {
+      "ID": "04005",
+      "Name": "Find_Doctor_Request",
+      "Code": "PT.FIND.DOCTOR",
+      "Description": "Find a doctor event for wallet card",
+      "Status": "Active",
+      "Version": "1.0",
+      "Type": "Wallet_Event",
+      "Event_Definition_Ref": "04005.json",
+      "Wallet_Event_Handlers": [
+        "05007"
+      ],
+      "Next_Event": "04006"
+    },
+    {
+      "ID": "04006",
+      "Name": "Find_Doctor_Request",
+      "Code": "PT.FIND.DOCTOR",
+      "Description": "Find a doctor event to search doctors on the network. ",
+      "Status": "Active",
+      "Version": "1.0",
+      "Type": "Node_Event",
+      "Event_Definition_Ref": "04006.json",
+      "Distribution_Type": "node_to_node",
+      "From_Role": "01001",
+      "To_Role": "01002",
+      "Wallet_Event_Handlers": [
+        "05008"
+      ],
+      "Node_Event_Handlers": [
+        "05009"
+      ],
+      "Next_Event": "04012"
+    }
+  ],
+  "EventHandlers": [
+    {
+      "ID": "05001",
+      "Name": "Available.Doctors.Event.Handler",
+      "Description": "Get available doctors from the wallet node",
+      "Status": "Active",
+      "Version": "1.0",
+      "Type": "Wallet_Event_Handler",
+      "Event_Handler_Definition_Ref": "05001.json"
+    },
+    {
+      "ID": "05002",
+      "Name": "Appointment.Request",
+      "Description": "Create an appointment event",
+      "Status": "Active",
+      "Version": "1.0",
+      "Type": "Wallet_Event_Handler",
+      "Event_Handler_Definition_Ref": "05001.json"
+    },
+    {
+      "ID": "05003",
+      "Name": "Appointment.Request.Create",
+      "Description": "Send an appointment event",
+      "Status": "Active",
+      "Version": "1.0",
+      "Type": "Node_Event_Handler",
+      "Event_Handler_Definition_Ref": "05003.json"
+    },
+    {
+      "ID": "05004",
+      "Name": "Appointment.Completed",
+      "Description": "Appointment Completed",
+      "Status": "Active",
+      "Version": "1.0",
+      "Type": "Wallet_Event_Handler",
+      "Event_Handler_Definition_Ref": "05004.json"
+    },
+    {
+      "ID": "05005",
+      "Name": "Appointment.Completed",
+      "Description": "Appointment Completed",
+      "Status": "Active",
+      "Version": "1.0",
+      "Type": "Node_Event_Handler",
+      "Event_Handler_Definition_Ref": "05005.json"
+    }
+  ],
+  "Solve_Token": {
+    "Transter_From_Other_Network": {
+      "Allow": "Yes",
+      "Payment_Options": [
+        "CC",
+        "PayTM",
+        "Transferwise"
+      ]
+    },
+    "Transter_within_Network": {
+      "Allow": "Yes",
+      "Transfer_Mapping": [
+        {
+          "from_role": "01001",
+          "to_role": "01002"
+        },
+        {
+          "from_role": "01001",
+          "to_role": "01003"
+        }
+      ]
+    },
+    "Withdrawn_Tokens_From_Network": {
+      "Allow": "Yes"
+    }
+  },
+  "Care_Circle": {
+    "Role_Allow": [
+      "01001",
+      "01002",
+      "01003"
+    ],
+    "Journeys_Allow": [
+      "02001",
+      "02002"
+    ]
+  },
+  "Care_Ledger": {
+    "Journeys_Allow_To_Publish": "All",
+    "Excluded_Jorneys": [
+      "02003",
+      "02009"
+    ],
+    "Journey_Wise_Events": [
+      {
+        "Journey": "02001",
+        "Events": [
+          "04002",
+          "04003"
+        ]
+      },
+      {
+        "Journey": "02002",
+        "Events": [
+          "04005",
+          "04006"
+        ]
+      }
+    ]
+  },
+  "Vault": {
+    "Backup_Options": {
+      "Free": "yes",
+      "Upgrade": "Yes"
+    },
+    "Upgrade_Options": {
+      "Tier_1": {
+        "Backup_Size": "100GB",
+        "Upgrade_Cost": "100 SOLVE/MONTH"
+      },
+      "Tier_2": {
+        "Backup_Size": "200GB",
+        "Upgrade_Cost": "200 SOLVE/MONTH"
+      }
+    }
+  },
+  "Geographic_Availability": {
+    "Countries": [
+      "India",
+      "USA"
+    ],
+    "Countries_Exlcluded": [
+      "Australia",
+      "UK"
+    ]
+  }
+}

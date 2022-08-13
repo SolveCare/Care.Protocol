@@ -1,0 +1,68 @@
+{
+  "nodeEventHandlers": [
+    {
+      "type": "MAPPER",
+      "name": "Append HAYFT payload",
+      "order": 1,
+      "dataSource": "EVENT_PAYLOAD",
+      "additionalAttributes": {
+        "status": {
+          "source": "CONSTANT",
+          "value": "ANSWERED"
+        },
+        "answeredAt": {
+          "source": "GENERATED",
+          "value": "CURRENT_TIMESTAMP"
+        },
+        "doctorNodeAddress": {
+          "source": "EVENT",
+          "value": "SENDER"
+        }
+      }
+    },
+    {
+      "type": "VAULT_UPDATE",
+      "name": "Patients",
+      "order": 2,
+      "collection": "HAYFT",
+      "collectionVersion": 1,
+      "dataSource": "HANDLER_ARGUMENTS",
+      "insertIfAbsent": true,
+      "searchCriteria": [
+        {
+          "queryMatcher": "EQUAL",
+          "fieldName": "transactionalGuid",
+          "dynamicValue": {
+            "source": "EVENT_PAYLOAD",
+            "value": "transactionalGuid"
+          }
+        }
+      ],
+      "handlerOutput": "PERSISTED_ENTITY"
+    },
+    {
+      "type": "NEXT_EVENT_RECIPIENT",
+      "name": "Fetch HAYFT target patient",
+      "order": 3,
+      "recipientAddress": {
+        "source": "HANDLER_ARGUMENTS",
+        "value": "patientNodeAddress"
+      },
+      "handlerOutput": "HANDLER_ARGUMENTS"
+    },
+    {
+      "type": "MAPPER",
+      "name": "Exclude",
+      "order": 4,
+      "dataSource": "HANDLER_ARGUMENTS",
+      "excludedAttributes": [
+        "patientName",
+        "coordinatorNodeAddress",
+        "doctorNodeAddress",
+        "patientNodeAddress",
+        "question",
+        "sentAt"
+      ]
+    }
+  ]
+}

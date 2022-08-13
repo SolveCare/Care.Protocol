@@ -1,0 +1,42 @@
+{
+  "nodeEventHandlers": [
+    {
+      "type": "MAPPER",
+      "name": "Append HAYFT payload",
+      "order": 1,
+      "dataSource": "EVENT_PAYLOAD",
+      "additionalAttributes": {
+        "doctorNodeAddress": {
+          "source": "EVENT",
+          "value": "SENDER"
+        }
+      }
+    },
+    {
+      "type": "VAULT_UPDATE",
+      "name": "Patients",
+      "order": 2,
+      "collection": "HAYFT",
+      "collectionVersion": 1,
+      "dataSource": "HANDLER_ARGUMENTS",
+      "insertIfAbsent": true,
+      "searchCriteria": [
+        {
+          "queryMatcher": "EQUAL",
+          "fieldName": "transactionalGuid",
+          "dynamicValue": {
+            "source": "EVENT_PAYLOAD",
+            "value": "transactionalGuid"
+          }
+        }
+      ],
+      "handlerOutput": "PERSISTED_ENTITY"
+    },
+    {
+      "type": "MAPPER",
+      "name": "Append HAYFT payload",
+      "order": 3,
+      "dataSource": "EVENT_PAYLOAD"
+    }
+  ]
+}

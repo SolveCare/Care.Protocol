@@ -1,0 +1,25 @@
+{
+  "walletEventHandler": [
+    {
+      "refId": "ev-5-coordinator-get-hayft-history",
+      "walletEvents": [
+        {
+          "actions": [
+            {
+              "name": "getpatients",
+              "order": 1,
+              "parameter": [
+                {
+                  "method": "GET",
+                  "url": "/transactions/HAYFT?filter=[{\"queryMatcher\": \"EQUAL\",\"fieldName\": \"patientNodeAddress\",\"value\": \"${nodeAddress}\"}]"
+                }
+              ]
+            }
+          ],
+          "postAction": "",
+          "refId": "ev-5-coordinator-get-hayft-history"
+        }
+      ]
+    }
+  ]
+}

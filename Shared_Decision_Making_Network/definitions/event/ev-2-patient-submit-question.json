@@ -1,0 +1,30 @@
+{
+  "definition": {
+    "description": "Create HAYFT",
+    "name": "N_PATIENT_SUBMIT_QUESTION",
+    "resource": "N_PATIENT_SUBMIT_QUESTION",
+    "type": "EVENT_DATA"
+  },
+  "structure": {
+    "attributes": [
+      {
+        "code": "question",
+        "name": "question",
+        "system": false,
+        "order": 1,
+        "type_definition": {
+          "type": "string"
+        }
+      },
+      {
+        "code": "patientName",
+        "name": "patientName",
+        "system": false,
+        "order": 2,
+        "type_definition": {
+          "type": "string"
+        }
+      }
+    ]
+  }
+}

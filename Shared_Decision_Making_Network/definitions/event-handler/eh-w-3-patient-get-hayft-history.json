@@ -1,0 +1,25 @@
+{
+  "walletEventHandler": [
+    {
+      "refId": "ev-3-patient-get-hayft-history",
+      "walletEvents": [
+        {
+          "actions": [
+            {
+              "name": "gethayft",
+              "order": 1,
+              "parameter": [
+                {
+                  "method": "GET",
+                  "url": "/transactions/HAYFT"
+                }
+              ]
+            }
+          ],
+          "postAction": "cd-1-2-patient-hayft-history",
+          "refId": "ev-3-patient-get-hayft-history"
+        }
+      ]
+    }
+  ]
+}

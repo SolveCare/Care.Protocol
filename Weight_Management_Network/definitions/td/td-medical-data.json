@@ -1,0 +1,135 @@
+{
+  "definition": {
+    "version": 1,
+    "collection": "MEDICAL_DATA",
+    "description": "MEDICAL_DATA",
+    "name": "MEDICAL_DATA",
+    "resource": "MEDICAL_DATA",
+    "status": "RELEASED",
+    "type": "TRANSACTIONAL_DATA"
+  },
+  "structure": {
+    "attributes": [
+      {
+        "code": "transactionalGuid",
+        "name": "transactionalGuid",
+        "type_definition": {
+          "type": "string"
+        },
+        "order": 1,
+        "system": false
+      },
+      {
+        "code": "createdAt",
+        "name": "createdAt",
+        "type_definition": {
+          "type": "timestamp"
+        },
+        "order": 2,
+        "system": false
+      },
+      {
+        "code": "aRoleBreakfastCaloricExpenditure",
+        "name": "aRoleBreakfastCaloricExpenditure",
+        "type_definition": {
+          "type": "number"
+        },
+        "order": 3,
+        "system": false,
+        "required": false
+      },
+      {
+        "code": "aRoleLunchCaloricExpenditure",
+        "name": "aRoleLunchCaloricExpenditure",
+        "type_definition": {
+          "type": "number"
+        },
+        "order": 4,
+        "system": false,
+        "required": false
+      },
+      {
+        "code": "aRoleDinnerCaloricExpenditure",
+        "name": "aRoleDinnerCaloricExpenditure",
+        "type_definition": {
+          "type": "number"
+        },
+        "order": 5,
+        "system": false,
+        "required": false
+      },
+      {
+        "code": "bRoleRequest",
+        "name": "bRoleRequest",
+        "type_definition": {
+          "type": "string"
+        },
+        "order": 6,
+        "system": false
+      },
+      {
+        "code": "cRoleResponse",
+        "name": "cRoleResponse",
+        "type_definition": {
+          "type": "string"
+        },
+        "order": 7,
+        "system": false
+      },
+      {
+        "code": "aRoleUserName",
+        "name": "aRoleUserName",
+        "type_definition": {
+          "type": "string"
+        },
+        "order": 8,
+        "system": false
+      },
+      {
+        "code": "aRoleUserAddress",
+        "name": "aRoleUserAddress",
+        "type_definition": {
+          "type": "string"
+        },
+        "order": 9,
+        "system": false
+      },
+      {
+        "code": "bRoleUserName",
+        "name": "bRoleUserName",
+        "type_definition": {
+          "type": "string"
+        },
+        "order": 10,
+        "system": false
+      },
+      {
+        "code": "bRoleUserAddress",
+        "name": "bRoleUserAddress",
+        "type_definition": {
+          "type": "string"
+        },
+        "order": 11,
+        "system": false
+      },
+      {
+        "code": "cRoleUserName",
+        "name": "cRoleUserName",
+        "type_definition": {
+          "type": "string"
+        },
+        "order": 12,
+        "system": false
+      },
+      {
+        "code": "cRoleUserAddress",
+        "name": "cRoleUserAddress",
+        "type_definition": {
+          "type": "string"
+        },
+        "order": 13,
+        "system": false
+      }
+    ]
+  }
+}

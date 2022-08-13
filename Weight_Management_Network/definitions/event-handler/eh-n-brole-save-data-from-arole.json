@@ -1,0 +1,35 @@
+{
+  "nodeEventHandlers": [
+    {
+      "type": "MAPPER",
+      "name": "Append  payload",
+      "order": 1,
+      "dataSource": "EVENT_PAYLOAD",
+      "additionalAttributes": {
+        "aRoleUserAddress": {
+          "source": "EVENT",
+          "value": "SENDER"
+        }
+      }
+    },
+    {
+      "type": "VAULT_UPDATE",
+      "name": "Answer MEDICAL_DATA question",
+      "order": 2,
+      "collection": "MEDICAL_DATA",
+      "collectionVersion": 1,
+      "dataSource": "HANDLER_ARGUMENTS",
+      "searchCriteria": [
+        {
+          "queryMatcher": "EQUAL",
+          "fieldName": "transactionalGuid",
+          "dynamicValue": {
+            "source": "EVENT_PAYLOAD",
+            "value": "transactionalGuid"
+          }
+        }
+      ],
+      "handlerOutput": "PERSISTED_ENTITY"
+    }
+  ]
+}

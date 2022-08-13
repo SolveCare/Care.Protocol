@@ -1,0 +1,57 @@
+{
+  "definition": {
+    "description": "Role a share data with role b",
+    "name": "N_BROLE_PROPAGATE_BROADCAST_AROLE",
+    "resource": "N_BROLE_PROPAGATE_BROADCAST_AROLE",
+    "type": "EVENT_DATA"
+  },
+  "structure": {
+    "attributes": [
+      {
+        "code": "transactionalGuid",
+        "name": "transactionalGuid",
+        "system": false,
+        "order": 1,
+        "type_definition": {
+          "type": "string"
+        }
+      },
+      {
+        "code": "createdAt",
+        "name": "createdAt",
+        "type_definition": {
+          "type": "timestamp"
+        },
+        "order": 2,
+        "system": false
+      },
+      {
+        "code": "bRoleUserAddress",
+        "name": "bRoleUserAddress",
+        "system": false,
+        "order": 3,
+        "type_definition": {
+          "type": "string"
+        }
+      },
+      {
+        "code": "bRoleRequest",
+        "name": "bRoleRequest",
+        "type_definition": {
+          "type": "string"
+        },
+        "order": 4,
+        "system": false
+      },
+      {
+        "code": "bRoleUserName",
+        "name": "bRoleUserName",
+        "system": false,
+        "order": 5,
+        "type_definition": {
+          "type": "string"
+        }
+      }
+    ]
+  }
+}

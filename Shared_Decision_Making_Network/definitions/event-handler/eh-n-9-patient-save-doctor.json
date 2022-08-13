@@ -1,0 +1,51 @@
+{
+  "nodeEventHandlers": [
+    {
+      "type": "MAPPER",
+      "name": "Append HAYFT payload",
+      "order": 1,
+      "dataSource": "EVENT_PAYLOAD",
+      "additionalAttributes": {
+        "nodeAddress": {
+          "source": "EVENT",
+          "value": "SENDER"
+        },
+        "name": {
+          "source": "EVENT_PAYLOAD",
+          "value": "doctorName"
+        },
+        "lastActivityAt": {
+          "source": "EVENT_PAYLOAD",
+          "value": "answeredAt"
+        }
+      },
+      "excludedAttributes": [
+        "doctorName",
+        "answer",
+        "answerTitle",
+        "answeredAt",
+        "status"
+      ]
+    },
+    {
+      "type": "VAULT_UPDATE",
+      "name": "Patients",
+      "order": 1,
+      "collection": "USERS",
+      "collectionVersion": 1,
+      "dataSource": "HANDLER_ARGUMENTS",
+      "insertIfAbsent": true,
+      "searchCriteria": [
+        {
+          "queryMatcher": "EQUAL",
+          "fieldName": "nodeAddress",
+          "dynamicValue": {
+            "source": "EVENT",
+            "value": "SENDER"
+          }
+        }
+      ],
+      "handlerOutput": "EVENT_PAYLOAD"
+    }
+  ]
+}

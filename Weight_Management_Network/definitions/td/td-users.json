@@ -1,0 +1,43 @@
+{
+  "definition": {
+    "version": 1,
+    "collection": "USERS",
+    "description": "USERS",
+    "name": "USERS",
+    "resource": "USERS",
+    "status": "RELEASED",
+    "type": "TRANSACTIONAL_DATA"
+  },
+  "structure": {
+    "attributes": [
+      {
+        "code": "nodeAddress",
+        "name": "nodeAddress",
+        "type_definition": {
+          "type": "string"
+        },
+        "order": 1,
+        "system": false
+      },
+      {
+        "code": "name",
+        "name": "name",
+        "type_definition": {
+          "type": "string"
+        },
+        "order": 2,
+        "system": false,
+        "required": false
+      },
+      {
+        "code": "lastActivityAt",
+        "name": "lastActivityAt",
+        "type_definition": {
+          "type": "timestamp"
+        },
+        "order": 3,
+        "system": false
+      }
+    ]
+  }
+}

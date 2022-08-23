@@ -2,10 +2,8 @@
   "cardData": {
     "00t1v1": "Ask Your Care Team",
     "00t1v2": "Select from the pre-defined set of questions",
-    "00t1v3": "Patient Question History",
-    "SENT":"#Sent To Doctor",
-    "SHARED_WITH_DOCTOR":"Answered"
-
+    "00t1v3": "See Previous Question History",
+    "00t1v4": "Send"
   },
   "cardLayout": {
     "body": [
@@ -13,34 +11,21 @@
         "id": "000t1",
         "tileComponent": [
           {
-            "id": "EN01HorizontalTS1",
+            "id": "EN01HorizontalImageTS1",
             "isSearchable": false,
             "subView": [
               {
-                "title": {
-                  "text": "{$patientName}"
+                "img": {
+                  "text": "QUESTION"
                 },
-                "subTitle": {
-                  "text": "{$sentAt}"
+                "title": {
+                  "text": "{$question}"
                 }
               }
             ],
             "order": 1,
             "type": "CONTAINER",
             "uiAction": ""
-          },
-          {
-            "id": "EN01TileTitleSubtileHorz1",
-            "isSearchable": false,
-            "subView": [
-              {
-                "title": {
-                  "text": "00t1v3"
-                }
-              }
-            ],
-            "order": 1,
-            "type": "CONTAINER"
           }
         ],
         "tileType": "WRAP",
@@ -50,30 +35,21 @@
         "id": "000t2",
         "tileComponent": [
           {
-            "id": "EN01TileTitleSubtileVert2",
+            "id": "EN01OptionType3",
             "isSearchable": false,
             "subView": [
               {
-                "img": {
-                  "text": "HUMAN_HEART"
-                },
                 "title": {
-                  "text": "{$question}"
+                  "text": "{$answerTitle}"
                 },
-                "body": [
-                  {
-                    "text": "{$status}",
-                    "uiAction": "${action1}"
-                  },
-                  {
-                    "text": "{$sentAt}"
-                  }
-                ]
+                "subTitle": {
+                  "text": "{$answer}"
+                }
               }
             ],
             "order": 1,
             "type": "DATA",
-            "uiAction": "${action1}"
+            "uiAction": ""
           }
         ],
         "tileType": "LIST",
@@ -95,6 +71,20 @@
           "order": 1,
           "type": "BACK_BUTTON",
           "uiAction": "${action2}"
+        },
+        {
+          "id": "EN01BottomButton1",
+          "isSearchable": false,
+          "subView": [
+            {
+              "title": {
+                "text": "00t1v4"
+              }
+            }
+          ],
+          "order": 2,
+          "type": "BUTTON",
+          "uiAction": "${action1}"
         }
       ],
       "orientation": "HORIZONTAL"
@@ -102,12 +92,12 @@
   },
   "cardUIAction": {
     "action1": {
-      "action": "ev-5-coordinator-resent-question-to-doctor"
+      "action": "ev-9-doctor-save-answer"
     },
     "action2": {
-      "action": "ev-1-coordinator-navigate-back"
+      "action": "ev-1-doctor-navigate-back"
     }
   },
   "id": "00jc2",
-  "name": "Patient's Question"
+  "name": "Answer question"
 }

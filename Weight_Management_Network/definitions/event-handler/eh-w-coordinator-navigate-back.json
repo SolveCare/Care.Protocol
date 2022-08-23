@@ -1,0 +1,25 @@
+{
+  "walletEventHandler": [
+    {
+      "refId": "ev-1-coordinator-navigate-back",
+      "walletEvents": [
+        {
+          "actions": [
+            {
+              "name": "submit",
+              "order": 1,
+              "parameter": [
+                {
+                  "method": "",
+                  "url": ""
+                }
+              ]
+            }
+          ],
+          "postAction": "cd-2-1-coordinator-list-patients",
+          "refId": "ev-1-coordinator-navigate-back"
+        }
+      ]
+    }
+  ]
+}

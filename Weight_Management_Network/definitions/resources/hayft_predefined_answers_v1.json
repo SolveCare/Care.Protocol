@@ -1,0 +1,19 @@
+{
+  "rows": [
+    {
+      "answerId": "1",
+      "answer": "No matter what your blood pressure numbers, you have the power to lower your blood pressure with lifestyle changes including: stopping the use of cigarettes and other tobacco products, eating fewer processed foods, drinking less alcohol.",
+      "answerTitle": "Lifestyle Changes"
+    },
+    {
+      "answerId": "2",
+      "answer": "Some people may also need medication to lower their blood pressure.  It’s always important to keep taking the medication as instructed, unless your doctor or healthcare team tells you otherwise.",
+      "answerTitle": "Medication"
+    },
+    {
+      "answerId": "3",
+      "answer": "Checking your blood pressure at home can help you see how changes to lifestyle and medication affect your blood pressure levels. Sharing your home blood pressure numbers with your doctor or healthcare team.",
+      "answerTitle": "Monitoring Your Blood Pressure at Home"
+    }
+  ]
+}

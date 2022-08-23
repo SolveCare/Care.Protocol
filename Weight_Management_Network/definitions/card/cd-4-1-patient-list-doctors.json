@@ -1,0 +1,139 @@
+{
+  "cardData": {
+    "00t1v1": "Date",
+    "00t1v2": "Height",
+    "00t1v3": "BMI",
+    "00t1v4": "Response",
+    "00t1v5": "Send",
+    "00t1v6": "Action"
+  },
+  "cardLayout": {
+    "body": [
+      {
+        "id": "00t2",
+        "name": "Doctor",
+        "tileComponent": [
+          {
+            "id": "EN01TileTitleSubtitle2",
+            "isSearchable": false,
+            "subView": [
+              {
+                "title": {
+                  "text": "{$name}"
+                },
+                "subTitle": {
+                  "text": "{$lastActivityAt}"
+                }
+              }
+            ],
+            "order": 1,
+            "type": "DATA",
+            "uiAction": "${action1}"
+          }
+        ],
+        "tileType": "LIST",
+        "uiAction": ""
+      }
+    ],
+    "footer": {
+      "menu": [
+        {
+          "id": "EN01BottomButtonBack",
+          "isSearchable": false,
+          "subView": [
+            {
+              "title": {
+                "text": ""
+              }
+            }
+          ],
+          "order": 1,
+          "type": "BACK_BUTTON",
+          "uiAction": "${action2}"
+        }
+      ],
+      "orientation": "HORIZONTAL"
+    }
+  },
+  "cardUIAction": {
+    "action1": {
+      "action": "ev-10-patient-select-doctor"
+    },
+    "action2": {
+      "action": "ev-1-patient-navigate-home"
+    }
+  },
+  "id": "00jc2",
+  "name": "My Care Team",
+  "private": {
+    "cardData": {
+      "00d2": "https://i.picsum.photos/id/10/2500/1667.jpg?hmac=J04WWC_ebchx3WwzbM-Z4_KC_LeLBWr5LZMaAkWkF68",
+      "00t1v1": "Date",
+      "00t1v2": "Height",
+      "00t1v3": "BMI",
+      "00v10": [
+        {
+          "item": "item1",
+          "value": 2
+        },
+        {
+          "item": "item2",
+          "value": 1
+        },
+        {
+          "item": "item3",
+          "value": 1
+        },
+        {
+          "item": "item4",
+          "value": 1
+        }
+      ]
+    },
+    "cardLayout": {
+      "body": [
+        {
+          "id": "00t1v1",
+          "name": "first tile",
+          "tileComponent": [
+            {
+              "id": "",
+              "subView": [
+                {
+                  "id": "${00d2}",
+                  "position": "CENTER",
+                  "ratio": "1",
+                  "size": "xlarge",
+                  "type": "checkBox",
+                  "uiAction": ""
+                }
+              ],
+              "type": "CONTAINER",
+              "uiAction": ""
+            }
+          ],
+          "tileType": "Wrap",
+          "uiAction": ""
+        },
+        {
+          "id": "00t5",
+          "name": "first tile",
+          "tileComponent": [
+            {
+              "graph_type": "bar",
+              "id": "${00v10}",
+              "text_color": "default_color",
+              "text_size": "header4",
+              "type": "WEBWALLET",
+              "uiAction": ""
+            }
+          ],
+          "tileType": "Wrap",
+          "uiAction": ""
+        }
+      ]
+    },
+    "id": "00jc3",
+    "name": "Private View"
+  }
+}

@@ -21,7 +21,7 @@
     "roles": [
       {
         "id": "id-AROLE",
-        "name": "PATIENT",
+        "name": "Patient",
         "description": "Patient role for the CAN",
         "type": "Wallet",
         "status": "Active",
@@ -32,7 +32,7 @@
       },
       {
         "id": "id-BROLE",
-        "name": "DIETICIAN",
+        "name": "Dietician",
         "description": "DIETICIAN",
         "type": "Wallet",
         "status": "Active",
@@ -44,7 +44,7 @@
       },
       {
         "id": "id-CROLE",
-        "name": "PRPHYS",
+        "name": "Primary Care Physician",
         "description": "Primary Care Physician",
         "type": "Wallet",
         "status": "Active",

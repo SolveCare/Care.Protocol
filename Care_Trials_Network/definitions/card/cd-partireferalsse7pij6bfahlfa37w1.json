@@ -1,0 +1,242 @@
+{
+    "id": "cd-partireferalsse7pij6bfahlfa37w1",
+    "name": "Referral",
+    "cardData": {
+        "0tile0iitextiifnj4": "Difficult Airway Simulation-based Training",
+        "1tile0aiitextiigks4": "Trial type",
+        "1tile0aiitextiismy4": "Observational",
+        "2tile11iitextiitdn4": "Eligibility ",
+        "2tile11iitextiicby4": "Female, 18-25 years old",
+        "3tile11iitextiimh84": "Location",
+        "3tile11iitextiirpj4": "Kyiv, Ukraine",
+        "4tile0iitextiim5c4": "Provide the Care.Wallet ID of the individual you wish to share this trial with.",
+        "5tile1iitextiiaw64": "Enter CW ID ",
+        "5tile1iitextiily64": "",
+        "5tile1iihintiiets4": "Enter CW ID",
+        "5tile1iierroriib4l4": "",
+        "2en01bottombutton1iitextiichw4": "Share",
+        "imageUrldre6x": "https://i.ibb.co/Ht8hvHT/copy-blue.png",
+        "comma": ", "
+
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "00tc01",
+                "tileComponent": [
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "{$TrialName}",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "CENTER",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#000080",
+                        "backgroundColor": "#000080",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile0a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "1tile0aiitextiigks4",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "subTitle": {
+                                    "text": "{$StudyType}",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "END",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile11",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "2tile11iitextiitdn4",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "subTitle": {
+                                    "text": "{$Gender}|comma|{Age}",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 2
+                    },
+                    {
+                        "id": "Tile11",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "3tile11iitextiimh84",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "subTitle": {
+                                    "text": "{$Location_Text}",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 3
+                    },
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "4tile0iitextiim5c4",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#ffffff",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 4
+                    },
+                    {
+                        "id": "Tile1",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "5tile1iitextiiaw64",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "subTitle": {
+                                    "text": "{$recipientPublicKey}",
+                                    "hint": "5tile1iihintiiets4",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START",
+                                    "fontSize": 16,
+                                    "keyboard": "text",
+                                    "min": "42",
+                                    "max": "42",
+                                    "validation": [
+                                        {
+                                            "name": "REQUIRED_FIELD",
+                                            "error": "5tile1iierroriib4l4"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 5
+                    }
+                    
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 0
+            }
+        ],
+        "style": {
+            "fontSize": 16,
+            "bgColor": "#ffffff",
+            "borderWidth": 1
+        },
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action1}",
+                    "order": 1
+                },
+                {
+                    "id": "EN01BottomButton1",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": "2en01bottombutton1iitextiichw4"
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BUTTON",
+                    "uiAction": "${action2}",
+                    "order": 2
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action8384": {
+            "action": "e-w-parti-navig-to-cd-8qu-tr5"
+        },
+        "action1": {
+            "action": "e-w-parti-navig-to-cd-8qu-tr4"
+        },
+        "action2":{
+            "action": [
+                {
+                    "name": "Function.validateReferralCode",
+                    "resultKey": "{recipientPublicKey}"
+                },
+                {
+                    "name": "e-w-parti-refer-trial"
+                }
+            ]
+        } 
+    }
+}
+

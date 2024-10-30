@@ -1,0 +1,71 @@
+{
+    "nodeEventHandlers": [
+        {
+            "type": "MAPPER",
+            "name": "Append or Exclude attributes to DEFAULT payload",
+            "order": 1,
+            "dataSource": "EVENT_PAYLOAD",
+            "additionalAttributes": {
+                "createdAt": {
+                    "source": "GENERATED",
+                    "value": "CURRENT_TIMESTAMP" 
+                },
+                "transactionalGuid": {
+                    "source": "GENERATED",
+                    "value": "UUID"
+                },
+                "senderNodeAddress": {
+                    "source": "EVENT",
+                    "value": "SENDER"
+                },
+                "status": {
+                    "source": "CONSTANT",
+                    "value": "Pending"
+                },
+                "isSubscriptionActive": {
+                    "source": "CONSTANT",
+                    "value": false
+                },
+                "paymentStatus": {
+                    "source": "CONSTANT",
+                    "value": "PENDING"
+                }
+            },
+            "excludedAttributes": []
+        },
+        {
+            "type": "VAULT_INSERT",
+            "name": "TRIAL_ADMIN_SUBSCRIPTION",
+            "order": 2,
+            "collection": "TRIAL_ADMIN_SUBSCRIPTION",
+            "dataSource": "HANDLER_ARGUMENTS",
+            "handlerOutput": "PERSISTED_ENTITY",
+            "collectionVersion": 1
+        },
+        {
+            "type": "MAPPER",
+            "name": "Append or Exclude attributes in the result",
+            "order": 3,
+            "dataSource": "EVENT_PAYLOAD",
+            "additionalAttributes": {
+                "createdAt": {
+                    "source": "HANDLER_ARGUMENTS",
+                    "value": "createdAt"
+                },
+                "transactionalGuid": {
+                    "source": "HANDLER_ARGUMENTS",
+                    "value": "transactionalGuid"
+                },
+                "senderNodeAddress": {
+                    "source": "EVENT",
+                    "value": "SENDER"
+                }
+            },
+            "excludedAttributes": [
+                "status",
+                "paymentStatus",
+                "isSubscriptionActive"
+            ]
+        }
+    ]
+}

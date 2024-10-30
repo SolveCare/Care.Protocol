@@ -1,0 +1,172 @@
+{
+    "definition": {
+        "description": "Save UDETAILS",
+        "name": "REQUEST.BUDGET003",
+        "resource": "REQUEST.BUDGET003",
+        "type": "EVENT_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "name": "reviewPayWith",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "reviewPayWith",
+                "order": 6
+            },
+            {
+                "name": "PromoCode",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "PromoCode",
+                "order": 6
+            },
+            {
+                "name": "Comments",
+                "code": "Comments",
+                "type_definition": {
+                "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "order": 1
+            },
+            {
+                "code": "requested_amount",
+                "name": "requested_amount",
+                "type_definition": {
+                    "type": "number"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "order": 2
+            },
+            {
+                "code": "requested_comment",
+                "name": "requested_comment",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "order": 2
+            },
+            {
+                "code": "Budget",
+                "name": "Budget",
+                "type_definition": {
+                    "type": "number"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "order": 2
+            },
+            {
+                "name": "TrialID",
+                "code": "TrialID",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 8
+            },
+            {
+                "name": "SiteID",
+                "code": "SiteID",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 1
+            },
+            {
+                "name": "senderNodeAddress",
+                "code": "senderNodeAddress",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 2
+            },
+            {
+                "name": "transactionalGuid",
+                "code": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 2
+            },
+            {
+                "name": "createdAt",
+                "code": "createdAt",
+                "type_definition": {
+                    "type": "timestamp"
+                },
+                "required": false,
+                "system": false,
+                "order": 2
+            },
+            
+            {
+                "name": "recordType",
+                "code": "recordType",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 3
+            },
+            {
+                "name": "medicalIdRecords",
+                "code": "medicalIdRecords",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 4
+            },
+            {
+                "name": "updated_date",
+                "code": "updated_date",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "order": 5
+            },
+            {
+                "name": "submittedAt",
+                "code": "submittedAt",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "order": 5
+            }
+        ],
+        "primary_key": "false"
+    }
+}

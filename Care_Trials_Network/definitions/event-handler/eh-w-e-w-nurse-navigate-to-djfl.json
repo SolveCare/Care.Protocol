@@ -1,0 +1,25 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "e-w-nurse-navigate-to-djfl",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "name": "submit",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "DETAILS",
+                                    "url": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "postAction": "cd-frvyhzpi5ecc4vuzm9kw06qfvkvn",
+                    "refId": "e-w-nurse-navigate-to-djfl"
+                }
+            ]
+        }
+    ]
+}

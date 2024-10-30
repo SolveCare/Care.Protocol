@@ -1,0 +1,22 @@
+{
+    "definition": {
+        "description": "Get TA surveys",
+        "name": "GET.TA.SURVEY.ANS002",
+        "resource": "GET.TA.SURVEY.ANS002",
+        "type": "EVENT_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 1,
+                "system": false,
+                "required": false
+            }
+        ]
+    }
+}

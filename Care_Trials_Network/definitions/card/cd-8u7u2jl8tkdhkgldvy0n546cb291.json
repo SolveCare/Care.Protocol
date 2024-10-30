@@ -1,0 +1,89 @@
+{
+    "id": "cd-8u7u2jl8tkdhkgldvy0n546cb291",
+    "name": "Leeds",
+    "cardData": {
+        "0tile14iitextiic10": "Potential Leeds",
+        "imageUrlmu2js": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/f116d56b-00a4-4091-932b-240e9cf64504/Picture 1.png",
+        "1tile14iitextiivjp": "Bought Leeds",
+        "imageUrl5apox": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/f116d56b-00a4-4091-932b-240e9cf64504/Picture 1.png"
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    {
+                        "id": "Tile14",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile14iitextiic10"
+                                },
+                                "img": {
+                                    "text": "imageUrlmu2js",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "${action251}",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile14",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "1tile14iitextiivjp"
+                                },
+                                "img": {
+                                    "text": "imageUrl5apox",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    }
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action1}",
+                    "order": 1
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action251": {
+            "action": "e-w-trial-admin-navig-to-a9k"
+        },
+        "action1": {
+            "action": "HOME"
+        }
+    }
+}

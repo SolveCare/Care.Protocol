@@ -1,0 +1,99 @@
+{
+    "id": "cd-2dv94aa24zfk7fr7q3s1rv991b",
+    "name": "Requests & Submit",
+    "cardData": {
+        "0tile14atextMedidReq": "Medical & ID Requests",
+        "0tile14atextSubmitToN": "Submit Medical & ID",
+        "imageUrl4mjtk2": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/arrow-right blue.png",
+        "imageUrl4mjtk3": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/arrow-right blue.png"
+
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "00tc01",
+                "tileComponent": [
+                    {
+                        "id": "Tile14",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile14atextMedidReq",
+                                    "titleTextColor": "#000080"
+                                },
+                                "img": {
+                                    "text": "imageUrl4mjtk2",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "borderWidth": 3,
+                        "type": "CONTAINER",
+                        "uiAction": "${action701}",
+                        "order": 5
+                    },
+                    {
+                        "id": "Tile14",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile14atextSubmitToN",
+                                    "titleTextColor": "#000080"
+                                },
+                                "img": {
+                                    "text": "imageUrl4mjtk3",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "borderWidth": 3,
+                        "type": "CONTAINER",
+                        "uiAction": "${action702}",
+                        "order": 5
+                    }
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }  
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action796}",
+                    "order": 1
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        
+        "action796": {
+            "action": "e-w-parti-navig-to-cd-2-1dv-md3"
+        },
+        "action701": {
+            "action": "e-w-parti-navig-to-cd-m-and-id-71"
+        },
+        "action702": {
+            "action": "e-w-parti-navig-to-subm-to-n-1"
+        }
+        
+    }
+}

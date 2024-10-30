@@ -1,0 +1,44 @@
+{
+    "id": "cd-q71cg13jbdblug8uckn5zg20d1x-1",
+    "name": "Medical Records Request",
+    "cardData": {},
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [],
+                "tileType": "WRAP",
+                "uiAction": ""
+            }
+        ],
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "isSearchable": false,
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "order": 1,
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action1}"
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        },
+        "style": {
+            "fontSize": 16,
+            "bgColor": "#ffffff",
+            "borderWidth": 1
+        }
+    },
+    "cardUIAction": {
+        "action1": {
+            "action": "HOME"
+        }
+    }
+}

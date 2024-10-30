@@ -1,0 +1,25 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "e-w-trial-admin-navig-to-cmo",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "name": "submit",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "DETAILS",
+                                    "url": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "postAction": "cd-r7njaj9qkikq53nnqn94074igq01",
+                    "refId": "e-w-trial-admin-navig-to-cmo"
+                }
+            ]
+        }
+    ]
+}

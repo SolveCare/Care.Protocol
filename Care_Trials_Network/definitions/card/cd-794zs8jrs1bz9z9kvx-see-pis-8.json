@@ -1,0 +1,268 @@
+{
+    "id": "cd-794zs8jrs1bz9z9kvx-see-pis-8",
+    "name": "Engagement Request",
+    "cardData": {
+        "0tile11iitextiiq01" : "Meeting Type",
+        "0tile11iitextiiq01types" : [
+            "Online",
+            "Ofline"
+        ],
+        "1tile12iihintiibc9": "Select type",
+        "validationdrhfcer": "",
+        "10tile13iihintiicnv": "Enter the purpose",
+        "0tile11iitextiig01" : "Purpose",
+        "0tile11iitextiiq011" : "Meeting Link/Location",
+        "0tile11iitextiiq012": "Enter the details",
+        "validationdrhfc": "Value should be between 1 and 100",
+        "0tile11iitextiig011" : "Date",
+        "0tile11iitextiig012" : "Enter the date",
+        "validationdrhfcdate": "Value should be between 1 and 100",
+        "0tile14aiitextiip03" : "Time",
+        "0tile14aiitextiip03time" : "Enter the time",
+        "validationdrhfctime": "Value should be between 1 and 100",
+        "2en01bottombutton1send": "Send"       
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    
+                    {
+                        "id": "Tile12",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile11iitextiiq01",
+                                    "titleTextColor": "#000080",
+                                    "style": "BOLD",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "{$meetingType}",
+                                    "data": "0tile11iitextiiq01types",
+                                    "hint": "10tile13iihintiicnv",
+                                    "keyboard": "text",
+                                    "fieldFormat": "single",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START",
+                                    "validation": [
+                                        {
+                                            "name": "REQUIRED_FIELD",
+                                            "error": "validationdrhfcer"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 10
+                    },
+                    {
+                        "id": "SmartTile1",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile11iitextiig01",
+                                    "titleTextColor": "#000080",
+                                    "style": "REGULAR",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "{$meetingPurpose}",
+                                    "hint": "10tile13iihintiicnv",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START",
+                                    "fieldFormat": "multiple",
+                                    "min": "1",
+                                    "max": "100",
+                                    "validation": [
+                                        {
+                                            "name": "REQUIRED_FIELD",
+                                            "error": "validationdrhfc"
+                                        }
+                                    ]
+                                },
+                                "img": {
+                                    "text": "imageUrl17wro",
+                                    "isUrl": true,
+                                    "height": "24",
+                                    "width": "24"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 3
+                    },
+                    {
+                        "id": "SmartTile1",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile11iitextiiq011",
+                                    "titleTextColor": "#000080",
+                                    "style": "REGULAR",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "{$meetingLink}",
+                                    "hint": "0tile11iitextiiq012",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START",
+                                    "fieldFormat": "multiple",
+                                    "min": "1",
+                                    "max": "100",
+                                    "validation": [
+                                        {
+                                            "name": "REQUIRED_FIELD",
+                                            "error": "validationdrhfc"
+                                        }
+                                    ]
+                                },
+                                "img": {
+                                    "text": "imageUrl17wro",
+                                    "isUrl": true,
+                                    "height": "24",
+                                    "width": "24"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 3
+                    },
+                    {
+                        "id": "SmartTile1",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile11iitextiig011",
+                                    "titleTextColor": "#000080",
+                                    "style": "REGULAR",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "{$meetingDate}",
+                                    "hint": "0tile11iitextiig012",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START",
+                                    "fieldFormat": "multiple",
+                                    "min": "1",
+                                    "max": "100",
+                                    "validation": [
+                                        {
+                                            "name": "REQUIRED_FIELD",
+                                            "error": "validationdrhfcdate"
+                                        }
+                                    ]
+                                },
+                                "img": {
+                                    "text": "imageUrl17wro",
+                                    "isUrl": true,
+                                    "height": "24",
+                                    "width": "24"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 3
+                    },
+                    {
+                        "id": "SmartTile1",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile14aiitextiip03",
+                                    "titleTextColor": "#000080",
+                                    "style": "REGULAR",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "{$meetingTime}",
+                                    "hint": "0tile14aiitextiip03time",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START",
+                                    "fieldFormat": "multiple",
+                                    "min": "1",
+                                    "max": "100",
+                                    "validation": [
+                                        {
+                                            "name": "REQUIRED_FIELD",
+                                            "error": "validationdrhfctime"
+                                        }
+                                    ]
+                                },
+                                "img": {
+                                    "text": "imageUrl17wro",
+                                    "isUrl": true,
+                                    "height": "24",
+                                    "width": "24"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 3
+                    }
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action300}",
+                    "order": 1
+                },
+                {
+                    "id": "EN01BottomButton1",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": "2en01bottombutton1send"
+                            }
+                        }
+                    ],
+                    "align": "END",
+                    "type": "BUTTON",
+                    "uiAction": "${action301}",
+                    "order": 2
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action300": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-794zs8jrs1bz9z9kvx-see-pis-7"
+                }
+            ]
+        },
+        "action301": {
+            "action": "e-w-ta-send-engagement-request"
+        }     
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "e-get-pending-records",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "name": "",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "GET",
+                                    "url": "/transactions/RECORD_DATA?filter=[{\"queryMatcher\": \"EQUAL\",\"inverted\": false,\"fieldName\": \"recordStatus\",\"value\": \"Pending review\"}]"
+                                }
+                            ]
+                        }
+                    ],
+                    "postAction": "",
+                    "refId": "e-get-pending-records" 
+                }
+            ]
+        }
+    ]
+}

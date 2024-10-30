@@ -1,0 +1,409 @@
+{
+    "id": "cd-sp9r1iqjcat1odwk2rsls0733131gn",
+    "name": "Trial",
+    "cardData": { 
+        "1tile0aiitextiik4n": "Age range",
+        "imageUrl967jd1" : "https://d1fgr2dke6q42b.cloudfront.net/uat/media/f116d56b-00a4-4091-932b-240e9cf64504/MicrosoftTeams-image (32).png",
+        "2tile0aiitextiidfk": "Gender            ", 
+        "3tile0aiitextii4yz": "Location          ",
+        "4tile0aiitextiidn4": "Trial type        ",
+        "6tile12iitextiitt2": "Effort",
+        "6tile12iitextiiycy": "Option1",
+        "imageUrlkpnaw": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/f116d56b-00a4-4091-932b-240e9cf64504/arrow-right.png",
+        "6tile12iihintiim96": "Select the activity",
+        "6tile12iidataii80u": [
+            "Visit a trial facility",
+            "Take measurements at home",
+            "Participate in online sessions",
+            "Other"
+        ],
+        "7tile1iitextii31s": "Trial duration           ",
+        "7tile1iitextii1i6": "",
+        "7tile1iihintii4wz": "Enter the duration",
+        "7tile1iierroriim59": "Value should be between 1 and 30",
+        "8tile12iitextiinku": "Frequency",
+        "8tile12iitextii7eb": "Option1",
+        "imageUrlrjkid": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/f116d56b-00a4-4091-932b-240e9cf64504/arrow-right.png",
+        "8tile12iihintiir40": "Select the frequency",
+        "8tile12iidataiio4e": [
+            "Once a day",
+            "Once a week",
+            "Once a month",
+            "Twice a month",
+            "Other"
+        ],
+        "9tile12iitextiif8z": "Compensation",
+        "9tile12iitextiix38": "Option1",
+        "imageUrlmlhqk": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/f116d56b-00a4-4091-932b-240e9cf64504/arrow-right.png",
+        "9tile12iihintiiji0": "Select the range",
+        "9tile12iidataiipva": [
+            "0-50$",
+            "51-100$",
+            "101-150$",
+            "151-200$"
+        ],
+        "10tile13iitextiii3t": "Link to website",
+        "10tile13iitextii8kq": "",
+        "10tile13iihintiicnv": "Enter the link",
+        "1tile1iitextiiixo1": "Inclusion criteria",
+        "1tile1iihintii6km1": "Enter the inclusion criteria",
+        "1tile1iierrorii6se1": "",
+        "1tile1iitextiiixo2": "Exclusion criteria",
+        "1tile1iihintii6km2": "Enter the exclusion criteria",
+        "1tile1iierrorii6se2": "",
+        "4tile14iitextiiabj": "Upgrade plan",
+        "statext": "Manage site",
+        "imageUrl27qt7": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/arrow-right blue.png",
+        "2en01bottombutton1iitextiiunx": "Update",
+        "3tile14iitextiimbp": "Promotion campaigns",
+        "imageUrlkc03t": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/arrow-right blue.png",
+        "xUpdatex": "Update trial info",
+        "imageUrl27qt7x": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/arrow-right blue.png",
+        "buyCampaignText": "Buy campaign",
+        "imageUrl27": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/arrow-right blue.png",
+ 
+        "viewStatsText": "Check statistic",
+        "imageUrl27qt": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/arrow-right blue.png",
+        "viewBudgetText": "Track budget",
+        "imageUrl27q": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/arrow-right blue.png"
+  
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "00tc01",
+                "tileComponent": [
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "{$TrialName}",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "CENTER",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#000080",
+                        "backgroundColor": "#000080",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 8
+                    },
+                    {
+                        "id": "Tile0a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "4tile0aiitextiidn4",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "{$StudyType}",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "END"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "borderWidth": 1,
+                        "uiAction": "",
+                        "order": 11
+                    },
+                    {
+                        "id": "Tile0a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "1tile0aiitextiik4n",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "{$AgeRange}",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "END"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "borderWidth": 1,
+                        "uiAction": "",
+                        "order": 11
+                    },
+                    {
+                        "id": "Tile0a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "2tile0aiitextiidfk",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "{$Gender}",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "END"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "borderWidth": 1,
+                        "uiAction": "",
+                        "order": 12
+                    },
+                    {
+                        "id": "Tile0a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "3tile0aiitextii4yz",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "{$City}",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "END"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "borderWidth": 1,
+                        "uiAction": "",
+                        "order": 11
+                    },
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "statext",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#ffffff",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 8
+                    },
+                    {
+                        "id": "Tile14",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "xUpdatex",
+                                    "fontSize": 16,
+                                    "style": "REGULAR",
+                                    "titleTextColor": "#000080"
+                                },
+                                "img": {
+                                    "text": "imageUrl27qt7x",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 3,
+                        "type": "CONTAINER",
+                        "uiAction": "${action144}",
+                        "order": 4
+                    },
+                    {
+                        "id": "Tile14",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "buyCampaignText",
+                                    "fontSize": 16,
+                                    "titleTextColor": "#000080",
+                                    "style": "REGULAR"
+                                },
+                                "img": {
+                                    "text": "imageUrlkc03t",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 3,
+                        "type": "CONTAINER",
+                        "uiAction": "${action523}",
+                        "order": 6,
+                        "visibleIf": "{isSubscriptionActive}"
+                    },
+                    {
+                        "id": "Tile14",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "4tile14iitextiiabj",
+                                    "fontSize": 16,
+                                    "style": "REGULAR",
+                                    "titleTextColor": "#000080"
+                                },
+                                "img": {
+                                    "text": "imageUrl27qt7",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 3,
+                        "type": "CONTAINER",
+                        "uiAction": "${action143}",
+                        "visibleIf": "{isSubscriptionNotActive}",
+                        "order": 4
+                    },
+                    {
+                        "id": "Tile14",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "viewBudgetText",
+                                    "fontSize": 16,
+                                    "style": "REGULAR",
+                                    "titleTextColor": "#000080"
+                                },
+                                "img": {
+                                    "text": "imageUrl27qt7",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 3,
+                        "type": "CONTAINER",
+                        "uiAction": "${action15}",
+                        "order": 4
+                    },
+              
+                    {
+                        "id": "Tile14",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "viewStatsText",
+                                    "fontSize": 16,
+                                    "style": "REGULAR",
+                                    "titleTextColor": "#000080"
+                                },
+                                "img": {
+                                    "text": "imageUrl27qt",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 3,
+                        "type": "CONTAINER",
+                        "uiAction": "${action14}",
+                        "order": 4
+                    }
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action083}",
+                    "order": 1
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action083": { 
+            "action": "e-w-trial-admin-navig-to-iyr1"
+        },
+        "action143": {
+            "action": "e-w-trial-admin-navig-to-pc9"
+        },
+        "action523": {
+            "action": "e-w-trial-admin-navig-to-gp8"
+        },
+        "action144":{
+            "action":"e-w-trial-admin-navig-to-gp9"
+        },
+        
+        "action145":{
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-w7hf4xymip6dsgidpzk78ia5py21"
+                }
+            ]
+        },
+
+        "action14":{
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-9vacobf6kxpw06c2casjr1vc8251-sa"
+                }
+            ]
+        }
+        ,
+        "action15":{
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-87xipe5fd7dokqd1vt7zmn9zw6m1"
+                }
+            ]
+        }
+
+
+    }
+}

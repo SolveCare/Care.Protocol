@@ -1,0 +1,366 @@
+{
+    "id": "cd-r9nchbcvbygcft1gae1kmb9a62p1",
+    "name": "Alzheimer's trial",
+    "cardData": {
+        "0tile0aiitextiio7z": "Age Range",
+        "0tile0aiitextiit09": "30-50",
+        "1tile0aiitextii5py": "Gender",
+        "1tile0aiitextiirjb": "Male",
+        "2tile0aiitextiikmr": "Ethnicity",
+        "2tile0aiitextii7ir": "White",
+        "3tile0aiitextii117": "Type of Trial",
+        "3tile0aiitextii4n0": "Observational",
+        "4tile0aiitextii3dl": "Location",
+        "4tile0aiitextiimha": "Boston, USA",
+        "5tile0aiitextii44s": "Distance to trial location",
+        "5tile0aiitextii0nr": "100 km",
+        "6tile0aiitextiic53": "Activity",
+        "6tile0aiitextii8yx": "Visit a trial facility",
+        "7tile0aiitextiimvk": "Duration",
+        "7tile0aiitextiiazk": "3 weeks",
+        "8tile0aiitextiibne": "Frequency",
+        "8tile0aiitextiiukw": "Once per week",
+        "0tile11iitextiief1": "Inclusion criteria",
+        "0tile11iitextiiov9": "None",
+        "0tile11iitextiief2": "Exclusion criteria",
+        "0tile11iitextiiov92": "Patient with non-malformative genetic heart disease",
+        "11tile0aiitextiisbf": "Compensation",
+        "11tile0aiitextii6fy": "75$ / week",
+        "12tile14iitextii0x3": "View additional information",
+        "imageUrlp2wjy": "https://i.ibb.co/4RPKG6T/arrow-right.png"
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    {
+                        "id": "Tile0a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile0aiitextiio7z",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "0tile0aiitextiit09",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "END"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile0a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "1tile0aiitextii5py",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "1tile0aiitextiirjb",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "END"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile0a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "2tile0aiitextiikmr",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "2tile0aiitextii7ir",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "END"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 9
+                    },
+                    {
+                        "id": "Tile0a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "3tile0aiitextii117",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "3tile0aiitextii4n0",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "END"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 2
+                    },
+                    {
+                        "id": "Tile0a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "4tile0aiitextii3dl",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "4tile0aiitextiimha",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "END"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 3
+                    },
+                    {
+                        "id": "Tile0a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "5tile0aiitextii44s",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "5tile0aiitextii0nr",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "END"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 10
+                    },
+                    {
+                        "id": "Tile0a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "6tile0aiitextiic53",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "6tile0aiitextii8yx",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "END"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 4
+                    },
+                    {
+                        "id": "Tile0a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "7tile0aiitextiimvk",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "7tile0aiitextiiazk",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "END"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 7
+                    },
+                    {
+                        "id": "Tile0a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "8tile0aiitextiibne",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "8tile0aiitextiiukw",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "END"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 11
+                    },
+                    {
+                        "id": "Tile0a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "11tile0aiitextiisbf",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "11tile0aiitextii6fy",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "END"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 6
+                    },
+                    {
+                        "id": "Tile11",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile11iitextiief1",
+                                    "titleTextColor": "#000080",
+                                    "style": "BOLD",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "0tile11iitextiiov9",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "JUSTIFY"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile11",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile11iitextiief2",
+                                    "titleTextColor": "#000080",
+                                    "style": "BOLD",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "0tile11iitextiiov92",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "JUSTIFY"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile14",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "12tile14iitextii0x3",
+                                    "titleTextColor": "#000080"
+                                },
+                                "img": {
+                                    "text": "imageUrlp2wjy",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "${action516}",
+                        "order": 12
+                    }
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action756}",
+                    "order": 1
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action516": {
+            "action": "e-w-parti-navig-to-cd-vnc-zoc"
+        },
+        "action756": {
+            "action": "e-w-parti-navig-to-cd-1dv-yae"
+        }
+    }
+}

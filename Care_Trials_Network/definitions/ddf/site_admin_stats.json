@@ -1,0 +1,66 @@
+{
+    "ddf_type": "site_admin_stats",
+    "meta_data": {
+        "description": "Collection to store Site.Admin statistics"
+    },
+    "messages": [
+        {
+            "message_category": "CSV",
+            "message_type": "TRIALS",
+            "meta_data": {
+                "description": "test data",
+                "indices": "site_admin_stats"
+            },
+            "attributes": [
+                {
+                    "name": "likesCount",
+                    "description": "likesCount",
+                    "required": false,
+                    "index_field": true,
+                    "type": "integer",
+                    "data_location": "likesCount"
+                },
+                {
+                    "name": "leadsCount",
+                    "description": "leadsCount",
+                    "required": false,
+                    "index_field": true,
+                    "type": "integer",
+                    "data_location": "leadsCount"
+                },
+                {
+                    "name": "campaignsCount",
+                    "description": "campaignsCount",
+                    "required": false,
+                    "index_field": true,
+                    "type": "integer",
+                    "data_location": "campaignsCount"
+                },
+                {
+                    "name": "campaignsLikesCount",
+                    "description": "campaignsLikesCount",
+                    "required": false,
+                    "index_field": true,
+                    "type": "integer",
+                    "data_location": "campaignsLikesCount"
+                },
+                {
+                    "name": "refersCount",
+                    "description": "refersCount",
+                    "required": false,
+                    "index_field": true,
+                    "type": "integer",
+                    "data_location": "refersCount"
+                },
+                {
+                    "name": "siteAdminScAddress",
+                    "description": "siteAdminScAddress",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "siteAdminScAddress"
+                }
+            ]
+        }
+    ]
+}

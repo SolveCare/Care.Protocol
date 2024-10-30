@@ -1,0 +1,217 @@
+{
+  "ddf_type": "referral_management",
+  "meta_data": {
+    "description": "Referral Management"
+  },
+  "messages": [
+    {
+      "message_category": "REFERRAL",
+      "message_type": "MANAGEMENT",
+      "meta_data": {
+        "description": "Referral Management",
+        "indices": "referral_management"
+      },
+      "events": [],
+      "attributes": [
+        {
+          "name": "NCTId",
+          "description": "NCTId",
+          "required": false,
+          "index_field": true,
+          "type": "string",
+          "data_location": "NCTId"
+        },
+        {
+          "name": "SiteID",
+          "description": "SiteID",
+          "required": false,
+          "index_field": true,
+          "type": "string",
+          "data_location": "SiteID"
+        },
+        {
+          "name": "Name",
+          "description": "Name",
+          "required": true,
+          "index_field": true,
+          "type": "string",
+          "data_location": "Name"
+        },
+        {
+          "name": "ReferralCode",
+          "description": "Referral code",
+          "required": true,
+          "index_field": true,
+          "type": "string",
+          "data_location": "Code"
+        },
+        {
+          "name": "IssueDate",
+          "description": "date, when code was issued",
+          "required": true,
+          "index_field": true,
+          "type": "string",
+          "data_location": "IssueDate"
+        },
+        {
+          "name": "ExpiryDate",
+          "description": "date, when code will be expired",
+          "required": true,
+          "index_field": true,
+          "type": "string",
+          "data_location": "ExpiryDate"
+        },
+        {
+          "name": "Amount",
+          "description": "Rewards amount",
+          "required": true,
+          "index_field": true,
+          "type": "string",
+          "data_location": "Amount"
+        }
+      ]
+    }
+  ],
+  "integrations": [
+    {
+      "type": "hubspot",
+      "message_category": "REFERRAL",
+      "message_type": "MANAGEMENT",
+      "schema": {
+        "schema": {
+          "name": "referral_management_table",
+          "description": "Referral Management Table",
+          "labels": {
+            "plural": "Referral Management",
+            "singular": "Referral Management"
+          },
+          "requiredProperties": [
+            "name",
+            "referral_code",
+            "issue_date",
+            "expiry_date",
+            "amount"
+          ],
+          "searchableProperties": [
+            "site_id",
+            "trial_id",
+            "referral_code",
+            "name",
+            "amount",
+            "issue_date",
+            "expiry_date"
+          ],
+          "primaryDisplayProperty": "name",
+          "secondaryDisplayProperties": [
+            "site_id",
+            "referral_code"
+          ],
+          "properties": [
+            {
+              "name": "site_id",
+              "label": "Site ID",
+              "type": "string",
+              "displayOrder": 1
+            },
+            {
+              "name": "trial_id",
+              "label": "Trial ID",
+              "type": "string",
+              "displayOrder": 2
+            },
+            {
+              "name": "name",
+              "label": "Name",
+              "type": "string",
+              "isPrimaryDisplayLabel": true,
+              "displayOrder": 3
+            },
+            {
+              "name": "referral_code",
+              "label": "Referral Code",
+              "type": "string",
+              "hasUniqueValue": true,
+              "displayOrder": 4
+            },
+            {
+              "name": "issue_date",
+              "label": "Issue Date",
+              "type": "date",
+              "fieldType": "date",
+              "displayOrder": 5
+            },
+            {
+              "name": "expiry_date",
+              "label": "Expiry Date",
+              "type": "date",
+              "fieldType": "date",
+              "displayOrder": 6
+            },
+            {
+              "name": "amount",
+              "label": "Amount",
+              "type": "number",
+              "fieldType": "number",
+              "displayOrder": 7
+            },
+            {
+              "name": "comments",
+              "label": "Comments",
+              "type": "string",
+              "displayOrder": 8
+            }
+          ]
+        },
+        "association": {
+          "name": "referral_management_to_sites",
+          "reference": "site_info_table",
+          "association_keys": [
+            "site_id"
+          ]
+        }
+      },
+      "mapping": [
+        {
+          "attribute": "SiteID",
+          "ext_name": "site_id"
+        },
+        {
+          "attribute": "NCTId",
+          "ext_name": "trial_id"
+        },
+        {
+          "attribute": "Name",
+          "ext_name": "name"
+        },
+        {
+          "attribute": "ReferralCode",
+          "ext_name": "referral_code"
+        },
+        {
+          "attribute": "IssueDate",
+          "ext_name": "issue_date"
+        },
+        {
+          "attribute": "ExpiryDate",
+          "ext_name": "expiry_date"
+        },
+        {
+          "attribute": "Amount",
+          "ext_name": "amount"
+        }
+      ],
+      "actions": [
+        {
+          "type": "import",
+          "operation_type": "UPSERT",
+          "primary_keys": [
+            "ReferralCode"
+          ],
+          "skip_for_update": [
+            "ReferralCode"
+          ]
+        }
+      ]
+    }
+  ]
+}

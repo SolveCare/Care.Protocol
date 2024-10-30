@@ -1,0 +1,94 @@
+{
+    "definition": {
+        "description": "Save UDETAILS",
+        "name": "W-BROAD-RECORD-NEXT1",
+        "resource": "W-BROAD-RECORD-NEXT1",
+        "type": "EVENT_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "name": "reviewPayWith",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "reviewPayWith",
+                "order": 6
+            },
+            {
+                "name": "PromoCode",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "PromoCode",
+                "order": 6
+            },
+            {
+                "name": "TrialID",
+                "code": "TrialID",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 8
+            },
+            {
+                "name": "SiteID",
+                "code": "SiteID",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 1
+            },
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": true,
+                "system": false,
+                "order": 2
+            },
+            {
+                "name": "recordType",
+                "code": "recordType",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": true,
+                "system": false,
+                "order": 3
+            },
+            {
+                "name": "medicalIdRecords",
+                "code": "medicalIdRecords",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": true,
+                "system": false,
+                "order": 4
+            },
+            {
+                "name": "senderNodeAddress",
+                "code": "senderNodeAddress",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 4
+            }
+        ]
+    }
+}

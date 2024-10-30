@@ -1,0 +1,106 @@
+{
+    "id": "cd-xb8kw63u8rpge76l5mngcpkt36v1",
+    "name": "Records & ID History",
+    "cardData": {
+      "0tile14aiitextiiz3d": "Medical records",
+      "0tile14aiitextiiwie": "Approved on: 09/05/2023",
+      "imageUrlgmnpu": "https://d1fgr2dke6q42b.cloudfront.net/dev/media/a1920ec3-027a-43cc-9226-36fad59c0b6a/go_next_grey_icon.png",
+      "1tile14aiitextiirz8": "ID",
+      "1tile14aiitextiioee": "Rejected on: 09/05/2023",
+      "imageUrlknci4": "https://d1fgr2dke6q42b.cloudfront.net/dev/media/a1920ec3-027a-43cc-9226-36fad59c0b6a/go_next_grey_icon.png",
+      "2tile14aiitextiitxe": "Medical records",
+      "2tile14aiitextiiyv4": "Submitted on: 09/05/2023",
+      "imageUrln026i": "https://d1fgr2dke6q42b.cloudfront.net/dev/media/a1920ec3-027a-43cc-9226-36fad59c0b6a/go_next_grey_icon.png",
+      "3tile14aiitextii1dh": "Medical records",
+      "3tile14aiitextiivdw": "Uploaded on: 09/05/2023",
+      "imageUrlq8lru": "https://d1fgr2dke6q42b.cloudfront.net/dev/media/a1920ec3-027a-43cc-9226-36fad59c0b6a/go_next_grey_icon.png",
+      "imgurl": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/arrow-right blue.png"
+    },
+    "prerenderingFunctions": [
+      {
+        "name": "Function.PROTOCOL.preLoadData",
+        "method": "GET",
+        "url": "/transactions/RECORD_DATA",
+        "whenCondition": 0,
+        "whenCardId": "cd-7w2t7slwuxjxojbu8n1qdvps-sg6"
+      }
+    ],
+    "cardLayout": {
+      "body": [
+        {
+          "id": "list",
+          "tileComponent": [
+            {
+              "id": "Tile14a",
+              "subView": [
+                {
+                  "title": {
+                    "text": "{$recordType}",
+                    "style": "BOLD",
+                    "titleTextColor": "#000080",
+                    "titleAlign": "left",
+                    "fontSize": 16
+                  },
+                  "subTitle": {
+                    "text": "{timeMessage}",
+                    "style": "REGULAR",
+                    "subTitleTextColor": "#000080",
+                    "subTitleAlign": "left",
+                    "fontSize": 16
+                  },
+                  "img": {
+                    "text": "imgurl",
+                    "isUrl": true,
+                    "height": "25",
+                    "width": "25"
+                  }
+                }
+              ],
+              "borderColor": "#C5C3C8",
+              "type": "CONTAINER",
+              "uiAction": "${action253}",
+              "order": 1
+            }
+          ],
+          "tileType": "LIST",
+          "uiAction": "",
+          "order": 1
+        }
+      ],
+      "style": {
+        "fontSize": 16,
+        "bgColor": "#ffffff",
+        "borderWidth": 1
+      },
+      "footer": {
+        "menu": [
+          {
+            "id": "EN01BottomButtonBack",
+            "subView": [
+              {
+                "title": {
+                  "text": ""
+                }
+              }
+            ],
+            "align": "START",
+            "type": "BACK_BUTTON",
+            "uiAction": "${action303}",
+            "order": 1
+          }
+        ],
+        "orientation": "HORIZONTAL"
+      }
+    },
+    "cardUIAction": {
+      "action253": {
+        "action": "e-w-role-a-navig-to-cd-dm-0ol"
+      },
+      "action223": {
+        "action": "e-w-role-a-navig-to-cd-5m-nry"
+      },
+      "action303": {
+        "action": "e-w-role-a-navig-to-cd-xb-reh"
+      }
+    }
+  }

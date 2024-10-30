@@ -1,0 +1,276 @@
+{
+    "definition": {
+        "description": "Broadcast UDETAILS",
+        "name": "W-BROAD-TR-SETBUDGET-NEXT1",
+        "resource": "W-BROAD-TR-SETBUDGET-NEXT1",
+        "type": "EVENT_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "code": "transactionType",
+                "name": "transactionType",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 1,
+                "required": false,
+                "system": false
+            },
+            {
+                "code": "transactionAmount",
+                "name": "transactionAmount",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 1,
+                "required": false,
+                "system": false
+            },
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 1,
+                "required": true,
+                "system": false
+            },
+            {
+                "code": "createdAt",
+                "name": "createdAt",
+                "type_definition": {
+                    "type": "timestamp"
+                },
+                "order": 2,
+                "required": false,
+                "system": false
+            },
+            {
+                "name": "senderNodeAddress",
+                "code": "senderNodeAddress",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 4
+            },
+            {
+                "name": "paidByNodeAddress",
+                "code": "paidByNodeAddress",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 6
+            },
+            {
+                "name": "paidToNodeAddress",
+                "code": "paidToNodeAddress",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 7
+            },
+            {
+                "name": "totalSolveCost",
+                "code": "totalSolveCost",
+                "type_definition": {
+                    "type": "number"
+                },
+                "required": false,
+                "system": false,
+                "order": 8
+            },
+            {
+                "name": "subscription_cost",
+                "code": "subscription_cost",
+                "type_definition": {
+                    "type": "number"
+                },
+                "required": false,
+                "system": false,
+                "order": 8
+            },
+            {
+                "name": "silver_cost",
+                "code": "silver_cost",
+                "type_definition": {
+                    "type": "number"
+                },
+                "required": false,
+                "system": false,
+                "order": 8
+            },
+            {
+                "name": "gold_cost",
+                "code": "gold_cost",
+                "type_definition": {
+                    "type": "number"
+                },
+                "required": false,
+                "system": false,
+                "order": 8
+            },
+            {
+                "name": "platinum_cost",
+                "code": "platinum_cost",
+                "type_definition": {
+                    "type": "number"
+                },
+                "required": false,
+                "system": false,
+                "order": 8
+            },
+            {
+                "name": "updatedAt",
+                "code": "updatedAt",
+                "type_definition": {
+                    "type": "timestamp"
+                },
+                "required": false,
+                "system": false,
+                "order": 9
+            },
+            {
+                "name": "transactionHash",
+                "code": "transactionHash",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 10
+            },
+            {
+                "name": "paymentStatus",
+                "code": "paymentStatus",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 11
+            },
+            {
+                "name": "LocationFacility",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "LocationFacility",
+                "order": 4,
+                "times": 1
+            },
+            {
+                "name": "TrialName",
+                "code": "TrialName",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 12
+            },
+            {
+                "name": "BriefSummary",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "BriefSummary",
+                "order": 4,
+                "times": 1
+            },
+
+            {
+                "name": "TrialID",
+                "code": "TrialID",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 8
+            },
+            {
+                "name": "SiteID",
+                "code": "SiteID",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 13
+            },
+            {
+                "name": "status",
+                "code": "status",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 14
+            },
+            {
+                "name": "expireAt",
+                "code": "expireAt",
+                "type_definition": {
+                    "type": "timestamp"
+                },
+                "required": false,
+                "system": false,
+                "order": 15
+            },
+            {
+                "name": "expireAtText",
+                "code": "expireAtText",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 15
+            },
+            {
+                "name": "trialSubscriptionStatus",
+                "code": "trialSubscriptionStatus",
+                "type_definition": {
+                    "type": "boolean"
+                },
+                "required": false,
+                "system": false,
+                "order": 16
+            },
+            {
+                "name": "isSubscriptionActive",
+                "code": "isSubscriptionActive",
+                "type_definition": {
+                    "type": "boolean"
+                },
+                "required": false,
+                "system": false,
+                "order": 17
+            },
+            {
+                "name": "Site_UniqueCode",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "Site_UniqueCode",
+                "order": 2,
+                "times": 1
+            }
+        ]
+    }
+}

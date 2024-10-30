@@ -1,0 +1,25 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "e-get-trial-req-budget-list",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "name": "getBUDGET_list",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "GET",
+                                    "url": "/transactions/BUDGET?filter=[{\"queryMatcher\": \"EQUAL\",\"inverted\": false,\"fieldName\": \"SiteID\",\"value\": \"${SiteID}\"}]"  
+                                }
+                            ]
+                        }
+                    ],
+                    "postAction": "",
+                    "refId": "e-get-trial-req-budget-list"
+                }
+            ]
+        }
+    ]
+}

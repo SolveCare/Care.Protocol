@@ -1,0 +1,116 @@
+{
+    "id": "cd-ya74jr56efewkxkn7buqvd2dv5u1",
+    "name": "Purchased Leads",
+    "cardData": {
+        "0tile0aiitextiizsx": "Total leads",
+        "0tile0aiitextiiwdu": "20",
+        "1tile14aiitextiitgn": "Male, 45, Texas",
+        "1tile14aiitextiioe8": "Liver Cirrhosis Lead - Active",
+        "imageUrlll3vc": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/arrow-right blue.png",
+        "2tile14aiitextii2wq": "Male, 40, Boston",
+        "2tile14aiitextii5yq": "Angioplasty Compliance Lead - Active",
+        "imageUrlbfnum": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/arrow-right blue.png"
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    {
+                        "id": "Tile0a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile0aiitextiizsx",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "Function.data.totalCount",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "END"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 2
+                    }
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            },
+            {
+                "id": "list",
+                "tileComponent": [
+                    {
+                        "id": "Tile14a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "{$GenderAgeCity}",
+                                    "titleTextColor": "#000080",
+                                    "style": "BOLD"
+                                },
+                                "subTitle": {
+                                    "text": "{TrialName}",
+                                    "subTitleTextColor": "#000080",
+                                    "style": "REGULAR"
+                                },
+                                "img": {
+                                    "text": "imageUrlll3vc",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "borderWidth": 3,
+                        "type": "CONTAINER",
+                        "uiAction": "${action948}",
+                        "order": 3
+                    }
+                    
+                ],
+                "tileType": "LIST",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action1}",
+                    "order": 1
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action948": {
+            "action": "e-w-trial-admin-navig-to-m20"
+        },
+        "action584": {
+            "action": "e-w-trial-admin-navig-to-mpx"
+        },
+        "action1": {
+            "action": "HOME"
+        }
+    }
+}

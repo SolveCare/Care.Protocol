@@ -1,0 +1,117 @@
+{
+    "id": "cd-1oeogij51yh1jtk0i08pn1-st-h-c2",
+    "name": "Learn More",
+    "cardData": {
+        "1tile11iitextiichn": "How does the network ensure anonymity and privacy during enrollment?",
+        "1tile11iitextiii4i": "The network allows anonymous enrollment. Personal identifying information is kept confidential until participants decide to enroll in a trial, ensuring privacy.",
+        "2tile11iitextii1ej": "Why is data collection necessary for improving clinical trials?",
+        "2tile11iitextiia6e": "Data collection tailors the trials to participants' needs, improving efficacy, and advancing medical research.",
+        "3tile11iitextiif5w": "Will personal information be secure and not shared with third parties?",
+        "3tile11iitextii2vm": "Yes, the network prioritizes data security. Personal information is safeguarded and not shared without consent."
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    {
+                        "id": "Tile11",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "1tile11iitextiichn",
+                                    "titleTextColor": "#000080",
+                                    "style": "BOLD",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "1tile11iitextiii4i",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "JUSTIFY"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile11",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "2tile11iitextii1ej",
+                                    "titleTextColor": "#000080",
+                                    "style": "BOLD",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "2tile11iitextiia6e",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "JUSTIFY"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 2
+                    },
+                    {
+                        "id": "Tile11",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "3tile11iitextiif5w",
+                                    "titleTextColor": "#000080",
+                                    "style": "BOLD",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "3tile11iitextii2vm",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "JUSTIFY"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 3
+                    } 
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action1}",
+                    "order": 1
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-1oeogij51yh1jtk0i08pn1-st-h-c1"
+                }
+            ]
+    }
+}

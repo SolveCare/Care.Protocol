@@ -1,0 +1,140 @@
+{
+    "ddf_type": "site_admin_prof_ques",
+    "meta_data": {
+        "description": "Collection to store Site.Admin info"
+    },
+    "messages": [
+        {
+            "message_category": "CSV",
+            "message_type": "ANSWERS",
+            "meta_data": {
+                "description": "Collection to store Site.Admin info",
+                "indices": "site_admin_prof_ques"
+            },
+            "attributes": [
+                {
+                    "name": "DPP",
+                    "description": "DPP",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "DPP"
+                },
+                {
+                    "name": "InstitutionName",
+                    "description": "InstitutionName",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "InstitutionName"
+                },
+                {
+                    "name": "AffiliationAddress",
+                    "description": "AffiliationAddress",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "AffiliationAddress"
+                },
+                {
+                    "name": "EstablishedYear",
+                    "description": "EstablishedYear",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "EstablishedYear"
+                },
+                {
+                    "name": "TypeOfAffiliation",
+                    "description": "TypeOfAffiliation",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "TypeOfAffiliation"
+                },
+                {
+                    "name": "InstitutionDescription",
+                    "description": "InstitutionDescription",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "InstitutionDescription"
+                },
+                {
+                    "name": "TrialsDescription",
+                    "description": "TrialsDescription",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "TrialsDescription"
+                },
+                {
+                    "name": "Website",
+                    "description": "Website",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "Website"
+                },
+                {
+                    "name": "Email",
+                    "description": "Email",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "Email"
+                },
+                {
+                    "name": "Phone",
+                    "description": "Phone",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "Phone"
+                },
+                {
+                    "name": "isAnswered",
+                    "description": "isAnswered",
+                    "required": false,
+                    "index_field": true,
+                    "type": "boolean",
+                    "data_location": "isAnswered"
+                },
+                {
+                    "name": "isNotAnswered",
+                    "description": "isNotAnswered",
+                    "required": false,
+                    "index_field": true,
+                    "type": "boolean",
+                    "data_location": "isNotAnswered"
+                },
+                {
+                    "code": "transactionalGuid",
+                    "name": "transactionalGuid",
+                    "description": "transactionalGuid",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "transactionalGuid"
+                },
+                {
+                    "code": "Date",
+                    "name": "Date",
+                    "description": "Date",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "Date"
+                },
+                {
+                    "name": "senderNodeAddress",
+                    "description": "senderNodeAddress",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "senderNodeAddress"
+                }
+            ]
+        }
+    ]
+}

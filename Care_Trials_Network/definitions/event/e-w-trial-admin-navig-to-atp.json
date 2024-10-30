@@ -1,0 +1,1 @@
+{"definition":{"description":"Event to Navigate from Set Budget to cd-rvyivy2jb47j9q1x8lkbrqkp8n5","name":"W-TRIAL-ADMIN-NAVIG-TO-.ATP","resource":"W-TRIAL-ADMIN-NAVIG-TO-.ATP","type":"EVENT_DATA"},"structure":{"attributes":[{"code":"transactionalGuid","name":"transactionalGuid","type_definition":{"type":"string"},"order":1,"system":false,"required":false}]}}

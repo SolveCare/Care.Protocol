@@ -1,0 +1,132 @@
+{
+    "id": "cd-casqwb3x4u11n81com3surveys-oops",
+    "name": "Certificate of Completion",
+    "cardData": {
+        "0tile0iitextiikga": "It looks like you haven't completed the assessment yet, so your certificate is currently unavailable.",
+        "1tile0iitextiikga": "Please complete the form to view your certificate here.",
+        "imageUrlkbhj": "https://i.ibb.co/kQ7wWDT/survey.png",
+        "2en01bottombuttonStart": "Start"
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    {
+                        "id": "Tile16",
+                        "subView": [
+                            {
+                                "img": {
+                                    "text": "imageUrlkbhj",
+                                    "isUrl": true,
+                                    "height": "100",
+                                    "width": "100"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 2
+                    },
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile0iitextiikga",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "CENTER",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "1tile0iitextiikga",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "CENTER",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    }
+                    
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action300}",
+                    "order": 1
+                },
+                {
+                    "id": "EN01BottomButton1",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": "2en01bottombuttonStart"
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BUTTON",
+                    "uiAction": "${action301}",
+                    "order": 2
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action300": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-casqwb3x4u11n81com3surc1"
+                }
+            ]
+        },
+       "action301": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-casqwb3x4u11n81com3surc1-dp"
+                }
+            ]
+        }
+    }
+}

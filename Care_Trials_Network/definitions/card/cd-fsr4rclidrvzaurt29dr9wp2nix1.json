@@ -1,0 +1,158 @@
+{
+    "id": "cd-fsr4rclidrvzaurt29dr9wp2nix1",
+    "name": "Request Admin Code",
+    "cardData": {
+        "0tile0iitextiilqm": "Provide the required information to request an activation code",
+        "1tile1iitextiiqvo": "Trial ID",
+        "1tile1iitextiikhe": "",
+        "1tile1iihintiibdi": "NCTXXXXXXXX",
+        "1tile1iierrorii515": "Value should be between 1 and 30",
+        "2tile1iitextii5gb": "Email Address",
+        "2tile1iitextii5wr": "",
+        "2tile1iihintiid8l": "Enter the email",
+        "2tile1iierrorii0uj": "Value should be between 1 and 30",
+        "2en01bottombutton1iitextiico7": "Request code"
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile0iitextiilqm",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "SmartTile1",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "1tile1iitextiiqvo",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "subTitle": {
+                                    "text": "{$ID}",
+                                    "hint": "1tile1iihintiibdi",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START",
+                                    "fieldFormat": "trialId",
+                                    "min": "1",
+                                    "max": "30",
+                                    "validation": [
+                                        {
+                                            "name": "REQUIRED_FIELD",
+                                            "error": "1tile1iierrorii515"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 3
+                    },
+                    {
+                        "id": "SmartTile1",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "2tile1iitextii5gb",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "subTitle": {
+                                    "text": "{$email}",
+                                    "hint": "2tile1iihintiid8l",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START",
+                                    "tip": "2tile2iitipii3m6",
+                                    "fieldFormat": "email",
+                                    "validation": [
+                                        {
+                                            "name": "REQUIRED_FIELD",
+                                            "error": "2tile1iierrorii0uj"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 2
+                    }
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "style": {
+            "fontSize": 16,
+            "bgColor": "#ffffff",
+            "borderWidth": 1
+        },
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action310}",
+                    "order": 1
+                },
+                {
+                    "id": "EN01BottomButton1",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": "2en01bottombutton1iitextiico7"
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BUTTON",
+                    "uiAction": "${action545}",
+                    "order": 2
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action310": {
+            "action": "e-w-trial-admin-navig-to-j811"
+        },
+        "action545": {
+            "action": "e-w-broad-req_n-to-rl-ft2-c-b21"
+        }
+    },
+    "prerenderingFunctions": []
+}

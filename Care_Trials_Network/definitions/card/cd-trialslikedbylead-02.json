@@ -1,0 +1,100 @@
+{
+    "id": "cd-trialslikedbylead-02",
+    "name": "Reviewed Leads",
+    "cardData": {
+        "imageUrl27qt7": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/arrow-right blue.png",
+        "comma":", "
+        },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                   
+                    {
+                        "id": "Tile14a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "{$AgeRange}|comma|{$Gender}",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080"
+                                },
+                                "subTitle": {
+                                    "text": "${updatedAt}",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000080"
+                                },
+                                "img": {
+                                    "text": "imageUrl27qt7",
+                                    "isUrl": true,
+                                    "height": "40",
+                                    "width": "40"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "${action5}",
+                        "order": 3
+                    }
+                   
+                ],
+                "tileType": "LIST",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "style": {
+            "fontSize": 16,
+            "bgColor": "#ffffff",
+            "borderWidth": 1
+        },
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action1}",
+                    "order": 1
+                } 
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+
+        "action5": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-trialslikedbylead-03"
+                }
+            ]
+        },
+        "action55": {
+            "action": "e-w-nurse-navigate-to-card2"
+                }
+        ,
+        "action1": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-trialslikedbylead-01"
+                }
+            ]                
+        }
+        
+                    
+                    
+                    
+    }
+}

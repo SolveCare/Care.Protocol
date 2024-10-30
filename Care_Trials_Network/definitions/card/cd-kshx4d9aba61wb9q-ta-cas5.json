@@ -1,0 +1,240 @@
+{
+    "id": "cd-kshx4d9aba61wb9q-ta-cas5",
+    "name": "Competency Assessment Survey",
+    "cardData": {
+        "validationdrhfc": "Please select one value",
+
+        "0tile0iitexti2": "2. Describe the roles and responsibilities of the various institutions participating in the investigational products development process",
+
+        "0tile0iitexti3": "3. Explain the investigational products development process and activities which integrate commercial realities into the life cycle management of medical products",
+
+        "0tile0iitexti4": "4. Summarize the legislative and regulatory framework that supports the development and registration of investigational products and ensures the products’ safety, efficacy, and quality",
+
+        "0tile0iitexti5": "5. Describe the specific processes and phases that must be followed for the regulatory authority to approve the marketing authorization for a medical product",
+
+        "0tile0iitexti6": "6. Describe the pre- and postapproval safety reporting requirements of regulatory agencies",
+
+        "0tile0iitexti7": "7. Appraise the issues generated and the effects of global expansion on the approval and regulation of medical products",
+
+        "2en01bottombutton1iitextiiyaq": "Next"
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    {
+                        "id": "Tile5",
+                        "subView": [
+                          {
+                            "title": {
+                              "text": "0tile0iitexti2"
+                            },
+                            "subTitle": {
+                              "text": "{$D1ProductDevelopmentQ2}",
+                              "start": 0,
+                              "end": 5,
+                              "count": 1,
+                              "validation": [
+                                {
+                                  "name": "REQUIRED_FIELD",                     
+                                  "error": "validationdrhfc"
+                                }
+                              ]
+                            }                      
+                          }                      
+                        ],                      
+                        "align": "START",                      
+                        "type": "CONTAINER",                      
+                        "uiAction": "",                      
+                        "order": 1                      
+                      },
+                      {
+                        "id": "Tile5",
+                        "subView": [
+                          {
+                            "title": {
+                              "text": "0tile0iitexti3"
+                            },
+                            "subTitle": {
+                              "text": "{$D1ProductDevelopmentQ3}",
+                              "start": 0,
+                              "end": 5,
+                              "count": 1,
+                              "validation": [
+                                {
+                                  "name": "REQUIRED_FIELD",                     
+                                  "error": "validationdrhfc"
+                                }
+                              ]
+                            }                      
+                          }                      
+                        ],                      
+                        "align": "START",                      
+                        "type": "CONTAINER",                      
+                        "uiAction": "",                      
+                        "order": 1                      
+                      },
+                      {
+                        "id": "Tile5",
+                        "subView": [
+                          {
+                            "title": {
+                              "text": "0tile0iitexti4"
+                            },
+                            "subTitle": {
+                              "text": "{$D1ProductDevelopmentQ4}",
+                              "start": 0,
+                              "end": 5,
+                              "count": 1,
+                              "validation": [
+                                {
+                                  "name": "REQUIRED_FIELD",                     
+                                  "error": "validationdrhfc"
+                                }
+                              ]
+                            }                      
+                          }                      
+                        ],                      
+                        "align": "START",                      
+                        "type": "CONTAINER",                      
+                        "uiAction": "",                      
+                        "order": 1                      
+                      },
+                      {
+                        "id": "Tile5",
+                        "subView": [
+                          {
+                            "title": {
+                              "text": "0tile0iitexti5"
+                            },
+                            "subTitle": {
+                              "text": "{$D1ProductDevelopmentQ5}",
+                              "start": 0,
+                              "end": 5,
+                              "count": 1,
+                              "validation": [
+                                {
+                                  "name": "REQUIRED_FIELD",                     
+                                  "error": "validationdrhfc"
+                                }
+                              ]
+                            }                      
+                          }                      
+                        ],                      
+                        "align": "START",                      
+                        "type": "CONTAINER",                      
+                        "uiAction": "",                      
+                        "order": 1                      
+                      },
+                      {
+                        "id": "Tile5",
+                        "subView": [
+                          {
+                            "title": {
+                              "text": "0tile0iitexti6"
+                            },
+                            "subTitle": {
+                              "text": "{$D1ProductDevelopmentQ6}",
+                              "start": 0,
+                              "end": 5,
+                              "count": 1,
+                              "validation": [
+                                {
+                                  "name": "REQUIRED_FIELD",                     
+                                  "error": "validationdrhfc"
+                                }
+                              ]
+                            }                      
+                          }                      
+                        ],                      
+                        "align": "START",                      
+                        "type": "CONTAINER",                      
+                        "uiAction": "",                      
+                        "order": 1                      
+                      },
+                      {
+                        "id": "Tile5",
+                        "subView": [
+                          {
+                            "title": {
+                              "text": "0tile0iitexti7"
+                            },
+                            "subTitle": {
+                              "text": "{$D1ProductDevelopmentQ7}",
+                              "start": 0,
+                              "end": 5,
+                              "count": 1,
+                              "validation": [
+                                {
+                                  "name": "REQUIRED_FIELD",                     
+                                  "error": "validationdrhfc"
+                                }
+                              ]
+                            }                      
+                          }                      
+                        ],                      
+                        "align": "START",                      
+                        "type": "CONTAINER",                      
+                        "uiAction": "",                      
+                        "order": 1                      
+                      }
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action300}",
+                    "order": 1
+                },
+                {
+                    "id": "EN01BottomButton1",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": "2en01bottombutton1iitextiiyaq"
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BUTTON",
+                    "uiAction": "${action5}",
+                    "order": 2
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action300": {
+            "action": [
+                {
+                     "name": "Function.Navigate",
+                     "cardId": "cd-kshx4d9aba61wb9q-ta-cas4"
+                }
+            ]
+        },
+        "action5": {
+            "action": [
+                {
+                     "name": "Function.Navigate",
+                     "cardId": "cd-kshx4d9aba61wb9q-ta-cas6"
+                }
+            ]        
+        }
+    }
+}

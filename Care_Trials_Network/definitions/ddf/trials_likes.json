@@ -1,0 +1,370 @@
+{
+    "ddf_type": "trials_likes",
+    "meta_data": {
+        "description": "Collection to store all Likes for Care.Trials and Campaigns"
+    },
+    "messages": [
+        {
+            "message_category": "CSV",
+            "message_type": "TRIALS",
+            "meta_data": {
+                "description": "Collection to store all Likes for Care.Trials and Campaigns",
+                "indices": "trials_likes"
+            },
+            "attributes": [
+                {
+                    "name": "CampaignId",
+                    "description": "CampaignId",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "CampaignId"
+                },
+                {
+                    "name": "CampaignType",
+                    "description": "CampaignType",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "CampaignType"
+                },
+                {
+                    "name": "NCTId",
+                    "description": "NCTId",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "NCTId"
+                },
+                {
+                    "name": "AgeRange",
+                    "description": "AgeRange",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "AgeRange"
+                },
+                {
+                    "name": "Limitations",
+                    "description": "Limitations",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "Limitations"
+                },
+                {
+                    "name": "Gender",
+                    "description": "Gender",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "Gender"
+                },
+                {
+                    "name": "Location_Text",
+                    "description": "Location_Text",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "Location_Text"
+                },
+                {
+                    "name": "LeadSponsorName",
+                    "description": "LeadSponsorName",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "LeadSponsorName"
+                },
+                {
+                    "name": "transactionalGuid",
+                    "description": "transactionalGuid",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "transactionalGuid"
+                },
+                {
+                    "name": "Conditions",
+                    "description": "Conditions",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "Conditions"
+                },
+                {
+                    "name": "archived",
+                    "description": "archived",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "archived"
+                },
+                {
+                    "name": "createdAt",
+                    "description": "integer",
+                    "required": false,
+                    "index_field": true,
+                    "type": "integer",
+                    "data_location": "createdAt"
+                },
+                {
+                    "name": "Miles_Text",
+                    "description": "Miles_Text",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "Miles_Text"
+                },
+                {
+                    "name": "throwNextEvent",
+                    "description": "throwNextEvent",
+                    "required": false,
+                    "index_field": true,
+                    "type": "boolean",
+                    "data_location": "throwNextEvent"
+                },
+                {
+                    "name": "Site_UniqueCode",
+                    "description": "Site_UniqueCode",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "Site_UniqueCode"
+                },
+                {
+                    "name": "Distance",
+                    "description": "Distance",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "Distance"
+                },
+                {
+                    "name": "Age",
+                    "description": "Age",
+                    "required": false,
+                    "index_field": true,
+                    "type": "integer",
+                    "data_location": "Age"
+                },
+                {
+                    "name": "recordBadges",
+                    "description": "recordBadges",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "recordBadges"
+                },
+                {
+                    "name": "SiteID",
+                    "description": "SiteID",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "SiteID"
+                },
+                {
+                    "name": "TrialID",
+                    "description": "TrialID",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "TrialID"
+                },
+                {
+                    "name": "StudyType",
+                    "description": "StudyType",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "StudyType"
+                },
+                {
+                    "name": "TrialName",
+                    "description": "TrialName",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "TrialName"
+                },
+                {
+                    "name": "BriefSummary",
+                    "description": "BriefSummary",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "BriefSummary"
+                },
+                {
+                    "name": "LocationFacility",
+                    "description": "LocationFacility",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "LocationFacility"
+                },
+                {
+                    "name": "senderNodeAddress",
+                    "description": "senderNodeAddress",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "senderNodeAddress"
+                },
+                {
+                    "name": "IDBadges",
+                    "description": "IDBadges",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "IDBadges"
+                },
+                {
+                    "name": "City",
+                    "description": "City",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "City"
+                },
+                {
+                    "name": "Eligible",
+                    "description": "Eligible",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "Eligible"
+                },
+                {
+                    "name": "Miles",
+                    "description": "Miles",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "Miles"
+                },
+                {
+                    "name": "Ethnicity",
+                    "description": "Ethnicity",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "Ethnicity"
+                },
+                {
+                    "name": "Badges",
+                    "description": "Badges",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "Badges"
+                },
+                {
+                    "name": "Country",
+                    "description": "Country",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "Country"
+                },
+                {
+                    "name": "userLocationLatitude",
+                    "description": "userLocationLatitude",
+                    "required": false,
+                    "index_field": true,
+                    "type": "float",
+                    "data_location": "userLocationLatitude"
+                },
+                {
+                    "name": "userLocationLongitude",
+                    "description": "userLocationLongitude",
+                    "required": false,
+                    "index_field": true,
+                    "type": "float",
+                    "data_location": "userLocationLongitude"
+                },
+                {
+                    "name": "CampaignStartTime",
+                    "description": "CampaignStartTime",
+                    "required": false,
+                    "index_field": true,
+                    "type": "integer",
+                    "data_location": "CampaignStartTime"
+                },
+                {
+                    "name": "CampaignStartDate",
+                    "description": "CampaignStartDate",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "CampaignStartDate"
+                },
+                {
+                    "name": "CampaignEndTime",
+                    "description": "CampaignEndTime",
+                    "required": false,
+                    "index_field": true,
+                    "type": "integer",
+                    "data_location": "CampaignEndTime"
+                },
+                {
+                    "name": "CampaignEndDate",
+                    "description": "CampaignEndDate",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "CampaignEndDate"
+                },
+                {
+                    "type": "string",
+                    "name": "match_text",
+                    "description": "match_text",
+                    "required": false,
+                    "index_field": true,
+                    "data_location": "match_text"
+                },
+                {
+                    "type": "string",
+                    "name": "match_icon",
+                    "description": "match_icon",
+                    "required": false,
+                    "index_field": true,
+                    "data_location": "match_icon"
+                },
+                {
+                    "name": "match",
+                    "description": "match",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "match"
+                },
+                {
+                    "name": "UniqueCode",
+                    "description": "UniqueCode",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "UniqueCode"
+                },
+                {
+                    "name": "InclusionCriteria",
+                    "description": "InclusionCriteria",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "InclusionCriteria"
+                },
+                {
+                    "name": "ExclusionCriteria",
+                    "description": "ExclusionCriteria",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "ExclusionCriteria"
+                }
+            ]
+        }
+    ]
+}

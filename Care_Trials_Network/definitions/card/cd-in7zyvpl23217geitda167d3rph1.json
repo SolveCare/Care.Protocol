@@ -1,0 +1,165 @@
+{
+    "id": "cd-in7zyvpl23217geitda167d3rph1",
+    "name": "Explore Plans",
+    "cardData": {
+        "0tile0iitextiitpw": "Enhance your clinical trials by upgrading to the below subscription plan",
+        "labeluno74": "Feature",
+        "data4x4rc": [
+            "View Leads",
+            "Set / Update Trial Info",
+            "Customize Matching Algorithm ",
+            "Buy Leads",
+            "Email Support",
+            "Request Record \nVerification",
+            "Request ID \nVerification",
+            "Assigned Account \nExecutive",
+            "Promotion Campaigns"
+        ],
+        "labelpbe1w": "Subscription\n(Recommended)",
+        "datap2v45": [
+            "Unlimited with \n$995 / month",
+            "Yes",
+            "Yes",
+            "Yes",
+            "Yes",
+            "Yes",
+            "Yes",
+            "Yes",
+            "Yes"
+        ],
+        "labels3b08": "Ala carte\n(Current plan)",
+        "datapia2f": [
+            "$ 0.99 per view",
+            "Yes",
+            "Yes",
+            "Yes",
+            "Yes",
+            "Yes",
+            "Yes",
+            "No",
+            "No"
+        ],
+        "2en01bottombutton1iitextiibhd": "Upgrade Plan",
+        "imageUrl1rk6f": "https://i.ibb.co/BjHhWh3/site-sub.png"
+    },
+
+
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile0iitextiitpw",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "CENTER",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile16",
+                        "subView": [
+                            {
+                                "img": {
+                                    "text": "imageUrl1rk6f",
+                                    "isUrl": true,
+                                    "height": "372",
+                                    "width": "295"
+                                }
+                            }
+                        ],
+                        "borderColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 2
+                    }
+                   
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "style": {
+            "fontSize": 16,
+            "bgColor": "#ffffff",
+            "borderWidth": 1
+        },
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action834}",
+                    "order": 1
+                },
+                {
+                    "id": "EN01BottomButton1",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": "2en01bottombutton1iitextiibhd"
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BUTTON",
+                    "uiAction": "${action123}",
+                    "order": 2,
+                    "visibleIf": "${isSubscriptionNotActive}"
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "": {
+            "action": null
+        },
+        "action834": {
+            "action": "e-w-trial-admin-navig-to-jc0"
+        },
+        "action824": {
+            "action": "e-w-trial-admin-navig-to-7xl"
+        },
+        "action123": {
+            "action": [
+                {
+                    "name": "Function.SOLVE.getTokenBalance",
+                    "resultKey": "solveBalance"
+                },
+                {
+                    "name": "Function.Navigate",
+                    "compareKey": "solveBalance",
+                    "compareValue": 9750,
+                    "cardIdForGreaterValue": "cd-unk64lntq3u6cf10x497pu1chg31",
+                    "cardIdForLessValue": "cd-7w2t7slwuxjxojbu8n1qdvps-sg1",
+                    "cardId": "cd-in7zyvpl23217geitda167d3rph1"
+                }
+            ]
+        }
+    
+    }
+}

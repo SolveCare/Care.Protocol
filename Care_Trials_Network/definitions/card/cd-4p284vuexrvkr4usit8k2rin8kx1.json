@@ -1,0 +1,96 @@
+{
+    "id": "cd-4p284vuexrvkr4usit8k2rin8kx1",
+    "name": "Referral",
+    "cardData": {
+        "imageUrlyn2qc": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/f116d56b-00a4-4091-932b-240e9cf64504/invite 2.png",
+        "1tile0iitextiisoe": "Thanks for referring the Care.Trials network to your friends and family.",
+        "2en01bottombutton1iitextiijl4": "Done"
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "00tc01",
+                "tileComponent": [
+                    {
+                        "id": "Tile16",
+                        "subView": [
+                            {
+                                "img": {
+                                    "text": "imageUrlyn2qc",
+                                    "isUrl": true,
+                                    "height": "254",
+                                    "width": "322"
+                                }
+                            }
+                        ],
+                        "borderColor": "#ffffff",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "1tile0iitextiisoe",
+                                    "style": "REGULAR",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "CENTER"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    }
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action016}",
+                    "order": 1
+                },
+                {
+                    "id": "EN01BottomButton1",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": "2en01bottombutton1iitextiijl4"
+                            }
+                        }
+                    ],
+                    "align": "END",
+                    "type": "BUTTON",
+                    "uiAction": "${action405}",
+                    "order": 2
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action016": {
+            "action": "e-w-parti-navig-to-cd-1oe-6if"
+        },
+        "action405": {
+            "action": "e-w-parti-navig-to-home-r25k"
+        }
+    }
+}

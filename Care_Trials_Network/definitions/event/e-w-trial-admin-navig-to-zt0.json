@@ -1,0 +1,22 @@
+{
+    "definition": {
+        "description": "Event to Navigate from Site Details to cd-lc7uz8s3c4zjznyt2j9iie5irj4",
+        "name": "W-TRIAL-ADMIN-NAVIG-TO-.ZT0",
+        "resource": "W-TRIAL-ADMIN-NAVIG-TO-.ZT0",
+        "type": "EVENT_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 1,
+                "system": false,
+                "required": false
+            }
+        ]
+    }
+}

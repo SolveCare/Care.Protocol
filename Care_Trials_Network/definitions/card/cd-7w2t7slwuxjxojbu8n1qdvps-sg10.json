@@ -1,0 +1,119 @@
+{
+    "id": "cd-7w2t7slwuxjxojbu8n1qdvps-sg10",
+    "name": "Records & ID History",
+    "cardData": {
+        "2en01bottombutton1iitextii91b": "Submit",
+        "0tile14aiitextii2ue": "Medical records",
+        "0tile14aiitextii58r": "Approved on: 09/05/2023",
+        "imageUrlsy8xv": "https://d1fgr2dke6q42b.cloudfront.net/dev/media/a1920ec3-027a-43cc-9226-36fad59c0b6a/go_next_grey_icon.png",
+        "1tile0aiitextiicjl": "Records type",
+        "1tile0aiitextiijav": "MRI scan",
+        "2tile14aiitextii0ib": "Records tags",
+        "2tile14aiitextiibrv": "MRI, Brain, Damage",
+        "imageUrlbcq1v": "https://d1fgr2dke6q42b.cloudfront.net/dev/media/a1920ec3-027a-43cc-9226-36fad59c0b6a/go_next_grey_icon.png",
+        "3tile0aiitextii2cl": "Records date",
+        "3tile0aiitextii65x": "09/05/2022",
+        "0tile1iitextiinm71": "View attachment",
+        "imageUrl7gxv2": "https://d1fgr2dke6q42b.cloudfront.net/dev/media/a1920ec3-027a-43cc-9226-36fad59c0b6a/go_next_grey_icon.png",
+        "1tile14aiitextiizmv": "Comment",
+        "1tile14aiitextiionp": "Photo of the ID is not clear. Please, make photo once again",
+        "2en01bottombutton1iitextiilbn": "Re-upload"
+    },
+    "cardLayout": {
+        "body": [
+            { 
+                "id": "000t1", 
+                "tileComponent": [
+                    {
+                        "id": "Tile11",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "{$recordType}",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "style": "BOLD",
+                                    "fontSize": 16
+                                },
+                                "subTitle": {
+                                    "text": "{$timeMessage}",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "AttachmentDownloadTile",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile1iitextiinm71",
+                                    "titleTextColor": "#000080",
+                                    "fontSize": 16
+                                },
+                                "subTitle": {
+                                    "text": "{$folderReference}",
+                                    "subTitleTextColor": "#000080",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 4
+                    }
+                    
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "style": {
+            "fontSize": 16,
+            "bgColor": "#ffffff",
+            "borderWidth": 1
+        },
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action400}",
+                    "order": 1
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action400":{
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-xb8kw63u8rpge76l5mngcpkt36v1"
+                }
+            ]
+        }
+        
+    }
+
+}

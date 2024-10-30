@@ -1,0 +1,202 @@
+{
+    "id": "cd-si5wsijeipcgr74wiwn-ta-verif-c3-hist-2",
+    "name": "View History",
+    "cardData": {
+        "0tile1iitextiinm7": "View attachments",
+        "9tile0aiitextiircr": "License Date",
+        "9tile0aiitextiircr2": "Comments",
+        "2en01bottombutton1iitextii3t0": "Re-upload"
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "{$physicianName}",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#afafaf",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "{$timeMessage}",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#afafaf",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "AttachmentDownloadTile",
+                        "subView": [
+                          {
+                            "title": {
+                              "text": "0tile1iitextiinm7",
+                              "titleTextColor": "#000080",
+                              "fontSize": 16
+                            },
+                            "subTitle": {
+                              "text": "{$folderReference}",
+                              "subTitleTextColor": "#000080",
+                              "fontSize": 16
+                            }
+                          }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile0a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "9tile0aiitextiircr",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "subTitle": {
+                                    "text": "{$identityDate}",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "END",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 9
+                    },
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "9tile0aiitextiircr2",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#afafaf",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "{$comments}",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#afafaf",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    }
+                    
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "style": {
+            "fontSize": 16,
+            "bgColor": "#ffffff",
+            "borderWidth": 1
+        },
+        "footer": {
+        "menu": [
+            {
+            "id": "EN01BottomButtonBack",
+            "subView": [
+                {
+                "title": {
+                    "text": ""
+                }
+                }
+            ],
+            "align": "START",
+            "type": "BACK_BUTTON",
+            "uiAction": "${action1}",
+            "order": 1
+            },
+            {
+            "id": "EN01BottomButton1",
+            "subView": [
+                {
+                "title": {
+                    "text": "2en01bottombutton1iitextii3t0"
+                }
+                }
+            ],
+            "align": "END",
+            "type": "BUTTON",
+            "uiAction": "${action2}",
+            "visibleIf":"${isReject}",
+            "order": 2
+            }
+        ],
+        "orientation": "HORIZONTAL"
+    }
+    },
+    "cardUIAction": {
+        "": {
+            "action": null
+        },
+        
+        "action1": {
+            "action": "e-w-navig-ta-verif-c3-hist-2-to-c3-hist"
+        },
+        "action2": {
+            "action": "e-w-navig-ta-verif-c3-hist-2-to-c2-sub"
+        }
+    }
+}

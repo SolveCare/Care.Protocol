@@ -1,0 +1,58 @@
+{
+    "nodeEventHandlers": [
+        {
+            "type": "MAPPER",
+            "name": "Append or Exclude attributes to PARTICIPANT_DATA payload",
+            "order": 1,
+            "dataSource": "EVENT_PAYLOAD",
+            "additionalAttributes": {},
+            "excludedAttributes": []
+        },
+        {
+            "type": "VAULT_UPDATE",
+            "name": "TRIALS",
+            "order": 2,
+            "collection": "TRIALS",
+            "collectionVersion": 1,
+            "dataSource": "HANDLER_ARGUMENTS",
+            "insertIfAbsent": true,
+            "searchCriteria": [
+                {
+                    "queryMatcher": "EQUAL",
+                    "fieldName": "senderNodeAddress",
+                    "dynamicValue": {
+                        "source": "EVENT_PAYLOAD",
+                        "value": "senderNodeAddress"
+                    }
+                },
+                {
+                    "queryMatcher": "EQUAL",
+                    "fieldName": "SiteID",
+                    "dynamicValue": {
+                        "source": "EVENT_PAYLOAD",
+                        "value": "SiteID"
+                    }
+                }
+            ],
+            "handlerOutput": "PERSISTED_ENTITY"
+        },
+        {
+            "type": "MAPPER",
+            "name": "Append or Exclude attributes in the result",
+            "order": 3,
+            "dataSource": "EVENT_PAYLOAD",
+            "additionalAttributes": {},
+            "excludedAttributes": []
+        },
+        {
+            "type": "NEXT_EVENT_RECIPIENT",
+            "name": "Fetch sender address",
+            "order": 4,
+            "recipientAddress": {
+                "source": "EVENT_PAYLOAD",
+                "value": "AdminAddress"
+            },
+            "handlerOutput": "HANDLER_ARGUMENTS"
+        }
+    ]
+}

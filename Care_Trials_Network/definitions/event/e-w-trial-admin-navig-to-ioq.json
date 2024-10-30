@@ -1,0 +1,22 @@
+{
+    "definition": {
+        "description": "SYNC",
+        "name": "SYNC133",
+        "resource": "SYNC133",
+        "type": "EVENT_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 1,
+                "system": false,
+                "required": false
+            }
+        ]
+    }
+}

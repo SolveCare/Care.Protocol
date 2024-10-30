@@ -1,0 +1,67 @@
+{
+    "id": "td-NOTIFICATIONS",
+    "path": "td/td-NOTIFICATIONS.json",
+    "definition": {
+        "version": 1,
+        "collection": "NOTIFICATIONS",
+        "description": "NOTIFICATIONS",
+        "name": "NOTIFICATIONS",
+        "resource": "NOTIFICATIONS",
+        "status": "RELEASED",
+        "type": "TRANSACTIONAL_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 1,
+                "required": false,
+                "system": false
+            },
+            {
+                "code": "createdAt",
+                "name": "createdAt",
+                "type_definition": {
+                    "type": "timestamp"
+                },
+                "order": 2,
+                "required": false,
+                "system": false
+            },
+            {
+                "code": "Liked",
+                "name": "Liked",
+                "type_definition": {
+                    "type": "number"
+                },
+                "order": 3,
+                "required": false,
+                "system": false
+            },
+            {
+                "code": "Matched",
+                "name": "Matched",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 3,
+                "required": true,
+                "system": false
+            },
+            {
+                "name": "senderNodeAddress",
+                "code": "senderNodeAddress",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 4
+            }
+        ]
+    }
+}

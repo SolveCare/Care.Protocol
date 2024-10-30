@@ -1,0 +1,94 @@
+  {
+    "id": "td-CAMPAIGNS_INFO",
+    "path": "td/td-CAMPAIGNS_INFO.json",
+    "definition": {
+        "version": 1,
+        "collection": "CAMPAIGNS_INFO",
+        "description": "CAMPAIGNS_INFO",
+        "name": "CAMPAIGNS_INFO",
+        "resource": "CAMPAIGNS_INFO",
+        "status": "RELEASED",
+        "type": "TRANSACTIONAL_DATA"
+    },
+  "structure": {
+    "attributes": [
+      {
+        "code": "GoldCampaignType",
+        "name": "GoldCampaignType",
+        "type_definition": {
+          "type": "string"
+        },
+        "order": 1,
+        "system": false,
+        "required": true
+      },
+      {
+        "code": "GoldCampaignCost",
+        "name": "GoldCampaignCost",
+        "type_definition": {
+          "type": "number"
+        },
+        "order": 2,
+        "system": false,
+        "required": true
+      },
+      {
+        "code": "SilverCampaignCost",
+        "name": "SilverCampaignCost",
+        "type_definition": {
+          "type": "number"
+        },
+        "order": 3,
+        "system": false,
+        "required": true
+      },      {
+        "code": "PlatinumCampaignType",
+        "name": "PlatinumCampaignType",
+        "type_definition": {
+          "type": "string"
+        },
+        "order": 4,
+        "system": false,
+        "required": true
+      },      {
+        "code": "PlatinumCampaignCost",
+        "name": "PlatinumCampaignCost",
+        "type_definition": {
+          "type": "number"
+        },
+        "order": 5,
+        "system": false,
+        "required": true
+      },      {
+        "code": "SilverCampaignType",
+        "name": "SilverCampaignType",
+        "type_definition": {
+          "type": "string"
+        },
+        "order": 6,
+        "system": false,
+        "required": true
+      },
+      {
+        "code": "amountType",
+        "name": "amountType",
+        "type_definition": {
+          "type": "string"
+        },
+        "order": 7,
+        "system": false,
+        "required": true
+      },
+      {
+        "name": "Site_UniqueCode",
+        "code": "Site_UniqueCode",
+        "type_definition": {
+            "type": "string"
+        },
+        "required": false,
+        "system": false,
+        "order": 12
+    }
+    ]
+  }
+}

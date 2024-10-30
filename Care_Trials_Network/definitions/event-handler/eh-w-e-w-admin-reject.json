@@ -1,0 +1,25 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "e-w-admin-reject",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "name": "submit",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "POST",
+                                    "url": "/events"
+                                }
+                            ]
+                        }
+                    ],
+                    "postAction": "cd-xwzx8ttcyro0uayq9c2om7671kjn",
+                    "refId": "e-w-admin-reject"
+                }
+            ]
+        }
+    ]
+}

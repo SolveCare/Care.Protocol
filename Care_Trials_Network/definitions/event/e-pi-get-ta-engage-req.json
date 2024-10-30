@@ -1,0 +1,22 @@
+{
+    "definition": {
+        "description": "Get Engagement requests History",
+        "name": "GET.ENGAGEMENT.REQ002",
+        "resource": "GET.ENGAGEMENT.REQ002",
+        "type": "EVENT_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 1,
+                "system": false,
+                "required": false
+            }
+        ]
+    }
+}

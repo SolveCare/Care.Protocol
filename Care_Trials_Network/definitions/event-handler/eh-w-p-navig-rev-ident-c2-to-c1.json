@@ -1,0 +1,25 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "e-w-p-navig-rev-ident-c2-to-c1",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "name": "submit",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "DETAILS",
+                                    "url": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "postAction": "cd-4oey47dgwefcfav0jhs4-rev-ident-c1",
+                    "refId": "e-w-p-navig-rev-ident-c2-to-c1" 
+                }
+            ]
+        }
+    ]
+}

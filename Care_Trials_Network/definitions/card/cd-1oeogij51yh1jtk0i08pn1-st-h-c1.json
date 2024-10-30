@@ -1,0 +1,138 @@
+{
+    "id": "cd-1oeogij51yh1jtk0i08pn1-st-h-c1",
+    "name": "Welcome to Care.Trials",
+    "cardData": {
+        "0tile0iitextiikga": "Connect.Refer.Transform: Your Role in Clinical Trials Starts Here",
+        "imageUrlkbhj0": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/CTN_Participant.mp4",
+        "2tile14aiitextii078": "Learn more",
+        "imageUrldgqhy": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/arrow-right blue.png",
+        "2en01bottombutton1iitextiirde1": "Start"
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile0iitextiikga",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "CENTER",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "VideoTile",
+                        "subView": [
+                            {
+                                "img": {
+                                    "text": "imageUrlkbhj0",
+                                    "isUrl": true,
+                                    "height": "24",
+                                    "width": "24"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile14",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "2tile14aiitextii078",
+                                    "titleTextColor": "#000080",
+                                    "style": "BOLD"
+                                },
+                                "img": {
+                                    "text": "imageUrldgqhy",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "${action301}",
+                        "order": 1
+                    }
+                    
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action300}",
+                    "order": 1
+                },
+                {
+                    "id": "EN01BottomButton1",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": "2en01bottombutton1iitextiirde1"
+                            }
+                        }
+                    ],
+                    "align": "END",
+                    "type": "BUTTON",
+                    "uiAction": "${action302}",
+                    "order": 2
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action300": {
+            "action": "HOME"
+        },
+        "action301": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-1oeogij51yh1jtk0i08pn1-st-h-c2"
+                }
+            ]
+        },
+        "action302": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-1oeogij51yh1jtk0i08pn1-st-h-c3"
+                }
+            ]
+        }
+    }
+}

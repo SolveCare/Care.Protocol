@@ -1,0 +1,480 @@
+{
+    "id": "cd-casqwb3x4u11n81com3surveys-d3-c1",
+    "name": "Competency Assessment Survey",
+    "cardData": {
+        "0tile0iitextinfo": "The below survey encompasses the institution’s/unit’s partnerships and networks that facilitate the setting up and sustainability of a new research institution/clinical trial unit. ",
+        "0tile0iitextinfo1": "Please assess your research institution/unit according to existing capacities",
+        
+        "0tile0iitextnp": "Network partnerships:",
+
+        "1nptile0textq1": "1. Patient referral and recruitment pathways",
+        "1nplabel0ess": "With",
+        "1nplabel1ness": "Without",
+
+        "2nptile0textq2": "2. Access to recruitment teams (e.g., social workers, community organizers, etc.)",
+        "2nplabel0ess": "With",
+        "2nplabel1ness": "Without",
+
+        "3nptile0textq1": "3. Access to patient navigators (provide assistance to patients who are having difficulty accessing or comprehending healthcare services and the trial)",
+        "3nplabel0ess": "With",
+        "3nplabel1ness": "Without",
+
+        "4nptile0textq4": "4. Collaborations with health service providers",
+        "4nplabel0ess": "With",
+        "4nplabel1ness": "Without",
+
+        "5nptile0textq5": "5. International and local partnerships at institutional levels, including with research institutions providing grants, international sites, local communities and other organizations (e.g., NGOs, barangays)",
+        "5nplabel0ess": "With",
+        "5nplabel1ness": "Without",
+        
+        "1tile0iitextws": "Commercial and non-commercial sponsors:",
+
+        "1ctile0textq1": "1. Ability to obtain clinical research trial funding",
+        "1clabel0ess": "With",
+        "1clabel1ness": "Without",
+
+        "2ctile0textq2": "2. Communication pathways with sponsors",
+        "2clabel0ess": "With",
+        "2clabel1ness": "Without",
+
+        "validation5xk9r": "Please select one value",
+        "2en01bottombuttonNext": "Next"
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile0iitextinfo",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "CENTER",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile0iitextinfo1",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile0iitextnp",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile10",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "1nptile0textq1",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "options": {
+                                    "key":{
+                                        "name":"{$D3PartnershipsQ1}",
+                                        "optionAlign": "START",
+                                        "optionTextColor": "#000080",
+                                        "optionfontSize": 16
+                                    },
+                                    "list":[
+                                        {
+                                        "label": "1nplabel0ess"
+                                        },
+                                        {
+                                        "label": "1nplabel1ness"
+                                        }
+                                    ],
+                                    "validation": [
+                                        {
+                                            "name": "REQUIRED_FIELD",
+                                            "error": "validation5xk9r"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "fontSize": 16,
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "${}",
+                        "order": 2
+                    },
+                    {
+                        "id": "Tile10",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "2nptile0textq2",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "options": {
+                                    "key":{
+                                        "name":"{$D3PartnershipsQ2}",
+                                        "optionAlign": "START",
+                                        "optionTextColor": "#000080",
+                                        "optionfontSize": 16
+                                    },
+                                    "list":[
+                                        {
+                                        "label": "2nplabel0ess"
+                                        },
+                                        {
+                                        "label": "2nplabel1ness"
+                                        }
+                                    ],
+                                    "validation": [
+                                        {
+                                            "name": "REQUIRED_FIELD",
+                                            "error": "validation5xk9r"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "fontSize": 16,
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "${}",
+                        "order": 2
+                    },
+                    {
+                        "id": "Tile10",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "3nptile0textq1",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "options": {
+                                    "key":{
+                                        "name":"{$D3PartnershipsQ3}",
+                                        "optionAlign": "START",
+                                        "optionTextColor": "#000080",
+                                        "optionfontSize": 16
+                                    },
+                                    "list":[
+                                        {
+                                        "label": "3nplabel0ess"
+                                        },
+                                        {
+                                        "label": "3nplabel1ness"
+                                        }
+                                    ],
+                                    "validation": [
+                                        {
+                                            "name": "REQUIRED_FIELD",
+                                            "error": "validation5xk9r"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "fontSize": 16,
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "${}",
+                        "order": 2
+                    },
+                    {
+                        "id": "Tile10",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "4nptile0textq4",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "options": {
+                                    "key":{
+                                        "name":"{$D3PartnershipsQ4}",
+                                        "optionAlign": "START",
+                                        "optionTextColor": "#000080",
+                                        "optionfontSize": 16
+                                    },
+                                    "list":[
+                                        {
+                                        "label": "4nplabel0ess"
+                                        },
+                                        {
+                                        "label": "4nplabel1ness"
+                                        }
+                                    ],
+                                    "validation": [
+                                        {
+                                            "name": "REQUIRED_FIELD",
+                                            "error": "validation5xk9r"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "fontSize": 16,
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "${}",
+                        "order": 2
+                    },
+                    {
+                        "id": "Tile10",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "5nptile0textq5",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "options": {
+                                    "key":{
+                                        "name":"{$D3PartnershipsQ5}",
+                                        "optionAlign": "START",
+                                        "optionTextColor": "#000080",
+                                        "optionfontSize": 16
+                                    },
+                                    "list":[
+                                        {
+                                        "label": "5nplabel0ess"
+                                        },
+                                        {
+                                        "label": "5nplabel1ness"
+                                        }
+                                    ],
+                                    "validation": [
+                                        {
+                                            "name": "REQUIRED_FIELD",
+                                            "error": "validation5xk9r"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "fontSize": 16,
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "${}",
+                        "order": 2
+                    },
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "1tile0iitextws",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile10",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "1ctile0textq1",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "options": {
+                                    "key":{
+                                        "name":"{$D3SponsorsQ1}",
+                                        "optionAlign": "START",
+                                        "optionTextColor": "#000080",
+                                        "optionfontSize": 16
+                                    },
+                                    "list":[
+                                        {
+                                        "label": "1clabel0ess"
+                                        },
+                                        {
+                                        "label": "1clabel1ness"
+                                        }
+                                    ],
+                                    "validation": [
+                                        {
+                                            "name": "REQUIRED_FIELD",
+                                            "error": "validation5xk9r"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "fontSize": 16,
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "${}",
+                        "order": 2
+                    },
+                    {
+                        "id": "Tile10",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "2ctile0textq2",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "options": {
+                                    "key":{
+                                        "name":"{$D3SponsorsQ2}",
+                                        "optionAlign": "START",
+                                        "optionTextColor": "#000080",
+                                        "optionfontSize": 16
+                                    },
+                                    "list":[
+                                        {
+                                        "label": "2clabel0ess"
+                                        },
+                                        {
+                                        "label": "2clabel1ness"
+                                        }
+                                    ],
+                                    "validation": [
+                                        {
+                                            "name": "REQUIRED_FIELD",
+                                            "error": "validation5xk9r"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "fontSize": 16,
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "${}",
+                        "order": 2
+                    }  
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action1}",
+                    "order": 1
+                },
+                {
+                    "id": "EN01BottomButton1",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": "2en01bottombuttonNext"
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BUTTON",
+                    "uiAction": "${action2}",
+                    "order": 2
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action1": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-casqwb3x4u11n81com3surveys-d2-c3"
+                }
+            ]
+        },
+        "action2": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-casqwb3x4u11n81com3surveys-d3-c2"
+                }
+            ]
+        }
+    }
+}

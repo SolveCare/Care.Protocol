@@ -1,0 +1,22 @@
+{
+    "definition": {
+        "description": "GET ONE for admin card1",
+        "name": "GET.TRIAL.INFO-007",
+        "resource": "GET.TRIAL.INFO-007",
+        "type": "EVENT_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 1,
+                "system": false,
+                "required": false
+            }
+        ]
+    }
+}

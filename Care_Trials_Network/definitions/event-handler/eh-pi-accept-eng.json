@@ -1,0 +1,25 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "e-w-pi-accept-eng",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "name": "submit",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "POST",
+                                    "url": "/events"
+                                }
+                            ]
+                        }
+                    ],
+                    "postAction": "cd-dchngg450u6wafzxwp50b5j-search7",
+                    "refId": "e-w-pi-accept-eng"
+                }
+            ]
+        }
+    ]
+}

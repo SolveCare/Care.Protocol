@@ -1,0 +1,73 @@
+{
+    "definition": {
+        "description": "STATISTIC",
+        "name": "UPDATE.STATISTIC001",
+        "resource": "UPDATE.STATISTIC001",
+        "type": "EVENT_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 1,
+                "required": false,
+                "system": false
+            },
+            {
+                "code": "createdAt",
+                "name": "createdAt",
+                "type_definition": {
+                    "type": "timestamp"
+                },
+                "order": 2,
+                "required": false,
+                "system": false
+            },
+            {
+                "code": "answer",
+                "name": "answer",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 3,
+                "required": false,
+                "system": false
+            },
+            {
+                "name": "senderNodeAddress",
+                "code": "senderNodeAddress",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 4
+            },
+            {
+                "name": "TrialID",
+                "code": "TrialID",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 12
+            },
+            {
+                "name": "UniqueCode",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "UniqueCode",
+                "order": 2,
+                "times": 1
+            }
+        ]
+    }
+}

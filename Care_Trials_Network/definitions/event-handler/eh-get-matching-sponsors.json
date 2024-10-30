@@ -1,0 +1,27 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "ev-get-matching-sponsors",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "name": "",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "GET",
+                                    "url": "/transactions/SPONSORS?filter=[{\"queryMatcher\": \"EQUAL\",\"inverted\": true,\"fieldName\": \"sponsorStatus\",\"value\": \"LIKED\"}]"
+
+
+                                }
+                            ]
+                        }
+                    ],
+                    "postAction": "",
+                    "refId": "ev-get-matching-sponsors"
+                }
+            ]
+        }
+    ]
+}

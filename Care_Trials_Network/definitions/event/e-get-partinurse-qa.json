@@ -1,0 +1,22 @@
+{
+    "definition": {
+        "description": "Q&A",
+        "name": "GET.QA004",
+        "resource": "GET.QA004",
+        "type": "EVENT_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 1,
+                "system": false,
+                "required": false
+            }
+        ]
+    }
+}

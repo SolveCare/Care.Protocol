@@ -1,0 +1,22 @@
+{
+    "definition": {
+        "description": "Event to Navigate from Engage to cd-up1myofsopj326b40xd9ym0gynr1",
+        "name": "W-TRIAL-ADMIN-NAVIG-TO-.M29",
+        "resource": "W-TRIAL-ADMIN-NAVIG-TO-.M29",
+        "type": "EVENT_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 1,
+                "system": false,
+                "required": false
+            }
+        ]
+    }
+}

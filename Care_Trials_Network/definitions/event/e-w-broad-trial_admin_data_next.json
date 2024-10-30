@@ -1,0 +1,55 @@
+{
+    "definition": {
+        "description": "Save Trial Admin Data Next",
+        "name": "W-BROAD-trial_admin_data_next",
+        "resource": "W-BROAD-trial_admin_data_next",
+        "type": "EVENT_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "name": "Site_UniqueCode",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "Site_UniqueCode",
+                "order": 1
+            },
+            
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "order": 9
+            },
+            {
+                "code": "createdAt",
+                "name": "createdAt",
+                "type_definition": {
+                    "type": "timestamp"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "order": 10
+            },
+            {
+                "name": "senderNodeAddress",
+                "code": "senderNodeAddress",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 11
+            }
+        ]
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "e-get-list-trials-ta",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "name": "",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "GET",
+                                    "url": "/transactions/TRIALS_TA_SH"                                }
+                            ]
+                        }
+                    ],
+                    "postAction": "",
+                    "refId": "e-get-list-trials-ta"
+                }
+            ]
+        }
+    ]
+}

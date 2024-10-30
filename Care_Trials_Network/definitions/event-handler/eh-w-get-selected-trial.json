@@ -1,0 +1,25 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "e-w-get-selected-trial",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "name": "getTRIAL_DATA",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "GET",
+                                    "url": "/transactions/TRIALS?filter=[{\"queryMatcher\": \"EQUAL\",\"inverted\": false,\"fieldName\": \"SiteID\",\"value\": \"${SiteID}\"}]"
+                                }
+                            ]
+                        }
+                    ],
+                    "postAction": "",
+                    "refId": "e-w-get-selected-trial"
+                }
+            ]
+        }
+    ]
+}

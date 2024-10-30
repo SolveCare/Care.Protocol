@@ -1,0 +1,207 @@
+{
+    "id": "cd-trialslikedbylead-4",
+    "name": "Q&A Request",
+    "cardData": {
+        "0tile1iierroriigz2": "",
+        "1tile12iitextiij90": "Select a question",
+        "imageUrlfhswz": "https://i.ibb.co/GsmtQLb/down-arrow.png",
+        "1tile12iihintiigf7": "Select from list",
+        "1tile12iidataiitia": [
+            "How would you describe your current overall health?",
+            "Do you have any existing medical conditions or chronic illnesses?",
+            "Are you currently taking any prescription or over-the-counter medications?",
+            "Are you able to commit to the required follow-up visits and procedures outlined in the study protocol?",
+            "Do you anticipate any significant changes in your schedule or lifestyle during the course of the trial?",
+            "Do you smoke or consume alcohol? If so, how frequently?",
+            "How would you describe your level of physical activity on a weekly basis?",
+            "Have you received a formal diagnosis for the condition under investigation, or is your participation based on your own opinion or self-perceived symptoms?",
+            "Are you aware of any allergies you may have, particularly to medications, foods, or environmental factors that could be relevant to this clinical trial?",
+            "Can you provide information about your family's medical history, specifically any instances of genetic disorders or hereditary conditions that might be pertinent to the trial?",
+            "Have you ever been diagnosed with a mental illness or are you currently undergoing any mental health treatments?",
+            "If applicable, are you currently pregnant or planning to become pregnant during the trial period?",
+            "Have you participated in any other clinical trials before? If so, could you share details about the nature and outcomes of those trials?"
+        ],
+        "2en01bottombutton1iitextiirnj": "Send" ,
+        "textcomparti1": "Communication with participant:",
+        "textcomparti12": "Communication history",
+        "0tile11iitextiiufg1": "Ask additional questions to the lead",
+        "0tile11iitextii7621": "Just enter the question and tap send",
+        "imageUrlzkk3n12": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/arrow-right blue.png",
+        "3tile2iitextiivec": "Enter question"
+
+    },
+  
+    "cardLayout": {
+        "body": [
+            {
+                "id": "00tc01",
+                "tileComponent": [
+                    
+                    {
+                        "id": "Tile11",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile11iitextiiufg1",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "style": "BOLD"
+                                },
+                                "subTitle": {
+                                    "text": "0tile11iitextii7621",
+                                    "subTitleTextColor": "#000080",
+                                    "style": "REGULAR",
+                                    "subTitleAlign": "START"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    
+                    {
+                        "id": "Tile1",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "3tile2iitextiivec",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "subTitle": {
+                                    "text": "{$questionText}",
+                                    "hint": "3tile2iitextiivec",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START",
+                                    "keyboard": "text",
+                                    "autofill": false,
+                                    "min": "1",
+                                    "max": "100",
+                                    "validation": [
+                                        {
+                                            "name": "REQUIRED_FIELD",
+                                            "error": "0tile1iierroriigz2"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    }
+                    ,
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "textcomparti12",
+                                    "style": "REGULAR",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#ffffff",
+                        "backgroundColor": "#ffffff", 
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    }
+
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 0
+            },
+            
+            {
+                "id": "list",
+                "tileComponent": [
+                    {
+                        "id": "Tile11",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "{$questionText}",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "subTitle": {
+                                    "text": "{$answerText}",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 3,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 5
+                    }
+                ],
+                "tileType": "LIST",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+    
+    "footer": {
+        "menu": [
+            {
+                "id": "EN01BottomButtonBack",
+                "subView": [
+                    {
+                        "title": {
+                            "text": ""
+                        }
+                    }
+                ],
+                "align": "START",
+                "type": "BACK_BUTTON",
+                "uiAction": "${action103}",
+                "order": 1
+            },
+            {
+                "id": "EN01BottomButton1",
+                "subView": [
+                    {
+                        "title": {
+                            "text": "2en01bottombutton1iitextiirnj"
+                        }
+                    }
+                ],
+                "align": "START",
+                "type": "BUTTON",
+                "uiAction": "${action661}",
+                "order": 2
+            }
+        ],
+        "orientation": "HORIZONTAL"
+    }
+},
+    "cardUIAction": {
+        "action103": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-trialslikedbylead-2"
+                }
+            ]
+        },
+        "action661": {
+            "action": "e-w-broad-sendqa-nurse"
+        }
+    }
+}

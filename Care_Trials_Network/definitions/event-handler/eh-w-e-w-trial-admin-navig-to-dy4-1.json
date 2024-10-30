@@ -1,0 +1,25 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "e-w-trial-admin-navig-to-dy4-1",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "name": "submit",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "GET",
+                                    "url": "/transactions/TRIALS?filter=[{\"queryMatcher\": \"EQUAL\",\"inverted\": false,\"fieldName\": \"SiteID\",\"value\": \"${SiteID}\"}]"
+                                }
+                            ]
+                        }
+                    ],
+                    "postAction": "cd-wdxqhvbo2ygobt30qjxulaxv8dyp",
+                    "refId": "e-w-trial-admin-navig-to-dy4-1"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,162 @@
+{
+    "definition": {
+        "description": "Save ONE at role A",
+        "name": "W-BROAD-ONE-TO-RL-ACCNW_K5Z",
+        "resource": "W-BROAD-ONE-TO-RL-ACCNW_K5Z",
+        "type": "EVENT_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "name": "reviewPayWith",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "reviewPayWith",
+                "order": 6
+            },
+            {
+                "name": "PromoCode",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "PromoCode",
+                "order": 6
+            },
+            {
+                "name": "sendToAdmin",
+                "type_definition": { 
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "sendToAdmin",
+                "order": 1
+            },
+            {
+                "name": "participantDetails",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "participantDetails",
+                "order": 1
+            },
+            {
+                "name": "recordType",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "recordType",
+                "order": 2
+            },
+            {
+                "name": "medicalIdRecords",
+                "code": "medicalIdRecords",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 13,
+                "times": 1
+            },
+            {
+                "name": "timeMessage",
+                "code": "timeMessage",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 13,
+                "times": 1
+            },
+            {
+                "name": "folderReference",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "folderReference",
+                "order": 7
+            },
+            {
+                "name": "badge",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "badge",
+                "order": 3,
+                "times": 1
+            },
+            {
+                "name": "record",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "record",
+                "order": 4
+            },
+            {
+                "name": "name",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "name",
+                "order": 1
+            },
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "order": 2
+            },
+            {
+                "code": "createdAt",
+                "name": "createdAt",
+                "type_definition": {
+                    "type": "timestamp"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "order": 3
+            },
+            {
+                "name": "senderNodeAddress",
+                "code": "senderNodeAddress",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 4
+            }
+        ]
+    }
+}

@@ -1,0 +1,200 @@
+{
+    "id": "cd-invite-rl-tp2ojns9b2eknqpd739jo53ndai1",
+    "name": "Care.Trials",
+    "cardData": {
+        "0tile11DescriptionTitle": "Description",
+        "0tile11DescriptionSubTitle": "A network that facilitates enrollment of participants into clinical trials while enabling publishing trials by trial providers.",
+        "1tile0Publisher": "Publisher : Solve.Care",
+        "2tile0NetworkName": "Care.Trials Network",
+        "3tile11PublisherContactTitle": "Publisher contact",
+        "3tile11PublisherContactSubTitle": "Website : https://caretrials.net/ ",
+        "4tile0PublishedOn": "Published on: 04/08/2023",
+        "5tile0Participants": "Participants: 335",
+        "6tile0AssignedRole": "Your assigned role: Network Admin",
+        "nextButtonText": "Next"
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    {
+                        "id": "Tile11",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile11DescriptionTitle",
+                                    "titleTextColor": "#000000",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "0tile11DescriptionSubTitle",
+                                    "subTitleTextColor": "#000000",
+                                    "subTitleAlign": "START"
+                                }
+                            }
+                        ],
+                        "borderColor": "#afafaf",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "1tile0Publisher",
+                                    "style": "REGULAR",
+                                    "titleTextColor": "#212121",
+                                    "titleAlign": "START"
+                                }
+                            }
+                        ],
+                        "borderColor": "#afafaf",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "2tile0NetworkName",
+                                    "style": "REGULAR",
+                                    "titleTextColor": "#212121",
+                                    "titleAlign": "START"
+                                }
+                            }
+                        ],
+                        "borderColor": "#afafaf",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 2
+                    },
+                    {
+                        "id": "Tile11",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "3tile11PublisherContactTitle",
+                                    "titleTextColor": "#000000",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "3tile11PublisherContactSubTitle",
+                                    "subTitleTextColor": "#000000",
+                                    "subTitleAlign": "START"
+                                }
+                            }
+                        ],
+                        "borderColor": "#afafaf",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 3
+                    },
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "4tile0PublishedOn",
+                                    "style": "REGULAR",
+                                    "titleTextColor": "#212121",
+                                    "titleAlign": "START"
+                                }
+                            }
+                        ],
+                        "borderColor": "#afafaf",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 4
+                    },
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "5tile0Participants",
+                                    "style": "REGULAR",
+                                    "titleTextColor": "#212121",
+                                    "titleAlign": "START"
+                                }
+                            }
+                        ],
+                        "borderColor": "#afafaf",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 5
+                    },
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "6tile0AssignedRole",
+                                    "style": "REGULAR",
+                                    "titleTextColor": "#212121",
+                                    "titleAlign": "START"
+                                }
+                            }
+                        ],
+                        "borderColor": "#afafaf",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 6
+                    }
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action1}",
+                    "order": 1
+                },
+                {
+                    "id": "EN01BottomButton1",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": "nextButtonText"
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BUTTON",
+                    "uiAction": "${action2}",
+                    "order": 2
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action1": {
+            "action": "HOME"
+        },
+        "action2": {
+            "action": {
+                "name": "Function.CallEventHandler",
+                "method": "DETAILS",
+                "NAVIGATION": "cd-consent-rl-tp2ojns9b2eknqpd739jo53ndai1"
+            }
+        }
+    }
+}

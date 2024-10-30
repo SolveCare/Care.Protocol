@@ -1,0 +1,132 @@
+{
+    "definition": {
+        "description": "Submit Set Appointment",
+        "name": "GET.ACCEPTED.APPOINTMENT001",
+        "resource": "GET.ACCEPTED.APPOINTMENT001",
+        "type": "EVENT_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 1,
+                "required": true,
+                "system": false
+            },
+            {
+                "name": "TrialID",
+                "code": "TrialID",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 8
+            },
+            {
+                "code": "SiteID",
+                "name": "SiteID",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 2,
+                "required": true,
+                "system": false
+            },
+            {
+                "code": "adminNodeAddress",
+                "name": "adminNodeAddress",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 3,
+                "required": true,
+                "system": false
+            },
+            {
+                "name": "apptInfo",
+                "code": "apptInfo",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 4
+            },
+            {
+                "name": "apptPurpose",
+                "code": "apptPurpose",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": true,
+                "system": false,
+                "order": 5
+            },
+            {
+                "name": "apptLocation",
+                "code": "apptLocation",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": true,
+                "system": false,
+                "order": 6
+            },
+            {
+                "name": "apptWorkDays",
+                "code": "apptWorkDays",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": true,
+                "system": false,
+                "order": 7
+            },
+            {
+                "name": "apptWorkHours",
+                "code": "apptWorkHours",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": true,
+                "system": false,
+                "order": 8
+            },
+            {
+                "code": "createdAt",
+                "name": "createdAt",
+                "type_definition": {
+                    "type": "timestamp"
+                },
+                "order": 9,
+                "required": true,
+                "system": false
+            },
+            {
+                "code": "submittedAt",
+                "name": "submittedAt",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 10,
+                "required": true,
+                "system": false
+            },
+            {
+                "name": "updatedAt",
+                "code": "updatedAt",
+                "type_definition": {
+                    "type": "timestamp"
+                },
+                "required": true,
+                "system": false,
+                "order": 11
+            }
+        ]
+    }
+}

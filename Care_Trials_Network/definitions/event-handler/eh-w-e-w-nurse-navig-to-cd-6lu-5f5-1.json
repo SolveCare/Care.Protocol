@@ -1,0 +1,25 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "e-w-nurse-navig-to-cd-6lu-5f5-1",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "name": "submit",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "DETAILS",
+                                    "url": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "postAction": "cd-expiredid",
+                    "refId": "e-w-nurse-navig-to-cd-6lu-5f5-1"
+                }
+            ]
+        }
+    ]
+}

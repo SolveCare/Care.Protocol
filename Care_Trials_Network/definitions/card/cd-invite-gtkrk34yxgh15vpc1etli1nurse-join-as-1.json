@@ -1,0 +1,162 @@
+{
+    "id": "cd-invite-gtkrk34yxgh15vpc1etli1nurse-join-as-1",
+    "name": "Care.Trials",
+    "cardData": {
+        "0tile11DescriptionTitle": "Description",
+        "0tile11DescriptionSubTitle": "Care.Trials is an anonymous network for clinical trial participation. Earn rewards while contributing to healthcare advancements.",
+        "1tile0Publisher": "Publisher",
+        "1tile0Publishek": "Solve.Care",
+        "2tile0NetworkName": "Care.Trials Network",
+        "3tile11PublisherContactTitle": "Publisher contact",
+        "3tile11PublisherContactSubTitle": "Website : https://caretrials.net/ ",
+        "4tile0PublishedOn": "Published on",
+        "4tile0Publishedkn": "04/08/2023",
+        "5tile0Participants": "Participants: 335",
+        "6tile0AssignedRole": "Your assigned role",
+        "6tile0AssignedRolx": "PI-Nurse",
+        "nextButtonText": "Next"
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile11DescriptionSubTitle",
+                                    "style": "REGULAR",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "LEFT"
+                                }
+                            }
+                        ],
+                        "borderColor": "#afafaf",
+                        "backgroundColor": "#ffffff",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile0a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "1tile0Publisher",
+                                    "style": "REGULAR",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "1tile0Publishek",
+                                    "style": "BOLD",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "END"
+                                }
+                            }
+                        ],
+                        "borderColor": "#afafaf",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 2
+                    },
+                    {
+                        "id": "Tile0a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "4tile0PublishedOn",
+                                    "style": "REGULAR",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "4tile0Publishedkn",
+                                    "style": "BOLD",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "END"
+                                }
+                            }
+                        ],
+                        "borderColor": "#afafaf",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 2
+                    },                  
+                     {"id": "Tile0a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "6tile0AssignedRole",
+                                    "style": "REGULAR",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "6tile0AssignedRolx",
+                                    "style": "BOLD",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "END"
+                                }
+                            }
+                        ],
+                        "borderColor": "#afafaf",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 2
+                    }
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action1}",
+                    "order": 1
+                },
+                {
+                    "id": "EN01BottomButton1",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": "nextButtonText"
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BUTTON",
+                    "uiAction": "${action2}",
+                    "order": 2
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action1": {
+            "action": "HOME"
+        },
+        "action2": {
+            "action": {
+                "name": "Function.CallEventHandler",
+                "method": "DETAILS",
+                "NAVIGATION": "cd-consent-rl-gtkrk34yxgh15vpc1etli1nurse"
+            }
+        }
+    }
+}

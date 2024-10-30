@@ -1,0 +1,113 @@
+{
+    "id": "cd-BeforePlatinumPayment",
+    "name": "Campaign for trial",
+    "cardData": {
+        "0tile0iitextiik8q": "Choose trial for which you want to run a campaign",
+        "imageUrl1uqfz": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/arrow-right blue.png",
+        "2tile14iitextii6kq": "View campaign card",
+        "previousText2": "Previous",
+        "buyNowText2": "Buy Now",
+        "NextText2": "Next"
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile0iitextiik8q",
+                                    "style": "REGULAR",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "CENTER",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#000080",
+                        "backgroundColor": "#000080",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    }
+                    
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            },
+            {
+                "id": "list",
+                "tileComponent": [
+                    {
+                        "id": "Tile14",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "{$TrialName}",
+                                    "titleTextColor": "#000080",
+                                    "fontSize": 16,
+                                    "style": "REGULAR"
+                                },
+                                "img": {
+                                    "text": "imageUrl1uqfz",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "${action314}",
+                        "order": 1
+                    }
+                ],
+                "tileType": "LIST",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "style": {
+            "fontSize": 16,
+            "bgColor": "#ffffff",
+            "borderWidth": 1
+        },
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action710}",
+                    "order": 1   
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action314": {
+            "action": "e-w-navig-payment3"
+        },
+        "action1": {
+            "action": "HOME"
+        },
+        "action710": {
+            "action": "e-w-navig-back3"
+        }
+    }
+}

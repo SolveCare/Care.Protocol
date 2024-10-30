@@ -1,0 +1,226 @@
+{
+    "id": "cd-87xipe5fd7dokqd1vt7zmn9zw6m1",
+    "name": "Site budget",
+    "cardData": {
+        "3tile14iitextii6kc": "View spending history",
+        "imageUrlnky99": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/arrow-right blue.png",
+        "3tile14iitextii6kc1": "Request budget",
+        "imageUrlnky991": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/arrow-right blue.png",
+        "1tile0aiitextiidvx": "Budget, SOLVE",
+        "1tile0aiitextiim4n": "100,000",
+        "1tile0aiitextiidvx1": "Available funds, SOLVE",
+        "1tile0aiitextiim4n1": "50,000",
+        "1tile0aiitextiidvx2": "Total expenses, SOLVE",
+        "1tile0aiitextiim4n2": "50,000",
+        "1tile0aiitextiidvx3": "Remaining budget, SOLVE",
+        "1tile0aiitextiim4n3": "50,000",
+        "1tile0aiitextiidvx4": "Updated on",
+        "1tile0aiitextiim4n4": "27/02/2024"
+    },
+    "prerenderingFunctions": [
+      {
+          "name": "Function.SOLVE.getTokenBalance",
+          "sourceKeys": [],
+          "totalKey": "",
+          "resultKey": "solveBalance"
+      }
+  ],
+    "cardLayout": {
+        "body": [
+            {
+                "id": "00tc01",
+                "tileComponent": [
+                    {
+                        "id": "Tile0a",
+                        "subView": [
+                          {
+                            "title": {
+                              "text": "1tile0aiitextiidvx",
+                              "style": "REGULAR",
+                              "titleTextColor": "#000080",
+                              "titleAlign": "START"
+                            },
+                            "subTitle": {
+                              "text": "{$Budget}",
+                              "style": "REGULAR",
+                              "subTitleTextColor": "#000080",
+                              "subTitleAlign": "END"
+                            }
+                          }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                      },
+                      {
+                        "id": "Tile0a",
+                        "subView": [
+                          {
+                            "title": {
+                              "text": "1tile0aiitextiidvx1",
+                              "style": "REGULAR",
+                              "titleTextColor": "#000080",
+                              "titleAlign": "START"
+                            },
+                            "subTitle": {
+                              "text": "${solveBalance}",
+                              "style": "REGULAR",
+                              "subTitleTextColor": "#000080",
+                              "subTitleAlign": "END"
+                            }
+                          }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                      },
+                      {
+                        "id": "Tile0a",
+                        "subView": [
+                          {
+                            "title": {
+                              "text": "1tile0aiitextiidvx2",
+                              "style": "REGULAR",
+                              "titleTextColor": "#000080",
+                              "titleAlign": "START"
+                            },
+                            "subTitle": {
+                              "text": "{$total_expenses}",
+                              "style": "REGULAR",
+                              "subTitleTextColor": "#000080",
+                              "subTitleAlign": "END"
+                            }
+                          }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                      },
+                      {
+                        "id": "Tile0a",
+                        "subView": [
+                          {
+                            "title": {
+                              "text": "1tile0aiitextiidvx3",
+                              "style": "REGULAR",
+                              "titleTextColor": "#000080",
+                              "titleAlign": "START"
+                            },
+                            "subTitle": {
+                              "text": "{$remaining_budget}",
+                              "style": "REGULAR",
+                              "subTitleTextColor": "#000080",
+                              "subTitleAlign": "END"
+                            }
+                          }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                      },
+                      {
+                        "id": "Tile0a",
+                        "subView": [
+                          {
+                            "title": {
+                              "text": "1tile0aiitextiidvx4",
+                              "style": "REGULAR",
+                              "titleTextColor": "#000080",
+                              "titleAlign": "START"
+                            },
+                            "subTitle": {
+                              "text": "{$updated_date}",
+                              "style": "REGULAR",
+                              "subTitleTextColor": "#000080",
+                              "subTitleAlign": "END"
+                            }
+                          }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                      },
+                      
+                    {
+                        "id": "Tile14",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "3tile14iitextii6kc1",
+                                    "titleTextColor": "#000080",
+                                    "fontSize": 16,
+                                    "style": "REGULAR"
+                                },
+                                "img": {
+                                    "text": "imageUrlnky991",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "${action879}",
+                        "order": 3
+                    }
+
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 0
+            }
+        ],
+        "style": {
+            "fontSize": 16,
+            "bgColor": "#ffffff",
+            "borderWidth": 1
+        },
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ], 
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action87}",
+                    "order": 1
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action877": {
+            "action": "e-w-pt-navig-to-cd-b7ayf-5qhb"
+            
+        },
+        "action878": {
+            "action": "e-w-pt-navig-to-cd-b7ayf-spend"
+        },
+        "action879": {
+            "action": "e-w-pt-navig-to-cd-b7ayf-reqbud"
+        },
+        "action87": {
+          "action": [
+              {
+                  "name": "Function.Navigate",
+                  "cardId": "cd-sp9r1iqjcat1odwk2rsls0733131gn"
+              }
+          ]
+      }
+    }
+}

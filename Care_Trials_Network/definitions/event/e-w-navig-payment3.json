@@ -1,0 +1,22 @@
+{
+    "definition": {
+        "description": "4",
+        "name": "SYNC004",
+        "resource": "SYNC004",
+        "type": "EVENT_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 1,
+                "system": false,
+                "required": false
+            }
+        ]
+    }
+}

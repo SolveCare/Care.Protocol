@@ -1,0 +1,23 @@
+{
+    "definition": {
+        "description": "Refer Care.Trial",
+        "name": "PATIENT.REFER.SITE",
+        "resource": "PATIENT.REFER.SITE",
+        "type": "EVENT_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "name": "SiteID",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": true,
+                "system": false,
+                "code": "SiteID",
+                "order": 1,
+                "times": 1
+            }
+        ]
+    }
+}

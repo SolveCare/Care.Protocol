@@ -1,0 +1,167 @@
+{
+    "id": "td-NURSE_APPOINTMENT",
+    "path": "td/td-NURSE_APPOINTMENT.json",
+    "definition": {
+        "version": 1,
+        "collection": "NURSE_APPOINTMENT",
+        "description": "Store Q&A for Care.Admin",
+        "name": "NURSE_APPOINTMENT",
+        "resource": "NURSE_APPOINTMENT",
+        "status": "RELEASED",
+        "type": "TRANSACTIONAL_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 1,
+                "required": true,
+                "system": false
+            },
+            {
+                "name": "TrialID",
+                "code": "TrialID",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 8
+            },
+            {
+                "code": "SiteID",
+                "name": "SiteID",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 2,
+                "required": true,
+                "system": false
+            },
+            {
+                "code": "leadNodeAddress",
+                "name": "leadNodeAddress",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 3,
+                "required": true,
+                "system": false
+            },
+            {
+                "name": "apptInfo",
+                "code": "apptInfo",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 4
+            },
+            {
+                "name": "apptPurpose",
+                "code": "apptPurpose",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": true,
+                "system": false,
+                "order": 5
+            },
+            {
+                "name": "apptLocation", 
+                "code": "apptLocation",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": true,
+                "system": false,
+                "order": 6
+            },
+            {
+                "name": "apptWorkDays",
+                "code": "apptWorkDays",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": true,
+                "system": false,
+                "order": 7
+            },
+            {
+                "name": "apptWorkHours",
+                "code": "apptWorkHours",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": true,
+                "system": false,
+                "order": 8
+            },
+            {
+                "code": "createdAt",
+                "name": "createdAt",
+                "type_definition": {
+                    "type": "timestamp"
+                },
+                "order": 9,
+                "required": true,
+                "system": false
+            }, 
+            {
+                "code": "submittedAt",
+                "name": "submittedAt",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 10,
+                "required": false,
+                "system": false
+            },
+            {
+                "name": "updatedAt",
+                "code": "updatedAt",
+                "type_definition": {
+                    "type": "timestamp"
+                },
+                "required": true,
+                "system": false,
+                "order": 11
+            },
+            {
+                "name": "isApptStatus",
+                "code": "isApptStatus",
+                "type_definition": {
+                    "type": "boolean"
+                },
+                "required": false,
+                "system": false,
+                "order": 7
+            },
+            {
+                "name": "isApptStatusNot",
+                "code": "isApptStatusNot",
+                "type_definition": {
+                    "type": "boolean"
+                },
+                "required": false,
+                "system": false,
+                "order": 7
+            },
+            {
+                "name": "statusIcon",
+                "code": "statusIcon",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 7
+            }  
+        ]
+    }
+}

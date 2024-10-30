@@ -1,0 +1,167 @@
+{
+  "id": "cd-siteprototypeAppointDetails-10",
+  "name": "Appointment Details",
+  "cardData": {
+      "0tile0iitextiiiw81": "Sent requests",
+      "2en01bottombutton1iitextiilor": "Send",
+      "1tile1iitextiiixo": "Information",
+      "1tile1iihintii6km": "Enter here",
+      "1tile1iierrorii6se": "",
+      "1tile1iitextiiixo1": "Location",
+      "1tile1iihintii6km1": "Enter here",
+      "1tile1iierrorii6se1": "",
+      "1tile1iitextiiixo2": "Working days",
+      "1tile1iihintii6km2": "Enter here",
+      "1tile1iierrorii6se2": "",
+      "1tile1iitextiiixo3": "Working hours",
+      "1tile1iihintii6km3": "Enter here",
+      "1tile1iierrorii6se3": "",
+      "textforsentreq11": "Request 1",
+      "textfornewappt": "Set new appointment request",
+      "apptPurpose": "Checkup",
+      "submittedAt": "Received on: 26/03/2024",
+      "imageUrlzkk3n12": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/arrow-right blue.png",
+      "imageUrlzkk3n15": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/arrow-right blue.png"
+
+  }, 
+  "cardLayout": {
+      "body": [
+          {
+              "id": "000t1",
+              "tileComponent": [
+                  {
+                      "id": "Tile14",
+                      "subView": [
+                          {
+                              "title": {
+                                  "text": "textfornewappt",
+                                  "fontSize": 16,
+                                  "titleTextColor": "#000080",
+                                  "style": "REGULAR"
+                              },
+                              "img": {
+                                  "text": "imageUrlzkk3n12",
+                                  "isUrl": true,
+                                  "height": "25",
+                                  "width": "25"
+                              }
+                          }
+                      ],
+                      "borderColor": "#C5C3C8",
+                      "backgroundColor": "#ffffff",
+                      "borderWidth": 3,
+                      "type": "CONTAINER",
+                      "uiAction": "${action502}",
+                      "order": 3
+                  },
+                  {
+                      "id": "Tile0",
+                      "subView": [
+                          {
+                              "title": {
+                                  "text": "0tile0iitextiiiw81",
+                                  "style": "BOLD",
+                                  "titleTextColor": "#000080",
+                                  "titleAlign": "START",
+                                  "fontSize": 16
+                              }
+                          }
+                      ],
+                      "borderColor": "#ffffff",
+                      "backgroundColor": "#ffffff",
+                      "borderWidth": 1,
+                      "type": "CONTAINER",
+                      "uiAction": "",
+                      "order": 1
+                  },
+                  {
+                    "id": "Tile14a", 
+                    "subView": [
+                        {
+                            "title": {
+                                "text": "apptPurpose",
+                                "style": "BOLD",
+                                "titleTextColor": "#000080",
+                                "titleAlign": "START",
+                                "fontSize": 16
+                            },
+                            "subTitle": {
+                                "text": "submittedAt",
+                                "style": "REGULAR",
+                                "subTitleTextColor": "#000080",
+                                "subTitleAlign": "START",
+                                "fontSize": 16
+                            },
+                            "img": {
+                                "text": "imageUrlzkk3n15",
+                                "isUrl": true,
+                                "height": "25",
+                                "width": "25"
+                            }
+                        }
+                    ],
+                    "borderColor": "#C5C3C8",
+                    "backgroundColor": "#ffffff",
+                    "borderWidth": 3, 
+                    "type": "CONTAINER",
+                    "uiAction": "${action503}",
+                    "order": 3
+                }
+              ],
+              "tileType": "WRAP",
+              "uiAction": "",
+              "order": 1
+          }
+      ],
+      "style": {
+          "fontSize": 16,
+          "bgColor": "#ffffff",
+          "borderWidth": 1
+      },
+      "footer": {
+          "menu": [
+              {
+                  "id": "EN01BottomButtonBack",
+                  "subView": [
+                      {
+                          "title": {
+                              "text": ""
+                          }
+                      }
+                  ],
+                  "align": "START",
+                  "type": "BACK_BUTTON",
+                  "uiAction": "${action478}",
+                  "order": 1
+              }
+          ],
+          "orientation": "HORIZONTAL"
+      }
+  },
+  "cardUIAction": {
+    "action478": {
+        "action": [
+            {
+                "name": "Function.Navigate",
+                "cardId": "cd-siteprototypeLeadCard-2"
+            }
+        ]
+      },
+      "action502": {
+        "action": [
+            {
+                "name": "Function.Navigate",
+                "cardId": "cd-siteprototypeSetAppointment-11"
+            }
+        ]
+      },
+      "action503": {
+        "action": [
+            {
+                "name": "Function.Navigate",
+                "cardId": "cd-siteprototypeAppointmentRequest-12"
+            }
+        ]
+      }
+  }
+}   

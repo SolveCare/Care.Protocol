@@ -1,0 +1,142 @@
+{
+    "id": "cd-paywithpromocode",
+    "name": "Pay with Promo Code", 
+    "cardData": {
+        "0tile14aiitextii3an": "Medical Records",
+        "0tile14aiitextiir57": "Uploaded on: 09/05/2023",
+        "imageUrlcr7ph": "https://d1fgr2dke6q42b.cloudfront.net/dev/media/a1920ec3-027a-43cc-9226-36fad59c0b6a/go_next_grey_icon.png",
+        "1tile14iitextii0ve": "View attachments",
+        "imageUrlgvg6u": "https://d1fgr2dke6q42b.cloudfront.net/dev/media/a1920ec3-027a-43cc-9226-36fad59c0b6a/go_next_grey_icon.png",
+        "2tile6aiitextiiwy7": "Pay with:",
+        "labelgbklb": "1000 SOLVE",
+        "label7ygou": "with Promo Code",
+        "validationf9db0": "Please select atleast one of the value",
+        "2en01bottombutton1iitextiilbn": "Submit",
+        "0tile1iitextiinm7": "Attachment(s)",
+        "1tile13iitextiiixa": "Attach a selfie",
+        "1tile13iihintiisdl": "jpg or png",
+        "text123": "Pay with promo code.",
+        "validationdrhfc": "Please select one value",
+        "1tile1iitextiiixo": "Enter Promo Code",
+        "textwith1000solve": "1000 SOLVE",
+        "textwithpromocode": "Promo Code"
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "text123",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+
+                    {
+                        "id": "Tile1a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "1tile1iitextiiixo",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "JUSTIFY"
+                                },
+                                "subTitle": {
+                                    "text": "{$PromoCode}",
+                                    "hint": "1tile1iihintii6km",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START",
+                                    "keyboard": "text",
+                                    "min": "5",
+                                    "max": "42",
+                                    "validation": [
+                                        {
+                                            "name": "OPTIONAL",
+                                            "error": "1tile1iierrorii6se"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 4
+                    }
+                  
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "style": {
+            "fontSize": 16,
+            "bgColor": "#ffffff",
+            "borderWidth": 1
+        },
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action1}",
+                    "order": 1
+                },
+                {
+                    "id": "EN01BottomButton1",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": "2en01bottombutton1iitextiilbn"
+                            }
+                        }
+                    ],
+                    "align": "END",
+                    "type": "BUTTON",
+                    "uiAction": "${action636}",
+                    "order": 2
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "": {
+            "action": null
+        },
+        "action1": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-fv1bos6yy2fy21omltb4nqlvtef1"
+                }
+            ]        },
+        "action636": {
+            "action": "e-w-broad-promo-code"
+        }
+    }
+}

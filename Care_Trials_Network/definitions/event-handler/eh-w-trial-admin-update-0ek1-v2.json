@@ -1,0 +1,24 @@
+{
+    "nodeEventHandlers": [
+        {
+            "type": "VAULT_UPDATE",
+            "name": "TRIALS_TA_SH",
+            "order": 1,
+            "collection": "TRIALS_TA_SH",
+            "collectionVersion": 1,
+            "dataSource": "EVENT_PAYLOAD",
+            "insertIfAbsent": true,
+            "searchCriteria": [
+                {
+                    "queryMatcher": "EQUAL",
+                    "fieldName": "transactionalGuid",
+                    "dynamicValue": {
+                        "source": "EVENT_PAYLOAD",
+                        "value": "transactionalGuid"
+                    }
+                }
+            ],
+            "handlerOutput": "PERSISTED_ENTITY"
+        }
+    ]
+}

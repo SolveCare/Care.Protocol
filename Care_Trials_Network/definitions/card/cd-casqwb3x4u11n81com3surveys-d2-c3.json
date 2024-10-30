@@ -1,0 +1,151 @@
+{
+    "id": "cd-casqwb3x4u11n81com3surveys-d2-c3",
+    "name": "Competency Assessment Survey",
+    "cardData": {
+        "4tile0textq4": "Self Grading",
+
+        "1tile6aq1Text": "How would you rate your institution/unit according to its existing capacities in the Infrastructure and Resources Domain?",
+        "1label5": "5 - Leading \nRecognized leader in clinical research and trials, with local, national, or international partnerships and networks. Leads the design and conduct of clinical researches and trials. Acts as a hub for formative and developing research and trial units",
+        "1label4": "4 - Advanced \nDesigns and implements large-scale clinical researches and trials. Portfolio includes multi-center and multi-regional trials",
+        "1label3": "3 - Established \nInfrastructure supports the design and conduct of clinical researches and trials, with oversight and executive support from a central hub/external unit",
+        "1label2": "2 - Developing \nBasic infrastructure for clinical research studies and small-scale, mostly in-house clinical trials",
+        "1label1": "1 - Formative \nBasic infrastructure for clinical research studies, mostly observational",
+        "1label0": "0 - Basic \nNot yet able to consider a clinical research/trials portfolio nor formally conduct clinical research/trials",
+        
+        "validationdrhfc": "Please select one value",
+        
+        "2en01bottombuttonNext": "Next"
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "4tile0textq4",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile6a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "1tile6aq1Text",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START"
+                                },
+                                "options": {
+                                    "key": {
+                                        "name": "{$D2SelfGrading}",
+                                        "optionAlign": "START",
+                                        "optionTextColor": "#000080"
+                                    },
+                                    "list": [
+                                        {
+                                            "label": "1label5"
+                                        },
+                                        {
+                                            "label": "1label4"
+                                        },
+                                        {
+                                            "label": "1label3"
+                                        },
+                                        {
+                                            "label": "1label2"
+                                        },
+                                        {
+                                            "label": "1label1"
+                                        },
+                                        {
+                                            "label": "1label0"
+                                        }
+                                    ],
+                                    "validation": [
+                                        {
+                                            "name": "REQUIRED_FIELD",
+                                            "error": "validationdrhfc"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "borderColor": "#afafaf",
+                        "type": "CONTAINER",
+                        "uiAction": "${}",
+                        "order": 1
+                    }
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action1}",
+                    "order": 1
+                },
+                {
+                    "id": "EN01BottomButton1",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": "2en01bottombuttonNext"
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BUTTON",
+                    "uiAction": "${action2}",
+                    "order": 2
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action1": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-casqwb3x4u11n81com3surveys-d2-c2"
+                }
+            ]
+        },
+        "action2": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-casqwb3x4u11n81com3surveys-d3-c1"
+                }
+            ]
+        }
+    }
+}

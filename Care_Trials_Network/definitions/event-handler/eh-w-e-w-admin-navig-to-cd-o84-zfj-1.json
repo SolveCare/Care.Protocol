@@ -1,0 +1,25 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "e-w-admin-navig-to-cd-o84-zfj-1",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "name": "submit",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "DETAILS",
+                                    "url": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "postAction": "cd-xrqjy00p6m3hudjbldi34t2ml80n",
+                    "refId": "e-w-admin-navig-to-cd-o84-zfj-1"
+                }
+            ]
+        }
+    ]
+}

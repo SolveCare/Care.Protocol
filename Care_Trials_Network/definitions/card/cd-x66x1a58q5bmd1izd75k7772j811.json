@@ -1,0 +1,107 @@
+{
+    "id": "cd-x66x1a58q5bmd1izd75k7772j811",
+    "name": "Activate Trial",
+    "cardData": {
+        "0tile14iitextiiu7w": "Step 1: Request admin code",
+        "imageUrltm4ow": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/arrow-right blue.png",
+        "1tile14iitextii59u": "Step 2: Activate admin role ",
+        "imageUrlk9u40": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/arrow-right blue.png"
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    {
+                        "id": "Tile14",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile14iitextiiu7w",
+                                    "fontSize": 16,
+                                    "titleTextColor": "#000080",
+                                    "style": "REGULAR"
+                                },
+                                "img": {
+                                    "text": "imageUrltm4ow",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#87ceeb",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "${action094}",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile14",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "1tile14iitextii59u",
+                                    "fontSize": 16,
+                                    "titleTextColor": "#000080",
+                                    "style": "REGULAR"
+                                },
+                                "img": {
+                                    "text": "imageUrlk9u40",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#87ceeb",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "${action826}",
+                        "order": 1
+                    }
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "style": {
+            "fontSize": 16,
+            "bgColor": "#ffffff",
+            "borderWidth": 1
+        },
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action820}",
+                    "order": 1
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action094": {
+            "action": "e-w-trial-admin-navig-to-rq0"
+        },
+        "action826": {
+            "action": "e-w-trial-admin-navig-to-6c2"
+        },
+        "action820": {
+            "action": "e-w-trial-admin-navig-to-kpp"
+        }
+    }
+}

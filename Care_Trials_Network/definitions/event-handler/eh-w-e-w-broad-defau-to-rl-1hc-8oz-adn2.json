@@ -1,0 +1,25 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "e-w-broad-defau-to-rl-1hc-8oz-adn2",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "name": "submit",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "POST",
+                                    "url": "/events"
+                                } 
+                            ]
+                        }
+                    ],
+                    "postAction": "cd-mev31thy3p9ikh4i7l1ygfenwl51",
+                    "refId": "e-w-broad-defau-to-rl-1hc-8oz-adn2"
+                }
+            ]
+        }
+    ]
+}

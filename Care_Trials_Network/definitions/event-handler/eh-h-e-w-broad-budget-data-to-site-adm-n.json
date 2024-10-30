@@ -1,0 +1,53 @@
+{
+    "nodeEventHandlers": [
+        {
+            "type": "MAPPER",
+            "name": "Append attributes to BUDGET payload",
+            "order": 1,
+            "dataSource": "EVENT_PAYLOAD",
+            "additionalAttributes": {
+                "createdAt": {
+                    "source": "GENERATED",
+                    "value": "CURRENT_TIMESTAMP"
+                },
+                "transactionalGuid": {
+                    "source": "GENERATED",
+                    "value": "UUID"
+                },
+                "senderNodeAddress": {
+                    "source": "EVENT",
+                    "value": "SENDER"
+                }
+            },
+            "excludedAttributes": []
+        },
+        {
+            "type": "EXPRESSION_LANGUAGE",
+            "name": "Append attributes",
+            "order": 2,
+            "dataSource": "HANDLER_ARGUMENTS",
+            "computedAttributes": {
+                "submittedAt": "\"Requested on: \" + new java.text.SimpleDateFormat(\"dd/MM/yyyy\").format(new java.util.Date(arguments['createdAt']))"            }
+        },
+        {
+            "type": "VAULT_UPDATE",
+            "name": "BUDGET",
+            "order": 3,
+            "collection": "BUDGET",
+            "dataSource": "HANDLER_ARGUMENTS",
+            "insertIfAbsent": true,
+            "searchCriteria": [
+                {
+                    "queryMatcher": "EQUAL",
+                    "fieldName": "SiteID",
+                    "dynamicValue": {
+                        "source": "EVENT_PAYLOAD",
+                        "value": "SiteID"
+                    }
+                }
+            ],
+            "handlerOutput": "PERSISTED_ENTITY",
+            "collectionVersion" : "1"
+        }
+    ]
+}

@@ -1,0 +1,111 @@
+{
+    "id": "cd-szqduchczd6wqdys3b3urvivhfr1",
+    "name": "Trials",
+    "cardData": {
+        "0tile14iitextiiqq7": "Activate admin role",
+        "0tile14iitextiirr8": "Request admin code",
+        "imageUrl5y5jm": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/f116d56b-00a4-4091-932b-240e9cf64504/arrow-right blue.png",
+        "imageUrl5y5in": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/f116d56b-00a4-4091-932b-240e9cf64504/arrow-right blue.png",
+        "imageUrl5y5in1": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/f116d56b-00a4-4091-932b-240e9cf64504/arrow-right blue.png",
+        "1tile0iitextiiroe": "Active trials"
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "00tc01",
+                "tileComponent": [ 
+                    
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "1tile0iitextiiroe",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#ffffff",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 4
+                    }
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            },
+            {
+                "id": "list",
+                "tileComponent": [
+                    {
+                        "id": "Tile14",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "{$TrialName}",
+                                    "titleTextColor": "#000080"
+                                },
+                                "img": {
+                                    "text": "imageUrl5y5in1",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "${action674}",
+                        "order": 4
+                    }
+                    
+                ],
+                "tileType": "LIST",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action144}",
+                    "order": 1
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action752": {
+            "action": "e-w-trial-admin-navig-to-j3i"
+        },
+        "action145": {
+            "action": "e-w-trial-admin-navig-to-4jb"
+        },
+        "action730": {
+            "action": "e-w-trial-admin-navig-to-ioq"
+        },
+        "action144": {
+            "action": "e-w-trial-admin-navig-to-kdk"
+        },
+        "action674": {
+            "action": "e-w-trial-admin-navig-to-dy4"
+        }
+    }
+}

@@ -1,0 +1,206 @@
+{
+    "definition": {
+        "description": "Save ONE at role A",
+        "name": "W-BROAD-ONE-TO-RL-ACCNW_K5Z",
+        "resource": "W-BROAD-ONE-TO-RL-ACCNW_K5Z",
+        "type": "EVENT_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "name": "reviewPayWith",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "reviewPayWith",
+                "order": 6
+            },
+            {
+                "name": "PromoCode",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "PromoCode",
+                "order": 6
+            },
+            {
+                "name": "folderReference",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "folderReference",
+                "order": 4
+            },
+            {
+                "name": "sendToAdmin",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "sendToAdmin",
+                "order": 1
+            },
+            {
+                "name": "recordType",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "recordType",
+                "order": 2
+            },
+            {
+                "name": "badge",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "badge",
+                "order": 3,
+                "times": 1
+            },
+            {
+                "name": "record",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "record",
+                "order": 4
+            },
+            {
+                "name": "name",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "name",
+                "order": 1
+            },
+            {
+                "name": "verifiedTime",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "verifiedTime",
+                "order": 2,
+                "times": 1
+            },
+            {
+                "name": "timeMessage",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "timeMessage",
+                "order": 3
+            },
+            {
+                "name": "time",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "time",
+                "order": 4
+            },
+            {
+                "name": "recordAge",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "recordAge",
+                "order": 5
+            },
+            {
+                "name": "recordStatus",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "recordStatus",
+                "order": 6
+            },
+            {
+                "code": "isRejected",
+                "name": "isRejected",
+                "type_definition": {
+                    "type": "boolean"
+                },
+                "order": 24,
+                "required": false,
+                "system": false
+            },
+            {
+                "name": "participantDetails",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "participantDetails",
+                "order": 1
+            },
+          
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "order": 2
+            },
+            {
+                "code": "createdAt",
+                "name": "createdAt",
+                "type_definition": {
+                    "type": "timestamp"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "order": 3
+            },
+            {
+                "name": "senderNodeAddress",
+                "code": "senderNodeAddress",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 4
+            }
+        ]
+    }
+}

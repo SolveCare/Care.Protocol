@@ -1,0 +1,79 @@
+{
+    "definition": {
+        "description": "Refer Care.Trial",
+        "name": "W-PARTI_REFER-TRIAL",
+        "resource": "W-PARTI_REFER-TRIAL",
+        "type": "EVENT_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "code": "TrialID",
+                "name": "TrialID",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 1,
+                "required": true
+            },
+            {
+                "code": "SiteID",
+                "name": "SiteID",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 2,
+                "required": true
+            },
+            {
+                "code": "recipientPublicKey",
+                "name": "recipientPublicKey",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 3,
+                "required": true
+            },
+            {
+                "code": "CampaignId",
+                "name": "CampaignId",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 4,
+                "required": true
+            },
+            {
+                "code": "CampaignType",
+                "name": "CampaignType",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 5,
+                "required": true
+            },
+            {
+                "code": "TrialName",
+                "name": "TrialName",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 6,
+                "required": true
+            }
+            ,
+            {
+                "name": "BriefSummary",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "BriefSummary",
+                "order": 4,
+                "times": 1
+            }
+
+        ]
+    }
+}

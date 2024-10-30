@@ -1,0 +1,25 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "e-w-trial-admin-navig-to-qcv",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "name": "submit",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "DETAILS",
+                                    "url": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "postAction": "cd-9vacobf6kxpw06c2casjr1vc8251",
+                    "refId": "e-w-trial-admin-navig-to-qcv"
+                }
+            ]
+        }
+    ]
+}

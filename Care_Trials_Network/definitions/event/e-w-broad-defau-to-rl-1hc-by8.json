@@ -1,0 +1,175 @@
+{
+    "definition": {
+        "description": "PAYMENT",
+        "name": "SITE.BUY.CAMPAIGN001",
+        "resource": "SITE.BUY.CAMPAIGN001",
+        "type": "EVENT_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 1,
+                "required": false,
+                "system": false
+            },
+            {
+                "code": "createdAt",
+                "name": "createdAt",
+                "type_definition": {
+                    "type": "timestamp"
+                },
+                "order": 2,
+                "required": false,
+                "system": false
+            },
+            {
+                "code": "answer",
+                "name": "answer",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 3,
+                "required": false,
+                "system": false
+            },
+            {
+                "name": "senderNodeAddress",
+                "code": "senderNodeAddress",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 4
+            },
+            {
+                "name": "paidByNodeAddress",
+                "code": "paidByNodeAddress",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 6
+            },
+            {
+                "name": "paidToNodeAddress",
+                "code": "paidToNodeAddress",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 7
+            },
+            {
+                "name": "totalSolveCost",
+                "code": "totalSolveCost",
+                "type_definition": {
+                    "type": "number"
+                },
+                "required": false,
+                "system": false,
+                "order": 8
+            },
+            {
+                "name": "updatedAt",
+                "code": "updatedAt",
+                "type_definition": {
+                    "type": "timestamp"
+                },
+                "required": false,
+                "system": false,
+                "order": 9
+            },
+            {
+                "name": "transactionHash",
+                "code": "transactionHash",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 10
+            },
+            {
+                "name": "paymentStatus",
+                "code": "paymentStatus",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 11
+            },
+            {
+                "name": "LocationFacility",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "LocationFacility",
+                "order": 4,
+                "times": 1
+            },
+            {
+                "name": "TrialName",
+                "code": "TrialName",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 12
+            },
+            {
+                "name": "BriefSummary",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "BriefSummary",
+                "order": 4,
+                "times": 1
+            },
+
+            {
+                "name": "TrialID",
+                "code": "TrialID",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 8
+            },
+            {
+                "name": "SiteID",
+                "code": "SiteID",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 13
+            },
+            {
+                "name": "Site_UniqueCode",
+                "code": "Site_UniqueCode",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 12
+            }
+        ]
+    }
+}

@@ -1,0 +1,108 @@
+{
+    "id": "cd-jaao12nk4wu6yws4dvcvjrcu0pl1",
+    "name": "Records & ID History4",
+    "cardData": {
+        "0tile14aiitextii7y5": "Medical records",
+        "0tile14aiitextiic7v": "Submitted on: 09/05/2023",
+        "imageUrli8bje": "https://d1fgr2dke6q42b.cloudfront.net/dev/media/a1920ec3-027a-43cc-9226-36fad59c0b6a/go_next_grey_icon.png",
+        "1tile14iitextii8ca": "View attachments",
+        "imageUrlvm0qx": "https://d1fgr2dke6q42b.cloudfront.net/dev/media/a1920ec3-027a-43cc-9226-36fad59c0b6a/go_next_grey_icon.png"
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    {
+                        "id": "Tile14a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile14aiitextii7y5",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "left",
+                                    "fontSize": 16
+                                },
+                                "subTitle": {
+                                    "text": "0tile14aiitextiic7v",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "left",
+                                    "fontSize": 16
+                                },
+                                "img": {
+                                    "text": "imageUrli8bje",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile14",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "1tile14iitextii8ca",
+                                    "fontSize": 16,
+                                    "titleTextColor": "#000080",
+                                    "style": "REGULAR"
+                                },
+                                "img": {
+                                    "text": "imageUrlvm0qx",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    }
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "style": {
+            "fontSize": 16,
+            "bgColor": "#ffffff",
+            "borderWidth": 1
+        },
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action1}",
+                    "order": 1
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action1": {
+            "action": "HOME"
+        }
+    }
+}

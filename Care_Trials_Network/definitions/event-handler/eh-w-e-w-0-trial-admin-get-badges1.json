@@ -1,0 +1,25 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "e-w-0-trial-admin-get-badges1",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "name": "getPARTICIPANT_ADMIN_TRIALS",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "GET",
+                                    "url": "/transactions/BADGES"
+                                }
+                            ]
+                        }
+                    ],
+                    "postAction": "",
+                    "refId": "e-w-0-trial-admin-get-badges1"
+                }
+            ]
+        }
+    ]
+}

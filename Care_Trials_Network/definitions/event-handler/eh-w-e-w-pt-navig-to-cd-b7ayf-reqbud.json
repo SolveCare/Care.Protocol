@@ -1,0 +1,25 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "e-w-pt-navig-to-cd-b7ayf-reqbud",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "name": "submit",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "DETAILS",
+                                    "url": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "postAction": "cd-s7n38imtnn1tejyv85bcki5pdfh1",
+                    "refId": "e-w-pt-navig-to-cd-b7ayf-reqbud"
+                }
+            ]
+        }
+    ]
+}

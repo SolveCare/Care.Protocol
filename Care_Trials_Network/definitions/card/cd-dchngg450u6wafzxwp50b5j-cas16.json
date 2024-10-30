@@ -1,0 +1,248 @@
+{
+    "id": "cd-dchngg450u6wafzxwp50b5j-cas16",
+    "name": "Competency Assessment Survey",
+    "cardData": {
+        "0tile0iitextiik12": "Operations:",      
+
+        "0tile0iitexti1": "1. Create and maintain a database, including verification, validation, and audit trails",
+
+        "0tile0iitexti2": "2. Collect accurate data",
+
+        "0tile0iitexti3": "3. Enter accurate data into the database",
+
+        "0tile0iitexti4": "4. Ensure appropriate use and dispensing of investigational medical products",
+
+        "0tile0iitexti5": "5. Perform appropriate laboratory operations and assays",
+        
+
+        "validationdrhfc": "Please select one value",
+        "1tile1iierrorii6se": "Please select one value",
+
+        "2en01bottombutton1iitextiiyaq": "Next"
+
+   
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile0iitextiik12",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "LEFT",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+
+
+
+
+
+
+
+                    {
+                        "id": "Tile5",
+                        "subView": [
+                          {
+                            "title": {
+                              "text": "0tile0iitexti1"
+                            },
+                            "subTitle": {
+                              "text": "{$D3OperationsQ1}",
+                              "start": 0,
+                              "end": 5,
+                              "count": 1,
+                              "validation": [
+                                {
+                                  "name": "REQUIRED_FIELD",                     
+                                  "error": "1tile1iierrorii6se"
+                                }
+                              ]
+                            }                      
+                          }                      
+                        ],                      
+                        "align": "START",                      
+                        "type": "CONTAINER",                      
+                        "uiAction": "",                      
+                        "order": 1                      
+                      },
+                      {
+                        "id": "Tile5",
+                        "subView": [
+                          {
+                            "title": {
+                              "text": "0tile0iitexti2"
+                            },
+                            "subTitle": {
+                              "text": "{$D3OperationsQ2}",
+                              "start": 0,
+                              "end": 5,
+                              "count": 1,
+                              "validation": [
+                                {
+                                  "name": "REQUIRED_FIELD",                     
+                                  "error": "1tile1iierrorii6se"
+                                }
+                              ]
+                            }                      
+                          }                      
+                        ],                      
+                        "align": "START",                      
+                        "type": "CONTAINER",                      
+                        "uiAction": "",                      
+                        "order": 1                      
+                      },
+                      {
+                        "id": "Tile5",
+                        "subView": [
+                          {
+                            "title": {
+                              "text": "0tile0iitexti3"
+                            },
+                            "subTitle": {
+                              "text": "{$D3OperationsQ3}",
+                              "start": 0,
+                              "end": 5,
+                              "count": 1,
+                              "validation": [
+                                {
+                                  "name": "REQUIRED_FIELD",                     
+                                  "error": "1tile1iierrorii6se"
+                                }
+                              ]
+                            }                      
+                          }                      
+                        ],                      
+                        "align": "START",                      
+                        "type": "CONTAINER",                      
+                        "uiAction": "",                      
+                        "order": 1                      
+                      }
+                    ,
+                    {
+                        "id": "Tile5",
+                        "subView": [
+                          {
+                            "title": {
+                              "text": "0tile0iitexti4"
+                            },
+                            "subTitle": {
+                              "text": "{$D3OperationsQ4}",
+                              "start": 0,
+                              "end": 5,
+                              "count": 1,
+                              "validation": [
+                                {
+                                  "name": "REQUIRED_FIELD",                     
+                                  "error": "1tile1iierrorii6se"
+                                }
+                              ]
+                            }                      
+                          }                      
+                        ],                      
+                        "align": "START",                      
+                        "type": "CONTAINER",                      
+                        "uiAction": "",                      
+                        "order": 1                      
+                      },
+            
+                      {
+                        "id": "Tile5",
+                        "subView": [
+                          {
+                            "title": {
+                              "text": "0tile0iitexti5"
+                            },
+                            "subTitle": {
+                              "text": "{$D3OperationsQ5}",
+                              "start": 0,
+                              "end": 5,
+                              "count": 1,
+                              "validation": [
+                                {
+                                  "name": "REQUIRED_FIELD",                     
+                                  "error": "1tile1iierrorii6se"
+                                }
+                              ]
+                            }                      
+                          }                      
+                        ],                      
+                        "align": "START",                      
+                        "type": "CONTAINER",                      
+                        "uiAction": "",                      
+                        "order": 1                      
+                      }
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action300}",
+                    "order": 1
+                },
+                {
+                    "id": "EN01BottomButton1",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": "2en01bottombutton1iitextiiyaq"
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BUTTON",
+                    "uiAction": "${action5}",
+                    "order": 2
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action300": {
+            "action": [
+                {
+                     "name": "Function.Navigate",
+                     "cardId": "cd-dchngg450u6wafzxwp50b5j-cas15"
+                }
+
+             ]
+        },
+        "action5": {
+            "action": [
+                {
+                     "name": "Function.Navigate",
+                     "cardId": "cd-dchngg450u6wafzxwp50b5j-cas17"
+                }
+             ]        
+            }
+    }
+}

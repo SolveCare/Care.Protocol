@@ -1,0 +1,78 @@
+{
+    "nodeEventHandlers": [
+        {
+            "type": "MAPPER",
+            "name": "Append or Exclude attributes to DEFAULT payload",
+            "order": 1,
+            "dataSource": "EVENT_PAYLOAD",
+            "additionalAttributes": {
+                "physicianName": {
+                    "source": "EVENT_PAYLOAD",
+                    "value": "physicianName"
+                },
+                "folderReference": {
+                    "source": "EVENT_PAYLOAD",
+                    "value": "folderReference"
+                },
+                "status": {
+                    "source": "CONSTANT",
+                    "value": "Submitted"
+                },
+                "type": {
+                    "source": "CONSTANT",
+                    "value": "TA-Identity"
+                },
+                "isNotSend": {
+                    "source": "CONSTANT",
+                    "value": "false"
+                },
+                "isSeen": {
+                    "source": "CONSTANT",
+                    "value": "false"
+                },
+                "identityDate": {
+                    "source": "CONSTANT",
+                    "value": " "
+                },
+                "comments": {
+                    "source": "CONSTANT",
+                    "value": " "
+                },
+                "isReject": {
+                    "source": "CONSTANT",
+                    "value": "false"
+                },
+                "createdAt": {
+                    "source": "GENERATED",
+                    "value": "CURRENT_TIMESTAMP"
+                },
+                "transactionalGuid": {
+                    "source": "GENERATED",
+                    "value": "UUID"
+                },
+                "senderNodeAddress": {
+                    "source": "EVENT",
+                    "value": "SENDER"
+                }
+            }
+        },
+        {
+            "type": "EXPRESSION_LANGUAGE",
+            "name": "Append attributes",
+            "order": 2,
+            "dataSource": "HANDLER_ARGUMENTS",
+            "computedAttributes": {
+                "timeMessage": "\"Uploaded on: \" + new java.text.SimpleDateFormat(\"dd-MM-yyyy\").format(new java.util.Date(arguments['createdAt']))"
+            }
+        },
+        {
+            "type": "VAULT_INSERT",
+            "name": "IDENTITY",
+            "order": 3,
+            "collection": "IDENTITY",
+            "dataSource": "HANDLER_ARGUMENTS",
+            "handlerOutput": "PERSISTED_ENTITY",
+            "collectionVersion": 1
+        }
+    ]
+}

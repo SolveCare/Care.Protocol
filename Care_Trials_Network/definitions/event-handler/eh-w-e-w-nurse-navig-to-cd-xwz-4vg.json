@@ -1,0 +1,25 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "e-w-nurse-navig-to-cd-xwz-4vg",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "name": "submit",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "DETAILS",
+                                    "url": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "postAction": "cd-xwzx8ttcyro0uayq9c2om7671kjn",
+                    "refId": "e-w-nurse-navig-to-cd-xwz-4vg"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "e-w-sa-submit-surveys",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "name": "submit",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "POST",
+                                    "url": "/events"
+                                }
+                            ]
+                        }
+                    ],
+                    "postAction": "cd-casqwb3x4u11n81com3surveys-d4-c5-thu",
+                    "refId": "e-w-sa-submit-surveys"
+                } 
+            ]
+        }
+    ]
+}

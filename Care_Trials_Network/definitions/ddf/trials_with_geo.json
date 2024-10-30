@@ -1,0 +1,440 @@
+{
+    "ddf_type": "trials_with_geo",
+    "meta_data": {
+        "description": "Care.Trials"
+    },
+    "messages": [
+        {
+            "message_category": "CSV",
+            "message_type": "TRIALS",
+            "meta_data": {
+                "description": "Care.Trials",
+                "indices": "trials-with-geo"
+            },
+            "events": [
+                {
+                    "to_role": "rl-aom7t1oc6laj7k353ysvldm0gbk",
+                    "event": "ev-cdn-broadcast"
+                }
+            ],
+            "attributes": [
+                {
+                    "name": "Rank",
+                    "description": "Rank",
+                    "required": false,
+                    "index_field": true,
+                    "type": "integer",
+                    "data_location": "Rank"
+                },
+                {
+                    "name": "NCTId",
+                    "description": "NCTId",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "NCTId"
+                },
+                {
+                    "name": "BriefTitle",
+                    "description": "BriefTitle",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "BriefTitle"
+                },
+                {
+                    "name": "BriefSummary",
+                    "description": "BriefSummary",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "BriefSummary"
+                },
+                {
+                    "name": "OfficialTitle",
+                    "description": "OfficialTitle",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "OfficialTitle"
+                },
+                {
+                    "name": "OverallStatus",
+                    "description": "OverallStatus",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "OverallStatus"
+                },
+                {
+                    "name": "Condition",
+                    "description": "Condition",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "Condition"
+                },
+                {
+                    "name": "OrgFullName",
+                    "description": "OrgFullName",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "OrgFullName"
+                },
+                {
+                    "name": "Gender",
+                    "description": "Gender",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "Gender"
+                },
+                {
+                    "name": "MaximumAge",
+                    "description": "MaximumAge",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "MaximumAge"
+                },
+                {
+                    "name": "MinimumAge",
+                    "description": "MinimumAge",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "MinimumAge"
+                },
+                {
+                    "name": "HealthyVolunteers",
+                    "description": "HealthyVolunteers",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "HealthyVolunteers"
+                },
+                {
+                    "name": "StudyType",
+                    "description": "StudyType",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "StudyType"
+                },
+                {
+                    "name": "LeadSponsorName",
+                    "description": "LeadSponsorName",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "LeadSponsorName"
+                },
+                {
+                    "name": "StartDate",
+                    "description": "StartDate",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "StartDate"
+                },
+                {
+                    "name": "LocationCountry",
+                    "description": "LocationCountry",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "LocationCountry"
+                },
+                {
+                    "name": "LocationCity",
+                    "description": "LocationCity",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "LocationCity"
+                },
+                {
+                    "name": "LocationZip",
+                    "description": "LocationZip",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "LocationZip"
+                },
+                {
+                    "name": "LocationFacility",
+                    "description": "LocationFacility",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "LocationFacility"
+                },
+                {
+                    "name": "FDAAA801Violation",
+                    "description": "FDAAA801Violation",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "FDAAA801Violation"
+                },
+                {
+                    "name": "MaximumAgeNumber",
+                    "description": "MaximumAgeNumber",
+                    "required": false,
+                    "index_field": true,
+                    "type": "float",
+                    "data_location": "MaximumAgeNumber"
+                },
+                {
+                    "name": "MinimumAgeNumber",
+                    "description": "MinimumAgeNumber",
+                    "required": false,
+                    "index_field": true,
+                    "type": "float",
+                    "data_location": "MinimumAgeNumber"
+                },
+                {
+                    "name": "Location",
+                    "description": "Location",
+                    "required": false,
+                    "index_field": true,
+                    "type": "geo_point",
+                    "data_location": "Latitude,Longitude"
+                },
+                {
+                    "name": "RecruitmentStatus",
+                    "description": "RecruitmentStatus",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "RecruitmentStatus"
+                },
+                {
+                    "name": "UniqueCode",
+                    "description": "UniqueCode",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "UniqueCode"
+                },
+                {
+                    "name": "SiteID",
+                    "description": "SiteID",
+                    "required": true,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "SiteID"
+                },
+                {
+                    "name": "Site_UniqueCode",
+                    "description": "Site_UniqueCode",
+                    "required": true,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "Site_UniqueCode"
+                },
+                {
+                    "name": "Contact",
+                    "description": "Contact",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "Contact"
+                },
+                {
+                    "name": "ContactInfo",
+                    "description": "ContactInfo",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "ContactInfo"
+                },
+                {
+                    "name": "SiteWalletID",
+                    "description": "SiteWalletID",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "SiteWalletID"
+                },
+                {
+                    "name": "SiteAddress",
+                    "description": "SiteAddress",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "SiteAddress"
+                },
+                {
+                    "name": "InclusionCriteria",
+                    "description": "InclusionCriteria",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "InclusionCriteria"
+                },
+                {
+                    "name": "ExclusionCriteria",
+                    "description": "ExclusionCriteria",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "ExclusionCriteria"
+                }
+            ]
+        }
+    ],
+    "integrations": [
+        {
+            "type": "hubspot",
+            "message_category": "CSV",
+            "message_type": "TRIALS",
+            "schema": {
+                "schema": {
+                    "name": "site_info_table",
+                    "description": "Site Info Table",
+                    "labels": {
+                        "plural": "Site Infos",
+                        "singular": "Site Info"
+                    },
+                    "requiredProperties": [
+                        "site_id",
+                        "trial_id"
+                    ],
+                    "searchableProperties": [
+                        "site_id",
+                        "trial_id",
+                        "site_name",
+                        "site_wallet_id"
+                    ],
+                    "primaryDisplayProperty": "site_id",
+                    "secondaryDisplayProperties": [
+                        "trial_id",
+                        "site_name"
+                    ],
+                    "properties": [
+                        {
+                            "name": "site_id",
+                            "label": "Site ID",
+                            "type": "string",
+                            "hasUniqueValue": true,
+                            "isPrimaryDisplayLabel": true,
+                            "displayOrder": 1
+                        },
+                        {
+                            "name": "trial_id",
+                            "label": "Trial ID",
+                            "type": "string",
+                            "displayOrder": 2
+                        },
+                        {
+                            "name": "site_wallet_id",
+                            "label": "Site Wallet ID",
+                            "type": "string",
+                            "displayOrder": 3
+                        },
+                        {
+                            "name": "site_name",
+                            "label": "Site Name",
+                            "type": "string",
+                            "displayOrder": 4
+                        },
+                        {
+                            "name": "site_address",
+                            "label": "Site Address",
+                            "type": "string",
+                            "displayOrder": 5
+                        },
+                        {
+                            "name": "contact_1",
+                            "label": "Contact 1",
+                            "type": "string",
+                            "displayOrder": 6
+                        },
+                        {
+                            "name": "c1_info",
+                            "label": "C1 Info",
+                            "type": "string",
+                            "displayOrder": 7
+                        },
+                        {
+                            "name": "contact_2",
+                            "label": "Contact 2",
+                            "type": "string",
+                            "displayOrder": 8
+                        },
+                        {
+                            "name": "c2_info",
+                            "label": "C2 Info",
+                            "type": "string",
+                            "displayOrder": 9
+                        },
+                        {
+                            "name": "contact_3",
+                            "label": "Contact 3",
+                            "type": "string",
+                            "displayOrder": 10
+                        },
+                        {
+                            "name": "c3_info",
+                            "label": "C3 Info",
+                            "type": "string",
+                            "displayOrder": 11
+                        }
+                    ]
+                }
+            },
+            "mapping": [
+                {
+                    "attribute": "SiteID",
+                    "ext_name": "site_id"
+                },
+                {
+                    "attribute": "NCTId",
+                    "ext_name": "trial_id"
+                },
+                {
+                    "attribute": "SiteWalletID",
+                    "ext_name": "site_wallet_id"
+                },
+                {
+                    "attribute": "SiteAddress",
+                    "ext_name": "site_address"
+                },
+                {
+                    "attribute": "BriefTitle",
+                    "ext_name": "site_name"
+                },
+                {
+                    "attribute": "Contact",
+                    "ext_name": "contact_1"
+                },
+                {
+                    "attribute": "ContactInfo",
+                    "ext_name": "c1_info"
+                }
+            ],
+            "actions": [
+                {
+                    "type": "export",
+                    "operation_type": "UPSERT",
+                    "query": {
+                        "query": {
+                            "match_all": {}
+                        },
+                        "sort": "SiteID.keyword"
+                    },
+                    "skip_for_update": [
+                        "SiteID",
+                        "NCTId",
+                        "SiteAddress",
+                        "BriefTitle",
+                        "Contact",
+                        "ContactInfo"
+                    ]
+                }
+            ]
+        }
+    ]
+}

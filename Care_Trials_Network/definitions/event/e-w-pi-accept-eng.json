@@ -1,0 +1,152 @@
+{
+    "definition": {
+        "description": "Save DEFAULT at Physician",
+        "name": "PI.ACCEPT.ENGAGE001",
+        "resource": "PI.ACCEPT.ENGAGE001",
+        "type": "EVENT_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "name": "meetingType",
+                "code": "meetingType",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 1
+            },
+            {
+                "name": "meetingPurpose",
+                "code": "meetingPurpose",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 2
+            },
+            {
+                "name": "meetingLink",
+                "code": "meetingLink",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 3
+            },
+            {
+                "name": "meetingDate",
+                "code": "meetingDate",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 4
+            },
+            {
+                "name": "meetingTime",
+                "code": "meetingTime",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 5
+            },
+            {
+                "name": "timeMessage",
+                "code": "timeMessage",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 6
+            },
+            {
+                "name": "isEngageStatusNot",
+                "code": "isEngageStatusNot",
+                "type_definition": {
+                    "type": "boolean"
+                },
+                "required": false,
+                "system": false,
+                "order": 7
+            },
+            {
+                "name": "isChecked",
+                "code": "isChecked",
+                "type_definition": {
+                    "type": "boolean"
+                },
+                "required": false,
+                "system": false,
+                "order": 9
+            },
+            {
+                "name": "senderNodeAddress",
+                "code": "senderNodeAddress",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": true,
+                "system": false,
+                "order": 8
+            },
+            {
+                "name": "physicianNodeAddress",
+                "code": "physicianNodeAddress",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": true,
+                "system": false,
+                "order": 9
+            },
+            {
+                "name": "transactionalGuid",
+                "code": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": true,
+                "system": false,
+                "order": 10
+            },
+            {
+                "name": "createdAt",
+                "code": "createdAt",
+                "type_definition": {
+                    "type": "timestamp"
+                },
+                "required": false,
+                "system": false,
+                "order": 11
+            },
+            {
+                "name": "statusIcon",
+                "code": "statusIcon",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 12
+            },
+            {
+                "name": "engagementCount",
+                "code": "engagementCount",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 13
+            }  
+        ]
+    }
+}

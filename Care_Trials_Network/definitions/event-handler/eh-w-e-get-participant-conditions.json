@@ -1,0 +1,25 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "e-get-participant-conditions",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "name": "getONE",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "GET",
+                                    "url": "/transactions/6_QUESTIONS"
+                                }
+                            ]
+                        }
+                    ],
+                    "postAction": "",
+                    "refId": "e-get-participant-conditions"
+                }
+            ]
+        }
+    ]
+}

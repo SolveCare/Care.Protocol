@@ -1,0 +1,52 @@
+{
+    "definition": {
+        "description": "Q&A",
+        "name": "GET.ANSWER003",
+        "resource": "GET.ANSWER003",
+        "type": "EVENT_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "name": "transactionalGuid",
+                "code": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": true,
+                "system": false,
+                "order": 1
+            },
+            {
+                "name": "answerText",
+                "code": "answerText",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": true,
+                "system": false,
+                "order": 2
+            },
+            {
+                "name": "TrialID",
+                "code": "TrialID",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 8
+            },
+            {
+                "name": "SiteID",
+                "code": "SiteID",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": true,
+                "system": false,
+                "order": 3
+            }
+        ]
+    }
+}

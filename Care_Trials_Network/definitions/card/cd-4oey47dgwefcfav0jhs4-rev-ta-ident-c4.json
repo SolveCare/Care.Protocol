@@ -1,0 +1,81 @@
+{
+    "id": "cd-4oey47dgwefcfav0jhs4-rev-ta-ident-c4",
+    "name": "List of Verified Identity",
+    "cardData": {
+        "0tile11iitextii8na": "Male, 40 Years, White",
+        "0tile11iitextiisjx": "Rejected on: 11/13/2023",
+        "imageurl": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/arrow-right blue.png"
+    },
+    "cardLayout": {
+        "body": [
+
+            {
+                "id": "list",
+                "tileComponent": [
+                    {
+                        "id": "Tile14a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "{$physicianName}",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080"
+                                },
+                                "subTitle": {
+                                    "text": "{$timeMessage}",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000080"
+                                },
+                                "img": {
+                                    "text": "imageurl",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "DATA",
+                        "uiAction": "${action2}",
+                        "order": 1
+                    }
+                ],
+                "tileType": "LIST",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "style": {
+            "fontSize": 16,
+            "bgColor": "#ffffff",
+            "borderWidth": 1
+        },
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action1}",
+                    "order": 1
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action1": {
+            "action": "e-w-navig-rev-ta-ident-c4-to-c1"
+        },
+        "action2": {
+            "action": "e-w-navig-rev-ta-ident-c4-to-c5"
+        }
+    }
+}

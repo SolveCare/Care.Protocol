@@ -1,0 +1,99 @@
+{
+    "nodeEventHandlers": [
+        {
+            "type": "MAPPER",
+            "name": "Append attributes",
+            "order": 1,
+            "dataSource": "EVENT_PAYLOAD",
+            "additionalAttributes": {
+                "transactionalGuid": {
+                    "source": "GENERATED",
+                    "value": "UUID"
+                },
+                "SiteID": {
+                    "source": "EVENT_PAYLOAD",
+                    "value": "SiteID"
+                },
+                "leadNodeAddress": {
+                    "source": "EVENT_PAYLOAD",
+                    "value": "senderNodeAddress"
+                },
+                "questionText": {
+                    "source": "EVENT_PAYLOAD",
+                    "value": "questionText"
+                },
+                "answerText": {
+                    "source": "CONSTANT",
+                    "value": "Lead has not answered yet"
+                },
+                "isAnswered": {
+                    "source": "CONSTANT",
+                    "value": false
+                },
+                "isPending": {
+                    "source": "CONSTANT",
+                    "value": true
+                },
+                "createdAt": {
+                    "source": "GENERATED",
+                    "value": "CURRENT_TIMESTAMP"
+                },
+                "updatedAt": {
+                    "source": "GENERATED",
+                    "value": "CURRENT_TIMESTAMP"
+                }
+            },
+            "excludedAttributes": [
+                "senderNodeAddress"
+            ]
+        },
+        {
+            "type": "VAULT_INSERT",
+            "name": "NURSE_QA",
+            "order": 2,
+            "collection": "NURSE_QA",
+            "collectionVersion": 1,
+            "dataSource": "HANDLER_ARGUMENTS",
+            "handlerOutput": "PERSISTED_ENTITY"
+        },
+        {
+            "type": "NEXT_EVENT_RECIPIENT",
+            "name": "Fetch sender address",
+            "order": 3,
+            "recipientAddress": {
+                "source": "EVENT_PAYLOAD",
+                "value": "senderNodeAddress"
+            },
+            "handlerOutput": "HANDLER_ARGUMENTS"
+        },
+        {
+            "type": "MAPPER",
+            "name": "Append and Exclude attributes in the result",
+            "order": 4,
+            "dataSource": "EVENT_PAYLOAD",
+            "additionalAttributes": {
+                "transactionalGuid": {
+                    "source": "HANDLER_ARGUMENTS",
+                    "value": "transactionalGuid"
+                },
+                "SiteID": {
+                    "source": "EVENT_PAYLOAD",
+                    "value": "SiteID"
+                },
+                "questionText": {
+                    "source": "EVENT_PAYLOAD",
+                    "value": "questionText"
+                }
+            },
+            "excludedAttributes": [
+                "createdAt",
+                "updatedAt",
+                "leadNodeAddress",
+                "senderNodeAddress",
+                "answerText",
+                "isAnswered",
+                "isPending"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "definition": {
+        "description": "SYNC",
+        "name": "SYNC083",
+        "resource": "SYNC083",
+        "type": "EVENT_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 1,
+                "system": false,
+                "required": false
+            }
+        ]
+    }
+}

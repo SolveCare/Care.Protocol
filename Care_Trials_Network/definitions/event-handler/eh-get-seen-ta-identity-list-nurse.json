@@ -1,0 +1,25 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "e-get-seen-ta-identity-list-nurse",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "name": "",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "GET",
+                                    "url": "/transactions/IDENTITY?filter=[{\"queryMatcher\": \"EQUAL\",\"fieldName\": \"isSeen\",\"value\": \"true\"},{\"queryMatcher\": \"EQUAL\",\"fieldName\": \"type\",\"value\": \"TA-Identity\"}]"
+                                }
+                            ]
+                        }
+                    ],
+                    "postAction": "",
+                    "refId": "e-get-seen-ta-identity-list-nurse"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,93 @@
+{
+    "id": "td-PARTICIPANT_TRIALS",
+    "path": "td/td-PARTICIPANT_TRIALS.json",
+    "definition": {
+        "version": 1,
+        "collection": "PARTICIPANT_TRIALS",
+        "description": "PARTICIPANT_TRIALS",
+        "name": "PARTICIPANT_TRIALS",
+        "resource": "PARTICIPANT_TRIALS",
+        "status": "RELEASED",
+        "type": "TRANSACTIONAL_DATA"
+    },
+    "structure": {
+        "attributes": [
+        
+
+
+            {
+                "name": "total_matched",
+                "code": "total_matched",
+                "type_definition": {
+                "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 13,
+                "times": 1
+                },
+
+            {
+                "name": "total_notfit",
+                "code": "total_notfit",
+                "type_definition": {
+                "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 13,
+                "times": 1
+                },
+
+                {
+                    "name": "total_noresponse",
+                    "code": "total_noresponse",
+                    "type_definition": {
+                    "type": "string"
+                    },
+                    "required": false,
+                    "system": false,
+                    "order": 13,
+                    "times": 1
+                    },
+    
+
+            
+
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": true,
+                "system": false,
+                "times": 1,
+                "order": 10
+            },
+            {
+                "code": "createdAt",
+                "name": "createdAt",
+                "type_definition": {
+                    "type": "timestamp"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "order": 11
+            },
+            {
+                "name": "senderNodeAddress",
+                "code": "senderNodeAddress",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 12,
+                "times": 1
+            }
+        ],
+        "primary_key": "false"
+    }
+}

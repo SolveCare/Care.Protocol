@@ -1,0 +1,25 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "e-w-parti-navig-to-cd-list-mai-1",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "name": "submit",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "GET",
+                                    "url": "/transactions/PARTICIPANT_ADMIN_TRIALS_SAVED?filter=[{\"queryMatcher\": \"EQUAL\",\"inverted\": false,\"fieldName\": \"SiteID\",\"value\": \"${SiteID}\"},{\"queryMatcher\":\"EQUAL\",\"fieldName\":\"AdminAddress\",\"value\":\"${adminNodeAddress}\"}]"
+                                }
+                            ]
+                        }
+                    ],
+                    "postAction": "cd-listmedandidforsubmit", 
+                    "refId": "e-w-parti-navig-to-cd-list-mai-1"
+                }
+            ]
+        }
+    ]
+}

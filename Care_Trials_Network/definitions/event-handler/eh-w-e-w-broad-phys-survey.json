@@ -1,0 +1,25 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "e-w-broad-phys-survey",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "name": "submit",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "POST",
+                                    "url": "/events"
+                                }
+                            ]
+                        }
+                    ],
+                    "postAction": "cd-dchngg450u6wafzxwp50b5j-cas600",
+                    "refId": "e-w-broad-phys-survey"
+                } 
+            ]
+        }
+    ]
+}

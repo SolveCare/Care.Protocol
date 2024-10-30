@@ -1,0 +1,549 @@
+{
+    "id": "cd-794zs8jrs1bz9z9kvx-see-pis-2",
+    "name": "Get Started",
+    "cardData": {
+        "0tile0iitextiikga": "Answer the below questions to find your ideal Principal Investigators",
+        "imageUrlkbhj0": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/CTN_Participant.mp4",
+        "2tile14aiitextii078": "Start searching your match",
+        "imageUrl4mjtk": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/arrow-right blue.png",
+        "test2tile14aiitexturl": "https://apps...",
+        "imageUrldgqhy": "https://i.ibb.co/r7Z6qdB/Refer.png",
+        "1tile12CountryTitle": "Country",
+        "1tile12CountryList": [
+            "Afghanistan",
+            "Albania",
+            "Algeria",
+            "Andorra",
+            "Angola",
+            "Antigua and Barbuda",
+            "Argentina",
+            "Armenia",
+            "Australia",
+            "Austria",
+            "Azerbaijan",
+            "Bahamas",
+            "Bahrain",
+            "Bangladesh",
+            "Barbados",
+            "Belarus",
+            "Belgium",
+            "Belize",
+            "Benin",
+            "Bhutan",
+            "Bolivia",
+            "Bosnia and Herzegovina",
+            "Botswana",
+            "Brazil",
+            "Brunei",
+            "Bulgaria",
+            "Burkina Faso",
+            "Burundi",
+            "Cabo Verde",
+            "Cambodia",
+            "Cameroon",
+            "Canada",
+            "Central African Republic",
+            "Chad",
+            "Chile",
+            "China",
+            "Colombia",
+            "Comoros",
+            "Congo (Congo-Brazzaville)",
+            "Costa Rica",
+            "Croatia",
+            "Cyprus",
+            "Czechia (Czech Republic)",
+            "Democratic Republic of the Congo",
+            "Denmark",
+            "Djibouti",
+            "Dominica",
+            "Dominican Republic",
+            "Ecuador",
+            "Egypt",
+            "El Salvador",
+            "Equatorial Guinea",
+            "Eritrea",
+            "Estonia",
+            "Eswatini",
+            "Ethiopia",
+            "Fiji",
+            "Finland",
+            "France",
+            "Gabon",
+            "Gambia",
+            "Georgia",
+            "Germany",
+            "Ghana",
+            "Greece",
+            "Grenada",
+            "Guatemala",
+            "Guinea",
+            "Guinea-Bissau",
+            "Guyana",
+            "Haiti",
+            "Holy See",
+            "Honduras",
+            "Hungary",
+            "Iceland",
+            "India",
+            "Indonesia",
+            "Iraq",
+            "Ireland",
+            "Israel",
+            "Italy",
+            "Ivory Coast",
+            "Jamaica",
+            "Japan",
+            "Jordan",
+            "Kazakhstan",
+            "Kenya",
+            "Kiribati",
+            "Kuwait",
+            "Kyrgyzstan",
+            "Laos",
+            "Latvia",
+            "Lebanon",
+            "Lesotho",
+            "Liberia",
+            "Libya",
+            "Liechtenstein",
+            "Lithuania",
+            "Luxembourg",
+            "Madagascar",
+            "Malawi",
+            "Malaysia",
+            "Maldives",
+            "Mali",
+            "Malta",
+            "Marshall Islands",
+            "Mauritania",
+            "Mauritius",
+            "Mexico",
+            "Micronesia",
+            "Moldova",
+            "Monaco",
+            "Mongolia",
+            "Montenegro",
+            "Morocco",
+            "Mozambique",
+            "Myanmar (formerly Burma)",
+            "Namibia",
+            "Nauru",
+            "Nepal",
+            "Netherlands",
+            "New Zealand",
+            "Nicaragua",
+            "Niger",
+            "Nigeria",
+            "North Macedonia",
+            "Norway",
+            "Oman",
+            "Pakistan",
+            "Palau",
+            "Palestine State",
+            "Panama",
+            "Papua New Guinea",
+            "Paraguay",
+            "Peru",
+            "Philippines",
+            "Poland",
+            "Portugal",
+            "Qatar",
+            "Romania",
+            "Rwanda",
+            "Saint Kitts and Nevis",
+            "Saint Lucia",
+            "Saint Vincent and the Grenadines",
+            "Samoa",
+            "San Marino",
+            "Sao Tome and Principe",
+            "Saudi Arabia",
+            "Senegal",
+            "Serbia",
+            "Seychelles",
+            "Sierra Leone",
+            "Singapore",
+            "Slovakia",
+            "Slovenia",
+            "Solomon Islands",
+            "Somalia",
+            "South Africa",
+            "South Korea",
+            "Spain",
+            "Sri Lanka",
+            "Suriname",
+            "Sweden",
+            "Switzerland",
+            "Tajikistan",
+            "Tanzania",
+            "Thailand",
+            "Timor-Leste",
+            "Togo",
+            "Tonga",
+            "Trinidad and Tobago",
+            "Tunisia",
+            "Turkey",
+            "Turkmenistan",
+            "Tuvalu",
+            "Uganda",
+            "Ukraine",
+            "United Arab Emirates",
+            "United Kingdom",
+            "United States of America",
+            "Uruguay",
+            "Uzbekistan",
+            "Vanuatu",
+            "Venezuela",
+            "Vietnam",
+            "Yemen",
+            "Zambia",
+            "Zimbabwe"
+        ],
+        "1tile12CountryHint": "Select Country",
+        "imageUrl186v0": "https://d1fgr2dke6q42b.cloudfront.net/dev/media/a1920ec3-027a-43cc-9226-36fad59c0b6a/drop_down_list_greyn_155460.png",
+
+        "specializationText": "Areas of Specialization",
+        "1tile12SpecializationList": [
+            "Asthma",
+    "Arthritis",
+    "Cardiovascular Diseases",
+    "Chronic Kidney Disease",
+    "Chronic Obstructive Pulmonary Disease (COPD)",
+    "Diabetes",
+    "Hepatitis",
+    "Hypertension",
+    "Breast Cancer",
+    "Colorectal Cancer",
+    "Leukemia",
+    "Lung Cancer",
+    "Lymphoma",
+    "Pancreatic Cancer",
+    "Prostate Cancer",
+    "Skin Cancer",
+    "Alzheimer's Disease",
+    "Epilepsy",
+    "Migraine",
+    "Multiple Sclerosis",
+    "Parkinson's Disease",
+    "Stroke",
+    "COVID-19",
+    "HIV/AIDS",
+    "Influenza",
+    "Malaria",
+    "Tuberculosis",
+    "Zika Virus",
+    "Crohn's Disease",
+    "Lupus",
+    "Multiple Sclerosis",
+    "Psoriasis",
+    "Rheumatoid Arthritis",
+    "Anxiety Disorders",
+    "Bipolar Disorder",
+    "Depression",
+    "Post-Traumatic Stress Disorder (PTSD)",
+    "Schizophrenia",
+    "Hyperlipidemia",
+    "Obesity",
+    "Thyroid Disorders",
+    "Congenital Heart Disease",
+    "Pediatric Asthma",
+    "Pediatric Cancer",
+    "Pediatric Diabetes",
+    "Amyotrophic Lateral Sclerosis (ALS)",
+    "Cystic Fibrosis",
+    "Hemophilia",
+    "Huntington's Disease"
+        ],
+        "1tile12SpecializationHint": "Select Specialization",
+
+        "validationdrhfc": "Please select one value",
+        "1tile6aiitextii2yb": "Years of experience in medical practice",
+        "label0rzmk": "0-2 Years",
+        "label8a3m6": "3-5 Years",
+        "labely1vaj": "6-10 Years",
+        "labely1va": "Above 10 Years",
+
+        "3tile2iitextiivec": "Number of trials conducted in past",
+        "3tile2iihintiisvf": "Type number of trials conducted in past",
+
+        "1tile6aiitextii2y": "Study phase of interest",
+        "label0rzm": "Phase I",
+        "label8a3m": "Phase II",
+        "labely1v": "Phase III",
+        "labely1": "Phase IV",
+        "1tile12iidataiil21": [
+            "Phase I",
+            "Phase II",
+            "Phase III",
+            "Phase IV"
+        ],
+
+        "2en01bottombutton1iitextiiyaq": "Submit"
+
+   
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile0iitextiikga",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "CENTER",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile12",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "1tile12CountryTitle",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "{$Country}",
+                                    "data": "1tile12CountryList",
+                                    "hint": "1tile12CountryHint",
+                                    "keyboard": "text",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START"
+                                },
+                                "img": {
+                                    "text": "imageUrl186v0",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#afafaf",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+
+                    {
+                        "id": "Tile12",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "specializationText",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "{$specialization}",
+                                    "data": "1tile12SpecializationList",
+                                    "hint": "1tile12SpecializationHint",
+                                    "keyboard": "text",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START"
+                                },
+                                "img": {
+                                    "text": "imageUrl186v0",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#afafaf",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+
+                    {
+                        "id": "Tile6a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "1tile6aiitextii2yb",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "style": "BOLD"
+                                },
+                                "options": {
+                                    "key": {
+                                        "name": "{$experienceYears}",
+                                        "optionAlign": "START",
+                                        "optionTextColor": "#000080"
+                                    },
+                                    "list": [
+                                        {
+                                            "label": "label0rzmk"
+                                        },
+                                        {
+                                            "label": "label8a3m6"
+                                        },
+                                        {
+                                            "label": "labely1vaj"
+                                        },
+                                        {
+                                            "label": "labely1va"
+                                        }
+                                    ],
+                                    "validation": [
+                                        {
+                                            "name": "REQUIRED_FIELD",
+                                            "error": "validationdrhfc"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "${}",
+                        "order": 4
+                    },
+
+                    {
+                        "id": "SmartTile1",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "3tile2iitextiivec",
+                                    "titleTextColor": "#000080",
+                                    "style": "REGULAR",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "{$trialsConducted}",
+                                    "hint": "3tile2iihintiisvf",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START",
+                                    "fieldFormat": "number",
+                                    "min": "1",
+                                    "max": "100",
+                                    "validation": [
+                                        {
+                                            "name": "REQUIRED_FIELD",
+                                            "error": "validationdrhfc"
+                                        }
+                                    ]
+                                },
+                                "img": {
+                                    "text": "imageUrl17wro",
+                                    "isUrl": true,
+                                    "height": "24",
+                                    "width": "24"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 3
+                    }
+                    ,
+
+                    {
+                        "id": "Tile12",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "1tile6aiitextii2y",
+                                    "titleTextColor": "#000080",
+                                    "style": "REGULAR",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "{$phaseInterested}",
+                                    "data": "1tile12iidataiil21",
+                                    "hint": "1tile12iihintiibc9",
+                                    "keyboard": "text",
+                                    "fieldFormat": "multiple",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START",
+                                    "validation": [
+                                        {
+                                            "name": "REQUIRED_FIELD",
+                                            "error": "validationdrhfcer"
+                                        }
+                                    ]
+                                },
+                                "img": {
+                                    "text": "imageUrl186v0",
+                                    "isUrl": true,
+                                    "height": "28",
+                                    "width": "28"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 2
+                    }
+                    
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action300}",
+                    "order": 1
+                },
+                {
+                    "id": "EN01BottomButton1",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": "2en01bottombutton1iitextiiyaq"
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BUTTON",
+                    "uiAction": "${action544}",
+                    "order": 2
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action300": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-794zs8jrs1bz9z9kvx-see-pis-1"
+                }
+            ]
+        },
+        "action544": {
+            "action": "e-w-broad-sponsor-ans"
+        }
+    }
+}

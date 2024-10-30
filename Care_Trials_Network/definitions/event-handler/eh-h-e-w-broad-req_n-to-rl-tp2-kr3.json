@@ -1,0 +1,32 @@
+{
+    "nodeEventHandlers": [
+        {
+            "type": "MAPPER",
+            "name": "Append or Exclude attributes to REQ_NEW_ACTIVATION_CODE payload",
+            "order": 1,
+            "dataSource": "EVENT_PAYLOAD",
+            "additionalAttributes": {},
+            "excludedAttributes": []
+        },
+        {
+            "type": "VAULT_UPDATE",
+            "name": "REQ_NEW_ACTIVATION_CODE",
+            "order": 2,
+            "collection": "REQ_NEW_ACTIVATION_CODE",
+            "collectionVersion": 1,
+            "dataSource": "HANDLER_ARGUMENTS",
+            "insertIfAbsent": true,
+            "searchCriteria": [
+                {
+                    "queryMatcher": "EQUAL",
+                    "fieldName": "transactionalGuid",
+                    "dynamicValue": {
+                        "source": "EVENT_PAYLOAD",
+                        "value": "transactionalGuid"
+                    }
+                }
+            ],
+            "handlerOutput": "PERSISTED_ENTITY"
+        }
+    ]
+}

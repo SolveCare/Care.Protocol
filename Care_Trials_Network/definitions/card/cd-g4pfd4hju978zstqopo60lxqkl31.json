@@ -1,0 +1,142 @@
+{
+    "id": "cd-g4pfd4hju978zstqopo60lxqkl31",
+    "name": "Request Details",
+    "cardData": {
+        "0tile11iitextiief2": "A site admin has requested the following information",
+        "0tile11iitextiief1": "This is a request from",
+        "0tile1newline": "\n",
+        "0tile11iitextiieg3": "Include this text in the subject of your email",
+        "0tile11iitextiieh4": "Send the requested information and records to this email address"
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "00tc01",
+                "tileComponent": [
+                    
+                    {
+                        "id": "Tile11",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile11iitextiief2",
+                                    "titleTextColor": "#000080",
+                                    "style": "BOLD",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "{$ClinicalRecords}|0tile1newline|{$IDRecords}",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "JUSTIFY"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile11",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile11iitextiieh4",
+                                    "titleTextColor": "#000080",
+                                    "style": "BOLD",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "{$RecordRequest}",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "JUSTIFY"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile11",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile11iitextiieg3",
+                                    "titleTextColor": "#000080",
+                                    "style": "BOLD",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "{$Identifier}",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "JUSTIFY"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile11",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile11iitextiief1",
+                                    "titleTextColor": "#000080",
+                                    "style": "BOLD",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "{$TrialName}",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "JUSTIFY"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    }
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action718}",
+                    "order": 1
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action104": {
+            "action": "e-w-parti-navig-to-cd-swt-cvn"
+        },
+        "action795": {
+            "action": "e-w-parti-navig-to-cd-4h9-l8y"
+        },
+        "action718": {
+            "action": "e-w-parti-navig-to-cd-1dv-m9x"
+        }
+    }
+}

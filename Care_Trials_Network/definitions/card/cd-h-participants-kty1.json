@@ -1,0 +1,182 @@
+{
+    "cardData": {
+        "homeCardDescription": "Swipe to connect with right trials",
+        "label-jn-dchngg450u6wafzxwp50b0klmiy": "Start Here",
+        "icon-jn-dchngg450u6wafzxwp50b0klmiy": "https://i.ibb.co/5WjHD3C/Care-Trials-Get-started-icon.png",
+        "description-jn-dchngg450u6wafzxwp50b0klmiy": "with Care.Trials",
+        "label-jn-vvgf2tlkxwvjdrcub2jjyi560ii": "Refer",
+        "icon-jn-vvgf2tlkxwvjdrcub2jjyi560ii": "https://i.ibb.co/0h0sbnt/earning-4.png",
+        "description-jn-vvgf2tlkxwvjdrcub2jjyi560ii": "and earn rewards",
+        "label-jn-bj0u5s9e6ytmna0yygzn46rw8u4": "See Trials",
+        "icon-jn-bj0u5s9e6ytmna0yygzn46rw8u4": "https://i.ibb.co/842zY27/Swipe-to-discover.png",
+        "description-jn-bj0u5s9e6ytmna0yygzn46rw8u4": "near you",
+        "label-jn-icaqft01a4zorldo5xepqsclgfm": "See ",
+        "icon-jn-icaqft01a4zorldo5xepqsclgfm": "https://i.ibb.co/Qpvzkfr/You-Matched.png",
+        "description-jn-icaqft01a4zorldo5xepqsclgfm": "your Likes and Matches",
+        "label-jn-tgy3lnmz53os5hy9bzyqsn6hz8l": "Records ",
+        "icon-jn-tgy3lnmz53os5hy9bzyqsn6hz8l": "https://i.ibb.co/MZRKQmM/immigration.png",
+        "description-jn-tgy3lnmz53os5hy9bzyqsn6hz8l": "review and ID verification",
+        "label-jn-q55n0apub9shfjxe4kfnkvnasbz": "You Matched",
+        "icon-jn-q55n0apub9shfjxe4kfnkvnasbz": "https://i.ibb.co/hYzsfWj/match-2.png",
+        "description-jn-q55n0apub9shfjxe4kfnkvnasbz": "You matched with a trial",
+        "label-jn-talktocaira3os5hy9bzyqsn6hz21": "Talk to Caira",
+        "icon-jn-talktocaira3os5hy9bzyqsn6hz21": "https://i.ibb.co/bQ8mK5v/Cairapic.png",
+        "description-jn-talktocaira3os5hy9bzyqsn6hz21": "for any queries"
+
+    },
+    "cardLayout": {
+        "body": [ 
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    { 
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "homeCardDescription",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "CENTER"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 2
+                    },
+                    {
+                        "id": "Tile17Journey",
+                        "isSearchable": false,
+                        "subView": [
+                            {
+                                "options": {
+                                    "key": {
+                                        "name": "{answer}"
+                                    },
+                                    "list": [
+                                        {
+                                            "label": "label-jn-dchngg450u6wafzxwp50b0klmiy",
+                                            "hint":"description-jn-dchngg450u6wafzxwp50b0klmiy",
+                                            "img": {
+                                                "text": "icon-jn-dchngg450u6wafzxwp50b0klmiy",
+                                                "isUrl": true,
+                                                "height": "",
+                                                "width": ""
+                                            },
+                                            "journey": {
+                                                "journeyId": "jn-dchngg450u6wafzxwp50b0klmiy"
+                                            }
+                                        },
+                                        {
+                                            "label": "label-jn-bj0u5s9e6ytmna0yygzn46rw8u4",
+                                            "hint":"description-jn-bj0u5s9e6ytmna0yygzn46rw8u4",
+                                            "img": {
+                                                "text": "icon-jn-bj0u5s9e6ytmna0yygzn46rw8u4",
+                                                "isUrl": true,
+                                                "height": "",
+                                                "width": ""
+                                            },
+                                            "journey": {
+                                                "journeyId": "jn-bj0u5s9e6ytmna0yygzn46rw8u4"
+                                            }
+                                        },
+                                        {
+                                            "label": "label-jn-talktocaira3os5hy9bzyqsn6hz21",
+                                            "hint":"description-jn-talktocaira3os5hy9bzyqsn6hz21",
+                                            "img": {
+                                                "text": "icon-jn-talktocaira3os5hy9bzyqsn6hz21",
+                                                "isUrl": true,
+                                                "height": "",
+                                                "width": ""
+                                            },
+                                            "journey": {
+                                                "journeyId": "jn-talktocaira3os5hy9bzyqsn6hz21"
+                                            }
+                                        },
+                                        {
+                                            "label": "label-jn-tgy3lnmz53os5hy9bzyqsn6hz8l",
+                                            "hint":"description-jn-tgy3lnmz53os5hy9bzyqsn6hz8l",
+                                            "img": {
+                                                "text": "icon-jn-tgy3lnmz53os5hy9bzyqsn6hz8l",
+                                                "isUrl": true,
+                                                "height": "",
+                                                "width": ""
+                                            },
+                                            "journey": {
+                                                "journeyId": "jn-tgy3lnmz53os5hy9bzyqsn6hz8l"
+                                            }
+                                        },
+                                        
+                                        {
+                                            "label": "label-jn-icaqft01a4zorldo5xepqsclgfm",
+                                            "hint":"description-jn-icaqft01a4zorldo5xepqsclgfm",
+                                            "img": {
+                                                "text": "icon-jn-icaqft01a4zorldo5xepqsclgfm",
+                                                "isUrl": true,
+                                                "height": "",
+                                                "width": ""
+                                            },
+                                            "journey": {
+                                                "journeyId": "jn-icaqft01a4zorldo5xepqsclgfm"
+                                            }
+                                        },
+                                        {
+                                            "label": "label-jn-vvgf2tlkxwvjdrcub2jjyi560ii",
+                                            "hint":"description-jn-vvgf2tlkxwvjdrcub2jjyi560ii",
+                                            "img": {
+                                                "text": "icon-jn-vvgf2tlkxwvjdrcub2jjyi560ii",
+                                                "isUrl": true,
+                                                "height": "",
+                                                "width": ""
+                                            },
+                                            "journey": {
+                                                "journeyId": "jn-vvgf2tlkxwvjdrcub2jjyi560ii"
+                                            }
+                                        }
+                                       
+                                    ]
+                                }
+                            }
+                        ],
+                        "textColor": "#212121",
+                        "align": "CENTER",
+                        "borderColor": "#afafaf",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 2
+                    }
+                ],
+                "tileType": "WRAP",
+                "uiAction": ""
+            }
+        ],
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "isSearchable": false,
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "order": 1,
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action1}"
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action1": {
+            "action": "HOME"
+        }
+    },
+    "id": "cd-h-participants-kty1",
+    "name": "Care.Trial v1.1 - Home"
+}

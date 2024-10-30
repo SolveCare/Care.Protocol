@@ -1,0 +1,1 @@
+{"definition":{"description":"Event to Navigate from Activate Admin Code to cd-x66x1a58q5bmd1izd75k7772j81","name":"W-TRIAL-ADMIN-NAVIG-TO-.28W","resource":"W-TRIAL-ADMIN-NAVIG-TO-.28W","type":"EVENT_DATA"},"structure":{"attributes":[{"code":"transactionalGuid","name":"transactionalGuid","type_definition":{"type":"string"},"order":1,"system":false,"required":false}]}}

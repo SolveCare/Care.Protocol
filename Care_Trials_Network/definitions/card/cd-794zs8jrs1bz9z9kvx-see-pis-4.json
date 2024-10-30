@@ -1,0 +1,270 @@
+{
+    "id": "cd-794zs8jrs1bz9z9kvx-see-pis-4",
+    "name": "Available PIs",
+    "cardData": {
+        "0tile11iitextiiq01" : "Location",
+        "0tile11iitextiig01" : "Areas of Disease Specialization",
+        "0tile11iitextiiq011" : "Years of Experience",
+        "0tile11iitextiig011" : "Number of Trials conducted in the Past",
+        "0tile14aiitextiip03" : "Study Phase",
+        "imageUrls5i03" : "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/arrow-right blue.png",
+        "2en01bottombutton1iitextiij2u": "Done",
+
+        "likeText1": "Buy",
+        "imageUrlk6cem": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/f116d56b-00a4-4091-932b-240e9cf64504/accept-circular-button-outline.png",
+        "skipText1": "Skip",
+        "imageUrlynopr": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/f116d56b-00a4-4091-932b-240e9cf64504/multiply.png",
+        "backText1": "Previous",
+        "imageUrlo9w7y": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/71651957-ecc1-4943-961a-9f3bbb53f626/previous.png",
+
+
+        "locimage" : "https://i.ibb.co/s5d3F3B/image-22.png",
+        "specimage" : "https://i.ibb.co/hXLbDtT/image-23.png",
+        "expimage" : "https://i.ibb.co/7yGtb3p/image-24.png",
+        "trialsimage" : "https://i.ibb.co/YtBKKhZ/image-25.png",
+        "phaseimage" : "https://i.ibb.co/1XHGTWt/image-26.png"
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    {
+                        "id": "Tile14a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile11iitextiiq01",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080"
+                                },
+                                "subTitle": {
+                                    "text": "{$Country}",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000080"
+                                },    
+                                "img": {
+                                    "text": "locimage",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "DATA",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile14a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile11iitextiig01",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080"
+                                },
+                                "subTitle": {
+                                    "text": "{$specialization}",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000080"
+                                },    
+                                "img": {
+                                    "text": "specimage",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "DATA",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile14a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile11iitextiiq011",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080"
+                                },
+                                "subTitle": {
+                                    "text": "{$experienceYears}",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000080"
+                                },    
+                                "img": {
+                                    "text": "expimage",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "DATA",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile14a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile11iitextiig011",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080"
+                                },
+                                "subTitle": {
+                                    "text": "{$trialsConducted}",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000080"
+                                },    
+                                "img": {
+                                    "text": "trialsimage",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "DATA",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                
+                    {
+                        "id": "Tile14a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile14aiitextiip03",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080"
+                                },
+                                "subTitle": {
+                                    "text": "{$phaseInterested}",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000080"
+                                },    
+                                "img": {
+                                    "text": "phaseimage",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "DATA",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                   
+                    {
+                        "id": "Tile17a",
+                        "subView": [
+                            {
+                                "options": {
+                                    "list": [
+                                        {
+                                            "subTitle": {
+                                                "text": "backText1",
+                                                "subtitleAlign": "CENTER",
+                                                "colorCode": "#000080",
+                                                "style": "REGULAR"
+                                            },
+                                            "img": {
+                                                "text": "imageUrlo9w7y"
+                                            },
+                                            "uiAction": "action17aBack",
+                                            "itemBorderColor": "#ffffff"
+                                        },
+                                        {
+                                            "subTitle": {
+                                                "text": "skipText1",
+                                                "subtitleAlign": "CENTER",
+                                                "colorCode": "#000080",
+                                                "style": "REGULAR"
+                                            },
+                                            "img": {
+                                                "text": "imageUrlynopr"
+                                            },
+                                            "uiAction": "action17aNope",
+                                            "itemBorderColor": "#ffffff"
+                                        },
+                                        {
+                                            "subTitle": {
+                                                "text": "likeText1",
+                                                "subtitleAlign": "CENTER",
+                                                "colorCode": "#000080",
+                                                "style": "REGULAR"
+                                            },
+                                            "img": {
+                                                "text": "imageUrlk6cem"
+                                            },
+                                            "uiAction": "action17aInterested",
+                                            "itemBorderColor": "#ffffff"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "borderColor": "#ffffff",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 8
+                    }
+                   
+                    
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "footer": {
+            "menu": [
+                
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action17aBack": {
+            "action": [
+              {
+                "name": "Function.reloadData",
+                "resultKey": "Back"
+              }
+            ]
+          },
+          "action17aNope": {
+            "action": [
+              {
+                "name": "Function.reloadData",
+                "resultKey": "Nope"              
+                },
+                {
+                    "name": "e-w-skip-pis"
+                }
+            ]
+          },
+          "action17aInterested": {
+            "action": [
+              {
+                "name": "e-w-buy-pis"
+              },
+              {
+                "name": "Function.reloadData",
+                "resultKey": "Interested"
+              }
+            ]
+          }
+    }
+}

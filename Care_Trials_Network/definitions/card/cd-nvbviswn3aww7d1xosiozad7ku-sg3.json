@@ -1,0 +1,100 @@
+{
+    "id": "cd-nvbviswn3aww7d1xosiozad7ku-sg3",
+    "name": "Not a fit",
+    "cardData": {
+        "texttitle": "Effects of time",
+        "textsubtitle": "4 days ago"
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                   
+                    
+                    {
+                        "id": "Tile14",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "{TrialName}",
+                                    "titleTextColor": "#000080"
+                                },
+                                "subTitle": {
+                                    "text": "textsubtitle",
+                                    "style": "BOLD",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "img": {
+                                    "text": "imageUrl4mjtk1",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "borderWidth": 3,
+                        "type": "CONTAINER",
+                        "uiAction": "${action5}",
+                        "order": 5
+                    }
+                    
+                ],
+                "tileType": "LIST",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "style": {
+            "fontSize": 16,
+            "bgColor": "#ffffff",
+            "borderWidth": 1
+        },
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action1}",
+                    "order": 1
+                } 
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+
+        "action5": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-nvbv-unlike-sg6"
+                }
+            ]
+        },
+        
+        "action1": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-nvbviswn3aww7d1xosiozad7ku-sg1"
+                }
+            ]        
+        }
+        
+                    
+                    
+                    
+    }
+}

@@ -1,0 +1,219 @@
+{
+    "id": "cd-nvbv-unlike-sg6",
+    "name": "Not a fit trial",
+    "cardData": {
+        "buttontext": "Unlike",
+        "textmessage": "Oops, unfortunately, your criteria didn't align with our requirements. Please continue swiping to explore more trials.",
+        "3tile0aiitextiitib": "Trial type",
+        "1tile0aiitextiik4n1": "Eligibility",
+        "imageUrlEligibility": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/f116d56b-00a4-4091-932b-240e9cf64504/MicrosoftTeams-image (32).png",
+        "2tile14aiitextiiwrx": "Trial Sponsor",
+        "imageUrlSponsor": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/f116d56b-00a4-4091-932b-240e9cf64504/MicrosoftTeams-image (31).png",
+        "5tile14iitextiio23hi": "Determined at enrolment",
+        "imageUrllocation": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/f116d56b-00a4-4091-932b-240e9cf64504/MicrosoftTeams-image (35).png"
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                   
+                    
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "{$TrialName}",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "CENTER",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#000080",
+                        "backgroundColor": "#000080",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile0a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "3tile0aiitextiitib",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "{$StudyType}",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "END"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 3
+                    },
+                    {
+                        "id": "Tile14a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "1tile0aiitextiik4n1",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080"
+                                },
+                                "subTitle": {
+                                    "text": "${Eligible}",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000080"
+                                },
+                                "img": {
+                                    "text": "imageUrlEligibility",
+                                    "isUrl": true,
+                                    "height": "40",
+                                    "width": "40"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 4
+                    },
+                    {
+                        "id": "Tile14a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "${Distance}",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080"
+                                },
+                                "subTitle": {
+                                    "text": "${Location_Text}",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000080"
+                                },
+                                "img": {
+                                    "text": "imageUrllocation",
+                                    "isUrl": true,
+                                    "height": "40",
+                                    "width": "40"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 3
+                    },
+                    {
+                        "id": "Tile14a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "2tile14aiitextiiwrx",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080"
+                                },
+                                "subTitle": {
+                                    "text": "${LeadSponsorName}",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000080"
+                                },
+                                "img": {
+                                    "text": "imageUrlSponsor",
+                                    "isUrl": true,
+                                    "height": "40",
+                                    "width": "40"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 4
+                    },
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "textmessage",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "CENTER",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#000080",
+                        "backgroundColor": "#000080",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    }
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "style": {
+            "fontSize": 16,
+            "bgColor": "#ffffff",
+            "borderWidth": 1
+        },
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action1}",
+                    "order": 1
+                } 
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+
+        "action5": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-nvbviswn3aww7d1xosiozad7ku-sg3"
+                }
+            ]
+        },
+        "action1": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-nvbviswn3aww7d1xosiozad7ku-sg3"
+                }
+            ]
+        },
+        "action2": {
+            "action": "e-w-broad-unlike"
+        }                 
+    }
+}

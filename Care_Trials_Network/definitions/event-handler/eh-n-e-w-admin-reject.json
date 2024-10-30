@@ -1,0 +1,48 @@
+{
+    "nodeEventHandlers": [
+        {
+            "type": "MAPPER",
+            "name": "Append or Exclude attributes to DEFAULT payload",
+            "order": 1,
+            "dataSource": "EVENT_PAYLOAD",
+            "additionalAttributes": {
+                "recordStatus": {
+                    "source": "CONSTANT",
+                    "value": "rejected"
+                },
+                "recordAge": {
+                    "source": "CONSTANT",
+                    "value": "expired"
+                }
+            },
+            "excludedAttributes": []
+        },
+        {
+            "type": "VAULT_UPDATE",
+            "name": "RECORD_DATA",
+            "order": 2,
+            "collection": "RECORD_DATA",
+            "dataSource": "HANDLER_ARGUMENTS",
+            "insertIfAbsent": true,
+            "searchCriteria": [
+                {
+                    "queryMatcher": "EQUAL",
+                    "fieldName": "transactionalGuid",
+                    "dynamicValue": {
+                        "source": "HANDLER_ARGUMENTS",
+                        "value": "transactionalGuid"
+                    }
+                }
+            ],
+            "handlerOutput": "PERSISTED_ENTITY"
+        },
+        {
+            "type": "MAPPER",
+            "name": "Append or Exclude attributes in the result",
+            "order": 3,
+            "dataSource": "HANDLER_ARGUMENTS",
+            "additionalAttributes": {},
+            "excludedAttributes": []
+        }
+    ]
+}

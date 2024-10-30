@@ -1,0 +1,196 @@
+{
+    "ddf_type": "trial_admin_prof_ques",
+    "meta_data": {
+        "description": "Collection to store Trial.Admin/Sponsor info"
+    },
+    "messages": [
+        {
+            "message_category": "CSV",
+            "message_type": "ANSWERS",
+            "meta_data": {
+                "description": "Collection to store Trial.Admin/Sponsor info",
+                "indices": "trial_admin_prof_ques"
+            },
+            "attributes": [
+                {
+                    "name": "DPP",
+                    "description": "DPP",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "DPP"
+                },
+                {
+                    "name": "FirstName",
+                    "description": "FirstName",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "FirstName"
+                },
+                {
+                    "name": "LastName",
+                    "description": "LastName",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "LastName"
+                },
+                {
+                    "name": "Education",
+                    "description": "Education",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "Education"
+                },
+                {
+                    "name": "SpecializationField",
+                    "description": "SpecializationField",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "SpecializationField"
+                },
+                {
+                    "name": "InstitutionalAffiliation",
+                    "description": "InstitutionalAffiliation",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "InstitutionalAffiliation"
+                },
+                {
+                    "name": "InstitutionAddress",
+                    "description": "InstitutionAddress",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "InstitutionAddress"
+                },
+                {
+                    "name": "orgAffiliation",
+                    "description": "orgAffiliation",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "orgAffiliation"
+                },
+                {
+                    "name": "PositionInstitution",
+                    "description": "PositionInstitution",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "PositionInstitution"
+                },
+                {
+                    "name": "InstitutionDescription",
+                    "description": "InstitutionDescription",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "InstitutionDescription"
+                },
+                {
+                    "name": "ExperienceYears",
+                    "description": "ExperienceYears",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "ExperienceYears"
+                },
+                {
+                    "name": "ExpertiseAreas",
+                    "description": "ExpertiseAreas",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "ExpertiseAreas"
+                },
+                {
+                    "name": "ParticipationDescription",
+                    "description": "ParticipationDescription",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "ParticipationDescription"
+                },
+                {
+                    "name": "TitleYear",
+                    "description": "TitleYear",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "TitleYear"
+                },
+                {
+                    "name": "recentRole",
+                    "description": "recentRole",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "recentRole"
+                },
+                {
+                    "name": "Email",
+                    "description": "Email",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "Email"
+                },
+                {
+                    "name": "Phone",
+                    "description": "Phone",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "Phone"
+                },
+                {
+                    "name": "isAnswered",
+                    "description": "isAnswered",
+                    "required": false,
+                    "index_field": true,
+                    "type": "boolean",
+                    "data_location": "isAnswered"
+                },
+                {
+                    "name": "isNotAnswered",
+                    "description": "isNotAnswered",
+                    "required": false,
+                    "index_field": true,
+                    "type": "boolean",
+                    "data_location": "isNotAnswered"
+                },
+                {
+                    "code": "transactionalGuid",
+                    "name": "transactionalGuid",
+                    "description": "transactionalGuid",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "transactionalGuid"
+                },
+                {
+                    "code": "Date",
+                    "name": "Date",
+                    "description": "Date",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "Date"
+                },
+                {
+                    "name": "senderNodeAddress",
+                    "description": "senderNodeAddress",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "senderNodeAddress"
+                }
+            ]
+        }
+    ]
+}

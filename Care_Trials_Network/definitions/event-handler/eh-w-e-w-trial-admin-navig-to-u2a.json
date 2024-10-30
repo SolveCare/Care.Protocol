@@ -1,0 +1,26 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "e-w-trial-admin-navig-to-u2a",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "name": "submit",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "GET",
+                                    "url": "/transactions/TRIAL_ADMIN_QA?filter=[{\"queryMatcher\": \"EQUAL\",\"inverted\": false,\"fieldName\": \"SiteID\",\"value\": \"${SiteID}\"},{\"queryMatcher\":\"EQUAL\",\"fieldName\":\"leadNodeAddress\",\"value\":\"${leadNodeAddress}\"}]"
+                                    
+                                }
+                            ]
+                        }
+                    ],
+                    "postAction": "cd-bhly2qe2f0s4xae2x9gf3ou5z2w1",
+                    "refId": "e-w-trial-admin-navig-to-u2a" 
+                }
+            ]
+        }
+    ]
+}

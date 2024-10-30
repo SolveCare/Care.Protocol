@@ -1,0 +1,31 @@
+{
+    "nodeEventHandlers": [
+        {
+            "type": "MAPPER",
+            "name": "Append or Exclude attributes to DEFAULT payload",
+            "order": 1,
+            "dataSource": "EVENT_PAYLOAD",
+            "additionalAttributes": {}
+        },
+        {
+            "type": "VAULT_UPDATE",
+            "name": "IDENTITY",
+            "order": 2,
+            "collection": "IDENTITY",
+            "collectionVersion": 1,
+            "dataSource": "HANDLER_ARGUMENTS",
+            "insertIfAbsent": true,
+            "searchCriteria": [
+                {
+                    "queryMatcher": "EQUAL",
+                    "fieldName": "transactionalGuid",
+                    "dynamicValue": {
+                        "source": "EVENT_PAYLOAD",
+                        "value": "transactionalGuid"
+                    }
+                }
+            ],
+            "handlerOutput": "PERSISTED_ENTITY"
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "id": "cd-vmat1uqhs6u1mibjinqaber9wx51",
+    "name": "Campaign History",
+    "cardData": {
+        "imageUrl": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/arrow-right blue.png"
+    },
+    "cardLayout": {
+        "body": [
+            
+        ],
+        "style": {
+            "fontSize": 16,
+            "bgColor": "#ffffff",
+            "borderWidth": 1
+        },
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action841}",
+                    "order": 1
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        
+        "action841": {
+            "action": "e-w-trial-admin-navig-to-cmp"
+        }
+    }
+}

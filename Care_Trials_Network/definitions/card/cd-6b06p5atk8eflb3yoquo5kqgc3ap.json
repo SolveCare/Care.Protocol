@@ -1,0 +1,359 @@
+{
+    "id": "cd-6b06p5atk8eflb3yoquo5kqgc3ap",
+    "name": "Appointment Details", 
+    "cardData": {
+        "0tile0iitextii7zx": "Difficult Airway Simulation-based Training",
+        "1tile0aiitextiitk6": "Status",
+        "1tile0aiitextii72s": "Received",
+        "2tile0iitextii23a": "Please visit our facility center for additional tests",
+        "3tile11iitextiilqk": "Location",
+        "3tile11iitextiiywy": "Yale Hospital,\n20 York St, New Haven, CT 06510, USA",
+        "3tile11iitextiilqk1": "Information",
+        "3tile11iitextiiywy1": "Yale Hospital,\n20 York St, New Haven, CT 06510, USA",
+        "4tile11iitextiip6r": "Appointment days",
+        "4tile11iitextiih64": "Mon, Wed, Fri",
+        "5tile11iitextii7nu": "Appointment hours",
+        "5tile11iitextii59u": "From 8 a.m. to 13 p.m.",
+        "3tile11iitextiilqkpu1": "Purpose",
+        "6tile1iitextiiwxy": "Comments",
+        "6tile1iitextiixk7": "",
+        "6tile1iihintiiiqc": "Enter your comments",
+        "6tile1iierroriix8a": "Value should be between 1 and 30",
+        "2en01bottombutton1iitextiilor1": "Submit",
+        "00t1v4": "Please confirm your appointment request",
+        "00t1v16": "Accept",
+        "00t1v17": "Decline",
+        "8tile14iitextiimyk": "Accept",
+        "imageUrlk6cem": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/f116d56b-00a4-4091-932b-240e9cf64504/accept-circular-button-outline.png",
+        "9tile14iitextii0ak": "Decline",
+        "imageUrlynopr": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/f116d56b-00a4-4091-932b-240e9cf64504/multiply.png",
+        "10tile14iitextiizxq": "Back",
+        "imageUrlo9w7y": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/71651957-ecc1-4943-961a-9f3bbb53f626/previous.png",
+        "2en01bottombutton1iitextii6p7": "Back",
+        "3tile11iitextiilqk1rp1" : "Purpose",
+        "imageUrlfgtqd221": "https://i.ibb.co/bQb7spW/Purpose.png",
+        "imageUrlfgtqd222": "https://i.ibb.co/hcjz5Zy/Location-Apt.png",
+        "imageUrlfgtqd223": "https://i.ibb.co/L6dNXxW/AptDays.png",
+        "imageUrlfgtqd224": "https://i.ibb.co/RhHh2zq/AptHours.png",
+        "imageUrlfgtqd225": "https://i.ibb.co/J3PJfVS/Status-Rec.png",
+        "ApptStatus": "Status"
+
+
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "{$TrialName}",
+                                    "style": "REGULAR",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "CENTER",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+
+                    {
+                        "id": "Tile14a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "3tile11iitextiilqkpu1",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "{$apptPurpose}",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START"
+                                },
+                                "img": {
+                                    "text": "imageUrlfgtqd221",
+                                    "isUrl": true,
+                                    "height": "40",
+                                    "width": "40"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 3
+                    },
+                    {
+                        "id": "Tile14a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "3tile11iitextiilqk",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "{$apptLocation}",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START"
+                                },
+                                "img": {
+                                    "text": "imageUrlfgtqd222",
+                                    "isUrl": true,
+                                    "height": "40",
+                                    "width": "40"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 3
+                    },
+                    {
+                        "id": "Tile14a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "4tile11iitextiip6r",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "{$apptWorkDays}",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START"
+                                },
+                                "img": {
+                                    "text": "imageUrlfgtqd223",
+                                    "isUrl": true,
+                                    "height": "40",
+                                    "width": "40"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 3
+                    }, 
+                    {
+                        "id": "Tile14a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "5tile11iitextii7nu",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "{$apptWorkHours}",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START"
+                                },
+                                "img": {
+                                    "text": "imageUrlfgtqd224",
+                                    "isUrl": true,
+                                    "height": "40",
+                                    "width": "40"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 3
+                    },  
+
+                    {
+                        "id": "Tile14a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "ApptStatus",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "{$submittedAt}",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START"
+                                },
+                                "img": {
+                                    "text": "{$statusIcon}",
+                                    "isUrl": true,
+                                    "height": "40",
+                                    "width": "40"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 3
+                    },
+                   
+                    {
+                        "id": "Tile17a",
+                        "subView": [
+                            {
+                                "options": {
+                                    "list": [
+                                        {
+                                            "subTitle": {
+                                                "text": "10tile14iitextiizxq",
+                                                "subtitleAlign": "CENTER",
+                                                "colorCode": "#000080",
+                                                "style": "BOLD"
+                                            },
+                                            "img": {
+                                                "text": "imageUrlo9w7y"
+                                            },
+                                            "uiAction": "action17aBack",
+                                            "itemBorderColor": "#ffffff"
+                                        },
+                                        {
+                                            "subTitle": {
+                                                "text": "9tile14iitextii0ak",
+                                                "subtitleAlign": "CENTER",
+                                                "colorCode": "#000080",
+                                                "style": "BOLD"
+                                            },
+                                            "img": {
+                                                "text": "imageUrlynopr"
+                                            },
+                                            "uiAction": "action17aNope",
+                                            "itemBorderColor": "#ffffff"
+                                        },
+                                        {
+                                            "subTitle": {
+                                                "text": "8tile14iitextiimyk",
+                                                "subtitleAlign": "CENTER",
+                                                "colorCode": "#000080",
+                                                "style": "BOLD"
+                                            },
+                                            "img": {
+                                                "text": "imageUrlk6cem"
+                                            },
+                                            "uiAction": "action17aInterested",
+                                            "itemBorderColor": "#ffffff"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "borderColor": "#ffffff",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "visibleIf":"${isApptStatus}",
+                        "order": 5
+                    }
+
+                   
+
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "style": {
+            "fontSize": 16,
+            "bgColor": "#ffffff",
+            "borderWidth": 1
+        },
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action1}",
+                    "visibleIf":"${isApptStatusNot}",
+                    "order": 1
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action1": {
+            "action": "e-w-parti-navig-to-cd-1dv-ap1"
+        },
+        "action2": {
+            "action": "e-w-parti-navig-to-cd-1dv-ap1"
+        },
+        "action17aBack": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-partgetlistforpartifromadmin31"
+                }
+            ]
+         },
+         "action17aNope": {
+            "action": [
+                {
+                    "name": "e-w-broad-decline-appt"
+                },
+                 {
+                    "name": "Function.reloadData",
+                    "resultKey": "Nope"              
+                },
+                {
+                    "name": "Function.Navigate",
+                    "cardId": ""
+                }
+             ]
+         },
+         "action17aInterested": {
+             
+              "action": [
+                {
+                    "name": "e-w-broad-accept-appt"
+                }        
+                ,     
+                {
+                    "name": "Function.reloadData",
+                    "resultKey": "Interested"
+                }   
+                , 
+                {
+                     "name": "Function.Navigate",
+                     "cardId": ""
+                }
+
+        
+
+             ]
+                 
+           }
+    }
+}

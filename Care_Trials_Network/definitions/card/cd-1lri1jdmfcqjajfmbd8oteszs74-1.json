@@ -1,0 +1,8 @@
+{"id":"cd-1lri1jdmfcqjajfmbd8oteszs74-1",
+  "name":"Matches",
+  "cardData":{},
+  "cardLayout":
+  {"body":[{"id":"000t1","tileComponent":[],"tileType":"WRAP","uiAction":""}],
+    "footer":{"menu":[{"id":"EN01BottomButtonBack","isSearchable":false,"subView":[{"title":{"text":""}}],"order":1,"type":"BACK_BUTTON","uiAction":"${action1}"}],"orientation":"HORIZONTAL"},
+    "style":{"fontSize":16,"bgColor":"#ffffff","borderWidth":1}},
+  "cardUIAction":{"action1":{"action":"HOME"}}}

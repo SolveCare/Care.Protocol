@@ -1,0 +1,163 @@
+{
+    "id": "cd-first0m5z11ah88guwu7olooc1n-1c",
+    "name": "Pending Verification",
+    "cardData": {
+        "0tile14a0partText": "Participant",
+        "1tile14a0partText": "Records review & ID verification",
+        "imageurl": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/arrow-right blue.png",
+        "2tile14a0physicianText": "Physician",
+        "3tile14a0physText": "Verify identity",
+        "4tile14a0croText": "CROs/Sponsor",
+        "5tile14a0croText": "Verify identity"
+},
+     
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    {
+                        "id": "Tile14a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile14a0partText",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080"
+                                },
+                                "subTitle": {
+                                    "text": "1tile14a0partText",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000080"
+                                },
+                                "img": {
+                                    "text": "imageurl",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "${action1}",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile14a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "2tile14a0physicianText",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080"
+                                },
+                                "subTitle": {
+                                    "text": "3tile14a0physText",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000080"
+                                },
+                                "img": {
+                                    "text": "imageurl",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "${action2}",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile14a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "4tile14a0croText",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080"
+                                },
+                                "subTitle": {
+                                    "text": "5tile14a0croText",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000080"
+                                },
+                                "img": {
+                                    "text": "imageurl",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "${action3}",
+                        "order": 1
+                    }  
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "style": {
+            "fontSize": 16,
+            "bgColor": "#ffffff",
+            "borderWidth": 1
+        },
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action4}",
+                    "order": 1
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action1": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-8tlp9qym5z11ah88guwu7olooc1n"
+                }
+            ]
+        },
+        "action2": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-4oey47dgwefcfav0jhs4-rev-ident-c1"
+                }
+            ]
+        },
+        "action3": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-4oey47dgwefcfav0jhs4-rev-ta-ident-c1"
+                }
+            ]
+        },
+        "action4": {
+            "action": "HOME"
+        }
+    }
+}

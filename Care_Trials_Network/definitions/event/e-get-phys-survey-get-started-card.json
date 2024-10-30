@@ -1,0 +1,22 @@
+{
+    "definition": {
+        "description": "Get survey answers",
+        "name": "GET.PHYS.SURVEY.ANS003",
+        "resource": "GET.PHYS.SURVEY.ANS003",
+        "type": "EVENT_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 1,
+                "system": false,
+                "required": false
+            }
+        ]
+    }
+}

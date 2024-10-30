@@ -1,0 +1,185 @@
+{
+    "id": "cd-1oeogij51yh1jtk0i08pnfrdcu61",
+    "name": "Refer & Earn",
+    "cardData": {
+        "0tile0iitextiihbl": "Earn 25 SOLVE for every user who joins the network using your referral.",
+        "imageUrln86wx1": "https://i.ibb.co/zrhWzFF/Refer-Earn.png",
+        "2tile14aiitextiihsb": "Referral code ",
+        "2tile14aiitextiier1": "Sub Title",
+        "imageUrldre6x": "https://i.ibb.co/Ht8hvHT/copy-blue.png",
+        "3tile0aiitextiihz8": "Total referrals joined so far",
+        "3tile0aiitextiiodc": "53",
+        "1tile1iihintii6km": "Enter here",
+        "4tile14iitextiid1n": "Active",
+        "imageUrlcf7p7": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/f116d56b-00a4-4091-932b-240e9cf64504/shield-badge.png",
+        "5tile14iitextiiynf": "Records",
+        "imageUrloomap": "https://i.ibb.co/xDrnjVy/Bronze-2.png",
+        "6tile14iitextiirrc": "ID",
+        "imageUrl8712p": "https://i.ibb.co/stSV6pW/Bronze-3.png",
+        "2en01bottombutton1iitextii6p7": "View Earnings",
+        "0tile0iitextiihbl1": "Your badges",
+        "imageUrli0ikq2":  "https://d1fgr2dke6q42b.cloudfront.net/uat/media/f116d56b-00a4-4091-932b-240e9cf64504/reward_system_1.png",
+        "tileTextRefer": "Reward system designed to make your experience even better"
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "00tc01",
+                "tileComponent": [
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "tileTextRefer",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "CENTER",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile16",
+                        "subView": [
+                            {
+                                "img": {
+                                    "text": "imageUrli0ikq2",
+                                    "isUrl": true,
+                                    "height": "200",
+                                    "width": "150"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 2
+                    }, 
+                   
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile0iitextiihbl1",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "CENTER",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#ffffff",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 3
+                    },
+                    {
+                        "id": "Tile17a",
+                        "subView": [
+                            {
+                                "options": {
+                                    "list": [
+                                        {
+                                            "subTitle": {
+                                                "text": "4tile14iitextiid1n",
+                                                "subtitleAlign": "CENTER",
+                                                "colorCode": "#000080",
+                                                "style": "REGULAR",
+                                                "fontSize": 14
+                                            },
+                                            "img": {
+                                                "text": "{$Badges}"
+                                            },
+                                            "uiAction": "",
+                                            "itemBorderColor": "#FFDD93"
+                                        },
+                                        {
+                                            "subTitle": {
+                                                "text": "5tile14iitextiiynf",
+                                                "subtitleAlign": "CENTER",
+                                                "colorCode": "#000080",
+                                                "style": "REGULAR",
+                                                "fontSize": 14
+                                            },
+                                            "img": {
+                                                "text": "{$recordBadges}"
+                                            },
+                                            "uiAction": "",
+                                            "itemBorderColor": "#FFDD93"
+                                        },
+                                        {
+                                            "subTitle": {
+                                                "text": "6tile14iitextiirrc",
+                                                "subtitleAlign": "CENTER",
+                                                "colorCode": "#000080",
+                                                "style": "REGULAR",
+                                                "fontSize": 14
+                                            },
+                                            "img": {
+                                                "text": "{$IDBadges}"
+                                            },
+                                            "uiAction": "",
+                                            "itemBorderColor": "#FFDD93"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "isSeparatorBetweenItems": true,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 5
+                    }
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action1}",
+                    "order": 1
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action1": {
+            "action": "HOME"
+        },
+        "action824": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-1oeogij51yh1jtk0i08pnfrdcu-sg1"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,134 @@
+{
+    "id": "cd-7nb3carcjzqgdqllatoyzw2owhh1",
+    "name": "Submit for Verification",
+    "cardData": {
+        "0tile14aiitextiif3k": "ID",
+        "0tile14aiitextiingg": "Uploaded on: 09/10/2023",
+        "imageUrl9lta7": "https://d1fgr2dke6q42b.cloudfront.net/dev/media/a1920ec3-027a-43cc-9226-36fad59c0b6a/go_next_grey_icon.png",
+        "1tile14iitextiiqv6": "View attachments",
+        "imageUrlqkk5v": "https://d1fgr2dke6q42b.cloudfront.net/dev/media/a1920ec3-027a-43cc-9226-36fad59c0b6a/go_next_grey_icon.png",
+        "2tile14iitextiil64": "Make a selfie",
+        "imageUrld56yt": "https://d1fgr2dke6q42b.cloudfront.net/dev/media/a1920ec3-027a-43cc-9226-36fad59c0b6a/go_next_grey_icon.png",
+        "3tile6aiitextiilpj": "Pay with:",
+        "label35aqa": "500 SOLVE",
+        "label82sc1": "1000 Points",
+        "validationvni48": "Please select atleast one of the values",
+        "2en01bottombutton1iitextii4bb": "Submit"
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    {
+                        "id": "Tile14a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "{$recordType}",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "left",
+                                    "fontSize": 16
+                                },
+                                "subTitle": {
+                                    "text": "{$timeMessage}",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "left",
+                                    "fontSize": 16
+                                },
+                                "img": {
+                                    "text": "imageUrl9lta7",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "AttachmentDownloadTile",
+                        "subView": [
+                          {
+                            "title": {
+                              "text": "0tile1iitextiinm7",
+                              "titleTextColor": "#000080",
+                              "fontSize": 16
+                            },
+                            "subTitle": {
+                              "text": "{$folderReference}",
+                              "subTitleTextColor": "#000080",
+                              "fontSize": 16
+                            }
+                          }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                      }
+                  
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "style": {
+            "fontSize": 16,
+            "bgColor": "#ffffff",
+            "borderWidth": 1
+        },
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action1}",
+                    "order": 1
+                },
+                {
+                    "id": "EN01BottomButton1",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": "2en01bottombutton1iitextii4bb"
+                            }
+                        }
+                    ],
+                    "align": "END",
+                    "type": "BUTTON",
+                    "uiAction": "${action898}",
+                    "order": 2
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "": {
+            "action": null
+        },
+        "action1": {
+            "action": "HOME"
+        },
+        "action898": {
+            "action": "e-w-broad-defau-to-rl-acc-ete"
+        }
+    }
+}

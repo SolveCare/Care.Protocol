@@ -1,0 +1,114 @@
+{
+  "id": "cd-siteprototypePurchaseLead-1",
+  "name": "Purchased Leads",
+  "cardData": {
+      "0tile0aiitextiizsx": "Total leads",
+      "0tile0aiitextiiwdu": "1",
+      "1tile14aiitextiitgn": "Male, 45, Texas",
+      "1tile14aiitextiioe8": "Liver Cirrhosis Lead - Active",
+      "imageUrlll3vc": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/arrow-right blue.png",
+      "2tile14aiitextii2wq": "Female, 46, Chennai",
+      "2tile14aiitextii5yq": "Assessment of Knowledge on Pneumococcal Vaccination Among Diabetologists in India",
+      "imageUrlbfnum": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/arrow-right blue.png"
+  },
+  "cardLayout": {
+      "body": [
+          {
+              "id": "000t1",
+              "tileComponent": [
+                  {
+                      "id": "Tile0a",
+                      "subView": [
+                          {
+                              "title": {
+                                  "text": "0tile0aiitextiizsx",
+                                  "style": "BOLD",
+                                  "titleTextColor": "#000080",
+                                  "titleAlign": "START"
+                              },
+                              "subTitle": {
+                                  "text": "0tile0aiitextiiwdu",
+                                  "style": "REGULAR",
+                                  "subTitleTextColor": "#000080",
+                                  "subTitleAlign": "END"
+                              }
+                          }
+                      ],
+                      "borderColor": "#C5C3C8",
+                      "type": "CONTAINER",
+                      "uiAction": "",
+                      "order": 2
+                  },
+                  {
+                    "id": "Tile14a",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": "2tile14aiitextii2wq",
+                                "titleTextColor": "#000080",
+                                "style": "BOLD"
+                            },
+                            "subTitle": {
+                                "text": "2tile14aiitextii5yq",
+                                "subTitleTextColor": "#000080",
+                                "style": "REGULAR"
+                            },
+                            "img": {
+                                "text": "imageUrlll3vc",
+                                "isUrl": true,
+                                "height": "25",
+                                "width": "25"
+                            }
+                        }
+                    ],
+                    "borderColor": "#C5C3C8",
+                    "borderWidth": 3,
+                    "type": "CONTAINER",
+                    "uiAction": "${action948}",
+                    "order": 3
+                }
+              ],
+              "tileType": "WRAP",
+              "uiAction": "",
+              "order": 1
+          }
+      ],
+      "footer": {
+          "menu": [
+              {
+                  "id": "EN01BottomButtonBack",
+                  "subView": [
+                      {
+                          "title": {
+                              "text": ""
+                          }
+                      }
+                  ],
+                  "align": "START",
+                  "type": "BACK_BUTTON",
+                  "uiAction": "${action1}",
+                  "order": 1
+              }
+          ],
+          "orientation": "HORIZONTAL"
+      }
+  },
+  "cardUIAction": {
+    "action1": {
+      "action": [
+          {
+              "name": "Function.Navigate",
+              "cardId": "cd-siteprotocaretrialsfirstcard2"
+          }
+      ]
+    },
+    "action948": {
+      "action": [
+          {
+              "name": "Function.Navigate",
+              "cardId": "cd-siteprototypeLeadCard-2"
+          }
+      ]
+    }
+  }
+}

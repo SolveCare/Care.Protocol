@@ -1,0 +1,264 @@
+{
+  "id": "cd-participants-terms",
+  "name": "T&C",
+  "cardData": {
+    "0tile0iitextiior1": " ", 
+    "0tile11iitextiiozm": "1. Introduction:",
+    "0tile11iitextiik7x": "Welcome to our network. By using our services, you are agreeing to these terms. Please read them carefully.",
+    "0tile11iitextiiozm1": "2. Privacy and Personal Information:",
+    "0tile11iitextiik7x1": "Our network is committed to protecting your privacy. We collect and use your personal information only for the purpose of matching you with suitable clinical trials. Your information will be always kept anonymous and secure.",
+    "0tile11iitextiiozm2": "3. Use of Services:",
+    "0tile11iitextiik7x2": "You must follow any policies made available to you within the services. You may use our services only as permitted by law.",
+    "0tile11iitextiiozm3": "4. Referral Program:",
+    "0tile11iitextiik7x3": "Our network offers a referral program where you can earn tokens by referring new participants. The referral code can be shared manually outside of the app environment. Tokens are awarded each time your referral code is used by a new participant",
+    "0tile11iitextiiozm4": "5. Content:",
+    "0tile11iitextiik7x4": "All information provided by our network is for informational purposes only. Always consult with a healthcare professional for medical advice.",
+    "0tile11iitextiiozm5": "6. Liability:",
+    "0tile11iitextiik7x5": "Our network is not responsible for any harm or damages related to your participation in any clinical trials. It is your responsibility to understand the risks and benefits of participating in a clinical trial.",
+    "0tile11iitextiiozm6": "7. Changes to Terms:",
+    "0tile11iitextiik7x6": "We may modify these terms or any additional terms that apply to a service to, for example, reflect changes to the law or changes to our services.",
+    "0tile11iitextiiozm7": "8. Governing Law:",
+    "0tile11iitextiik7x7": "These terms will be governed by and construed in accordance with the laws of [Jurisdiction].",
+    "0tile11iitextiiozm8": "9. Contact Us:",
+    "0tile11iitextiik7x8": "If you have any questions about these Terms, please contact us at care.support@solve.care"
+  },
+  "cardLayout": {
+    "body": [
+      {
+        "id": "00tc01",
+        "tileComponent": [
+          {
+            "id": "Tile11",
+            "subView": [
+              {
+                "title": {
+                  "text": "0tile11iitextiiozm",
+                  "titleTextColor": "#000080",
+                  "style": "BOLD",
+                  "titleAlign": "START"
+                },
+                "subTitle": {
+                  "text": "0tile11iitextiik7x",
+                  "subTitleTextColor": "#000080",
+                  "subTitleAlign": "JUSTIFY"
+                }
+              }
+            ],
+            "borderColor": "#C5C3C8",
+            "type": "CONTAINER",
+            "uiAction": "",
+            "order": 1
+          },
+          {
+            "id": "Tile11",
+            "subView": [
+              {
+                "title": {
+                  "text": "0tile11iitextiiozm1",
+                  "titleTextColor": "#000080",
+                  "style": "BOLD",
+                  "titleAlign": "START"
+                },
+                "subTitle": {
+                  "text": "0tile11iitextiik7x1",
+                  "subTitleTextColor": "#000080",
+                  "subTitleAlign": "JUSTIFY"
+                }
+              }
+            ],
+            "borderColor": "#C5C3C8",
+            "type": "CONTAINER",
+            "uiAction": "",
+            "order": 2
+          },
+          {
+            "id": "Tile11",
+            "subView": [
+              {
+                "title": {
+                  "text": "0tile11iitextiiozm2",
+                  "titleTextColor": "#000080",
+                  "style": "BOLD",
+                  "titleAlign": "START"
+                },
+                "subTitle": {
+                  "text": "0tile11iitextiik7x2",
+                  "subTitleTextColor": "#000080",
+                  "subTitleAlign": "JUSTIFY"
+                }
+              }
+            ],
+            "borderColor": "#C5C3C8",
+            "type": "CONTAINER",
+            "uiAction": "",
+            "order": 3
+          },
+          {
+            "id": "Tile11",
+            "subView": [
+              {
+                "title": {
+                  "text": "0tile11iitextiiozm3",
+                  "titleTextColor": "#000080",
+                  "style": "BOLD",
+                  "titleAlign": "START"
+                },
+                "subTitle": {
+                  "text": "0tile11iitextiik7x3",
+                  "subTitleTextColor": "#000080",
+                  "subTitleAlign": "JUSTIFY"
+                }
+              }
+            ],
+            "borderColor": "#C5C3C8",
+            "type": "CONTAINER",
+            "uiAction": "",
+            "order": 4
+          },
+          {
+            "id": "Tile11",
+            "subView": [
+              {
+                "title": {
+                  "text": "0tile11iitextiiozm4",
+                  "titleTextColor": "#000080",
+                  "style": "BOLD",
+                  "titleAlign": "START"
+                },
+                "subTitle": {
+                  "text": "0tile11iitextiik7x4",
+                  "subTitleTextColor": "#000080",
+                  "subTitleAlign": "JUSTIFY"
+                }
+              }
+            ],
+            "borderColor": "#C5C3C8",
+            "type": "CONTAINER",
+            "uiAction": "",
+            "order": 5
+          },
+          {
+            "id": "Tile11",
+            "subView": [
+              {
+                "title": {
+                  "text": "0tile11iitextiiozm5",
+                  "titleTextColor": "#000080",
+                  "style": "BOLD",
+                  "titleAlign": "START"
+                },
+                "subTitle": {
+                  "text": "0tile11iitextiik7x5",
+                  "subTitleTextColor": "#000080",
+                  "subTitleAlign": "JUSTIFY"
+                }
+              }
+            ],
+            "borderColor": "#C5C3C8",
+            "type": "CONTAINER",
+            "uiAction": "",
+            "order": 6
+          },
+          {
+            "id": "Tile11",
+            "subView": [
+              {
+                "title": {
+                  "text": "0tile11iitextiiozm6",
+                  "titleTextColor": "#000080",
+                  "style": "BOLD",
+                  "titleAlign": "START"
+                },
+                "subTitle": {
+                  "text": "0tile11iitextiik7x6",
+                  "subTitleTextColor": "#000080",
+                  "subTitleAlign": "JUSTIFY"
+                }
+              }
+            ],
+            "borderColor": "#C5C3C8",
+            "type": "CONTAINER",
+            "uiAction": "",
+            "order": 7
+          },
+          {
+            "id": "Tile11",
+            "subView": [
+              {
+                "title": {
+                  "text": "0tile11iitextiiozm7",
+                  "titleTextColor": "#000080",
+                  "style": "BOLD",
+                  "titleAlign": "START"
+                },
+                "subTitle": {
+                  "text": "0tile11iitextiik7x7",
+                  "subTitleTextColor": "#000080",
+                  "subTitleAlign": "JUSTIFY"
+                }
+              }
+            ],
+            "borderColor": "#C5C3C8",
+            "type": "CONTAINER",
+            "uiAction": "",
+            "order": 7
+          },
+          {
+            "id": "Tile11",
+            "subView": [
+              {
+                "title": {
+                  "text": "0tile11iitextiiozm8",
+                  "titleTextColor": "#000080",
+                  "style": "BOLD",
+                  "titleAlign": "START"
+                },
+                "subTitle": {
+                  "text": "0tile11iitextiik7x8",
+                  "subTitleTextColor": "#000080",
+                  "subTitleAlign": "JUSTIFY"
+                }
+              }
+            ],
+            "borderColor": "#C5C3C8",
+            "type": "CONTAINER",
+            "uiAction": "",
+            "order": 7
+          }
+
+        ],
+        "tileType": "WRAP",
+        "uiAction": "",
+        "order": 1
+      }
+    ],
+    "footer": {
+      "menu": [
+        {
+          "id": "EN01BottomButtonBack",
+          "subView": [
+            {
+              "title": {
+                "text": ""
+              }
+            }
+          ],
+          "align": "START",
+          "type": "BACK_BUTTON",
+          "uiAction": "${action4}",
+          "order": 1
+        }
+      ],
+      "orientation": "HORIZONTAL"
+    }
+  },
+  "cardUIAction": {
+    "action4": {
+      "action": {
+        "name": "Function.CallEventHandler",
+        "method": "DETAILS",
+        "NAVIGATION": "cd-consent-rl-5o4xh0kz0ra5sdoz8vl25oufud91"
+      }
+    }
+  }
+}

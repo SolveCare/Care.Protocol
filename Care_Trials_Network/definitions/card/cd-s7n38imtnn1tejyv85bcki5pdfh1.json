@@ -1,0 +1,149 @@
+{
+    "id": "cd-s7n38imtnn1tejyv85bcki5pdfh1",
+    "name": "Request Budget",
+    "cardData": {
+        "0tile1iitextii013": "Amount",
+        "0tile1iitextiiwua": "",
+        "0tile1iihintii6ox": "Enter amount",
+        "0tile1iierroriiuih": "Enter the valid amount",
+        "1tile1iitextiimpd": "Comment",
+        "1tile1iitextii1if": "",
+        "1tile1iihintiiel0": "Enter comment",
+        "1tile1iierroriissi": "Enter the valid comment",
+        "2en01bottombutton1iitextii0ji": "Request"
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "00tc01",
+                "tileComponent": [
+                    {
+                        "id": "Tile1",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile1iitextii013",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "subTitle": {
+                                    "text": "{$requested_amount}",
+                                    "hint": "0tile1iihintii6ox",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START",
+                                    "fontSize": 16,
+                                    "keyboard": "text",
+                                    "min": "1",
+                                    "max": "30",
+                                    "validation": [
+                                        {
+                                            "name": "REQUIRED_FIELD",
+                                            "error": "0tile1iierroriiuih"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "borderColor": "#87ceeb",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile1",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "1tile1iitextiimpd",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "subTitle": {
+                                    "text": "{$requested_comment}",
+                                    "hint": "1tile1iihintiiel0",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START",
+                                    "fontSize": 16,
+                                    "keyboard": "text",
+                                    "min": "1",
+                                    "max": "30",
+                                    "validation": [
+                                        {
+                                            "name": "REQUIRED_FIELD",
+                                            "error": "1tile1iierroriissi"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "borderColor": "#87ceeb",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    }
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 0
+            }
+        ],
+        "style": {
+            "fontSize": 16,
+            "bgColor": "#ffffff",
+            "borderWidth": 1
+        },
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action878}",
+                    "order": 1
+                },
+                {
+                    "id": "EN01BottomButton1",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": "2en01bottombutton1iitextii0ji"
+                            }
+                        }
+                    ],
+                    "align": "END",
+                    "type": "BUTTON",
+                    "uiAction": "${action46}",
+                    "order": 2
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        } 
+    },
+    "cardUIAction": {
+        "action878": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-87xipe5fd7dokqd1vt7zmn9zw6m1"
+                }
+            ]
+        },
+        "action466": {
+            "action": "e-w-pt-navig-to-cd-87xip-9nd6"
+        },
+        "action46": {
+            "action": "e-w-broad-budget-request"
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "e-w-get-sites-list",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "name": "getTRIAL_DATA",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "GET",
+                                    "url": "/transactions/TRIALS_TA"
+                                }
+                            ]
+                        }
+                    ],
+                    "postAction": "",
+                    "refId": "e-w-get-sites-list"
+                }
+            ]
+        }
+    ]
+}

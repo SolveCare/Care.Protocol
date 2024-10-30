@@ -1,0 +1,58 @@
+{
+    "nodeEventHandlers": [
+        {
+            "type": "MAPPER",
+            "name": "Append attributes",
+            "order": 1,
+            "dataSource": "EVENT_PAYLOAD",
+            "additionalAttributes": {
+                "transactionalGuid": {
+                    "source": "EVENT_PAYLOAD",
+                    "value": "transactionalGuid"
+                },
+                "SiteID": {
+                    "source": "EVENT_PAYLOAD",
+                    "value": "SiteID"
+                },
+                "adminNodeAddress": {
+                    "source": "EVENT",
+                    "value": "SENDER"
+                },
+                "questionText": {
+                    "source": "EVENT_PAYLOAD",
+                    "value": "questionText"
+                },
+                "answerText": {
+                    "source": "CONSTANT",
+                    "value": "You have not responded yet"
+                },
+                "isAnswered": {
+                    "source": "CONSTANT",
+                    "value": false
+                },
+                "isPending": {
+                    "source": "CONSTANT",
+                    "value": true
+                },
+                "createdAt": {
+                    "source": "GENERATED",
+                    "value": "CURRENT_TIMESTAMP"
+                },
+                "updatedAt": {
+                    "source": "GENERATED",
+                    "value": "CURRENT_TIMESTAMP"
+                }
+            },
+            "excludedAttributes": []
+        },
+        {
+            "type": "VAULT_INSERT",
+            "name": "PARTICIPANT_QA",
+            "order": 2,
+            "collection": "PARTICIPANT_QA",
+            "collectionVersion": 1,
+            "dataSource": "HANDLER_ARGUMENTS",
+            "handlerOutput": "PERSISTED_ENTITY"
+        }
+    ]
+} 

@@ -1,0 +1,557 @@
+{
+    "id": "cd-dchngg450u6wafzxwp50b5j-cas2b",
+    "name": "Profiling Questions",
+    "cardData": {
+        "0tile0iitextiikga": "Answer the below questions to process your data by NCTTC in accordance with the Declaration of Helsinki and the Data Privacy Act of 2012",
+        "exptext1": "Areas of expertise in clinical trials",
+        "1tile12ExpList": [
+            "Liver Diseases"
+        ],
+        "1tile12ExpHint": "Select Expertise",
+
+        "imageUrl186v": "https://d1fgr2dke6q42b.cloudfront.net/dev/media/a1920ec3-027a-43cc-9226-36fad59c0b6a/drop_down_list_greyn_155460.png",
+        "imageUrl186v0": "",
+
+        "1tile12SpecializationList": [
+            "Asthma",
+    "Arthritis",
+    "Cardiovascular Diseases",
+    "Chronic Kidney Disease",
+    "Chronic Obstructive Pulmonary Disease (COPD)",
+    "Diabetes",
+    "Hepatitis",
+    "Hypertension",
+    "Breast Cancer",
+    "Colorectal Cancer",
+    "Leukemia",
+    "Lung Cancer",
+    "Lymphoma",
+    "Pancreatic Cancer",
+    "Prostate Cancer",
+    "Skin Cancer",
+    "Alzheimer's Disease",
+    "Epilepsy",
+    "Migraine",
+    "Multiple Sclerosis",
+    "Parkinson's Disease",
+    "Stroke",
+    "COVID-19",
+    "HIV/AIDS",
+    "Influenza",
+    "Malaria",
+    "Tuberculosis",
+    "Zika Virus",
+    "Crohn's Disease",
+    "Lupus",
+    "Multiple Sclerosis",
+    "Psoriasis",
+    "Rheumatoid Arthritis",
+    "Anxiety Disorders",
+    "Bipolar Disorder",
+    "Depression",
+    "Post-Traumatic Stress Disorder (PTSD)",
+    "Schizophrenia",
+    "Hyperlipidemia",
+    "Obesity",
+    "Thyroid Disorders",
+    "Congenital Heart Disease",
+    "Pediatric Asthma",
+    "Pediatric Cancer",
+    "Pediatric Diabetes",
+    "Amyotrophic Lateral Sclerosis (ALS)",
+    "Cystic Fibrosis",
+    "Hemophilia",
+    "Huntington's Disease"
+        ],
+  
+        "profcertext1": "Professional Certifications",
+        "profcert1": "ACRP",
+        "profcert2": "SoCRA",
+        "profcert3": "Other",
+        "profcert4": "None",
+
+
+
+
+        
+        "3tile2iitextiivec1": "First Name",
+        "3tile2iitextiive1": "First Name",
+        "3tile2iihintiisvf1": "Enter First Name",
+
+        "3tile2iitextiivec2": "Last Name",
+        "3tile2iitextiive2": "Last Name",
+        "3tile2iihintiisvf2": "Enter the Last Name",
+
+        "edutext1": "Type of organizational affiliation",
+        "edu1": "Baccalaureate",
+        "edu2": "Post-baccalaureate Certificate",
+        "edu3": "Master's",
+        "edu4": "Doctorate",
+
+        "3tile2iitextiivec3": "Field of Specialization",
+        "3tile2iitextiive3": "Specialization",
+        "3tile2iihintiisvf3": "Enter the Field of Specialization",
+
+        "3tile2iitextiivec4": "Primary Institutional Affiliation",
+        "3tile2iitextiive4": "Primary Institutional Affiliation",
+        "3tile2iihintiisvf4": "Enter the Primary Institutional Affiliation",
+
+        "3tile2iitextiivec5": "Address of Institution",
+        "3tile2iitextiive5": "Address of Institution",
+        "3tile2iihintiisvf5": "Enter Address of Institution",
+
+
+        "orgafftext1": "Type of Organization",
+        "org1": "Academic",
+        "org2": "Corporate Pharmaceutical/Biotech",
+        "org3": "Contract Research Organization",
+        "org4": "Hospital/Clinical Site",
+        "org5": "Other",
+
+        "3tile2iitextiivec6": "Role/Specialization in the Institution",
+        "3tile2iitextiive6": "Role/Specialization in the Institution",
+        "3tile2iihintiisvf6": "Enter the Role/Specialization in the Institution",
+
+        "3tile2iitextiivec7": "Description of the institution",
+        "3tile2iitextiive7": "Description of the institution",
+        "3tile2iihintiisvf7": "Enter the Description of the institution",
+
+        "3tile2iitextiivec8": "Years of experience in clinical trials",
+        "3tile2iitextiive8": "Years of experience in clinical trials",
+        "3tile2iihintiisvf8": "Enter the Years of experience in clinical trials",
+
+        "3tile2iitextiivec9": "Areas of expertise in clinical trials",
+        "3tile2iitextiive9": "Areas of expertise in clinical trials",
+        "3tile2iihintiisvf9": "Enter the Areas of expertise in clinical trials",
+        "imageUrltgyqo": "https://i.ibb.co/TM3vxJD/image-47.png",
+
+
+        "3tile2iitextiivec10": "Description of participation in clinical research and trials",
+        "3tile2iitextiive10": "Description of participation in clinical research and trials",
+        "3tile2iihintiisvf10": "Enter the Description of participation in clinical research and trials",
+
+        "3tile2iitextiivec11": "Title and year of your most recent clinical research/trial",
+        "3tile2iitextiive11": "Title and year of your most recent clinical research/trial",
+        "3tile2iihintiisvf11": "Enter the Title and year of your most recent clinical research/trial",
+
+
+
+        "validationdrhfc": "Please select one value",
+        "1tile6aiitextii2yb": "Primary role in your most recent clinical trial",
+        "labelrole1": "Principal Investigator",
+        "labelrole2": "Co-/Sub Investigator",
+        "labelrole3": "Clinical Research Coordinator/Study Nurse",
+        "labelrole4": "Clinical Research Associate/Monitor",
+        "labelrole5": "Project Manager",
+        "labelrole6": "Regulatory Affairs Professional",
+        "labelrole7": "Biostatistician",
+        "labelrole8": "Data Safety Monitoring Committee Member",
+        "labelrole9": "Other",
+
+        "3tile2iitextiivec12": "Email",
+        "3tile2iitextiive12": "Email",
+        "3tile2iihintiisvf12": "Enter the Email",
+        "2tile2iitipii3m6": "",
+
+        "3tile2iitextiivec13": "Phone",
+        "3tile2iitextiive13": "Phone",
+        "3tile2iihintiisvf13": "Enter the Phone",
+        "5tile2iitipiivqw": "",
+
+
+        "2en01bottombutton1iitextiiyaq": "Next"
+
+   
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    
+                    {
+                        "id": "SmartTile1",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "3tile2iitextiivec7",
+                                    "titleTextColor": "#000080",
+                                    "style": "REGULAR",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "{$InstitutionDescription}",
+                                    "hint": "3tile2iihintiisvf7",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START",
+                                    "fieldFormat": "multiline",
+                                    "min": "1",
+                                    "max": "100",
+                                    "validation": [
+                                        {
+                                            "name": "REQUIRED_FIELD",
+                                            "error": "validationdrhfc"
+                                        }
+                                    ]
+                                },
+                                "img": {
+                                    "text": "imageUrl17wro",
+                                    "isUrl": true,
+                                    "height": "24",
+                                    "width": "24"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 3
+                    },
+                    {
+                        "id": "SmartTile1",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "3tile2iitextiivec8",
+                                    "titleTextColor": "#000080",
+                                    "style": "REGULAR",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "{$ExperienceYears}",
+                                    "hint": "3tile2iihintiisvf8",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START",
+                                    "fieldFormat": "number",
+                                    "min": "1",
+                                    "max": "100",
+                                    "validation": [
+                                        {
+                                            "name": "REQUIRED_FIELD",
+                                            "error": "validationdrhfc"
+                                        }
+                                    ]
+                                },
+                                "img": {
+                                    "text": "imageUrl17wro",
+                                    "isUrl": true,
+                                    "height": "24",
+                                    "width": "24"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 3
+                    },
+
+                    {
+                        "id": "SmartTile1",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "3tile2iitextiivec9",
+                                    "titleTextColor": "#000080",
+                                    "style": "REGULAR",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "{$ExpertiseAreas}",
+                                    "hint": "3tile2iihintiisvf9",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START",
+                                    "fieldFormat": "multiline",
+                                    "min": "1",
+                                    "max": "100",
+                                    "validation": [
+                                        {
+                                            "name": "REQUIRED_FIELD",
+                                            "error": "validationdrhfc"
+                                        }
+                                    ]
+                                },
+                                "img": {
+                                    "text": "imageUrl17wro",
+                                    "isUrl": true,
+                                    "height": "24",
+                                    "width": "24"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 3
+                    },
+                    
+                
+                    {
+                        "id": "SmartTile1",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "3tile2iitextiivec10",
+                                    "titleTextColor": "#000080",
+                                    "style": "REGULAR",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "{$ParticipationDescription}",
+                                    "hint": "3tile2iihintiisvf10",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START",
+                                    "fieldFormat": "multiline",
+                                    "min": "1",
+                                    "max": "100",
+                                    "validation": [
+                                        {
+                                            "name": "REQUIRED_FIELD",
+                                            "error": "validationdrhfc"
+                                        }
+                                    ]
+                                },
+                                "img": {
+                                    "text": "imageUrl17wro",
+                                    "isUrl": true,
+                                    "height": "24",
+                                    "width": "24"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 3
+                    },
+                    {
+                        "id": "SmartTile1",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "3tile2iitextiivec11",
+                                    "titleTextColor": "#000080",
+                                    "style": "REGULAR",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "{$TitleYear}",
+                                    "hint": "3tile2iihintiisvf11",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START",
+                                    "fieldFormat": "multiline",
+                                    "min": "1",
+                                    "max": "100",
+                                    "validation": [
+                                        {
+                                            "name": "REQUIRED_FIELD",
+                                            "error": "validationdrhfc"
+                                        }
+                                    ]
+                                },
+                                "img": {
+                                    "text": "imageUrl17wro",
+                                    "isUrl": true,
+                                    "height": "24",
+                                    "width": "24"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 3
+                    },
+
+
+
+                    {
+                        "id": "Tile6a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "1tile6aiitextii2yb",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "style": "REGULAR"
+                                },
+                                "options": {
+                                    "key": {
+                                        "name": "{$recentRole}",
+                                        "optionAlign": "START",
+                                        "optionTextColor": "#000080"
+                                    },
+                                    "list": [
+                                        {
+                                            "label": "labelrole1"
+                                        },
+                                        {
+                                            "label": "labelrole2"
+                                        },
+                                        {
+                                            "label": "labelrole3"
+                                        },
+                                        {
+                                            "label": "labelrole4"
+                                        },
+                                        {
+                                            "label": "labelrole5"
+                                        },
+                                        {
+                                            "label": "labelrole6"
+                                        },
+                                        {
+                                            "label": "labelrole7"
+                                        },
+                                        {
+                                            "label": "labelrole8"
+                                        },
+                                        {
+                                            "label": "labelrole9"
+                                        }
+                                    ],
+                                    "validation": [
+                                        {
+                                            "name": "REQUIRED_FIELD",
+                                            "error": "validationdrhfc"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "${}",
+                        "order": 4
+                    }
+                  ,
+                    {
+                        "id": "SmartTile1",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "3tile2iitextiivec12",
+                                    "titleTextColor": "#000080",
+                                    "style": "REGULAR",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "{$Email}",
+                                    "hint": "3tile2iihintiisvf12",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START",
+                                    "tip": "2tile2iitipii3m6",
+                                    "fieldFormat": "email",
+                                    "validation": [
+                                        {
+                                            "name": "REQUIRED_FIELD",
+                                            "error": "validation1text2v"
+                                        }
+                                    ]
+                                },
+                                "img": {
+                                    "text": "imageUrl186v0",
+                                    "isUrl": true,
+                                    "height": "24",
+                                    "width": "24"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 3
+                    },
+                    {
+                        "id": "SmartTile1",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "3tile2iitextiivec13",
+                                    "titleTextColor": "#000080",
+                                    "style": "REGULAR",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "{$Phone}",
+                                    "hint": "3tile2iihintiisvf13",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START",
+                                    "tip": "5tile2iitipiivqw",
+                                    "fieldFormat": "phone",
+                                    "validation": [
+                                        {
+                                            "name": "REQUIRED_FIELD",
+                                            "error": "validation1text2v"
+                                        }
+                                    ]
+                                },
+                                "img": {
+                                    "text": "imageUrl186v0",
+                                    "isUrl": true,
+                                    "height": "24",
+                                    "width": "24"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 3
+                    } 
+                    
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action300}",
+                    "order": 1
+                },
+                {
+                    "id": "EN01BottomButton1",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": "2en01bottombutton1iitextiiyaq"
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BUTTON",
+                    "uiAction": "${action5}",
+                    "order": 2
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action300": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-dchngg450u6wafzxwp50b5j-cas2a"
+                }
+            ]
+        },
+        "action5": {
+            "action": "e-w-broad-phys-prof-ques"
+            
+        }
+    }
+}

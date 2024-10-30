@@ -1,0 +1,1 @@
+{"definition":{"description":"Event to Navigate from Confirm Payment to cd-7w2t7slwuxjxojbu8n1qdvps15z","name":"W-TRIAL-ADMIN-NAVIG-TO-.20M","resource":"W-TRIAL-ADMIN-NAVIG-TO-.20M","type":"EVENT_DATA"},"structure":{"attributes":[{"code":"transactionalGuid","name":"transactionalGuid","type_definition":{"type":"string"},"order":1,"system":false,"required":false}]}}

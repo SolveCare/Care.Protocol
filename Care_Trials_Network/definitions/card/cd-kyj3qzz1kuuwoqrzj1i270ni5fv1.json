@@ -1,0 +1,89 @@
+{
+    "id": "cd-kyj3qzz1kuuwoqrzj1i270ni5fv1",
+    "name": "Pending Review & Verification",
+    "cardData": {
+        "0tile14aiitextii6g0": "Medical Records", 
+        "0tile14aiitextii5ck": "Uploaded on: 09/05/2023",
+        "imageUrlswomi": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/arrow-right blue.png",
+        "1tile14aiitextii7st": "ID",
+        "1tile14aiitextiit2z": "Uploaded on: 10/05/2023",
+        "imageUrlwloty": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/arrow-right blue.png"
+    }, 
+    "cardLayout": {
+        "body": [
+             
+            {
+                "id": "list",
+                "tileComponent": [
+                    {
+                        "id": "Tile14a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "{$recordType}",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "left",
+                                    "fontSize": 16
+                                },
+                                "subTitle": {
+                                    "text": "{$timeMessage}",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "left",
+                                    "fontSize": 16
+                                },
+                                "img": {
+                                    "text": "imageUrlswomi",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "DATA",
+                        "uiAction": "${action123}",
+                        "order": 1
+                    }
+                ],
+                "tileType": "LIST",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "style": {
+            "fontSize": 16,
+            "bgColor": "#ffffff",
+            "borderWidth": 1
+        },
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action302}",
+                    "order": 1
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action302": {
+            "action": "e-w-role-a-navig-to-cd-xb-pen"
+        }
+        ,
+        "action123": {
+            "action": "e-w-role-a-navig-to-cd-vtef1"
+        }
+    }
+}

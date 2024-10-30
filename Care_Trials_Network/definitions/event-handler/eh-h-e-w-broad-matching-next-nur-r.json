@@ -1,0 +1,62 @@
+{
+    "nodeEventHandlers": [
+        {
+            "type": "MAPPER",
+            "name": "Append or Exclude attributes to TRIALS payload",
+            "order": 1,
+            "dataSource": "EVENT_PAYLOAD",
+            "additionalAttributes": {
+                "trialStatus" : {
+                    "source": "CONSTANT",
+                    "value": "MATCHED"
+                },
+                "createdAt": {
+                    "source": "GENERATED",
+                    "value": "CURRENT_TIMESTAMP"
+                },
+                "eligibleStatus" : {
+                    "source": "CONSTANT",
+                    "value": "Pending"
+                }
+            },
+            "excludedAttributes": ["throwNextEvent"]
+        },
+        {
+            "type": "EXPRESSION_LANGUAGE",
+            "name": "Append attributes",
+            "order": 2,
+            "dataSource": "HANDLER_ARGUMENTS",
+            "computedAttributes": {
+                "updatedAt": "\"Received on: \" + new java.text.SimpleDateFormat(\"dd/MM/yyyy\").format(new java.util.Date(arguments['createdAt']))"            }
+        },
+        {
+            "type": "VAULT_UPDATE",
+            "name": "TRIALS_SAVED",
+            "order": 2,
+            "collection": "TRIALS_SAVED",
+            "collectionVersion": 1,
+            "dataSource": "HANDLER_ARGUMENTS",
+            "insertIfAbsent": true,
+            "searchCriteria": [
+                {
+                    "queryMatcher": "EQUAL",
+                    "fieldName": "SiteID",
+                    "dynamicValue": {
+                        "source": "EVENT_PAYLOAD",
+                        "value": "SiteID"
+                    }
+                },
+                {
+                    "queryMatcher": "EQUAL",
+                    "fieldName": "senderNodeAddress",
+                    "dynamicValue": {
+                        "source": "EVENT_PAYLOAD",
+                        "value": "senderNodeAddress"
+                    }
+                }
+
+            ],
+            "handlerOutput": "PERSISTED_ENTITY"
+        }
+    ]
+}

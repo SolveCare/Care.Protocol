@@ -1,0 +1,63 @@
+{
+    "nodeEventHandlers": [
+        {
+            "type": "MAPPER",
+            "name": "Append or Exclude attributes to 6_QUESTIONS payload",
+            "order": 1,
+            "dataSource": "EVENT_PAYLOAD",
+            "additionalAttributes": {
+                "createdAt": {
+                    "source": "GENERATED",
+                    "value": "CURRENT_TIMESTAMP"
+                },
+                "transactionalGuid": {
+                    "source": "GENERATED",
+                    "value": "UUID"
+                },
+                "senderNodeAddress": {
+                    "source": "EVENT",
+                    "value": "SENDER"
+                },
+                "isAnswered": {
+                    "source": "CONSTANT",
+                    "value": true
+                },
+                "isNotAnswered": {
+                    "source": "CONSTANT",
+                    "value": false
+                }
+            },
+            "excludedAttributes": []
+        },
+        {
+            "type": "VAULT_INSERT",
+            "name": "PROFILING_QUESTIONS_PHYS",
+            "order": 2,
+            "collection": "PROFILING_QUESTIONS_PHYS",
+            "collectionVersion": 1,
+            "dataSource": "HANDLER_ARGUMENTS",
+            "handlerOutput": "PERSISTED_ENTITY"
+        },
+        {
+            "type": "MAPPER",
+            "name": "Append or Exclude attributes in the result",
+            "order": 3,
+            "dataSource": "EVENT_PAYLOAD",
+            "additionalAttributes": {
+                "createdAt": {
+                    "source": "HANDLER_ARGUMENTS",
+                    "value": "createdAt"
+                },
+                "transactionalGuid": {
+                    "source": "HANDLER_ARGUMENTS",
+                    "value": "transactionalGuid"
+                },
+                "senderNodeAddress": {
+                    "source": "EVENT",
+                    "value": "SENDER"
+                }
+            },
+            "excludedAttributes": []
+        }
+    ]
+}

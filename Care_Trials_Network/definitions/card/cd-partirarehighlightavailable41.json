@@ -1,0 +1,213 @@
+{
+  "id": "cd-partirarehighlightavailable41",
+  "name": "Rare Trial Info",
+  "cardData": {
+    "0tile0aiitextiixhphir": "Trial type",
+    "imageUrlfgtqdhir": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/f116d56b-00a4-4091-932b-240e9cf64504/MicrosoftTeams-image (35).png",
+    "2tile14aiitextiiwrx1hir": "Eligibility",
+    "imageUrl967jd1hir": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/f116d56b-00a4-4091-932b-240e9cf64504/MicrosoftTeams-image (32).png",
+    "2tile14aiitextiiwrxhir": "Trial Sponsor",
+    "imageUrl967jd1higr": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/f116d56b-00a4-4091-932b-240e9cf64504/MicrosoftTeams-image (32).png",
+    "Compensationhir": "Compensation",
+    "5tile14iitextiio23hir": "Determined at enrolment",
+    "imageUrluvjylhiir": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/f116d56b-00a4-4091-932b-240e9cf64504/MicrosoftTeams-image (31).png",
+    "8tile14iitextiimykhir": "Like",
+    "imageUrlk6cemhir": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/f116d56b-00a4-4091-932b-240e9cf64504/accept-circular-button-outline.png",
+    "9tile14iitextii0akhir": "Skip",
+    "imageUrlynoprhir": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/f116d56b-00a4-4091-932b-240e9cf64504/multiply.png",
+    "10tile14iitextiizxqhir": "Previous",
+    "imageUrlo9w7yhir": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/71651957-ecc1-4943-961a-9f3bbb53f626/previous.png"
+
+
+
+
+  },
+  "cardLayout": {
+    "body": [
+      {
+        "id": "000t1",
+        "tileComponent": [
+          {
+            "id": "Tile0",
+            "subView": [
+                {
+                    "title": {
+                        "text": "${TrialName}",
+                        "style": "BOLD",
+                        "titleTextColor": "#000080",
+                        "titleAlign": "CENTER"
+                    }
+                }
+            ],
+            "borderColor": "#000080",
+            "backgroundColor": "#000080",
+            "type": "CONTAINER",
+            "uiAction": "",
+            "order": 1
+        },
+        {
+            "id": "Tile0a",
+            "subView": [
+                {
+                    "title": {
+                        "text": "0tile0aiitextiixhphir",
+                        "style": "BOLD",
+                        "titleTextColor": "#000080",
+                        "titleAlign": "START"
+                    },
+                    "subTitle": {
+                        "text": "${StudyType}",
+                        "style": "REGULAR",
+                        "subTitleTextColor": "#000080",
+                        "subTitleAlign": "END"
+                    }
+                }
+            ],
+            "borderColor": "#C5C3C8",
+            "type": "CONTAINER",
+            "uiAction": "",
+            "order": 2
+        },
+        {
+            "id": "Tile14a",
+            "subView": [
+                {
+                    "title": {
+                        "text": "${Distance}",
+                        "style": "BOLD",
+                        "titleTextColor": "#000080"
+                    },
+                    "subTitle": {
+                        "text": "${Location_Text}",
+                        "style": "REGULAR",
+                        "subTitleTextColor": "#000080"
+                    },
+                    "img": {
+                        "text": "imageUrlfgtqdhir",
+                        "isUrl": true,
+                        "height": "40",
+                        "width": "40"
+                    }
+                }
+            ],
+            "borderColor": "#C5C3C8",
+            "type": "CONTAINER",
+            "uiAction": "",
+            "order": 3
+        },
+        
+        {
+            "id": "Tile14a",
+            "subView": [
+                {
+                    "title": {
+                        "text": "2tile14aiitextiiwrx1hir",
+                        "style": "BOLD",
+                        "titleTextColor": "#000080"
+                    },
+                    "subTitle": {
+                        "text": "${Eligible}",
+                        "style": "REGULAR",
+                        "subTitleTextColor": "#000080"
+                    },
+                    "img": {
+                        "text": "imageUrl967jd1hir",
+                        "isUrl": true,
+                        "height": "40",
+                        "width": "40"
+                    }
+                }
+            ],
+            "borderColor": "#C5C3C8",
+            "type": "CONTAINER",
+            "uiAction": "",
+            "order": 4
+        },
+        {
+            "id": "Tile14a",
+            "subView": [
+                {
+                    "title": {
+                        "text": "2tile14aiitextiiwrxhir",
+                        "style": "BOLD",
+                        "titleTextColor": "#000080"
+                    },
+                    "subTitle": {
+                        "text": "${LeadSponsorName}",
+                        "style": "REGULAR",
+                        "subTitleTextColor": "#000080"
+                    },
+                    "img": {
+                        "text": "imageUrl967jd1higr",
+                        "isUrl": true,
+                        "height": "40",
+                        "width": "40"
+                    }
+                }
+            ],
+            "borderColor": "#C5C3C8",
+            "type": "CONTAINER",
+            "uiAction": "",
+            "order": 4
+        },
+        {
+            "id": "Tile14a",
+            "subView": [
+                {
+                    "title": {
+                        "text": "Compensationhir",
+                        "style": "BOLD",
+                        "titleTextColor": "#000080"
+                    },
+                    "subTitle": {
+                        "text": "5tile14iitextiio23hir",
+                        "style": "REGULAR",
+                        "subTitleTextColor": "#000080"
+                    },
+                    "img": {
+                        "text": "imageUrluvjylhiir",
+                        "isUrl": true,
+                        "height": "40",
+                        "width": "40"
+                    }
+                }
+            ],
+            "borderColor": "#C5C3C8",
+            "type": "CONTAINER",
+            "uiAction": "",
+            "order": 7
+        }
+        ],
+        "tileType": "WRAP",
+        "uiAction": "",
+        "order": 1
+      }
+    ],
+    "footer": {
+      "menu": [
+        {
+            "id": "EN01BottomButtonBack",
+            "subView": [
+                {
+                    "title": {
+                        "text": ""
+                    }
+                }
+            ],
+            "align": "START",
+            "type": "BACK_BUTTON",
+            "uiAction": "${action801}",
+            "order": 1
+        }
+        
+      ],
+      "orientation": "HORIZONTAL"
+    }
+  },
+  "cardUIAction": {
+    "action801": {
+        "action": "e-w-parti-navig-to-cd-1dv-ratr"
+    }
+  }
+}
+   

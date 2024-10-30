@@ -1,0 +1,25 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "e-w-nurse-verified-identity",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "name": "submit",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "POST",
+                                    "url": "/events"
+                                }
+                            ]
+                        }
+                    ],
+                    "postAction": "cd-first0m5z11ah88guwu7olooc1n-1c",
+                    "refId": "e-w-nurse-verified-identity"
+                }
+            ]
+        }
+    ]
+}

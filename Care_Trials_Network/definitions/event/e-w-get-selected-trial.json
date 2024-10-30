@@ -1,0 +1,174 @@
+{
+    "definition": {
+        "description": "Get Matching Trials",
+        "name": "Get Matching Trials",
+        "resource": "Get Matching Trials",
+        "type": "EVENT_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "name": "match",
+                "code": "match",
+                "type_definition": {
+                "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 13,
+                "times": 1
+                },
+                {
+                    "name": "InclusionCriteria",
+                    "code": "InclusionCriteria",
+                    "type_definition": {
+                    "type": "string"
+                    },
+                    "required": false,
+                    "system": false,
+                    "order": 13,
+                    "times": 1
+                    },
+                    {
+                        "name": "ExclusionCriteria",
+                        "code": "ExclusionCriteria",
+                        "type_definition": {
+                        "type": "string"
+                        },
+                        "required": false,
+                        "system": false,
+                        "order": 13,
+                        "times": 1
+                        },
+                {
+                    "name": "match_text",
+                    "code": "match_text",
+                    "type_definition": {
+                    "type": "string"
+                    },
+                    "required": false,
+                    "system": false,
+                    "order": 13,
+                    "times": 1
+                    },
+                    {
+                        "name": "match_icon",
+                        "code": "match_icon",
+                        "type_definition": {
+                        "type": "string"
+                        },
+                        "required": false,
+                        "system": false,
+                        "order": 13,
+                        "times": 1
+                        },
+
+            {
+                "name": "IDBadges",
+                "code": "IDBadges",
+                "type_definition": {
+                "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 13,
+                "times": 1
+                },
+            {
+                "name": "recordBadges",
+                "code": "recordBadges",
+                "type_definition": {
+                "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 13,
+                "times": 1
+                },
+                {
+                    "name": "Badges",
+                    "code": "Badges",
+                    "type_definition": {
+                    "type": "string"
+                    },
+                    "required": false,
+                    "system": false,
+                    "order": 13,
+                    "times": 1
+                    },
+                    {
+                        "name": "TrialID",
+                        "code": "TrialID",
+                        "type_definition": {
+                            "type": "string"
+                        },
+                        "required": false,
+                        "system": false,
+                        "order": 8
+                    },
+            {
+                "code": "SiteID",
+                "name": "SiteID",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 1,
+                "system": false,
+                "required": false
+            },
+            {
+                "name": "LocationFacility",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "LocationFacility",
+                "order": 4,
+                "times": 1
+            },
+            {
+                "code": "senderNodeAddress",
+                "name": "senderNodeAddress",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 2,
+                "system": false,
+                "required": false
+            },
+            {
+                "name": "BriefSummary",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "BriefSummary",
+                "order": 4,
+                "times": 1
+            },
+
+            {
+                "code": "TrialNameStatus",
+                "name": "TrialNameStatus",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 3,
+                "system": false,
+                "required": false
+            },
+            {
+                "code": "GenderAgeCity",
+                "name": "GenderAgeCity",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 4,
+                "system": false,
+                "required": false
+            }
+        ]
+    }
+}

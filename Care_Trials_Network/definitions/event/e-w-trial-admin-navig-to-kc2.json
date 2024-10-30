@@ -1,0 +1,1 @@
+{"definition":{"description":"Event to Navigate from Purchased Leads to cd-nygoes60yht84peej8u26op7k50","name":"W-TRIAL-ADMIN-NAVIG-TO-.KC2","resource":"W-TRIAL-ADMIN-NAVIG-TO-.KC2","type":"EVENT_DATA"},"structure":{"attributes":[{"code":"transactionalGuid","name":"transactionalGuid","type_definition":{"type":"string"},"order":1,"system":false,"required":false}]}}

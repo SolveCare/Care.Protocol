@@ -1,0 +1,56 @@
+{
+    "nodeEventHandlers": [
+        {
+            "type": "MAPPER",
+            "name": "Append attributes",
+            "order": 1,
+            "dataSource": "EVENT_PAYLOAD",
+            "additionalAttributes": {
+                "createdAt": {
+                    "source": "GENERATED",
+                    "value": "CURRENT_TIMESTAMP"
+                },
+                "transactionalGuid": {
+                    "source": "GENERATED",
+                    "value": "UUID"
+                },
+                "senderNodeAddress": {
+                    "source": "EVENT",
+                    "value": "SENDER"
+                }
+            },
+            "excludedAttributes": []
+        },
+        {
+            "type": "VAULT_INSERT",
+            "name": "PARTICIPANT_APPOINTMENT",
+            "order": 2,
+            "collection": "PARTICIPANT_APPOINTMENT",
+            "collectionVersion": 1,
+            "dataSource": "HANDLER_ARGUMENTS",
+            "handlerOutput": "PERSISTED_ENTITY"
+        },
+
+        {
+            "type": "MAPPER",
+            "name": "Append or Exclude attributes in the result",
+            "order": 3,
+            "dataSource": "EVENT_PAYLOAD",
+            "additionalAttributes": {
+                "createdAt": {
+                    "source": "HANDLER_ARGUMENTS",
+                    "value": "createdAt"
+                },
+                "transactionalGuid": {
+                    "source": "HANDLER_ARGUMENTS",
+                    "value": "transactionalGuid"
+                },
+                "senderNodeAddress": {
+                    "source": "EVENT",
+                    "value": "SENDER"
+                }
+            },
+            "excludedAttributes": []
+        }
+    ]
+}

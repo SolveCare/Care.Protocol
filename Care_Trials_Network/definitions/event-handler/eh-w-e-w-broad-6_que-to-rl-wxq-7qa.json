@@ -1,0 +1,25 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "e-w-broad-6_que-to-rl-wxq-7qa",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "name": "submit",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "POST",
+                                    "url": "/events"
+                                }
+                            ]
+                        }
+                    ],
+                    "postAction": "cd-urrm1ewfqf7du3vtu8k6ydq04k11",
+                    "refId": "e-w-broad-6_que-to-rl-wxq-7qa"
+                }
+            ]
+        }
+    ]
+}

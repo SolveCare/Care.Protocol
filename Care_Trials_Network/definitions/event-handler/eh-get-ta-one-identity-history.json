@@ -1,0 +1,25 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "e-get-ta-one-identity-history",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "name": "getONE",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "GET",
+                                    "url": "/transactions/IDENTITY?filter=[{\"fieldName\":\"transactionalGuid\",\"queryMatcher\":\"EQUAL\",\"value\":\"${transactionalGuid}\"}]"
+                                }
+                            ]
+                        }
+                    ],
+                    "postAction": "",
+                    "refId": "e-get-ta-one-identity-history"
+                }
+            ]
+        }
+    ]
+}

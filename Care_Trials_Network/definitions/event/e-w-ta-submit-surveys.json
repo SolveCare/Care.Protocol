@@ -1,0 +1,1293 @@
+{
+    "definition": {
+        "description": "JOURNEY_ACTIVATION",
+        "name": "TA.SUBMIT.SURVEYS001",
+        "resource": "TA.SUBMIT.SURVEYS001",
+        "type": "EVENT_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "name": "DPP",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "DPP",
+                "order": 1
+            },
+            {
+                "name": "FirstName",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "FirstName",
+                "order": 1
+            },
+            {
+                "name": "LastName",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "LastName",
+                "order": 1
+            },
+            {
+                "name": "Education",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "Education",
+                "order": 1
+            },
+            {
+                "name": "SpecializationField",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "SpecializationField",
+                "order": 1
+            },
+            {
+                "name": "InstitutionalAffiliation",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "InstitutionalAffiliation",
+                "order": 1
+            },
+            {
+                "name": "InstitutionAddress",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "InstitutionAddress",
+                "order": 1
+            },
+            {
+                "name": "orgAffiliation",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "orgAffiliation",
+                "order": 1
+            },
+            {
+                "name": "PositionInstitution",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "PositionInstitution",
+                "order": 1
+            },
+            {
+                "name": "InstitutionDescription",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "InstitutionDescription",
+                "order": 1
+            },
+            {
+                "name": "ExperienceYears",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "ExperienceYears",
+                "order": 1
+            },
+            {
+                "name": "ExpertiseAreas",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "ExpertiseAreas",
+                "order": 1
+            },
+            {
+                "name": "ParticipationDescription",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "ParticipationDescription",
+                "order": 1
+            },
+            {
+                "name": "TitleYear",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "TitleYear",
+                "order": 1
+            },
+            {
+                "name": "recentRole",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "recentRole",
+                "order": 1
+            },
+            {
+                "name": "Email",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "Email",
+                "order": 1
+            },
+            {
+                "name": "Phone",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "Phone",
+                "order": 1
+            },             
+            {
+                "name": "D1DesignQ1",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D1DesignQ1",
+                "order": 3
+            },
+            {
+                "name": "D1DesignQ2",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D1DesignQ2",
+                "order": 4
+            },
+            {
+                "name": "D1DesignQ3",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D1DesignQ3",
+                "order": 5
+            },
+            {
+                "name": "D1DesignQ4",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D1DesignQ4",
+                "order": 3
+            },
+            {
+                "name": "D1DesignQ5",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D1DesignQ5",
+                "order": 4
+            },
+            {
+                "name": "D1DesignQ6",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D1DesignQ6",
+                "order": 5
+            },
+            {
+                "name": "D1DesignQ7",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D1DesignQ7",
+                "order": 5
+            },
+            {
+                "name": "D1ProductDevelopmentQ1",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D1ProductDevelopmentQ1",
+                "order": 5
+            },
+            {
+                "name": "D1ProductDevelopmentQ2",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D1ProductDevelopmentQ2",
+                "order": 5
+            },
+            {
+                "name": "D1ProductDevelopmentQ3",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D1ProductDevelopmentQ3",
+                "order": 5
+            },
+            {
+                "name": "D1ProductDevelopmentQ4",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D1ProductDevelopmentQ4",
+                "order": 5
+            },
+            {
+                "name": "D1ProductDevelopmentQ5",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D1ProductDevelopmentQ5",
+                "order": 5
+            },
+            {
+                "name": "D1ProductDevelopmentQ6",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D1ProductDevelopmentQ6",
+                "order": 5
+            },
+            {
+                "name": "D1ProductDevelopmentQ7",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D1ProductDevelopmentQ7",
+                "order": 5
+            },
+            {
+                "name": "D1ProtocolOperationQ1",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D1ProtocolOperationQ1",
+                "order": 5
+            },
+            {
+                "name": "D1ProtocolOperationQ2",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D1ProtocolOperationQ2",
+                "order": 5
+            },
+            {
+                "name": "D1ProtocolOperationQ3",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D1ProtocolOperationQ3",
+                "order": 5
+            },
+            {
+                "name": "D1ProtocolOperationQ4",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D1ProtocolOperationQ4",
+                "order": 5
+            },
+            {
+                "name": "D1ProtocolOperationQ5",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D1ProtocolOperationQ5",
+                "order": 5
+            },
+            {
+                "name": "D1DataManagementQ1",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D1DataManagementQ1",
+                "order": 6
+            },
+            {
+                "name": "D1DataManagementQ2",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D1DataManagementQ2",
+                "order": 6
+            },
+            {
+                "name": "D1DataManagementQ3",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D1DataManagementQ3",
+                "order": 6
+            },
+            {
+                "name": "D1DataManagementQ4",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D1DataManagementQ4",
+                "order": 6
+            },
+            {
+                "name": "D1AnalysisQ1",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D1AnalysisQ1",
+                "order": 6
+            },
+            {
+                "name": "D1AnalysisQ2",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D1AnalysisQ2",
+                "order": 6
+            },
+            {
+                "name": "D1AnalysisQ3",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D1AnalysisQ3",
+                "order": 6
+            },
+            {
+                "name": "D2EthicsQ1",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D2EthicsQ1",
+                "order": 6
+            },
+            {
+                "name": "D2EthicsQ2",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D2EthicsQ2",
+                "order": 6
+            },
+            {
+                "name": "D2EthicsQ3",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D2EthicsQ3",
+                "order": 6
+            },
+            {
+                "name": "D2EthicsQ4",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D2EthicsQ4",
+                "order": 6
+            },
+            {
+                "name": "D2EthicsQ5",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D2EthicsQ5",
+                "order": 6
+            },
+            {
+                "name": "D2EthicsQ6",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D2EthicsQ6",
+                "order": 6
+            },
+            {
+                "name": "D2EthicsQ7",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D2EthicsQ7",
+                "order": 6
+            },
+            {
+                "name": "D2EthicsQ8",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D2EthicsQ8",
+                "order": 6
+            },
+            {
+                "name": "D2EthicsQ9",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D2EthicsQ9",
+                "order": 6
+            },
+            {
+                "name": "D2ClinicalPracticeQ1",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D2ClinicalPracticeQ1",
+                "order": 6
+            },
+            {
+                "name": "D2ClinicalPracticeQ2",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D2ClinicalPracticeQ2",
+                "order": 6
+            },
+            {
+                "name": "D2ClinicalPracticeQ3",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D2ClinicalPracticeQ3",
+                "order": 6
+            },
+            {
+                "name": "D2ClinicalPracticeQ4",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D2ClinicalPracticeQ4",
+                "order": 6
+            },
+            {
+                "name": "D2ClinicalPracticeQ5",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D2ClinicalPracticeQ5",
+                "order": 6
+            },
+            {
+                "name": "D2ClinicalPracticeQ6",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D2ClinicalPracticeQ6",
+                "order": 6
+            },
+            {
+                "name": "D2ClinicalPracticeQ7",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D2ClinicalPracticeQ7",
+                "order": 6
+            },
+            {
+                "name": "D2ClinicalPracticeQ8",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D2ClinicalPracticeQ8",
+                "order": 6
+            },
+            {
+                "name": "D2ClinicalPracticeQ9",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D2ClinicalPracticeQ9",
+                "order": 6
+            },
+            {
+                "name": "D2ClinicalPracticeQ10",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D2ClinicalPracticeQ10",
+                "order": 6
+            },
+            {
+                "name": "D2RiskSafetyQ1",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D2RiskSafetyQ1",
+                "order": 6
+            },
+            {
+                "name": "D2RiskSafetyQ2",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D2RiskSafetyQ2",
+                "order": 6
+            },
+            {
+                "name": "D2RiskSafetyQ3",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D2RiskSafetyQ3",
+                "order": 6
+            },
+            {
+                "name": "D2RiskSafetyQ4",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D2RiskSafetyQ4",
+                "order": 6
+            },
+            {
+                "name": "D2QualityAssuranceQ1",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D2QualityAssuranceQ1",
+                "order": 6
+            },
+            {
+                "name": "D2QualityAssuranceQ2",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D2QualityAssuranceQ2",
+                "order": 6
+            },
+            {
+                "name": "D2QualityAssuranceQ3",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D2QualityAssuranceQ3",
+                "order": 6
+            },
+            {
+                "name": "D3OversightQ1",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D3OversightQ1",
+                "order": 6
+            },
+            {
+                "name": "D3OversightQ2",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D3OversightQ2",
+                "order": 6
+            },
+            {
+                "name": "D3OversightQ3",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D3OversightQ3",
+                "order": 6
+            },
+            {
+                "name": "D3OversightQ4",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D3OversightQ4",
+                "order": 6
+            },
+            {
+                "name": "D3OversightQ5",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D3OversightQ5",
+                "order": 6
+            },
+            {
+                "name": "D3RegulationsQ1",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D3RegulationsQ1",
+                "order": 6
+            },
+            {
+                "name": "D3RegulationsQ2",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D3RegulationsQ2",
+                "order": 6
+            },
+            {
+                "name": "D3RegulationsQ3",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D3RegulationsQ3",
+                "order": 6
+            },
+            {
+                "name": "D3RegulationsQ4",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D3RegulationsQ4",
+                "order": 6
+            },
+            {
+                "name": "D3RegulationsQ5",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D3RegulationsQ5",
+                "order": 6
+            },
+            {
+                "name": "D3RegulationsQ6",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D3RegulationsQ6",
+                "order": 6
+            },
+            {
+                "name": "D3RegulationsQ7",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D3RegulationsQ7",
+                "order": 6
+            },
+            {
+                "name": "D3StudyCommunicationsQ1",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D3StudyCommunicationsQ1",
+                "order": 6
+            },
+            {
+                "name": "D3StudyCommunicationsQ2",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D3StudyCommunicationsQ2",
+                "order": 6
+            },
+            {
+                "name": "D3StudyCommunicationsQ3",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D3StudyCommunicationsQ3",
+                "order": 6
+            },
+            {
+                "name": "D3StudyCommunicationsQ4",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D3StudyCommunicationsQ4",
+                "order": 6
+            },
+            {
+                "name": "D3StaffManagementQ1",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D3StaffManagementQ1",
+                "order": 6
+            },
+            {
+                "name": "D3StaffManagementQ2",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D3StaffManagementQ2",
+                "order": 6
+            },
+            {
+                "name": "D3StaffManagementQ3",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D3StaffManagementQ3",
+                "order": 6
+            },
+            {
+                "name": "D3StaffManagementQ4",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D3StaffManagementQ4",
+                "order": 6
+            },
+            {
+                "name": "D3StaffManagementQ5",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D3StaffManagementQ5",
+                "order": 6
+            },
+            {
+                "name": "D3StaffManagementQ6",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D3StaffManagementQ6",
+                "order": 6
+            },
+            {
+                "name": "D3ResourceManagementQ1",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D3ResourceManagementQ1",
+                "order": 6
+            },
+            {
+                "name": "D3ResourceManagementQ2",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D3ResourceManagementQ2",
+                "order": 6
+            },
+            {
+                "name": "D3ResourceManagementQ3",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D3ResourceManagementQ3",
+                "order": 6
+            },
+            {
+                "name": "D3OperationsQ1",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D3OperationsQ1",
+                "order": 6
+            },
+            {
+                "name": "D3OperationsQ2",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D3OperationsQ2",
+                "order": 6
+            },
+            {
+                "name": "D3OperationsQ3",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D3OperationsQ3",
+                "order": 6
+            },
+            {
+                "name": "D3OperationsQ4",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D3OperationsQ4",
+                "order": 6
+            },
+            {
+                "name": "D3OperationsQ5",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D3OperationsQ5",
+                "order": 6
+            },
+            {
+                "name": "D4LeadershipManagementQ1",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D4LeadershipManagementQ1",
+                "order": 6
+            },
+            {
+                "name": "D4LeadershipManagementQ2",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D4LeadershipManagementQ2",
+                "order": 6
+            },
+            {
+                "name": "D4LeadershipManagementQ3",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D4LeadershipManagementQ3",
+                "order": 6
+            },
+            {
+                "name": "D4LeadershipManagementQ4",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D4LeadershipManagementQ4",
+                "order": 6
+            },
+            {
+                "name": "D4LeadershipManagementQ5",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D4LeadershipManagementQ5",
+                "order": 6
+            },
+            {
+                "name": "D4InterpersonalSkillsQ1",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D4InterpersonalSkillsQ1",
+                "order": 6
+            },
+            {
+                "name": "D4InterpersonalSkillsQ2",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D4InterpersonalSkillsQ2",
+                "order": 6
+            },
+            {
+                "name": "D4CommunicationEngagementQ1",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D4CommunicationEngagementQ1",
+                "order": 6
+            },
+            {
+                "name": "D4CommunicationEngagementQ2",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D4CommunicationEngagementQ2",
+                "order": 6
+            },
+            {
+                "name": "D4CommunicationEngagementQ3",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D4CommunicationEngagementQ3",
+                "order": 6
+            },
+            {
+                "name": "D4CommunicationEngagementQ4",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D4CommunicationEngagementQ4",
+                "order": 6
+            },
+            {
+                "name": "D4CommunicationEngagementQ5",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D4CommunicationEngagementQ5",
+                "order": 6
+            },
+            {
+                "name": "D4CommunicationEngagementQ6",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D4CommunicationEngagementQ6",
+                "order": 6
+            },
+            {
+                "name": "isAnswered",
+                "type_definition": {
+                    "type": "boolean"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "isAnswered",
+                "order": 1
+            },
+            {
+                "name": "isNotAnswered",
+                "type_definition": {
+                    "type": "boolean"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "isNotAnswered",
+                "order": 1
+            },
+            {
+                "name": "IssuedOn",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "IssuedOn",
+                "order": 6
+            },
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "order": 12
+            },
+            {
+                "code": "createdAt",
+                "name": "createdAt",
+                "type_definition": {
+                    "type": "timestamp"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "order": 13
+            },
+            {
+                "name": "senderNodeAddress",
+                "code": "senderNodeAddress",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 14
+            }
+        ],
+        "primary_key": "false"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "e-w-role-a-navig-to-cd-no-0kt",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "name": "submit",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "DETAILS",
+                                    "url": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "postAction": "cd-nopv1cq9546g6j1wakclai3c9eq1",
+                    "refId": "e-w-role-a-navig-to-cd-no-0kt"
+                }
+            ]
+        }
+    ]
+}

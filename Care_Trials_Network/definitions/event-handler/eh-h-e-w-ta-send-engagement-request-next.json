@@ -1,0 +1,29 @@
+{
+    "nodeEventHandlers": [
+        {
+            "type": "MAPPER",
+            "name": "Append attributes",
+            "order": 1,
+            "dataSource": "EVENT_PAYLOAD",
+            "additionalAttributes": {},
+            "excludedAttributes": []
+        },
+        {
+            "type": "EXPRESSION_LANGUAGE",
+            "name": "Append attributes",
+            "order": 2,
+            "dataSource": "HANDLER_ARGUMENTS",
+            "computedAttributes": {
+                "timeMessage": "\"Received on: \" + new java.text.SimpleDateFormat(\"dd/MM/yyyy\").format(new java.util.Date(arguments['createdAt']))"            }
+        },
+        {
+            "type": "VAULT_INSERT",
+            "name": "ENGAGEMENT",
+            "order": 2,
+            "collection": "ENGAGEMENT",
+            "collectionVersion": 1,
+            "dataSource": "HANDLER_ARGUMENTS",
+            "handlerOutput": "PERSISTED_ENTITY"
+        }
+    ]
+} 

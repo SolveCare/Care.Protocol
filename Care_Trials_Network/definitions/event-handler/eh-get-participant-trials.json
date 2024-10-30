@@ -1,0 +1,25 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "e-get-participant-trials",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "name": "getPARTICIPANT_DATA",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "GET",
+                                    "url": "/transactions/PARTICIPANT_TRIALS"
+                                }
+                            ]
+                        }
+                    ],
+                    "postAction": "",
+                    "refId": "e-get-participant-trials"
+                }
+            ]
+        }
+    ]
+}

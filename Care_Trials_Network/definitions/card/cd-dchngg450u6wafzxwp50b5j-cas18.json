@@ -1,0 +1,296 @@
+{
+    "id": "cd-dchngg450u6wafzxwp50b5j-cas18",
+    "name": "Competency Assessment Survey",
+    "cardData": {
+
+        "0tile0iitexti1": "2. Maintain relationships between different stakeholders and agencies, including regulators, sponsors, CROs and research sites",
+
+        "0tile0iitextiik13": "Communication and engagement:",      
+        
+        "0tile0iitexti2": "1. Effectively engage with the study participants",
+
+        "0tile0iitexti3": "2. Develop strategies in enrolling and retaining participants",
+
+        "0tile0iitexti4": "3. Support and advise participants throughout the informed consent process",
+
+        "0tile0iitexti5": "4. Apply risk communication skills in case of arising safety issues",
+
+        "0tile0iitexti6": "5. Establish appropriate communication channels between different stakeholders and agencies, including regulators, sponsors, CROs and research sites",
+
+        "0tile0iitexti7": "6. Effectively communicate the content and relevance of clinical research findings to colleagues, advocacy groups and the nonscientific community",
+
+        "validationdrhfc": "Please select one value",
+        "1tile1iierrorii6se": "Please select one value",
+
+        "2en01bottombutton1iitextiiyaq": "Submit"
+
+   
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+
+                    {
+                        "id": "Tile5",
+                        "subView": [
+                          {
+                            "title": {
+                              "text": "0tile0iitexti1"
+                            },
+                            "subTitle": {
+                              "text": "{$D4InterpersonalSkillsQ2}",
+                              "start": 0,
+                              "end": 5,
+                              "count": 1,
+                              "validation": [
+                                {
+                                  "name": "REQUIRED_FIELD",                     
+                                  "error": "1tile1iierrorii6se"
+                                }
+                              ]
+                            }                      
+                          }                      
+                        ],                      
+                        "align": "START",                      
+                        "type": "CONTAINER",                      
+                        "uiAction": "",                      
+                        "order": 1                      
+                      },
+
+                      {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile0iitextiik13",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "LEFT",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                      {
+                        "id": "Tile5",
+                        "subView": [
+                          {
+                            "title": {
+                              "text": "0tile0iitexti2"
+                            },
+                            "subTitle": {
+                              "text": "{$D4CommunicationEngagementQ1}",
+                              "start": 0,
+                              "end": 5,
+                              "count": 1,
+                              "validation": [
+                                {
+                                  "name": "REQUIRED_FIELD",                     
+                                  "error": "1tile1iierrorii6se"
+                                }
+                              ]
+                            }                      
+                          }                      
+                        ],                      
+                        "align": "START",                      
+                        "type": "CONTAINER",                      
+                        "uiAction": "",                      
+                        "order": 1                      
+                      },
+                      {
+                        "id": "Tile5",
+                        "subView": [
+                          {
+                            "title": {
+                              "text": "0tile0iitexti3"
+                            },
+                            "subTitle": {
+                              "text": "{$D4CommunicationEngagementQ2}",
+                              "start": 0,
+                              "end": 5,
+                              "count": 1,
+                              "validation": [
+                                {
+                                  "name": "REQUIRED_FIELD",                     
+                                  "error": "1tile1iierrorii6se"
+                                }
+                              ]
+                            }                      
+                          }                      
+                        ],                      
+                        "align": "START",                      
+                        "type": "CONTAINER",                      
+                        "uiAction": "",                      
+                        "order": 1                      
+                      }
+                    ,
+                    {
+                        "id": "Tile5",
+                        "subView": [
+                          {
+                            "title": {
+                              "text": "0tile0iitexti4"
+                            },
+                            "subTitle": {
+                              "text": "{$D4CommunicationEngagementQ3}",
+                              "start": 0,
+                              "end": 5,
+                              "count": 1,
+                              "validation": [
+                                {
+                                  "name": "REQUIRED_FIELD",                     
+                                  "error": "1tile1iierrorii6se"
+                                }
+                              ]
+                            }                      
+                          }                      
+                        ],                      
+                        "align": "START",                      
+                        "type": "CONTAINER",                      
+                        "uiAction": "",                      
+                        "order": 1                      
+                      },
+                      {
+                        "id": "Tile5",
+                        "subView": [
+                          {
+                            "title": {
+                              "text": "0tile0iitexti5"
+                            },
+                            "subTitle": {
+                              "text": "{$D4CommunicationEngagementQ4}",
+                              "start": 0,
+                              "end": 5,
+                              "count": 1,
+                              "validation": [
+                                {
+                                  "name": "REQUIRED_FIELD",                     
+                                  "error": "1tile1iierrorii6se"
+                                }
+                              ]
+                            }                      
+                          }                      
+                        ],                      
+                        "align": "START",                      
+                        "type": "CONTAINER",                      
+                        "uiAction": "",                      
+                        "order": 1                      
+                      },
+
+                     
+
+                      {
+                        "id": "Tile5",
+                        "subView": [
+                          {
+                            "title": {
+                              "text": "0tile0iitexti6"
+                            },
+                            "subTitle": {
+                              "text": "{$D4CommunicationEngagementQ5}",
+                              "start": 0,
+                              "end": 5,
+                              "count": 1,
+                              "validation": [
+                                {
+                                  "name": "REQUIRED_FIELD",                     
+                                  "error": "1tile1iierrorii6se"
+                                }
+                              ]
+                            }                      
+                          }                      
+                        ],                      
+                        "align": "START",                      
+                        "type": "CONTAINER",                      
+                        "uiAction": "",                      
+                        "order": 1                      
+                      },
+                      {
+                        "id": "Tile5",
+                        "subView": [
+                          {
+                            "title": {
+                              "text": "0tile0iitexti7"
+                            },
+                            "subTitle": {
+                              "text": "{$D4CommunicationEngagementQ6}",
+                              "start": 0,
+                              "end": 5,
+                              "count": 1,
+                              "validation": [
+                                {
+                                  "name": "REQUIRED_FIELD",                     
+                                  "error": "1tile1iierrorii6se"
+                                }
+                              ]
+                            }                      
+                          }                      
+                        ],                      
+                        "align": "START",                      
+                        "type": "CONTAINER",                      
+                        "uiAction": "",                      
+                        "order": 1                      
+                      }
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action300}",
+                    "order": 1
+                },
+                {
+                    "id": "EN01BottomButton1",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": "2en01bottombutton1iitextiiyaq"
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BUTTON",
+                    "uiAction": "${action5}",
+                    "order": 2
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action300": {
+            "action": [
+                {
+                     "name": "Function.Navigate",
+                     "cardId": "cd-dchngg450u6wafzxwp50b5j-cas17"
+                }
+
+             ]
+        },
+        "action5": {
+            "action": "e-w-broad-phys-survey"                   
+            }
+    }
+}

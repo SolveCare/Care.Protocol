@@ -1,0 +1,22 @@
+{
+    "definition": {
+        "description": "SYNC",
+        "name": "W-PT-NAVIG-TO-CD-87XIP-9ND6",
+        "resource": "W-PT-NAVIG-TO-CD-87XIP-9ND6",
+        "type": "EVENT_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 1,
+                "system": false,
+                "required": false
+            }
+        ]
+    }
+}

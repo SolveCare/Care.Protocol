@@ -1,0 +1,154 @@
+{
+    "definition": {
+        "description": "VERIFICATION",
+        "name": "SUBMIT.IDENTITY002",
+        "resource": "SUBMIT.IDENTITY002",
+        "type": "EVENT_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "name": "physicianName",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "physicianName",
+                "order": 1
+            },
+            {
+                "name": "folderReference",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "folderReference",
+                "order": 2
+            },
+            {
+                "name": "timeMessage",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "timeMessage",
+                "order": 3
+            },
+            {
+                "name": "status",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "status",
+                "order": 4
+            },
+            {
+                "name": "type",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "type",
+                "order": 5
+            },
+            {
+                "name": "isNotSend",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "isNotSend",
+                "order": 6
+            },
+            {
+                "name": "isSeen",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "isSeen",
+                "order": 12
+            },
+            {
+                "name": "identityDate",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "identityDate",
+                "order": 10
+            },
+            {
+                "name": "comments",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "comments",
+                "order": 11
+            },
+            {
+                "name": "isReject",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "isReject",
+                "order": 12
+            },
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "order": 12
+            },
+            {
+                "code": "createdAt",
+                "name": "createdAt",
+                "type_definition": {
+                    "type": "timestamp"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "order": 13
+            },
+            {
+                "name": "senderNodeAddress",
+                "code": "senderNodeAddress",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 14
+            }
+        ]
+    }
+}

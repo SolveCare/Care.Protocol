@@ -1,0 +1,22 @@
+{
+    "definition": {
+        "description": "Event to Navigate from Engage to cd-1t2pqcsmirz4t5mut6kgwaqvqak1",
+        "name": "W-TRIAL-ADMIN-NAVIG-TO-.KMZ",
+        "resource": "W-TRIAL-ADMIN-NAVIG-TO-.KMZ",
+        "type": "EVENT_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 1,
+                "system": false,
+                "required": false
+            }
+        ]
+    }
+}

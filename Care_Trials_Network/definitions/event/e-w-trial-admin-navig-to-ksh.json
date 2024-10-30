@@ -1,0 +1,1 @@
+{"definition":{"description":"Event to Navigate from Lead to cd-4t02b5mhm7ml29c5rojwgmhrkxi","name":"W-TRIAL-ADMIN-NAVIG-TO-.KSH","resource":"W-TRIAL-ADMIN-NAVIG-TO-.KSH","type":"EVENT_DATA"},"structure":{"attributes":[{"code":"transactionalGuid","name":"transactionalGuid","type_definition":{"type":"string"},"order":1,"system":false,"required":false}]}}

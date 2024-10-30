@@ -1,0 +1,191 @@
+{
+    "id": "td-6_QUESTIONS",
+    "path": "td/td-6_QUESTIONS.json",
+    "definition": {
+        "version": 1,
+        "collection": "PARTICIPANT_ANSWERS",
+        "description": "PARTICIPANT_ANSWERS",
+        "name": "PARTICIPANT_ANSWERS",
+        "resource": "PARTICIPANT_ANSWERS",
+        "status": "RELEASED",
+        "type": "TRANSACTIONAL_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "name": "Smoke",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "Smoke",
+                "order": 1
+            },
+            {
+                "name": "record",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "record",
+                "order": 7
+            },
+            {
+                "name": "Gender",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": true,
+                "system": false,
+                "code": "Gender",
+                "order": 1
+            },
+            {
+                "name": "Ethnicity",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Ethnicity",
+                "order": 2
+            },
+            {
+                "name": "ReferralCode",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "ReferralCode",
+                "order": 3
+            },
+            {
+                "name": "Limitations",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Limitations",
+                "order": 4
+            },
+            {
+                "name": "Conditions",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": true,
+                "system": false,
+                "times": 1,
+                "code": "Conditions",
+                "order": 5
+            },
+            {
+                "name": "T&C",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": true,
+                "system": false,
+                "times": 1,
+                "code": "T&C",
+                "order": 6
+            },
+            {
+                "name": "Miles",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": true,
+                "system": false,
+                "times": 1,
+                "code": "Miles",
+                "order": 7
+            },
+            {
+                "name": "Age",
+                "type_definition": {
+                    "type": "number"
+                },
+                "required": true,
+                "system": false,
+                "times": 1,
+                "code": "Age",
+                "order": 8
+            },
+            {
+                "name": "Country",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Country",
+                "order": 9
+            },
+            {
+                "name": "userLocationLongitude",
+                "type_definition": {
+                    "type": "number"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "userLocationLongitude",
+                "order": 10
+            },
+            {
+                "name": "userLocationLatitude",
+                "type_definition": {
+                    "type": "number"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "userLocationLatitude",
+                "order": 11
+            },
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "order": 12
+            },
+            {
+                "code": "createdAt",
+                "name": "createdAt",
+                "type_definition": {
+                    "type": "timestamp"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "order": 13
+            },
+            {
+                "name": "senderNodeAddress",
+                "code": "senderNodeAddress",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 14
+            }
+        ],
+        "primary_key": "false"
+    }
+}

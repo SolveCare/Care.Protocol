@@ -1,0 +1,24 @@
+{
+    "nodeEventHandlers": [ 
+        {
+            "type": "VAULT_UPDATE",
+            "name": "BUDGET",
+            "order": 1,
+            "collection": "BUDGET",
+            "collectionVersion": 1,
+            "dataSource": "EVENT_PAYLOAD",
+            "insertIfAbsent": true,
+            "searchCriteria": [
+                {
+                    "queryMatcher": "EQUAL",
+                    "fieldName": "senderNodeAddress",
+                    "dynamicValue": {
+                        "source": "EVENT_PAYLOAD",
+                        "value": "senderNodeAddress"
+                    }
+                }
+            ],
+            "handlerOutput": "PERSISTED_ENTITY"
+        }
+    ]
+}

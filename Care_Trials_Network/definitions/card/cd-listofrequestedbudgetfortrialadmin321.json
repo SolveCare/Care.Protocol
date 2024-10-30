@@ -1,0 +1,95 @@
+{
+    "id": "cd-listofrequestedbudgetfortrialadmin321",
+    "name": "Budget Requests",
+    "cardData": {
+        "0tile0aiitextiixg8": "List of budget",
+        "4tile0aiitextiidn4": "Amount, SOLVE", 
+        "4tile0aiitextiidn411": "Comments",
+        "requestedOnText": "Requested on: ",
+        "amountText": "Amount: ",
+        "imageUrlfgtqd": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/arrow-right blue.png"
+
+    }, 
+    "cardLayout": {  
+        "body": [
+            {
+                "id": "list",
+                "tileComponent": [
+                    {
+                        "id": "Tile14a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "amountText|{$requested_amount}",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080"
+                                },
+                                "subTitle": {
+                                    "text": "{$submittedAt}",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000080"
+                                },
+                                "img": {
+                                    "text": "imageUrlfgtqd",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "${action592}",
+                        "order": 1
+                    }
+                ],
+                "tileType": "LIST",
+                "uiAction": "",
+                "order": 1
+            }
+           
+        ],
+        "style": {
+            "fontSize": 16,
+            "bgColor": "#ffffff",
+            "borderWidth": 1
+        },
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action710}", 
+                    "order": 1
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action710": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-rvyivy2jb47j9q1x8lkbrqkp8n51"
+                }
+            ]
+        },
+        "action592": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-viewreqbudgetlz8s3c4zjznyt2j9iie51"
+                }
+            ]
+        }
+    }
+}

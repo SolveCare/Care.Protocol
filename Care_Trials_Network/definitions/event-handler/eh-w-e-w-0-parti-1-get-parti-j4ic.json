@@ -1,0 +1,25 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "e-w-0-parti-1-get-parti-j4ic",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "name": "getPARTICIPANT_DATA",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "GET",
+                                    "url": "/transactions/PARTICIPANT_ADMIN_TRIALS_SAVED"
+                                }
+                            ]
+                        }
+                    ],
+                    "postAction": "",
+                    "refId": "e-w-0-parti-1-get-parti-j4ic"
+                }
+            ]
+        }
+    ]
+}

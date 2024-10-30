@@ -1,0 +1,22 @@
+{
+    "definition": {
+        "description": "W-0-PARTI-1-GET-PARTI-J4IC",
+        "name": "W-0-PARTI-1-GET-PARTI-J4IC",
+        "resource": "W-0-PARTI-1-GET-PARTI-J4IC",
+        "type": "EVENT_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 1,
+                "system": false,
+                "required": false
+            }
+        ]
+    }
+}

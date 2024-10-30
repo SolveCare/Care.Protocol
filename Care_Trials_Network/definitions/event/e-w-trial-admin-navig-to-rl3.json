@@ -1,0 +1,22 @@
+{
+    "definition": {
+        "description": "Event to Navigate from Engage to cd-bpmho1x359gohn1rw6xdppzkzu11",
+        "name": "W-TRIAL-ADMIN-NAVIG-TO-.RL3",
+        "resource": "W-TRIAL-ADMIN-NAVIG-TO-.RL3",
+        "type": "EVENT_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 1,
+                "system": false,
+                "required": false
+            }
+        ]
+    }
+}

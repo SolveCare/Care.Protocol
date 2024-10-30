@@ -1,0 +1,99 @@
+{
+    "id": "cd-1dv94aa24zfk7fr7q3s1rv991bi1",
+    "name": "Trial Requests",
+    "cardData": {
+        "0tile14aiitextiij1m": "You have a Record request",
+        "5tile0iitextii2dw1": "Notifications:",
+        "0tile14aiitextiizx9": "13 sep 14:30 UTC, respond in 48hrs to earn a green badge. ",
+        "imageUrlba5vo": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/f116d56b-00a4-4091-932b-240e9cf64504/arrow-right blue.png",
+        "1tile14aiitextiiz9u": " request/s from trial",
+        "1tile14aiitextii9nl": "14 sep 10:00 UTC, respond within 4 hrs to earn a badge",
+        "imageUrlfzhc3": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/f116d56b-00a4-4091-932b-240e9cf64504/arrow-right blue.png",
+        "2tile14aiitextiif24": "You have a new information",
+        "2tile14aiitextiimee": "14 sep 2:30 UTC, Site Admin have shared a trial info. View it now",
+        "imageUrlheane": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/f116d56b-00a4-4091-932b-240e9cf64504/arrow-right blue.png",
+        "3tile14iitextii53v": "Liver cirrhosis trial",
+        "imageUrl5mql9": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/f116d56b-00a4-4091-932b-240e9cf64504/arrow-right blue.png",
+        "4tile14iitextiint8": "Alzheimer's trial",
+        "imageUrlay2ns": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/f116d56b-00a4-4091-932b-240e9cf64504/arrow-right blue.png",
+        "5tile0iitextii2dw": "Trials you matched with",
+        "5tile0iitextii2dw11": "Notifications:",
+        "sub1121": "Keep swiping",
+        "sub2212": "Shared trial Info",
+        "imageUrl4mjtk": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/arrow-right blue.png",
+        "imageUrl4mjtc": "https://i.ibb.co/GWWPR5n/positive-vote.png"
+        
+    },
+    "cardLayout": {
+        "body": [
+            
+            {
+                "id": "list",
+                "tileComponent": [
+                    {
+                        "id": "Tile14",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "{$TrialName}",
+                                    "style": "REGULAR",
+                                    "titleTextColor": "#000080",
+                                    "fontSize": 16
+                                },
+                                "img": {
+                                    "text": "imageUrl4mjtk",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "borderWidth": 3,
+                        "type": "CONTAINER",
+                        "uiAction": "${action755}",
+                        "order": 5
+                    }
+                    
+                ],
+                "tileType": "LIST",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }  
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action795}",
+                    "order": 1
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        
+        "action755": {
+            "action": "e-w-parti-navig-to-cd-7t8-fva"
+        },
+        "action795": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-nvbviswn3aww7d1xosiozad7ku-sg1"
+                }
+            ]
+        }
+        
+    }
+}

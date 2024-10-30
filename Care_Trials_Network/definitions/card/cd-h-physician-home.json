@@ -1,0 +1,168 @@
+{
+    "id": "cd-h-physician-home",
+    "name": "Care.Trial v1.1 - Home",
+    "cardData": {
+        "homeCardDescription": "Advance medical research by connecting patients to vital clinical trials",
+        "label-jn-dchngg450u6wafzxwp50b1j-verif": "Verify",
+        "icon-jn-dchngg450u6wafzxwp50b1j-verif": "https://i.ibb.co/MZRKQmM/immigration.png",
+        "description-jn-dchngg450u6wafzxwp50b1j-verif": "your identity",
+
+        "label-jn-dchngg450u6wafzxwp50b2j-st-h": "Browse",
+        "icon-jn-dchngg450u6wafzxwp50b2j-st-h": "https://i.ibb.co/5WjHD3C/Care-Trials-Get-started-icon.png",
+        "description-jn-dchngg450u6wafzxwp50b2j-st-h": "your trials",
+        
+        "label-jn-dchngg450u6wafzxwp50b3j-br-tr": "Browse",
+        "icon-jn-dchngg450u6wafzxwp50b3j-br-tr": "https://i.ibb.co/0h0sbnt/earning-4.png",
+        "description-jn-dchngg450u6wafzxwp50b3j-br-tr": "your trials",
+
+        "label-jn-dchngg450u6wafzxwp50b4j-ref-pat": "Refer",
+        "icon-jn-dchngg450u6wafzxwp50b4j-ref-pat": "https://i.ibb.co/0h0sbnt/earning-4.png",
+        "description-jn-dchngg450u6wafzxwp50b4j-ref-pat": "your patients",
+
+        "label-jn-dchngg450u6wafzxwp50b5j-search": "Search",
+        "icon-jn-dchngg450u6wafzxwp50b5j-search": "https://i.ibb.co/2vS5G23/image-27.png",
+        "description-jn-dchngg450u6wafzxwp50b5j-search": "for Sponsors",
+
+        "label-jn-dchngg450u6wafzxwp50b5j-cas": "National Clinical Trials ",
+        "icon-jn-dchngg450u6wafzxwp50b5j-cas": "https://i.ibb.co/9TBWB8b/image-34.png",
+        "description-jn-dchngg450u6wafzxwp50b5j-cas": "and Translation Center Registry"
+    },
+    "cardLayout": {
+        "body": [ 
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    { 
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "homeCardDescription",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "CENTER"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 2
+                    },
+                    {
+                        "id": "Tile17Journey",
+                        "isSearchable": false,
+                        "subView": [
+                            {
+                                "options": {
+                                    "key": {
+                                        "name": "{answer}"
+                                    },
+                                    "list": [
+                                        {
+                                            "label": "label-jn-dchngg450u6wafzxwp50b1j-verif",
+                                            "hint": "description-jn-dchngg450u6wafzxwp50b1j-verif",
+                                            "img": {
+                                                "text": "icon-jn-dchngg450u6wafzxwp50b1j-verif",
+                                                "isUrl": true,
+                                                "height": "",
+                                                "width": ""
+                                            },
+                                            "journey": {
+                                                "journeyId": "jn-dchngg450u6wafzxwp50b1j-verif"
+                                            }
+                                        },
+                                        {
+                                            "label": "label-jn-dchngg450u6wafzxwp50b5j-cas",
+                                            "hint": "description-jn-dchngg450u6wafzxwp50b5j-cas",
+                                            "img": {
+                                                "text": "icon-jn-dchngg450u6wafzxwp50b5j-cas",
+                                                "isUrl": true,
+                                                "height": "",
+                                                "width": ""
+                                            },
+                                            "journey": {
+                                                "journeyId": "jn-dchngg450u6wafzxwp50b5j-cas"
+                                            }
+                                        },
+                                        {
+                                            "label": "label-jn-dchngg450u6wafzxwp50b2j-st-h",
+                                            "hint": "description-jn-dchngg450u6wafzxwp50b2j-st-h",
+                                            "img": {
+                                                "text": "icon-jn-dchngg450u6wafzxwp50b2j-st-h",
+                                                "isUrl": true,
+                                                "height": "",
+                                                "width": ""
+                                            },
+                                            "journey": {
+                                                "journeyId": "jn-dchngg450u6wafzxwp50b2j-st-h"
+                                            }
+                                        },
+                                        {
+                                            "label": "label-jn-dchngg450u6wafzxwp50b4j-ref-pat",
+                                            "hint": "description-jn-dchngg450u6wafzxwp50b4j-ref-pat",
+                                            "img": {
+                                                "text": "icon-jn-dchngg450u6wafzxwp50b4j-ref-pat",
+                                                "isUrl": true,
+                                                "height": "",
+                                                "width": ""
+                                            },
+                                            "journey": {
+                                                "journeyId": "jn-dchngg450u6wafzxwp50b4j-ref-pat"
+                                            }
+                                        },
+                                        {
+                                            "label": "label-jn-dchngg450u6wafzxwp50b5j-search",
+                                            "hint": "description-jn-dchngg450u6wafzxwp50b5j-search",
+                                            "img": {
+                                                "text": "icon-jn-dchngg450u6wafzxwp50b5j-search",
+                                                "isUrl": true,
+                                                "height": "",
+                                                "width": ""
+                                            },
+                                            "journey": {
+                                                "journeyId": "jn-dchngg450u6wafzxwp50b5j-search"
+                                            }
+                                        } 
+                                    ]
+                                }
+                            }
+                        ],
+                        "textColor": "#212121",
+                        "align": "CENTER",
+                        "borderColor": "#afafaf",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 2
+                    }
+                ],
+                "tileType": "WRAP",
+                "uiAction": ""
+            }
+        ],
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "isSearchable": false,
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "order": 1,
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action1}"
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action1": {
+            "action": "HOME"
+        }
+    }
+}

@@ -1,0 +1,848 @@
+{
+    "ddf_type": "physician_survey",
+    "meta_data": {
+        "description": "Collection to store Trial.Admin/Sponsor info"
+    },
+    "messages": [
+        {
+            "message_category": "CSV",
+            "message_type": "ANSWERS",
+            "meta_data": {
+                "description": "Collection to store Trial.Admin/Sponsor info",
+                "indices": "physician_survey"
+            },
+            "attributes": [
+    
+                {
+                    "name": "D1DesignQ1",
+                    "description": "D1DesignQ1",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D1DesignQ1"
+                },
+                {
+                    "name": "D1DesignQ2",
+                    "description": "D1DesignQ2",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D1DesignQ2"
+                },
+                {
+                    "name": "D1DesignQ3",
+                    "description": "D1DesignQ3",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D1DesignQ3"
+                },
+                {
+                    "name": "D1DesignQ4",
+                    "description": "D1DesignQ4",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D1DesignQ4"
+                },
+                {
+                    "name": "D1DesignQ5",
+                    "description": "D1DesignQ5",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D1DesignQ5"
+                },
+                {
+                    "name": "D1DesignQ6",
+                    "description": "D1DesignQ6",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D1DesignQ6"
+                },
+                {
+                    "name": "D1DesignQ7",
+                    "description": "D1DesignQ7",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D1DesignQ7"
+                },
+                {
+                    "name": "D1ProductDevelopmentQ1",
+                    "description": "D1ProductDevelopmentQ1",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D1ProductDevelopmentQ1"
+                },
+                {
+                    "name": "D1ProductDevelopmentQ2",
+                    "description": "D1ProductDevelopmentQ2",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D1ProductDevelopmentQ2"
+                },
+                {
+                    "name": "D1ProductDevelopmentQ3",
+                    "description": "D1ProductDevelopmentQ3",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D1ProductDevelopmentQ3"
+                },
+                {
+                    "name": "D1ProductDevelopmentQ4",
+                    "description": "D1ProductDevelopmentQ4",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D1ProductDevelopmentQ4"
+                },
+                {
+                    "name": "D1ProductDevelopmentQ5",
+                    "description": "D1ProductDevelopmentQ5",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D1ProductDevelopmentQ5"
+                },
+                {
+                    "name": "D1ProductDevelopmentQ6",
+                    "description": "D1ProductDevelopmentQ6",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D1ProductDevelopmentQ6"
+                },
+                {
+                    "name": "D1ProductDevelopmentQ7",
+                    "description": "D1ProductDevelopmentQ7",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D1ProductDevelopmentQ7"
+                },
+                {
+                    "name": "D1ProtocolOperationQ1",
+                    "description": "D1ProtocolOperationQ1",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D1ProtocolOperationQ1"
+                },
+                {
+                    "name": "D1ProtocolOperationQ2",
+                    "description": "D1ProtocolOperationQ2",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D1ProtocolOperationQ2"
+                },
+                {
+                    "name": "D1ProtocolOperationQ3",
+                    "description": "D1ProtocolOperationQ3",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D1ProtocolOperationQ3"
+                },
+                {
+                    "name": "D1ProtocolOperationQ4",
+                    "description": "D1ProtocolOperationQ4",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D1ProtocolOperationQ4"
+                },
+                {
+                    "name": "D1ProtocolOperationQ5",
+                    "description": "D1ProtocolOperationQ5",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D1ProtocolOperationQ5"
+                },
+                {
+                    "name": "D1DataManagementQ1",
+                    "description": "D1DataManagementQ1",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D1DataManagementQ1"
+                },
+                {
+                    "name": "D1DataManagementQ2",
+                    "description": "D1DataManagementQ2",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D1DataManagementQ2"
+                },
+                {
+                    "name": "D1DataManagementQ3",
+                    "description": "D1DataManagementQ3",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D1DataManagementQ3"
+                },
+                {
+                    "name": "D1DataManagementQ4",
+                    "description": "D1DataManagementQ4",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D1DataManagementQ4"
+                },
+                {
+                    "name": "D1AnalysisQ1",
+                    "description": "D1AnalysisQ1",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D1AnalysisQ1"
+                },
+                {
+                    "name": "D1AnalysisQ2",
+                    "description": "D1AnalysisQ2",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D1AnalysisQ2"
+                },
+                {
+                    "name": "D1AnalysisQ3",
+                    "description": "D1AnalysisQ3",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D1AnalysisQ3"
+                },
+                {
+                    "name": "D1AnalysisQ4",
+                    "description": "D1AnalysisQ4",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D1AnalysisQ4"
+                },
+
+                {
+                    "name": "D2EthicsQ1",
+                    "description": "D2EthicsQ1",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D2EthicsQ1"
+                },
+                {
+                    "name": "D2EthicsQ2",
+                    "description": "D2EthicsQ2",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D2EthicsQ2"
+                },
+                {
+                    "name": "D2EthicsQ3",
+                    "description": "D2EthicsQ3",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D2EthicsQ3"
+                },
+                {
+                    "name": "D2EthicsQ4",
+                    "description": "D2EthicsQ4",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D2EthicsQ4"
+                },
+                {
+                    "name": "D2EthicsQ5",
+                    "description": "D2EthicsQ5",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D2EthicsQ5"
+                },
+                {
+                    "name": "D2EthicsQ6",
+                    "description": "D2EthicsQ6",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D2EthicsQ6"
+                },
+                {
+                    "name": "D2EthicsQ7",
+                    "description": "D2EthicsQ7",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D2EthicsQ7"
+                },
+                {
+                    "name": "D2EthicsQ8",
+                    "description": "D2EthicsQ8",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D2EthicsQ8"
+                },
+                {
+                    "name": "D2EthicsQ9",
+                    "description": "D2EthicsQ9",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D2EthicsQ9"
+                },
+                {
+                    "name": "D2ClinicalPracticeQ1",
+                    "description": "D2ClinicalPracticeQ1",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D2ClinicalPracticeQ1"
+                },
+                {
+                    "name": "D2ClinicalPracticeQ2",
+                    "description": "D2ClinicalPracticeQ2",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D2ClinicalPracticeQ2"
+                },
+                {
+                    "name": "D2ClinicalPracticeQ3",
+                    "description": "D2ClinicalPracticeQ3",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D2ClinicalPracticeQ3"
+                },
+                {
+                    "name": "D2ClinicalPracticeQ4",
+                    "description": "D2ClinicalPracticeQ4",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D2ClinicalPracticeQ4"
+                },
+                {
+                    "name": "D2ClinicalPracticeQ5",
+                    "description": "D2ClinicalPracticeQ5",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D2ClinicalPracticeQ5"
+                },
+                {
+                    "name": "D2ClinicalPracticeQ6",
+                    "description": "D2ClinicalPracticeQ6",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D2ClinicalPracticeQ6"
+                },
+                {
+                    "name": "D2ClinicalPracticeQ7",
+                    "description": "D2ClinicalPracticeQ7",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D2ClinicalPracticeQ7"
+                },
+                {
+                    "name": "D2ClinicalPracticeQ8",
+                    "description": "D2ClinicalPracticeQ8",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D2ClinicalPracticeQ8"
+                },
+                {
+                    "name": "D2ClinicalPracticeQ9",
+                    "description": "D2ClinicalPracticeQ9",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D2ClinicalPracticeQ9"
+                },
+                {
+                    "name": "D2ClinicalPracticeQ10",
+                    "description": "D2ClinicalPracticeQ10",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D2ClinicalPracticeQ10"
+                },
+                {
+                    "name": "D2RiskSafetyQ1",
+                    "description": "D2RiskSafetyQ1",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D2RiskSafetyQ1"
+                },
+                {
+                    "name": "D2RiskSafetyQ2",
+                    "description": "D2RiskSafetyQ2",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D2RiskSafetyQ2"
+                },
+                {
+                    "name": "D2RiskSafetyQ3",
+                    "description": "D2RiskSafetyQ3",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D2RiskSafetyQ3"
+                },
+                {
+                    "name": "D2RiskSafetyQ4",
+                    "description": "D2RiskSafetyQ4",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D2RiskSafetyQ4"
+                },
+                {
+                    "name": "D2QualityAssuranceQ1",
+                    "description": "D2QualityAssuranceQ1",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D2QualityAssuranceQ1"
+                },
+                {
+                    "name": "D2QualityAssuranceQ2",
+                    "description": "D2QualityAssuranceQ2",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D2QualityAssuranceQ2"
+                },
+                {
+                    "name": "D2QualityAssuranceQ3",
+                    "description": "D2QualityAssuranceQ3",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D2QualityAssuranceQ3"
+                }
+                ,
+                {
+                    "name": "D3OversightQ1",
+                    "description": "D3OversightQ1",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D3OversightQ1"
+                },
+                {
+                    "name": "D3OversightQ2",
+                    "description": "D3OversightQ2",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D3OversightQ2"
+                },
+                {
+                    "name": "D3OversightQ3",
+                    "description": "D3OversightQ3",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D3OversightQ3"
+                },
+                {
+                    "name": "D3OversightQ4",
+                    "description": "D3OversightQ4",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D3OversightQ4"
+                },
+                {
+                    "name": "D3OversightQ5",
+                    "description": "D3OversightQ5",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D3OversightQ5"
+                },
+                {
+                    "name": "D3RegulationsQ1",
+                    "description": "D3RegulationsQ1",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D3RegulationsQ1"
+                },
+                {
+                    "name": "D3RegulationsQ2",
+                    "description": "D3RegulationsQ2",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D3RegulationsQ2"
+                },
+                {
+                    "name": "D3RegulationsQ3",
+                    "description": "D3RegulationsQ3",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D3RegulationsQ3"
+                },
+                {
+                    "name": "D3RegulationsQ4",
+                    "description": "D3RegulationsQ4",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D3RegulationsQ4"
+                },
+                {
+                    "name": "D3RegulationsQ5",
+                    "description": "D3RegulationsQ5",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D3RegulationsQ5"
+                },
+                {
+                    "name": "D3RegulationsQ6",
+                    "description": "D3RegulationsQ6",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D3RegulationsQ6"
+                },
+                {
+                    "name": "D3RegulationsQ7",
+                    "description": "D3RegulationsQ7",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D3RegulationsQ7"
+                },
+                {
+                    "name": "D3StudyCommunicationsQ1",
+                    "description": "D3StudyCommunicationsQ1",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D3StudyCommunicationsQ1"
+                },
+                {
+                    "name": "D3StudyCommunicationsQ2",
+                    "description": "D3StudyCommunicationsQ2",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D3StudyCommunicationsQ2"
+                },
+                {
+                    "name": "D3StudyCommunicationsQ3",
+                    "description": "D3StudyCommunicationsQ3",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D3StudyCommunicationsQ3"
+                },
+                {
+                    "name": "D3StudyCommunicationsQ4",
+                    "description": "D3StudyCommunicationsQ4",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D3StudyCommunicationsQ4"
+                },
+                {
+                    "name": "D3StaffManagementQ1",
+                    "description": "D3StaffManagementQ1",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D3StaffManagementQ1"
+                },
+                {
+                    "name": "D3StaffManagementQ2",
+                    "description": "D3StaffManagementQ2",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D3StaffManagementQ2"
+                },
+                {
+                    "name": "D3StaffManagementQ3",
+                    "description": "D3StaffManagementQ3",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D3StaffManagementQ3"
+                },
+                {
+                    "name": "D3StaffManagementQ4",
+                    "description": "D3StaffManagementQ4",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D3StaffManagementQ4"
+                },
+                {
+                    "name": "D3StaffManagementQ5",
+                    "description": "D3StaffManagementQ5",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D3StaffManagementQ5"
+                },
+                {
+                    "name": "D3StaffManagementQ6",
+                    "description": "D3StaffManagementQ6",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D3StaffManagementQ6"
+                },
+                {
+                    "name": "D3StaffManagementQ7",
+                    "description": "D3StaffManagementQ7",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D3StaffManagementQ7"
+                },
+                {
+                    "name": "D3ResourceManagementQ1",
+                    "description": "D3ResourceManagementQ1",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D3ResourceManagementQ1"
+                },
+                {
+                    "name": "D3ResourceManagementQ2",
+                    "description": "D3ResourceManagementQ2",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D3ResourceManagementQ2"
+                },
+                {
+                    "name": "D3ResourceManagementQ3",
+                    "description": "D3ResourceManagementQ3",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D3ResourceManagementQ3"
+                },
+                {
+                    "name": "D3OperationsQ1",
+                    "description": "D3OperationsQ1",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D3OperationsQ1"
+                },
+                {
+                    "name": "D3OperationsQ2",
+                    "description": "D3OperationsQ2",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D3OperationsQ2"
+                },
+                {
+                    "name": "D3OperationsQ3",
+                    "description": "D3OperationsQ3",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D3OperationsQ3"
+                },
+                {
+                    "name": "D3OperationsQ4",
+                    "description": "D3OperationsQ4",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D3OperationsQ4"
+                },
+                {
+                    "name": "D3OperationsQ5",
+                    "description": "D3OperationsQ5",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D3OperationsQ5"
+                }
+
+                , 
+
+                {
+                    "name": "D4LeadershipManagementQ1",
+                    "description": "D4LeadershipManagementQ1",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D4LeadershipManagementQ1"
+                },
+                {
+                    "name": "D4LeadershipManagementQ2",
+                    "description": "D4LeadershipManagementQ2",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D4LeadershipManagementQ2"
+                },
+                {
+                    "name": "D4LeadershipManagementQ3",
+                    "description": "D4LeadershipManagementQ3",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D4LeadershipManagementQ3"
+                },
+                {
+                    "name": "D4LeadershipManagementQ4",
+                    "description": "D4LeadershipManagementQ4",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D4LeadershipManagementQ4"
+                },
+                {
+                    "name": "D4LeadershipManagementQ5",
+                    "description": "D4LeadershipManagementQ5",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D4LeadershipManagementQ5"
+                },
+                {
+                    "name": "D4InterpersonalSkillsQ1",
+                    "description": "D4InterpersonalSkillsQ1",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D4InterpersonalSkillsQ1"
+                },
+                {
+                    "name": "D4InterpersonalSkillsQ2",
+                    "description": "D4InterpersonalSkillsQ2",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D4InterpersonalSkillsQ2"
+                },
+                {
+                    "name": "D4CommunicationEngagementQ1",
+                    "description": "D4CommunicationEngagementQ1",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D4CommunicationEngagementQ1"
+                },
+                {
+                    "name": "D4CommunicationEngagementQ2",
+                    "description": "D4CommunicationEngagementQ2",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D4CommunicationEngagementQ2"
+                },
+                {
+                    "name": "D4CommunicationEngagementQ3",
+                    "description": "D4CommunicationEngagementQ3",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D4CommunicationEngagementQ3"
+                },
+                {
+                    "name": "D4CommunicationEngagementQ4",
+                    "description": "D4CommunicationEngagementQ4",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D4CommunicationEngagementQ4"
+                },
+                {
+                    "name": "D4CommunicationEngagementQ5",
+                    "description": "D4CommunicationEngagementQ5",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D4CommunicationEngagementQ5"
+                },
+                {
+                    "name": "D4CommunicationEngagementQ6",
+                    "description": "D4CommunicationEngagementQ6",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D4CommunicationEngagementQ6"
+                }
+
+
+                ,
+                
+                
+
+                {
+                    "name": "isAnswered",
+                    "description": "isAnswered",
+                    "required": false,
+                    "index_field": true,
+                    "type": "boolean",
+                    "data_location": "isAnswered"
+                },
+                {
+                    "name": "isNotAnswered",
+                    "description": "isNotAnswered",
+                    "required": false,
+                    "index_field": true,
+                    "type": "boolean",
+                    "data_location": "isNotAnswered"
+                },
+                {
+                    "code": "transactionalGuid",
+                    "name": "transactionalGuid",
+                    "description": "transactionalGuid",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "transactionalGuid"
+                },
+                {
+                    "code": "Date",
+                    "name": "Date",
+                    "description": "Date",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "Date"
+                },
+                {
+                    "name": "senderNodeAddress",
+                    "description": "senderNodeAddress",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "senderNodeAddress"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,527 @@
+{
+    "id": "cd-casqwb3x4u11n81com3surveys-d1-c2",
+    "name": "Competency Assessment Survey",
+    "cardData": {
+        "0tile0iitextpha": "Pharmacy:",
+
+        "1phtile0textq5": "1. Compounding and dispensing of study drugs",
+        "1plabel0ess": "With",
+        "1plabel1ness": "Without",
+
+        "1tile0iitextdi": "Diagnostic imaging:",
+
+        "1ditile0textq1": "1. Standard of care diagnostic services",
+        "1dilabel0ess": "With",
+        "1dilabel1ness": "Without",
+
+        "2ditile0textq1": "2. Access to on-site foundational equipment (e.g., x-ray, ultrasound)",
+        "2dilabel0ess": "With",
+        "2dilabel1ness": "Without",
+
+        "3ditile0textq2": "3. Access to on-site advanced diagnostic equipment (e.g., nuclear imaging)",
+        "3dilabel0ess": "With",
+        "3dilabel1ness": "Without",
+
+        "2tile0iitextsps": "Specialist services:",
+
+        "1sstile0textq1": "1. Established institutional referral pathways to access specialist services if protocol requires (e.g., cardiology)",
+        "1sslabel0ess": "With",
+        "1sslabel1ness": "Without",
+
+        "2sstile0textq2": "2. 24-h access to emergency care",
+        "2sslabel0ess": "With",
+        "2sslabel1ness": "Without",
+
+        "3sstile0textq3": "3. Access to overnight inpatient admission services",
+        "3sslabel0ess": "With",
+        "3sslabel1ness": "Without",
+
+        "3satile0iitextsarch": "Storage and archiving:",
+
+        "1satile0textq1": "1. Access to on-site or off-site secure storage facilities for study files and materials (including study drugs and investigational products)",
+        "1salabel0ess": "With",
+        "1salabel1ness": "Without",
+
+        "validation5xk9r": "Please select one value",
+        "2en01bottombuttonNext": "Next"
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile0iitextpha",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile10",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "1phtile0textq5",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "options": {
+                                    "key":{
+                                        "name":"{$D1PharmacyQ1}",
+                                        "optionAlign": "START",
+                                        "optionTextColor": "#000080",
+                                        "optionfontSize": 16
+                                    },
+                                    "list":[
+                                        {
+                                        "label": "1plabel0ess"
+                                        },
+                                        {
+                                        "label": "1plabel1ness"
+                                        }
+                                    ],
+                                    "validation": [
+                                        {
+                                            "name": "REQUIRED_FIELD",
+                                            "error": "validation5xk9r"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "fontSize": 16,
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "${}",
+                        "order": 2
+                    },
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "1tile0iitextdi",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile10",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "1ditile0textq1",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "options": {
+                                    "key":{
+                                        "name":"{$D1DiagnosticQ1}",
+                                        "optionAlign": "START",
+                                        "optionTextColor": "#000080",
+                                        "optionfontSize": 16
+                                    },
+                                    "list":[
+                                        {
+                                        "label": "1dilabel0ess"
+                                        },
+                                        {
+                                        "label": "1dilabel1ness"
+                                        }
+                                    ],
+                                    "validation": [
+                                        {
+                                            "name": "REQUIRED_FIELD",
+                                            "error": "validation5xk9r"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "fontSize": 16,
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "${}",
+                        "order": 2
+                    },
+                    {
+                        "id": "Tile10",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "2ditile0textq1",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "options": {
+                                    "key":{
+                                        "name":"{$D1DiagnosticQ2}",
+                                        "optionAlign": "START",
+                                        "optionTextColor": "#000080",
+                                        "optionfontSize": 16
+                                    },
+                                    "list":[
+                                        {
+                                        "label": "2dilabel0ess"
+                                        },
+                                        {
+                                        "label": "2dilabel1ness"
+                                        }
+                                    ],
+                                    "validation": [
+                                        {
+                                            "name": "REQUIRED_FIELD",
+                                            "error": "validation5xk9r"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "fontSize": 16,
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "${}",
+                        "order": 2
+                    },
+                    {
+                        "id": "Tile10",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "3ditile0textq2",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "options": {
+                                    "key":{
+                                        "name":"{$D1DiagnosticQ3}",
+                                        "optionAlign": "START",
+                                        "optionTextColor": "#000080",
+                                        "optionfontSize": 16
+                                    },
+                                    "list":[
+                                        {
+                                        "label": "3dilabel0ess"
+                                        },
+                                        {
+                                        "label": "3dilabel1ness"
+                                        }
+                                    ],
+                                    "validation": [
+                                        {
+                                            "name": "REQUIRED_FIELD",
+                                            "error": "validation5xk9r"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "fontSize": 16,
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "${}",
+                        "order": 2
+                    },
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "2tile0iitextsps",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile10",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "1sstile0textq1",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "options": {
+                                    "key":{
+                                        "name":"{$D1SpecServicesQ1}",
+                                        "optionAlign": "START",
+                                        "optionTextColor": "#000080",
+                                        "optionfontSize": 16
+                                    },
+                                    "list":[
+                                        {
+                                        "label": "1sslabel0ess"
+                                        },
+                                        {
+                                        "label": "1sslabel1ness"
+                                        }
+                                    ],
+                                    "validation": [
+                                        {
+                                            "name": "REQUIRED_FIELD",
+                                            "error": "validation5xk9r"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "fontSize": 16,
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "${}",
+                        "order": 2
+                    },
+                    {
+                        "id": "Tile10",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "2sstile0textq2",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "options": {
+                                    "key":{
+                                        "name":"{$D1SpecServicesQ2}",
+                                        "optionAlign": "START",
+                                        "optionTextColor": "#000080",
+                                        "optionfontSize": 16
+                                    },
+                                    "list":[
+                                        {
+                                        "label": "2sslabel0ess"
+                                        },
+                                        {
+                                        "label": "2sslabel1ness"
+                                        }
+                                    ],
+                                    "validation": [
+                                        {
+                                            "name": "REQUIRED_FIELD",
+                                            "error": "validation5xk9r"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "fontSize": 16,
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "${}",
+                        "order": 2
+                    },
+                    {
+                        "id": "Tile10",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "3sstile0textq3",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "options": {
+                                    "key":{
+                                        "name":"{$D1SpecServicesQ3}",
+                                        "optionAlign": "START",
+                                        "optionTextColor": "#000080",
+                                        "optionfontSize": 16
+                                    },
+                                    "list":[
+                                        {
+                                        "label": "3sslabel0ess"
+                                        },
+                                        {
+                                        "label": "3sslabel1ness"
+                                        }
+                                    ],
+                                    "validation": [
+                                        {
+                                            "name": "REQUIRED_FIELD",
+                                            "error": "validation5xk9r"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "fontSize": 16,
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "${}",
+                        "order": 2
+                    },
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "3satile0iitextsarch",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile10",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "1satile0textq1",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "options": {
+                                    "key":{
+                                        "name":"{$D1StorageQ1}",
+                                        "optionAlign": "START",
+                                        "optionTextColor": "#000080",
+                                        "optionfontSize": 16
+                                    },
+                                    "list":[
+                                        {
+                                        "label": "1salabel0ess"
+                                        },
+                                        {
+                                        "label": "1salabel1ness"
+                                        }
+                                    ],
+                                    "validation": [
+                                        {
+                                            "name": "REQUIRED_FIELD",
+                                            "error": "validation5xk9r"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "fontSize": 16,
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "${}",
+                        "order": 2
+                    }
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action1}",
+                    "order": 1
+                },
+                {
+                    "id": "EN01BottomButton1",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": "2en01bottombuttonNext"
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BUTTON",
+                    "uiAction": "${action2}",
+                    "order": 2
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action1": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-casqwb3x4u11n81com3surveys-d1-c1"
+                }
+            ]
+        },
+        "action2": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-casqwb3x4u11n81com3surveys-d1-c3"
+                }
+            ]
+        }
+    }
+}

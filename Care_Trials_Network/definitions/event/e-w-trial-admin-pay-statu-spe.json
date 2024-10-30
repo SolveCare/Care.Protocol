@@ -1,0 +1,42 @@
+{
+    "definition": {
+        "description": "Update TRIALS at Trial Admin",
+        "name": "W-TRIAL-ADMIN-PAY-STATU.SPE",
+        "resource": "W-TRIAL-ADMIN-PAY-STATU.SPE",
+        "type": "EVENT_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 1,
+                "system": false,
+                "required": false
+            },
+            {
+                "name": "transactionHash",
+                "code": "transactionHash",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 2
+            },
+            {
+                "name": "paymentStatus",
+                "code": "paymentStatus",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 3
+            }
+        ]
+    }
+}

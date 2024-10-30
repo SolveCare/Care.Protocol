@@ -1,0 +1,162 @@
+{
+    "id": "cd-1oeogij51yh1jtk0i08pn1-st-h-c4",
+    "name": "Done",
+    "cardData": {
+        "0tile11iitextiiq01" : "You are in!",
+        "0tile11iitextiig01" : "You are now in the Care.Trials network and proud member of the global community working to find cures faster!",
+        "0tile11iitextiiq011" : "Before you start swiping",
+        "0tile11iitextiig011" : "We are searching for all suitable trials near you. This process will take about 5 minutes and you will receive a message when its done.",
+        "0tile14aiitextiip03" : "So, start swiping!",
+        "imageUrls5i03" : "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/arrow-right blue.png",
+        "2en01bottombutton1iitextiij2u": "Done"
+    },
+    
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    {
+                        "id": "Tile11",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile11iitextiiq01",
+                                    "titleTextColor": "#000080",
+                                    "style": "BOLD",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "subTitle": {
+                                    "text": "0tile11iitextiig01",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+
+                    {
+                        "id": "Tile11",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile11iitextiiq011",
+                                    "titleTextColor": "#000080",
+                                    "style": "BOLD",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "subTitle": {
+                                    "text": "0tile11iitextiig011",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile14",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile14aiitextiip03",
+                                    "fontSize": 16,
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START"
+                                },
+                                "img": {
+                                    "text": "imageUrls5i03",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "${action700}",
+                        "order": 1
+                    }   
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action701}",
+                    "order": 1
+                },
+                {
+                    "id": "EN01BottomButton1",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": "2en01bottombutton1iitextiij2u"
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BUTTON",
+                    "uiAction": "${action702}",
+                    "order": 2
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action700": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-dchngg450u6wafzxwp50b3j-br-tr-c1"
+                }
+            ]
+        },
+        "action701": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-1oeogij51yh1jtk0i08pn1-st-h-c3"
+                }
+            ]
+        },
+        "action702": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "HOME"
+                }
+            ]
+        }
+    }
+}

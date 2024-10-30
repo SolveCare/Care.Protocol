@@ -1,0 +1,224 @@
+{
+    "definition": {
+        "description": "Save 7_QUESTIONS at Trial Admin",
+        "name": "W-TRIAL-ADMIN-PAY-7_QUE_F7B",
+        "resource": "W-TRIAL-ADMIN-PAY-7_QUE_F7B",
+        "type": "EVENT_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "name": "Gender",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "Gender",
+                "order": 1
+            },
+            {
+                "name": "Ethnicity",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Ethnicity",
+                "order": 2
+            },
+            {
+                "name": "ReferalCode",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "ReferalCode",
+                "order": 3
+            },
+            {
+                "name": "Limitations",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Limitations",
+                "order": 4
+            },
+            {
+                "name": "preconditions",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "preconditions",
+                "order": 5
+            },
+            {
+                "name": "T&C",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "T&C",
+                "order": 6
+            },
+            {
+                "name": "Miles",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Miles",
+                "order": 7
+            },
+            {
+                "name": "Age",
+                "type_definition": {
+                    "type": "number"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Age",
+                "order": 8
+            },
+            {
+                "name": "Country",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Country",
+                "order": 9
+            },
+            {
+                "name": "userLocationLongitude",
+                "type_definition": {
+                    "type": "number"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "userLocationLongitude",
+                "order": 10
+            },
+            {
+                "name": "userLocationLatitude",
+                "type_definition": {
+                    "type": "number"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "userLocationLatitude",
+                "order": 11
+            },
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "order": 12
+            },
+            {
+                "code": "createdAt",
+                "name": "createdAt",
+                "type_definition": {
+                    "type": "timestamp"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "order": 13
+            },
+            {
+                "name": "senderNodeAddress",
+                "code": "senderNodeAddress",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 14
+            },
+            {
+                "name": "paidByNodeAddress",
+                "code": "paidByNodeAddress",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 15
+            },
+            {
+                "name": "paidToNodeAddress",
+                "code": "paidToNodeAddress",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 16
+            },
+            {
+                "name": "totalSolveCost",
+                "code": "totalSolveCost",
+                "type_definition": {
+                    "type": "number"
+                },
+                "required": false,
+                "system": false,
+                "order": 17
+            },
+            {
+                "name": "updatedAt",
+                "code": "updatedAt",
+                "type_definition": {
+                    "type": "timestamp"
+                },
+                "required": false,
+                "system": false,
+                "order": 18
+            },
+            {
+                "name": "transactionHash",
+                "code": "transactionHash",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 19
+            },
+            {
+                "name": "paymentStatus",
+                "code": "paymentStatus",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 20
+            }
+        ]
+    }
+}

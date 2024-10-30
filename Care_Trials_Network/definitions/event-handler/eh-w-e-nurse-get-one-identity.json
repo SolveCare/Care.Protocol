@@ -1,0 +1,25 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "e-nurse-get-one-identity",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "name": "getONE",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "GET",
+                                    "url": "/transactions/IDENTITY?filter=[{\"fieldName\":\"transactionalGuid\",\"queryMatcher\":\"EQUAL\",\"value\":\"${transactionalGuid}\"}]"
+                                }
+                            ]
+                        }
+                    ],
+                    "postAction": "",
+                    "refId": "e-nurse-get-one-identity"
+                }
+            ]
+        }
+    ]
+}

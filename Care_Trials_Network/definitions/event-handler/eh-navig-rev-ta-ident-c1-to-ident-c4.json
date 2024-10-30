@@ -1,0 +1,25 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "e-w-navig-rev-ta-ident-c1-to-ident-c4",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "name": "submit",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "DETAILS",
+                                    "url": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "postAction": "cd-4oey47dgwefcfav0jhs4-rev-ta-ident-c4",
+                    "refId": "e-w-navig-rev-ta-ident-c1-to-ident-c4" 
+                }
+            ]
+        }
+    ]
+}

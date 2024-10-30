@@ -1,0 +1,25 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "e-get-identity-list-nurse",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "name": "",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "GET",
+                                    "url": "/transactions/IDENTITY?filter=[{\"queryMatcher\": \"EQUAL\",\"fieldName\": \"isSeen\",\"value\": \"false\"},{\"queryMatcher\": \"EQUAL\",\"fieldName\": \"type\",\"value\": \"PI-Identity\"}]"
+                                }
+                            ]
+                        }
+                    ],
+                    "postAction": "",
+                    "refId": "e-get-identity-list-nurse"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "e-get-adminparti-ansq",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "name": "",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "GET",
+                                    "url": "/transactions/PARTICIPANT_QA"
+                                }
+                            ] 
+                        }
+                    ],
+                    "postAction": "",
+                    "refId": "e-get-adminparti-ansq"
+                }
+            ]
+        }
+    ]
+}

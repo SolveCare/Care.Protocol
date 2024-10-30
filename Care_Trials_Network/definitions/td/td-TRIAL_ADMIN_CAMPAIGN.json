@@ -1,0 +1,313 @@
+{
+    "id": "td-TRIAL_ADMIN_CAMPAIGN",
+    "path": "td/td-TRIAL_ADMIN_CAMPAIGN.json",
+    "definition": {
+        "version": 1,
+        "collection": "TRIAL_ADMIN_CAMPAIGN",
+        "description": "TRIAL_ADMIN_CAMPAIGN",
+        "name": "TRIAL_ADMIN_CAMPAIGN",
+        "resource": "TRIAL_ADMIN_CAMPAIGN",
+        "status": "RELEASED",
+        "type": "TRANSACTIONAL_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 1,
+                "required": true,
+                "system": false
+            },
+            {
+                "code": "createdAt",
+                "name": "createdAt",
+                "type_definition": {
+                    "type": "timestamp"
+                },
+                "order": 2,
+                "required": false,
+                "system": false
+            },
+            {
+                "name": "senderNodeAddress",
+                "code": "senderNodeAddress",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 4
+            },
+            {
+                "name": "paidByNodeAddress",
+                "code": "paidByNodeAddress",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 6
+            },
+            {
+                "name": "paidToNodeAddress",
+                "code": "paidToNodeAddress",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 7
+            },
+            {
+                "name": "totalSolveCost",
+                "code": "totalSolveCost",
+                "type_definition": {
+                    "type": "number"
+                },
+                "required": false,
+                "system": false,
+                "order": 8
+            },
+            {
+                "name": "updatedAt",
+                "code": "updatedAt",
+                "type_definition": {
+                    "type": "timestamp"
+                },
+                "required": false,
+                "system": false,
+                "order": 9
+            },
+            {
+                "name": "transactionHash",
+                "code": "transactionHash",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 10
+            },
+            {
+                "name": "paymentStatus",
+                "code": "paymentStatus",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 11
+            },
+            {
+                "name": "LocationFacility",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "LocationFacility",
+                "order": 4,
+                "times": 1
+            },
+            {
+                "name": "TrialName",
+                "code": "TrialName",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": true,
+                "system": false,
+                "order": 12
+            },
+            {
+                "name": "BriefSummary",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "BriefSummary",
+                "order": 4,
+                "times": 1
+            },
+
+            {
+                "name": "TrialID",
+                "code": "TrialID",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": true,
+                "system": false,
+                "order": 8
+            },
+            {
+                "name": "SiteID",
+                "code": "SiteID",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": true,
+                "system": false,
+                "order": 13
+            },
+            {
+                "name": "desiredDistance",
+                "code": "desiredDistance",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 14
+            },
+            {
+                "name": "freeService",
+                "code": "freeService",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 15
+            },
+            {
+                "name": "campaignType",
+                "code": "campaignType",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": true,
+                "system": false,
+                "order": 16
+            },
+            {
+                "code": "startTime",
+                "name": "startTime",
+                "type_definition": {
+                    "type": "timestamp"
+                },
+                "order": 19,
+                "required": false,
+                "system": false
+            },
+            {
+                "code": "startDate",
+                "name": "startDate",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 20,
+                "required": false,
+                "system": false
+            },
+            {
+                "code": "endTime",
+                "name": "endTime",
+                "type_definition": {
+                    "type": "timestamp"
+                },
+                "order": 21,
+                "required": false,
+                "system": false
+            },
+            {
+                "code": "endDate",
+                "name": "endDate",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 22,
+                "required": false,
+                "system": false
+            },
+            {
+                "code": "startDateText",
+                "name": "startDateText",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 23,
+                "required": false,
+                "system": false
+            },
+            {
+                "code": "endDateText",
+                "name": "endDateText",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 24,
+                "required": false,
+                "system": false
+            },
+            {
+                "code": "status",
+                "name": "status",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 25,
+                "required": false,
+                "system": false
+            },
+            {
+                "code": "statViews",
+                "name": "statViews",
+                "type_definition": {
+                    "type": "number"
+                },
+                "order": 26,
+                "required": false,
+                "system": false
+            },
+            {
+                "code": "statLikes",
+                "name": "statLikes",
+                "type_definition": {
+                    "type": "number"
+                },
+                "order": 27,
+                "required": false,
+                "system": false
+            },
+            {
+                "code": "statReferrals",
+                "name": "statReferrals",
+                "type_definition": {
+                    "type": "number"
+                },
+                "order": 28,
+                "required": false,
+                "system": false
+            },
+            {
+                "code": "CampaignEndTime",
+                "name": "CampaignEndTime",
+                "type_definition": {
+                    "type": "timestamp"
+                },
+                "order": 21,
+                "required": false,
+                "system": false
+            },
+            {
+                "name": "Site_UniqueCode",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "Site_UniqueCode",
+                "order": 2,
+                "times": 1
+            }
+            
+        ],
+        "primary_key": "false"
+    }
+}

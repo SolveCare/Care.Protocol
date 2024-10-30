@@ -1,0 +1,22 @@
+{
+    "definition": {
+        "description": "Get silverCampaign info",
+        "name": "Get silverCampaign info",
+        "resource": "Get silverCampaign info",
+        "type": "EVENT_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 1,
+                "system": false,
+                "required": false
+            }
+        ]
+    }
+}

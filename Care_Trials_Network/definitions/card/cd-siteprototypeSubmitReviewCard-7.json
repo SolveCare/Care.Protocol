@@ -1,0 +1,124 @@
+{
+  "id": "cd-siteprototypeSubmitReviewCard-7",
+  "name": "Submit for Review & Verification",
+    "cardData": {
+        "0tile14aiitextii25x": "Medical Records",
+        "0tile14aiitextiil2z": "Record uploaded on: 26-03-2024",
+        "imageUrlq1t6e": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/arrow-right blue.png",
+        "1tile14aiitextii8jp": "ID",
+        "1tile14aiitextiinwa": "Uploaded on: 25/11/2023",
+        "0tile11iitextiiufg1s": "Submit for review & verification of documents provided by the participant ",
+        "0tile11iitextii7621s": "Service fee is 1000 SOLVE",
+        "imageUrledsfd": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/arrow-right blue.png"
+    },
+    "cardLayout": { 
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+
+                    {
+                        "id": "Tile11",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile11iitextiiufg1s",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "style": "BOLD"
+                                },
+                                "subTitle": {
+                                    "text": "0tile11iitextii7621s",
+                                    "subTitleTextColor": "#000080",
+                                    "style": "REGULAR",
+                                    "subTitleAlign": "START"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile14a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile14aiitextii25x",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "subTitle": {
+                                    "text": "0tile14aiitextiil2z",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "img": {
+                                    "text": "imageUrlq1t6e",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "borderWidth": 3,
+                        "type": "DATA",
+                        "uiAction": "${action123}",
+                        "order": 1
+                    }
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "style": {
+            "fontSize": 16,
+            "bgColor": "#ffffff",
+            "borderWidth": 1
+        },
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action794}",
+                    "order": 1
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action794": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-siteprototypePartiRecordsIDCard-4"
+                }
+            ]
+          },
+          "action123": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-siteprototypeReportNurseCard-8"
+                }
+            ]
+          }
+    }
+}

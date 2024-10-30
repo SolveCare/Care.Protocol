@@ -1,0 +1,26 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "e-get-phys-survey-data",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "name": "",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "GET",
+                                    "url": "/transactions/SURVEY_QUESTIONS_PHYS"
+                      
+                                }
+                            ]
+                        }
+                    ],
+                    "postAction": "",
+                    "refId": "e-get-phys-survey-data"
+                }
+            ]
+        }
+    ]
+}

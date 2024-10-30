@@ -1,0 +1,251 @@
+{
+    "id": "cd-kshx4d9aba61wb9q-ta-cas3",
+    "name": "Competency Assessment Survey",
+    "cardData": {
+        "0tile0iitextiikga": "How to answer this survey",
+        "0tile0iitextiik": "This framework should help you evaluate yourself with respect to your role in clinical research/trial, but also in light of other roles and team members.",
+        "0tile0iitextiik1": "For consistent grading, we recommend evaluating your capacity in each of the listed items with the recommended grading scheme, keeping in mind that the framework brings together all capacities of the entire team. This will help you see what skills you already have and what skills should be developed further to take on a different role.",
+        "imageUrlkbhj0": "https://i.ibb.co/9VqmwqZ/image-41.png",
+
+        "0tile0iitextiikga2": "The below survey encompasses knowledge of concepts related to the design, conduct, and analysis of clinical research and trials.",
+        "0tile0iitextiik2": "Please assess yourself according to your current capacities.",
+        "0tile0iitextiik12": "Scientific concepts and research design:",
+ 
+        "validationdrhfc": "Please select one value",
+
+        "0tile0iitexti1": "1. Apply appropriate principles of biomedical science and research methods",
+
+        "2en01bottombutton1iitextiiyaq": "Next"
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile0iitextiikga",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile0iitextiik",
+                                    "style": "REGULAR",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile0iitextiik1",
+                                    "style": "REGULAR",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+
+
+                    {
+                        "id": "Tile16",
+                        "subView": [
+                            {
+                                "img": {
+                                    "text": "imageUrlkbhj0",
+                                    "isUrl": true,
+                                    "height": "308",
+                                    "width": "382"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 2
+                    }, 
+
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile0iitextiikga2",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "CENTER",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile0iitextiik2",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile0iitextiik12",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile5",
+                        "subView": [
+                            {
+                                "title": {
+                                "text": "0tile0iitexti1"
+                                },
+                                "subTitle": {
+                                "text": "{$D1DesignQ1}",
+                                "start": 0,
+                                "end": 5,
+                                "count": 1,
+                                "validation": [
+                                    {
+                                    "name": "REQUIRED_FIELD",                     
+                                    "error": "validationdrhfc"
+                                    }
+                                ]
+                                }                      
+                            }                      
+                        ],                      
+                        "align": "START",                      
+                        "type": "CONTAINER",                      
+                        "uiAction": "",                      
+                        "order": 1                      
+                    }
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action300}",
+                    "order": 1
+                },
+                {
+                    "id": "EN01BottomButton1",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": "2en01bottombutton1iitextiiyaq"
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BUTTON",
+                    "uiAction": "${action5}",
+                    "order": 2
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action300": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-kshx4d9aba61wb9q-ta-cas2b"
+                }
+
+            ]
+        },
+        "action5": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-kshx4d9aba61wb9q-ta-cas4"
+                }
+            ]        
+        }
+    }
+}

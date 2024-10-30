@@ -1,0 +1,209 @@
+{
+    "id": "cd-bpmho1x359gohn1rw6xdppzkzu11",
+    "name": "Promotion Campaigns",
+    "cardData": {
+        "0tile0iitextiik8q": "Silver",
+        "imageUrl1rk6f": "https://i.ibb.co/sym1XRX/silver-km1.png",
+        "2tile14iitextii6kq": "View campaign card",
+        "imageUrl1uqfz": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/arrow-right blue.png",
+        "imageUrl2lmms": "https://i.ibb.co/yF1HhfQ/left-arrow-to-navigate.png",
+        "subTitleTextvet9b": "Previous",
+        "imageUrl25ds8": "https://i.ibb.co/LvtBk5q/check-out.png",
+        "subTitleTextai6yi": "Buy Now",
+        "imageUrl14nl8": "https://i.ibb.co/DzDz95k/right-arrow-to-navigate.png",
+        "subTitleTextl2tfy": "Next",
+        "imageUrl8710p1": "https://i.ibb.co/yF1HhfQ/left-arrow-to-navigate.png",
+        "imageUrl8711p1": "https://i.ibb.co/LvtBk5q/check-out.png",
+        "imageUrl8712p1": "https://i.ibb.co/DzDz95k/right-arrow-to-navigate.png",
+        "previousText2": "Previous",
+        "buyNowText2": "Buy Now",
+        "NextText2": "Next"
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile0iitextiik8q",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "CENTER",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#000080",
+                        "backgroundColor": "#000080",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile16",
+                        "subView": [
+                            {
+                                "img": {
+                                    "text": "imageUrl1rk6f",
+                                    "isUrl": true,
+                                    "height": "372",
+                                    "width": "281"
+                                }
+                            }
+                        ],
+                        "borderColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 2
+                    },
+                    {
+                        "id": "Tile14",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "2tile14iitextii6kq",
+                                    "titleTextColor": "#000080",
+                                    "fontSize": 16,
+                                    "style": "REGULAR"
+                                },
+                                "img": {
+                                    "text": "imageUrl1uqfz",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 3,
+                        "type": "CONTAINER",
+                        "uiAction": "${action314}",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile17a",
+                        "subView": [
+                            {
+                                "options": {
+                                    "list": [
+                                        {
+                                            "subTitle": {
+                                                "text": "previousText2",
+                                                "subtitleAlign": "CENTER",
+                                                "colorCode": "#000080",
+                                                "style": "REGULAR",
+                                                "fontSize": 14
+                                            },
+                                            "img": {
+                                                "text": "imageUrl8710p1"
+                                            },
+                                            "uiAction": "action17b1",
+                                            "itemBorderColor": "#FFFFFF"
+                                        },
+                                        {
+                                            "subTitle": {
+                                                "text": "buyNowText2",
+                                                "subtitleAlign": "CENTER",
+                                                "colorCode": "#000080",
+                                                "style": "REGULAR",
+                                                "fontSize": 14
+                                            },
+                                            "img": {
+                                                "text": "imageUrl8711p1"
+                                            },
+                                            "uiAction": "action17b2",
+                                            "conditionBeforeEndTimeBlock": "${CampaignEndTime}",
+                                            "itemBorderColor": "#FFFFFF"
+                                        },
+                                        {
+                                            "subTitle": {
+                                                "text": "NextText2",
+                                                "subtitleAlign": "CENTER",
+                                                "colorCode": "#000080",
+                                                "style": "REGULAR",
+                                                "fontSize": 14
+                                            },
+                                            "img": {
+                                                "text": "imageUrl8712p1"
+                                            },
+                                            "uiAction": "action17b3",
+                                            "itemBorderColor": "#FFFFFF"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "borderColor": "#FFFFFF",
+                        "isSeparatorBetweenItems": false,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 5
+                    }
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "style": {
+            "fontSize": 16,
+            "bgColor": "#ffffff",
+            "borderWidth": 1
+        },
+        "footer": {
+            "menu": [
+                {
+                    
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action314": {
+            "action": "e-w-trial-admin-navig-to-kmz"
+        },
+        "action1": {
+            "action": "HOME"
+        },
+        "action17b1": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-pfnlbf2tods57jj3sjvk8didijs1"
+                }
+            ]
+        },
+        "action17b2": {
+            "action": [
+                        {
+                            "name": "Function.SOLVE.getTokenBalance",
+                            "resultKey": "solveBalance"
+                        },
+                        {
+                            "name": "Function.Navigate",
+                            "compareKey": "solveBalance",
+                            "compareValue": 10000,
+                            "cardIdForGreaterValue": "cd-iocr5yf876e6nbkdtlujme0s42h1",
+                            "cardIdForLessValue": "cd-7w2t7slwuxjxojbu8n1qdvps-sg2",
+                            "cardId": "cd-bpmho1x359gohn1rw6xdppzkzu11"
+                        }                
+            ]
+        },
+        "action17b3": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-4aoz7mdvaixlddi1obrv4dpl5b91"
+                }
+            ]
+        }
+    }
+}

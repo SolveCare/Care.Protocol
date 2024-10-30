@@ -1,0 +1,25 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "e-w-part-get-subm-rec-data-hist",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "name": "getONE",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "GET",
+                                    "url": "/transactions/RECORD_DATA?filter=[{\"queryMatcher\": \"EQUAL\",\"fieldName\": \"recordStatus\",\"value\": \"submitted\"}]"
+                                }
+                            ]
+                        }
+                    ],
+                    "postAction": "",
+                    "refId": "e-w-part-get-subm-rec-data-hist"
+                }
+            ]
+        }
+    ]
+}

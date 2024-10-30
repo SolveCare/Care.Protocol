@@ -1,0 +1,62 @@
+{
+    "definition": {
+        "description": "Q&A",
+        "name": "SEND.ANSWER003",
+        "resource": "SEND.ANSWER003",
+        "type": "EVENT_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "name": "transactionalGuid",
+                "code": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": true,
+                "system": false,
+                "order": 1
+            },
+            {
+                "name": "answerUpdateText",
+                "code": "answerUpdateText",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": true,
+                "system": false,
+                "order": 2
+            },
+            {
+                "name": "adminNodeAddress",
+                "code": "adminNodeAddress",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": true,
+                "system": false,
+                "order": 3
+            },
+            {
+                "name": "TrialID",
+                "code": "TrialID",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 8
+            },
+            {
+                "name": "SiteID",
+                "code": "SiteID",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": true,
+                "system": false,
+                "order": 4
+            }
+        ]
+    }
+}

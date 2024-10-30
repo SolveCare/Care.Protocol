@@ -1,0 +1,25 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "e-w-broad-sendqa-nurse",
+            "walletEvents": [
+                { 
+                    "actions": [
+                        {
+                            "name": "submit",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "POST",
+                                    "url": "/events"
+                                }
+                            ]
+                        }
+                    ],
+                    "postAction": "cd-trialslikedbylead-2",
+                    "refId": "e-w-broad-sendqa-nurse" 
+                }
+            ]
+        }
+    ] 
+}

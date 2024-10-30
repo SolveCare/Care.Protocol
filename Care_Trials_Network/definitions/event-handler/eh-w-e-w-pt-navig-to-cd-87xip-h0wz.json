@@ -1,0 +1,25 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "e-w-pt-navig-to-cd-87xip-h0wz",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "name": "submit",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "DETAILS",
+                                    "url": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "postAction": "cd-87xipe5fd7dokqd1vt7zmn9zw6m1",
+                    "refId": "e-w-pt-navig-to-cd-87xip-h0wz"
+                }
+            ]
+        }
+    ]
+}

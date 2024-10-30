@@ -1,0 +1,25 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "e-pi-get-ta-engage-req",
+            "walletEvents": [
+                {
+                    "actions": [ 
+                        {
+                            "name": "",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "GET",
+                                    "url": "/transactions/ENGAGEMENT"
+                                }
+                            ]
+                        } 
+                    ],
+                    "postAction": "",
+                    "refId": "e-pi-get-ta-engage-req"
+                }
+            ]
+        }
+    ]
+}

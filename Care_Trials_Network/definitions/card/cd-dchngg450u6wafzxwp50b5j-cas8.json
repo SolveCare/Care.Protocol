@@ -1,0 +1,316 @@
+{
+    "id": "cd-dchngg450u6wafzxwp50b5j-cas8",
+    "name": "Competency Assessment Survey",
+    "cardData": {
+        "0tile0iitextiikga2": "The below survey encompasses care of patients, aspects of human subject protection, safety in the conduct of a clinical trial, as well as risk management and quality assurance and control.",
+        "0tile0iitextiik2": "Please assess yourself according to your current capacities.",
+        "0tile0iitextiik12": "Ethics and human subject protection:",      
+
+        "0tile0iitexti1": "1. Define the roles and limitations of the research team to the participant",
+
+        "0tile0iitexti2": "2. Properly secure informed consent from the participant",
+
+        "0tile0iitexti3": "3. Differentiate and explain to participants standard of care and clinical study activities",
+
+        "0tile0iitexti4": "4. Define the concepts of ‘clinical equipoise’ and ‘therapeutic misconception’ as they relate to the conduct of a clinical study/trial",
+
+        "0tile0iitexti5": "5. Apply relevant national and international principles of human subject protections and privacy throughout all stages of a clinical research",
+
+        "0tile0iitexti6": "6. Explain the evolution of the requirement for informed consent from research participants, and the principles and content of the key documents that ensure the protection of human participants in clinical research",
+
+        "validationdrhfc": "Please select one value",
+        "1tile1iierrorii6se": "Please select one value",
+
+        "2en01bottombutton1iitextiiyaq": "Next"
+
+   
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile0iitextiikga2",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "CENTER",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile0iitextiik2",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "LEFT",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile0iitextiik12",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "LEFT",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+
+
+
+
+
+
+
+                    {
+                        "id": "Tile5",
+                        "subView": [
+                          {
+                            "title": {
+                              "text": "0tile0iitexti1"
+                            },
+                            "subTitle": {
+                              "text": "{$D2EthicsQ1}",
+                              "start": 0,
+                              "end": 5,
+                              "count": 1,
+                              "validation": [
+                                {
+                                  "name": "REQUIRED_FIELD",                     
+                                  "error": "1tile1iierrorii6se"
+                                }
+                              ]
+                            }                      
+                          }                      
+                        ],                      
+                        "align": "START",                      
+                        "type": "CONTAINER",                      
+                        "uiAction": "",                      
+                        "order": 1                      
+                      },
+                      {
+                        "id": "Tile5",
+                        "subView": [
+                          {
+                            "title": {
+                              "text": "0tile0iitexti2"
+                            },
+                            "subTitle": {
+                              "text": "{$D2EthicsQ2}",
+                              "start": 0,
+                              "end": 5,
+                              "count": 1,
+                              "validation": [
+                                {
+                                  "name": "REQUIRED_FIELD",                     
+                                  "error": "1tile1iierrorii6se"
+                                }
+                              ]
+                            }                      
+                          }                      
+                        ],                      
+                        "align": "START",                      
+                        "type": "CONTAINER",                      
+                        "uiAction": "",                      
+                        "order": 1                      
+                      },
+                      {
+                        "id": "Tile5",
+                        "subView": [
+                          {
+                            "title": {
+                              "text": "0tile0iitexti3"
+                            },
+                            "subTitle": {
+                              "text": "{$D2EthicsQ3}",
+                              "start": 0,
+                              "end": 5,
+                              "count": 1,
+                              "validation": [
+                                {
+                                  "name": "REQUIRED_FIELD",                     
+                                  "error": "1tile1iierrorii6se"
+                                }
+                              ]
+                            }                      
+                          }                      
+                        ],                      
+                        "align": "START",                      
+                        "type": "CONTAINER",                      
+                        "uiAction": "",                      
+                        "order": 1                      
+                      }
+                    ,
+                    {
+                        "id": "Tile5",
+                        "subView": [
+                          {
+                            "title": {
+                              "text": "0tile0iitexti4"
+                            },
+                            "subTitle": {
+                              "text": "{$D2EthicsQ4}",
+                              "start": 0,
+                              "end": 5,
+                              "count": 1,
+                              "validation": [
+                                {
+                                  "name": "REQUIRED_FIELD",                     
+                                  "error": "1tile1iierrorii6se"
+                                }
+                              ]
+                            }                      
+                          }                      
+                        ],                      
+                        "align": "START",                      
+                        "type": "CONTAINER",                      
+                        "uiAction": "",                      
+                        "order": 1                      
+                      },
+                      {
+                        "id": "Tile5",
+                        "subView": [
+                          {
+                            "title": {
+                              "text": "0tile0iitexti5"
+                            },
+                            "subTitle": {
+                              "text": "{$D2EthicsQ5}",
+                              "start": 0,
+                              "end": 5,
+                              "count": 1,
+                              "validation": [
+                                {
+                                  "name": "REQUIRED_FIELD",                     
+                                  "error": "1tile1iierrorii6se"
+                                }
+                              ]
+                            }                      
+                          }                      
+                        ],                      
+                        "align": "START",                      
+                        "type": "CONTAINER",                      
+                        "uiAction": "",                      
+                        "order": 1                      
+                      },
+                      {
+                        "id": "Tile5",
+                        "subView": [
+                          {
+                            "title": {
+                              "text": "0tile0iitexti6"
+                            },
+                            "subTitle": {
+                              "text": "{$D2EthicsQ6}",
+                              "start": 0,
+                              "end": 5,
+                              "count": 1,
+                              "validation": [
+                                {
+                                  "name": "REQUIRED_FIELD",                     
+                                  "error": "1tile1iierrorii6se"
+                                }
+                              ]
+                            }                      
+                          }                      
+                        ],                      
+                        "align": "START",                      
+                        "type": "CONTAINER",                      
+                        "uiAction": "",                      
+                        "order": 1                      
+                      }
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action300}",
+                    "order": 1
+                },
+                {
+                    "id": "EN01BottomButton1",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": "2en01bottombutton1iitextiiyaq"
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BUTTON",
+                    "uiAction": "${action5}",
+                    "order": 2
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action300": {
+            "action": [
+                {
+                     "name": "Function.Navigate",
+                     "cardId": "cd-dchngg450u6wafzxwp50b5j-cas7"
+                }
+
+             ]
+        },
+        "action5": {
+            "action": [
+                {
+                     "name": "Function.Navigate",
+                     "cardId": "cd-dchngg450u6wafzxwp50b5j-cas9"
+                }
+             ]        
+            }
+    }
+}

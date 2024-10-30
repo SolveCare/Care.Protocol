@@ -1,0 +1,139 @@
+{
+    "cardData": {
+        "homeCardDescription": "Nurse",
+        "label-jn-vwa7ey94oey47dgwefcfav0jhs4": "Manage",
+        "icon-jn-vwa7ey94oey47dgwefcfav0jhs4": "",
+        "description-jn-vwa7ey94oey47dgwefcfav0jhs4": "the records",
+        "label-jn-vwa7ey94oey47dgwefcfav0jhs5": "Review",
+        "icon-jn-vwa7ey94oey47dgwefcfav0jhs5": "",
+        "description-jn-vwa7ey94oey47dgwefcfav0jhs5": "Trials Liked by Leads"
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "homeCardDescription",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "CENTER"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 2
+                    },
+                    {
+                        "id": "Tile17Journey",
+                        "isSearchable": false,
+                        "subView": [
+                            {
+                                "options": {
+                                    "key": {
+                                        "name": "{answer}"
+                                    },
+                                    "list": [
+                                        {
+                                            "label": "label-jn-vwa7ey94oey47dgwefcfav0jhs4",
+                                            "hint": "description-jn-vwa7ey94oey47dgwefcfav0jhs4",
+                                            "img": {
+                                                "text": "icon-jn-vwa7ey94oey47dgwefcfav0jhs4",
+                                                "isUrl": true,
+                                                "height": "",
+                                                "width": ""
+                                            },
+                                            "journey": {
+                                                "journeyId": "jn-vwa7ey94oey47dgwefcfav0jhs4"
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "textColor": "#212121",
+                        "align": "CENTER",
+                        "borderColor": "#afafaf",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 2
+                    }
+                    ,
+                    {
+                        "id": "Tile17Journey",
+                        "isSearchable": false,
+                        "subView": [
+                            {
+                                "options": {
+                                    "key": {
+                                        "name": "{answer}"
+                                    },
+                                    "list": [
+                                        {
+                                            "label": "label-jn-vwa7ey94oey47dgwefcfav0jhs5",
+                                            "hint": "description-jn-vwa7ey94oey47dgwefcfav0jhs5",
+                                            "img": {
+                                                "text": "icon-jn-vwa7ey94oey47dgwefcfav0jhs5",
+                                                "isUrl": true,
+                                                "height": "",
+                                                "width": ""
+                                            },
+                                            "journey": {
+                                                "journeyId": "jn-vwa7ey94oey47dgwefcfav0jhs5"
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "textColor": "#212121",
+                        "align": "CENTER",
+                        "borderColor": "#afafaf",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 2
+                    }
+                ],
+                "tileType": "WRAP",
+                "uiAction": ""
+            }
+        ],
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "isSearchable": false,
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "order": 1,
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action1}"
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        },
+        "style": {
+            "fontSize": 16,
+            "bgColor": "#ffffff",
+            "borderWidth": 1
+        }
+    },
+    "cardUIAction": {
+        "action1": {
+            "action": "HOME"
+        }
+    },
+    "id": "cd-h-nurse-w6an",
+    "name": "CTN2 - Home"
+}

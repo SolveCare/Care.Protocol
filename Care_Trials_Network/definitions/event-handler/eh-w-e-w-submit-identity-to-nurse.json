@@ -1,0 +1,25 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "e-w-submit-identity-to-nurse",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "name": "submit",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "POST",
+                                    "url": "/events"
+                                }
+                            ]
+                        }
+                    ],
+                    "postAction": "cd-1oeogij51yh1jtk0i08pn1-verif-c1",
+                    "refId": "e-w-submit-identity-to-nurse"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "id": "cd-lup4rixq38w4ku95v668dblz72i1",
+    "name": "Active Trials",
+    "cardData": {
+        "imageUrlipsfr": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/arrow-right blue.png"
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "list", 
+                "tileComponent": [
+                    { 
+                        "id": "Tile14",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "{$TrialName}",
+                                    "fontSize": 16,
+                                    "titleTextColor": "#000080",
+                                    "style": "REGULAR"
+                                },
+                                "img": {
+                                    "text": "imageUrlipsfr",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#87ceeb",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "${action734}",
+                        "order": 1
+                    }
+                ],
+                "tileType": "LIST",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "style": {
+            "fontSize": 16,
+            "bgColor": "#ffffff",
+            "borderWidth": 1
+        },
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action660}",
+                    "order": 1
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        } 
+    },
+    "cardUIAction": { 
+        "action734": { 
+            "action": "e-w-trial-admin-navig-to-m6o"
+        },
+        "action660": {
+            "action": "e-w-trial-admin-navig-to-u5f"
+        }
+    },
+    "prerenderingFunctions": []
+}

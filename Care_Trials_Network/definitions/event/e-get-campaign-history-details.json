@@ -1,0 +1,22 @@
+{
+    "definition": {
+        "description": "Get Campaigns details",
+        "name": "Get Campaigns",
+        "resource": "Get Campaigns",
+        "type": "EVENT_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 1,
+                "system": false,
+                "required": false
+            }
+        ]
+    }
+}

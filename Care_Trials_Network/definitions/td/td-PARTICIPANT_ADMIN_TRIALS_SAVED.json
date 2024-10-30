@@ -1,0 +1,838 @@
+{
+    "id": "td-PARTICIPANT_ADMIN_TRIALS_SAVED",
+    "path": "td/td-PARTICIPANT_ADMIN_TRIALS_SAVED.json",
+    "definition": {
+        "version": 1,
+        "collection": "PARTICIPANT_ADMIN_TRIALS_SAVED",
+        "description": "PARTICIPANT_ADMIN_TRIALS_SAVED",
+        "name": "PARTICIPANT_ADMIN_TRIALS_SAVED",
+        "resource": "PARTICIPANT_ADMIN_TRIALS_SAVED",
+        "status": "RELEASED",
+        "type": "TRANSACTIONAL_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "name": "eligibleStatus",
+                "code": "eligibleStatus",
+                "type_definition": {
+                "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 13,
+                "times": 1
+                },
+            {
+                "name": "userLocationLatitude",
+                "type_definition": {
+                  "type": "number"
+                },
+                "required": false,
+                "system": false,
+                "code": "userLocationLatitude",
+                "order": 2,
+                "times": 1
+              },
+              {
+                "name": "userLocationLongitude",
+                "type_definition": {
+                  "type": "number"
+                },
+                "required": false,
+                "system": false,
+                "code": "userLocationLongitude",
+                "order": 2,
+                "times": 1
+              },
+            {
+                "name": "match",
+                "code": "match",
+                "type_definition": {
+                "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 13,
+                "times": 1
+                },
+                {
+                    "name": "InclusionCriteria",
+                    "code": "InclusionCriteria",
+                    "type_definition": {
+                    "type": "string"
+                    },
+                    "required": false,
+                    "system": false,
+                    "order": 13,
+                    "times": 1
+                    },
+                    {
+                        "name": "ExclusionCriteria",
+                        "code": "ExclusionCriteria",
+                        "type_definition": {
+                        "type": "string"
+                        },
+                        "required": false,
+                        "system": false,
+                        "order": 13,
+                        "times": 1
+                        },
+                {
+                    "name": "match_text",
+                    "code": "match_text",
+                    "type_definition": {
+                    "type": "string"
+                    },
+                    "required": false,
+                    "system": false,
+                    "order": 13,
+                    "times": 1
+                    },
+                    {
+                        "name": "match_icon",
+                        "code": "match_icon",
+                        "type_definition": {
+                        "type": "string"
+                        },
+                        "required": false,
+                        "system": false,
+                        "order": 13,
+                        "times": 1
+                        },
+            {
+                "name": "shared",
+                "code": "shared",
+                "type_definition": {
+                "type": "boolean"
+                },
+                "required": false,
+                "system": false,
+                "order": 13,
+                "times": 1
+                },
+
+
+            {
+                "name": "total_requests",
+                "code": "total_requests",
+                "type_definition": {
+                "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 13,
+                "times": 1
+                },
+
+            {
+                "name": "appointments_size",
+                "code": "appointments_size",
+                "type_definition": {
+                "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 13,
+                "times": 1
+                },
+
+                {
+                    "name": "QA_size",
+                    "code": "QA_size",
+                    "type_definition": {
+                    "type": "string"
+                    },
+                    "required": false,
+                    "system": false,
+                    "order": 13,
+                    "times": 1
+                    },
+    
+
+            {
+                "name": "RecordID_size",
+                "code": "RecordID_size",
+                "type_definition": {
+                "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 13,
+                "times": 1
+                },
+ 
+
+
+            {
+                "name": "archived",
+                "code": "archived",
+                "type_definition": {
+                "type": "string"
+                },
+                "required": false,
+                "system": false, 
+                "order": 13,
+                "times": 1
+                },
+                {
+                    "name": "RecordRequest",
+                    "type_definition": {
+                        "type": "string"
+                    },
+                    "required": false,
+                    "system": false,
+                    "times": 1,
+                    "code": "RecordRequest",
+                    "order": 8
+                },
+                {
+                    "name": "Identifier",
+                    "type_definition": {
+                        "type": "string"
+                    },
+                    "required": false,
+                    "system": false,
+                    "times": 1,
+                    "code": "Identifier",
+                    "order": 8
+                },
+                {
+                    "name": "GenderAgeEthnicity_Text",
+                    "type_definition": {
+                        "type": "string"
+                    },
+                    "required": false,
+                    "system": false,
+                    "times": 1,
+                    "code": "GenderAgeEthnicity_Text",
+                    "order": 9
+                },
+    
+                {
+                    "name": "Distance_Text",
+                    "type_definition": {
+                        "type": "string"
+                    },
+                    "required": false,
+                    "system": false,
+                    "times": 1,
+                    "code": "Distance_Text",
+                    "order": 9
+                },
+                
+                {
+                    "name": "Eligible",
+                    "type_definition": {
+                        "type": "string"
+                    },
+                    "required": false,
+                    "system": false,
+                    "code": "Eligible",
+                    "order": 2,
+                    "times": 1
+                },
+
+                {
+                    "code": "Badges",
+                    "name": "Badges",
+                    "type_definition": {
+                        "type": "string"
+                    },
+                    "order": 3,
+                    "required": false,
+                    "system": false
+                },
+                {
+                    "name": "IDBadges",
+                    "code": "IDBadges",
+                    "type_definition": {
+                    "type": "string"
+                    },
+                    "required": false,
+                    "system": false,
+                    "order": 13,
+                    "times": 1
+                    },
+                {
+                    "name": "recordBadges",
+                    "code": "recordBadges",
+                    "type_definition": {
+                    "type": "string"
+                    },
+                    "required": false,
+                    "system": false,
+                    "order": 13,
+                    "times": 1
+                    },
+
+                {
+                    "name": "Activity",
+                    "type_definition": {
+                        "type": "string"
+                    },
+                    "required": false,
+                    "system": false,
+                    "code": "Activity",
+                    "order": 2,
+                    "times": 1
+                },
+                {
+                    "name": "TrialDuration",
+                    "type_definition": {
+                        "type": "string"
+                    },
+                    "required": false,
+                    "system": false,
+                    "code": "TrialDuration",
+                    "order": 2,
+                    "times": 1
+                },
+                {
+                    "name": "Frequency",
+                    "type_definition": {
+                        "type": "string"
+                    },
+                    "required": false,
+                    "system": false,
+                    "code": "Frequency",
+                    "order": 2,
+                    "times": 1
+                },
+                {
+                    "name": "Compensation",
+                    "type_definition": {
+                        "type": "string"
+                    },
+                    "required": false,
+                    "system": false,
+                    "code": "Compensation",
+                    "order": 2,
+                    "times": 1
+                },
+                {
+                    "name": "AdditionalTrialInfo",
+                    "type_definition": {
+                        "type": "string"
+                    },
+                    "required": false,
+                    "system": false,
+                    "code": "AdditionalTrialInfo",
+                    "order": 2,
+                    "times": 1
+                },
+                {
+                    "code": "Inclusion",
+                    "name": "Inclusion",
+                    "type_definition": {
+                        "type": "string"
+                    },
+                    "order": 3,
+                    "required": false,
+                    "system": false
+                },
+                {
+                    "code": "Exclusion",
+                    "name": "Exclusion",
+                    "type_definition": {
+                        "type": "string"
+                    },
+                    "order": 3,
+                    "required": false,
+                    "system": false
+                },
+                {
+                    "code": "ClinicalRecords",
+                    "name": "ClinicalRecords",
+                    "type_definition": {
+                        "type": "string"
+                    },
+                    "order": 3,
+                    "required": false,
+                    "system": false
+                },
+                {
+                    "code": "IDRecords",
+                    "name": "IDRecords",
+                    "type_definition": {
+                        "type": "string"
+                    },
+                    "order": 3,
+                    "required": false,
+                    "system": false
+                },
+
+                {
+                    "name": "Site_UniqueCode",
+                    "type_definition": {
+                        "type": "string"
+                    },
+                    "required": false,
+                    "system": false,
+                    "code": "Site_UniqueCode",
+                    "order": 2,
+                    "times": 1
+                },
+
+
+                {
+                    "name": "Miles_Text",
+                    "type_definition": {
+                        "type": "string"
+                    },
+                    "required": false,
+                    "system": false,
+                    "code": "Miles_Text",
+                    "order": 2,
+                    "times": 1
+                },
+                {
+                    "name": "Location_Miles_Text",
+                    "type_definition": {
+                        "type": "string"
+                    },
+                    "required": false,
+                    "system": false,
+                    "times": 1,
+                    "code": "Location_Miles_Text",
+                    "order": 9
+                },
+
+                {
+                    "name": "AdminAddress",
+                    "type_definition": {
+                        "type": "string"
+                    },
+                    "required": false,
+                    "system": false,
+                    "code": "AdminAddress",
+                    "order": 2,
+                    "times": 1
+                },
+
+            {
+                "name": "Miles",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "Miles",
+                "order": 2,
+                "times": 1
+            },
+            {
+                "name": "Distance",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "Distance",
+                "order": 2,
+                "times": 1
+            },
+            {
+                "name": "TrialID",
+                "code": "TrialID",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 8
+            },
+            {
+                "name": "SiteID",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "SiteID",
+                "order": 2,
+                "times": 1
+            },
+            {
+                "name": "MinimumAge",
+                "type_definition": {
+                    "type": "number"
+                },
+                "required": false,
+                "system": false,
+                "code": "MinimumAge",
+                "order": 3,
+                "times": 1
+            },
+            
+            {
+                "name": "StudyType",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "StudyType",
+                "order": 4,
+                "times": 1
+            },
+
+            {
+                "name": "LocationFacility",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "LocationFacility",
+                "order": 4,
+                "times": 1
+            },
+
+            {
+                "name": "TrialName",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "TrialName",
+                "order": 4,
+                "times": 1
+            },
+            {
+                "name": "BriefSummary",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "BriefSummary",
+                "order": 4,
+                "times": 1
+            },
+
+            {
+                "name": "Conditions",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Conditions",
+                "order": 5
+            },
+            {
+                "name": "Limitations",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Limitations",
+                "order": 5
+            },
+            {
+                "name": "LeadSponsorName",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "LeadSponsorName",
+                "order": 6
+            },
+            {
+                "name": "Ethnicity",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Ethnicity",
+                "order": 6
+            },
+            {
+                "name": "Gender",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Gender",
+                "order": 7
+            },
+            {
+                "name": "Age",
+                "type_definition": {
+                    "type": "number"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Age",
+                "order": 8
+            },
+            {
+                "name": "AgeRange",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "AgeRange",
+                "order": 8
+            },
+
+            {
+                "name": "GenderAgeCity",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "GenderAgeCity",
+                "order": 9
+            },
+
+            {
+                "name": "TrialNameStatus",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "TrialNameStatus",
+                "order": 9
+            },
+            {
+                "name": "Location_Text",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Location_Text",
+                "order": 9
+            },
+
+
+
+            
+            {
+                "name": "Country",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Country",
+                "order": 9
+            },
+            {
+                "name": "City",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "City",
+                "order": 9
+            },
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": true,
+                "system": false,
+                "times": 1,
+                "order": 10
+            },
+            {
+                "code": "createdAt",
+                "name": "createdAt",
+                "type_definition": {
+                    "type": "timestamp"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "order": 11
+            },
+            {
+                "name": "senderNodeAddress",
+                "code": "senderNodeAddress",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 12,
+                "times": 1
+            },
+            {
+                "name": "paidByNodeAddress",
+                "code": "paidByNodeAddress",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 15
+            },
+            {
+                "name": "paidToNodeAddress",
+                "code": "paidToNodeAddress",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 16
+            },
+            {
+                "name": "totalSolveCost",
+                "code": "totalSolveCost",
+                "type_definition": {
+                    "type": "number"
+                },
+                "required": false,
+                "system": false,
+                "order": 17
+            },
+            {
+                "name": "updatedAt",
+                "code": "updatedAt",
+                "type_definition": {
+                    "type": "timestamp"
+                },
+                "required": false,
+                "system": false,
+                "order": 18
+            },
+            {
+                "name": "trialStatus",
+                "code": "trialStatus",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 13,
+                "times": 1
+            },
+
+            {
+                "name": "hasRecordRequests",
+                "code": "hasRecordRequests",
+                "type_definition": {
+                    "type": "boolean"
+                },
+                "required": false,
+                "system": false,
+                "order": 13,
+                "times": 1
+            },
+              {
+                "name": "recordType",
+                "code": "recordType",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 13,
+                "times": 1
+            },
+            {
+                "name": "medicalIdRecords",
+                "code": "medicalIdRecords",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 13,
+                "times": 1
+            },
+            {
+                "name": "timeMessage",
+                "code": "timeMessage",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 13,
+                "times": 1
+            },
+            {
+                "name": "folderReference",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "folderReference",
+                "order": 7
+            },
+            {
+                "name": "isSubscriptionActive",
+                "code": "isSubscriptionActive",
+                "type_definition": {
+                    "type": "boolean"
+                },
+                "required": false,
+                "system": false,
+                "order": 17
+            },
+            {
+                "name": "isApptStatus",
+                "code": "isApptStatus",
+                "type_definition": {
+                    "type": "boolean"
+                },
+                "required": false,
+                "system": false,
+                "order": 7
+            },
+            {
+                "name": "isApptStatusNot",
+                "code": "isApptStatusNot",
+                "type_definition": {
+                    "type": "boolean"
+                },
+                "required": false,
+                "system": false,
+                "order": 7
+            }             
+            ,
+            {
+                "name": "statusIcon",
+                "code": "statusIcon",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 7
+            }  
+
+        ],
+        "primary_key": "false"
+    }
+}

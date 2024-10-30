@@ -1,0 +1,141 @@
+{
+    "id": "cd-bgepk3e3dcc6ajlqxcsggy4tmc81",
+    "name": "Welcome to Care.Trials",
+    "cardData": {
+        "0tile0iitextiikga": "Swipe, connect and earn",
+        "1tile14aiitextiilcs": "To start, click here",
+        "1tile14aiitextii16c": "To start swiping, answer few questions incognito",
+        "imageUrlq2jto": "https://i.ibb.co/WcXyd2M/arrow-right-blue.png",
+        "2tile14aiitextii078": "Learn more",
+        "2tile14aiitextiim5f": "Got questions on Care.Trials?",
+        "imageUrldgqhy": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/arrow-right blue.png",
+        "3tile14aiitextiizcy": "Let's get you connected",
+        "3tile14aiitextiif49": "It takes only a minute to get started",
+        "imageUrlcxziu": "https://i.ibb.co/WcXyd2M/arrow-right-blue.png",
+        "imageUrln86wx1": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/f116d56b-00a4-4091-932b-240e9cf64504/PArticipant final v.png",
+        "imageUrli0ikq": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/f116d56b-00a4-4091-932b-240e9cf64504/transform_healthcare_1.png",
+        "2en01bottombutton1iitextiirde1": "Start",
+        "imageUrl8063p": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/Participant_tutorial v2.mp4",
+        "imageUrlkbhj0": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/CTN_Participant.mp4"
+
+
+
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile0iitextiikga",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "CENTER",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "VideoTile",
+                        "subView": [
+                            {
+                                "img": {
+                                    "text": "imageUrlkbhj0",
+                                    "isUrl": true,
+                                    "height": "24",
+                                    "width": "24"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile14",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "2tile14aiitextii078",
+                                    "titleTextColor": "#000080",
+                                    "style": "BOLD"
+                                },
+                                "img": {
+                                    "text": "imageUrldgqhy",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "${action856}",
+                        "order": 1
+                    }
+                    
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action300}",
+                    "order": 1
+                },
+                {
+                    "id": "EN01BottomButton1",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": "2en01bottombutton1iitextiirde1"
+                            }
+                        }
+                    ],
+                    "align": "END",
+                    "type": "BUTTON",
+                    "uiAction": "${action359}",
+                    "order": 2
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action359": {
+            "action": "e-w-parti-navig-to-cd-2c2-ftw"
+        },
+        "action856": {
+            "action": "e-w-parti-navig-to-cd-lmh-tv0"
+        },
+        "action300": {
+            "action": "e-w-parti-navig-to-home-kwbm"
+        }
+    }
+}

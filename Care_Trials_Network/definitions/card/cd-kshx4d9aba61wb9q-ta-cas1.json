@@ -1,0 +1,190 @@
+{
+    "id": "cd-kshx4d9aba61wb9q-ta-cas1",
+    "name": "Get Started",
+    "cardData": {
+        "0tile0iitextiikga": "National Clinical Trial & Translation Center (NCTTC) Clinical Research Capacity Framework",
+        "imageUrlkbhj0": "https://i.ibb.co/L07nJcc/image-42.png",
+        "imageUrlkbhj1": "https://i.ibb.co/2SXwG2v/image-2.png",
+        "imageUrlkbhj": "https://i.ibb.co/2grKBSd/image-45.png",
+        "image1": "https://i.ibb.co/b1WpJnd/image-46.png",
+
+        "1tile14textdp": "View Data Privacy Policy Statement",
+        "2tile14aiitextii078": "View Certificate",
+        "imageUrl4mjtk": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/arrow-right blue.png",
+        "2en01bottombutton1iitextiiyaq": "Start"
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile0iitextiikga",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "CENTER",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    
+                    {
+                        "id": "Tile16",
+                        "subView": [
+                            {
+                                "img": {
+                                    "text": "image1",
+                                    "isUrl": true,
+                                    "height": "214",
+                                    "width": "382"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 2
+                    }, 
+                    {
+                        "id": "Tile14",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "1tile14textdp",
+                                    "fontSize": 16,
+                                    "titleTextColor": "#000080",
+                                    "style": "REGULAR"
+                                },
+                                "img": {
+                                    "text": "imageUrl4mjtk",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 3,
+                        "type": "CONTAINER",
+                        "uiAction": "${action4}",
+                        "order": 3
+                    },
+                    {
+                        "id": "Tile14",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "2tile14aiitextii078",
+                                    "style": "REGULAR",
+                                    "titleTextColor": "#000080",
+                                    "fontSize": 16
+                                },
+                                "img": {
+                                    "text": "imageUrl4mjtk",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "borderWidth": 3,
+                        "type": "CONTAINER",
+                        "visibleIf":"${isAnswered}",
+                        "uiAction": "${action75}",
+                        "order": 5
+                    }
+                    
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action300}",
+                    "order": 1
+                },
+                {
+                    "id": "EN01BottomButton1",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": "2en01bottombutton1iitextiiyaq"
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BUTTON",
+                    "visibleIf":"${isNotAnswered}",
+                    "uiAction": "${action5}",
+                    "order": 2
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action300": {
+            "action": "HOME"
+        },
+        "action5": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-kshx4d9aba61wb9q-ta-cas1-dp"
+                }
+            ]
+        },
+        "action75": {
+            "action": [
+                {
+                    "name": "Function.When.Condition.Navigate",
+                    "method": "GET",
+                    "url": "/transactions/SURVEY_QUESTIONS_TA",
+                    "cardId": "cd-casqwb3x4u11n81com3surveys-ta-oops",
+                    "whenConditionKey": "DPP",
+                    "whenConditions": [
+                        {
+                            "conditionValue": "I agree",
+                            "conditionCardId": "cd-kshx4d9aba61wb9q-ta-cas700"
+                        }
+                    ]
+                }
+            ]
+        },
+        "action4": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-kshx4d9aba61wb9q-ta-cas1-dp-2"
+                }
+            ]
+        }
+    }
+}

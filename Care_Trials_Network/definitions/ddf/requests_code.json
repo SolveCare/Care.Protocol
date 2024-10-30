@@ -1,0 +1,50 @@
+{
+    "ddf_type": "requests_code",
+    "meta_data": {
+        "description": "Collection to store all Request code"
+    },
+    "messages": [
+        {
+            "message_category": "REQUESTS",
+            "message_type": "CODES",
+            "meta_data": {
+                "description": "Collection to store all Request code",
+                "indices": "requests_code"
+            },
+            "attributes": [
+                {
+                    "name": "senderNodeAddress",
+                    "description": "senderNodeAddress",
+                    "required": true,
+                    "index_field": false,
+                    "type": "string",
+                    "data_location": "senderNodeAddress"
+                },
+                {
+                    "name": "NCTid",
+                    "description": "NCTid",
+                    "required": true,
+                    "index_field": false,
+                    "type": "string",
+                    "data_location": "NCTid"
+                },
+                {
+                    "name": "email",
+                    "description": "email",
+                    "required": true,
+                    "index_field": false,
+                    "type": "string",
+                    "data_location": "email"
+                },
+                {
+                    "name": "date",
+                    "description": "date",
+                    "required": true,
+                    "index_field": false,
+                    "type": "string",
+                    "data_location": "date"
+                }
+            ]
+        }
+    ]
+}

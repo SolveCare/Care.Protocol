@@ -1,0 +1,24 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "e-get-trial-lead",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "name": "",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "GET",
+                                    "url": "/transactions/PARTICIPANT_ADMIN_TRIALS_SAVED"                                }
+                            ]
+                        }
+                    ],
+                    "postAction": "",
+                    "refId": "e-get-trial-lead"
+                }
+            ]
+        }
+    ]
+}

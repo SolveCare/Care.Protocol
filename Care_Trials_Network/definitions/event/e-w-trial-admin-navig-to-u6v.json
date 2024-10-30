@@ -1,0 +1,1 @@
+{"definition":{"description":"Event to Navigate from Lead to cd-5oi0ud4fh1x1v71wysnisvg94q6","name":"W-TRIAL-ADMIN-NAVIG-TO-.U6V","resource":"W-TRIAL-ADMIN-NAVIG-TO-.U6V","type":"EVENT_DATA"},"structure":{"attributes":[{"code":"transactionalGuid","name":"transactionalGuid","type_definition":{"type":"string"},"order":1,"system":false,"required":false}]}}

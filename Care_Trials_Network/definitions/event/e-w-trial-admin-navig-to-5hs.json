@@ -1,0 +1,1 @@
+{"definition":{"description":"Event to Navigate from Site Details to cd-794zs8jrs1bz9z9kvx05b5k12ee","name":"W-TRIAL-ADMIN-NAVIG-TO-.5HS","resource":"W-TRIAL-ADMIN-NAVIG-TO-.5HS","type":"EVENT_DATA"},"structure":{"attributes":[{"code":"transactionalGuid","name":"transactionalGuid","type_definition":{"type":"string"},"order":1,"system":false,"required":false}]}}

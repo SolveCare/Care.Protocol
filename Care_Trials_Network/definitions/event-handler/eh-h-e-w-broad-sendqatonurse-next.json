@@ -1,0 +1,73 @@
+{
+    "nodeEventHandlers": [
+        {
+            "type": "MAPPER",
+            "name": "Append attributes",
+            "order": 1,
+            "dataSource": "EVENT_PAYLOAD",
+            "additionalAttributes": {
+                "transactionalGuid": {
+                    "source": "EVENT_PAYLOAD",
+                    "value": "transactionalGuid"
+                },
+                "SiteID": {
+                    "source": "EVENT_PAYLOAD",
+                    "value": "SiteID"
+                },
+                "leadNodeAddress": {
+                    "source": "EVENT",
+                    "value": "SENDER"
+                },
+                "answerText": {
+                    "source": "EVENT_PAYLOAD",
+                    "value": "answerText"
+                },
+                "isAnswered": {
+                    "source": "CONSTANT",
+                    "value": true
+                },
+                "isPending": {
+                    "source": "CONSTANT",
+                    "value": false
+                },
+                "createdAt": {
+                    "source": "GENERATED",
+                    "value": "CURRENT_TIMESTAMP"
+                },
+                "updatedAt": {
+                    "source": "GENERATED",
+                    "value": "CURRENT_TIMESTAMP"
+                }
+            },
+            "excludedAttributes": []
+        },
+        {
+            "type": "VAULT_UPDATE",
+            "name": "NURSE_QA",
+            "order": 2,
+            "collection": "NURSE_QA",
+            "collectionVersion": 1,
+            "dataSource": "HANDLER_ARGUMENTS",
+            "insertIfAbsent": true,
+            "searchCriteria": [
+                {
+                    "queryMatcher": "EQUAL",
+                    "fieldName": "transactionalGuid",
+                    "dynamicValue": {
+                        "source": "EVENT_PAYLOAD",
+                        "value": "transactionalGuid"
+                    }
+                },
+                {
+                    "queryMatcher": "EQUAL",
+                    "fieldName": "leadNodeAddress",
+                    "dynamicValue": {
+                        "source": "HANDLER_ARGUMENTS",
+                        "value": "leadNodeAddress"
+                    }
+                }
+            ],
+            "handlerOutput": "PERSISTED_ENTITY"
+        }
+    ]
+} 

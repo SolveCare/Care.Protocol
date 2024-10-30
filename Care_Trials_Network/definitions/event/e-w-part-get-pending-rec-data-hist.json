@@ -1,0 +1,22 @@
+{
+    "definition": {
+        "description": "GET data for participant",
+        "name": "GET.PENDING.RECORD003",
+        "resource": "GET.PENDING.RECORD003",
+        "type": "EVENT_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 1,
+                "system": false,
+                "required": false
+            }
+        ]
+    }
+}

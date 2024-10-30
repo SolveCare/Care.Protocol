@@ -1,0 +1,240 @@
+{
+  "ddf_type": "subscription_activities",
+  "meta_data": {
+    "description": "Subscription activities"
+  },
+  "messages": [
+    {
+      "message_category": "SUBSCRIPTION",
+      "message_type": "ACTIVITIES",
+      "meta_data": {
+        "description": "Subscription activities",
+        "indices": "subscription_activities"
+      },
+      "events": [],
+      "attributes": [
+        {
+          "name": "NCTId",
+          "description": "NCTId",
+          "required": true,
+          "index_field": true,
+          "type": "string",
+          "data_location": "NCTId"
+        },
+        {
+          "name": "SiteID",
+          "description": "SiteID",
+          "required": true,
+          "index_field": true,
+          "type": "string",
+          "data_location": "SiteID"
+        },
+        {
+          "name": "SubscriptionID",
+          "description": "subscription identifier",
+          "required": true,
+          "index_field": false,
+          "type": "string",
+          "data_location": "SubscriptionID"
+        },
+        {
+          "name": "OwnerNodeScAddress",
+          "description": "OwnerNodeScAddress",
+          "required": true,
+          "index_field": true,
+          "type": "string",
+          "data_location": "OwnerNodeScAddress",
+          "min_length": 42,
+          "max_length": 42,
+          "allowed_characters": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        {
+          "name": "SubscriptionType",
+          "description": "subscription type. Only one type : Subscription",
+          "required": true,
+          "index_field": false,
+          "type": "string",
+          "data_location": "SubscriptionType"
+        },
+        {
+          "name": "StartDate",
+          "description": "start date of subscription",
+          "required": true,
+          "index_field": false,
+          "type": "string",
+          "data_location": "StartDate"
+        },
+        {
+          "name": "EndDate",
+          "description": "end date of subscription",
+          "required": true,
+          "index_field": false,
+          "type": "string",
+          "data_location": "EndDate"
+        },
+        {
+          "name": "Amount",
+          "description": "amount of payment",
+          "required": true,
+          "index_field": false,
+          "type": "float",
+          "data_location": "Amount"
+        }
+      ]
+    }
+  ],
+  "integrations": [
+    {
+      "type": "hubspot",
+      "message_category": "SUBSCRIPTION",
+      "message_type": "ACTIVITIES",
+      "schema": {
+        "schema": {
+          "name": "subscription_activities_table",
+          "description": "Subscription Activities Table",
+          "labels": {
+            "plural": "Subscription Activities",
+            "singular": "Subscription Activity"
+          },
+          "requiredProperties": [
+            "site_id",
+            "trial_id",
+            "subscription_id"
+          ],
+          "searchableProperties": [
+            "site_id",
+            "trial_id",
+            "subscription_id",
+            "subscription_type",
+            "start_date",
+            "end_date",
+            "amount"
+          ],
+          "primaryDisplayProperty": "subscription_id",
+          "secondaryDisplayProperties": [
+            "site_id",
+            "subscription_type"
+          ],
+          "properties": [
+            {
+              "name": "site_id",
+              "label": "Site ID",
+              "type": "string",
+              "isPrimaryDisplayLabel": true,
+              "displayOrder": 1
+            },
+            {
+              "name": "trial_id",
+              "label": "Trial ID",
+              "type": "string",
+              "displayOrder": 2
+            },
+            {
+              "name": "subscription_id",
+              "label": "Subscription ID",
+              "type": "string",
+              "hasUniqueValue": true,
+              "displayOrder": 3
+            },
+            {
+              "name": "subscription_type",
+              "label": "Subscription Type",
+              "type": "enumeration",
+              "fieldType": "select",
+              "options": [
+                {
+                  "label": "Subscription",
+                  "value": "Subscription",
+                  "hidden": false,
+                  "description": "Subscription",
+                  "displayOrder": 1
+                }
+              ],
+              "displayOrder": 4
+            },
+            {
+              "name": "start_date",
+              "label": "Start Date of subscription",
+              "type": "date",
+              "fieldType": "date",
+              "displayOrder": 5
+            },
+            {
+              "name": "end_date",
+              "label": "End Date of subscription",
+              "type": "date",
+              "fieldType": "date",
+              "displayOrder": 6
+            },
+            {
+              "name": "amount",
+              "label": "Amount of payment",
+              "type": "number",
+              "fieldType": "number",
+              "showCurrencySymbol": false,
+              "displayOrder": 7
+            },
+            {
+              "name": "comments",
+              "label": "Comments",
+              "type": "string",
+              "displayOrder": 8
+            }
+          ]
+        },
+        "association": {
+          "name": "subscription_activities_to_sites",
+          "reference": "site_info_table",
+          "association_keys": [
+            "site_id"
+          ]
+        }
+      },
+      "mapping": [
+        {
+          "attribute": "SiteID",
+          "ext_name": "site_id"
+        },
+        {
+          "attribute": "NCTId",
+          "ext_name": "trial_id"
+        },
+        {
+          "attribute": "SubscriptionID",
+          "ext_name": "subscription_id"
+        },
+        {
+          "attribute": "SubscriptionType",
+          "ext_name": "subscription_type"
+        },
+        {
+          "attribute": "StartDate",
+          "ext_name": "start_date"
+        },
+        {
+          "attribute": "EndDate",
+          "ext_name": "end_date"
+        },
+        {
+          "attribute": "Amount",
+          "ext_name": "amount"
+        }
+      ],
+      "actions": [
+        {
+          "type": "export",
+          "operation_type": "UPSERT",
+          "query": {
+            "query": {
+              "match_all": {}
+            }
+          },
+          "skip_for_update": [
+            "SiteID",
+            "NCTId"
+          ]
+        }
+      ]
+    }
+  ]
+}

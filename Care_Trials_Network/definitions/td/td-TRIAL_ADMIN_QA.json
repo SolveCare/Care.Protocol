@@ -1,0 +1,118 @@
+{
+    "id": "td-TRIAL_ADMIN_QA",
+    "path": "td/td-TRIAL_ADMIN_QA.json",
+    "definition": {
+        "version": 1,
+        "collection": "TRIAL_ADMIN_QA",
+        "description": "Store Q&A for Care.Admin",
+        "name": "TRIAL_ADMIN_QA",
+        "resource": "TRIAL_ADMIN_QA",
+        "status": "RELEASED",
+        "type": "TRANSACTIONAL_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 1,
+                "required": true,
+                "system": false
+            },
+            {
+                "name": "TrialID",
+                "code": "TrialID",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 8
+            },
+            {
+                "code": "SiteID",
+                "name": "SiteID",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 2,
+                "required": false,
+                "system": false
+            },
+            {
+                "code": "leadNodeAddress",
+                "name": "leadNodeAddress",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 3,
+                "required": true,
+                "system": false
+            },
+            {
+                "code": "questionText",
+                "name": "questionText",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 3,
+                "required": true,
+                "system": false
+            },
+            {
+                "code": "answerText",
+                "name": "answerText",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 4,
+                "required": false,
+                "system": false
+            },
+            {
+                "code": "isAnswered",
+                "name": "isAnswered",
+                "type_definition": {
+                    "type": "boolean"
+                },
+                "order": 5,
+                "required": true,
+                "system": false
+            },
+            {
+                "code": "isPending",
+                "name": "isPending",
+                "type_definition": {
+                    "type": "boolean"
+                },
+                "order": 6,
+                "required": true,
+                "system": false
+            },
+            {
+                "code": "createdAt",
+                "name": "createdAt",
+                "type_definition": {
+                    "type": "timestamp"
+                },
+                "order": 7,
+                "required": true,
+                "system": false
+            },
+            {
+                "name": "updatedAt",
+                "code": "updatedAt",
+                "type_definition": {
+                    "type": "timestamp"
+                },
+                "required": true,
+                "system": false,
+                "order": 8
+            }
+        ],
+        "primary_key": "false"
+    }
+}

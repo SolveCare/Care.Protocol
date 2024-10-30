@@ -1,0 +1,32 @@
+{
+    "nodeEventHandlers": [
+        {
+            "type": "MAPPER",
+            "name": "Append or Exclude attributes to 6_QUESTIONS payload",
+            "order": 1,
+            "dataSource": "EVENT_PAYLOAD",
+            "additionalAttributes": {},
+            "excludedAttributes": []
+        },
+        {
+            "type": "VAULT_UPDATE",
+            "name": "PARTICIPANT_ANSWERS",
+            "order": 2,
+            "collection": "PARTICIPANT_ANSWERS",
+            "collectionVersion": 1,
+            "dataSource": "HANDLER_ARGUMENTS",
+            "insertIfAbsent": true,
+            "searchCriteria": [
+                {
+                    "queryMatcher": "EQUAL",
+                    "fieldName": "senderNodeAddress",
+                    "dynamicValue": {
+                        "source": "EVENT_PAYLOAD",
+                        "value": "senderNodeAddress"
+                    }
+                }
+            ],
+            "handlerOutput": "PERSISTED_ENTITY"
+        }
+    ]
+}

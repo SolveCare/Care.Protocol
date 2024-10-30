@@ -1,0 +1,71 @@
+{
+    "id": "td-REQ_NEW_ACTIVATION_CODE_TA",
+    "path": "td/td-REQ_NEW_ACTIVATION_CODE_TA.json",
+    "definition": {
+        "version": 1,
+        "collection": "REQ_NEW_ACTIVATION_CODE_TA",
+        "description": "REQ_NEW_ACTIVATION_CODE_TA desc",
+        "name": "REQ_NEW_ACTIVATION_CODE_TA",
+        "resource": "REQ_NEW_ACTIVATION_CODE_TA",
+        "status": "RELEASED",
+        "type": "TRANSACTIONAL_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "name": "ID",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "ID",
+                "order": 1
+            },
+            {
+                "name": "email",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "email",
+                "order": 2
+            },
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "order": 3
+            },
+            {
+                "code": "createdAt",
+                "name": "createdAt",
+                "type_definition": {
+                    "type": "timestamp"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "order": 4
+            },
+            {
+                "name": "senderNodeAddress",
+                "code": "senderNodeAddress",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 5
+            }
+        ],
+        "primary_key": "false"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "e-w-0-trial-admin-get-tri-swn",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "name": "getTRIALS_ADMIN",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "GET",
+                                    "url": "/transactions/TRIALS?filter=[{\"queryMatcher\": \"EQUAL\",\"inverted\": false,\"fieldName\": \"SiteID\",\"value\": \"${SiteID}\"}]"
+                                }
+                            ]
+                        }
+                    ],
+                    "postAction": "",
+                    "refId": "e-w-0-trial-admin-get-tri-swn"
+                }
+            ]
+        }
+    ]
+}

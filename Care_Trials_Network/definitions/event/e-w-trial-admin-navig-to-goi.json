@@ -1,0 +1,22 @@
+{
+    "definition": {
+        "description": "Event to Navigate from Welcome to Care. Trials to cd-lup4rixq38w4ku95v668dblz72i",
+        "name": "W-TRIAL-ADMIN-NAVIG-TO-.GOI",
+        "resource": "W-TRIAL-ADMIN-NAVIG-TO-.GOI",
+        "type": "EVENT_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 1,
+                "system": false,
+                "required": false
+            }
+        ]
+    }
+}

@@ -1,0 +1,389 @@
+{
+    "id": "cd-casqwb3x4u11n81com3surveys-d2-c1",
+    "name": "Competency Assessment Survey",
+    "cardData": {
+        "0tile0iitextinfo": "The below survey  encompasses the processes and systems associated with a clinical research and trial, including regulatory procedures, quality assurance, patient welfare and safety, and communication ",
+        "1tile0iitextnp": "Please assess your research institution/unit according to existing capacities",
+
+        "1tile0iitextnp1": "Ethics, regulatory, and governance",
+
+        "1tile0textq1": "1. Effective coordination with relevant authorities and responsible individuals (e.g., ethics committees, regulatory agencies)",
+        "1label0ess": "With",
+        "1label1ness": "Without",
+
+        "2tile0textq2": "2. Regulatory/Ethical requirements and forms on file, with knowledge of administrative procedures, documentation and oversight requirements, and expected turnaround times (e.g., review, approval, etc.)",
+        "2label0ess": "With",
+        "2label1ness": "Without",
+
+        "3tile0textq3": "3. Work instructions or Standard Operating Procedures (SOPs) for the preparation, submission, and resubmission of requirements, including staff/persons in-charge",
+        "3label0ess": "With",
+        "3label1ness": "Without",
+
+        "1tile0iitextqaqm": "Quality assurance and quality measures:",
+
+        "1qtile0textq1": "1. Standard Operating Procedures (SOPs) for all clinical research/trial procedures",
+        "1qlabel0ess": "With",
+        "1qlabel1ness": "Without",
+
+        "2qtile0textq2": "2. Processes for management of protocol deviations and noncompliance (including corrective and preventive action procedures)",
+        "2qlabel0ess": "With",
+        "2qlabel1ness": "Without",
+
+        "validation5xk9r": "Please select one value",
+        "2en01bottombuttonNext": "Next"
+  
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile0iitextinfo",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "CENTER",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "1tile0iitextnp",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "1tile0iitextnp1",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile10",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "1tile0textq1",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "options": {
+                                    "key":{
+                                        "name":"{$D2EthicsQ1}",
+                                        "optionAlign": "START",
+                                        "optionTextColor": "#000080",
+                                        "optionfontSize": 16
+                                    },
+                                    "list":[
+                                        {
+                                        "label": "1label0ess"
+                                        },
+                                        {
+                                        "label": "1label1ness"
+                                        }
+                                    ],
+                                    "validation": [
+                                        {
+                                            "name": "REQUIRED_FIELD",
+                                            "error": "validation5xk9r"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "fontSize": 16,
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "${}",
+                        "order": 2
+                    },
+                    {
+                        "id": "Tile10",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "2tile0textq2",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "options": {
+                                    "key":{
+                                        "name":"{$D2EthicsQ2}",
+                                        "optionAlign": "START",
+                                        "optionTextColor": "#000080",
+                                        "optionfontSize": 16
+                                    },
+                                    "list":[
+                                        {
+                                        "label": "2label0ess"
+                                        },
+                                        {
+                                        "label": "2label1ness"
+                                        }
+                                    ],
+                                    "validation": [
+                                        {
+                                            "name": "REQUIRED_FIELD",
+                                            "error": "validation5xk9r"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "fontSize": 16,
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "${}",
+                        "order": 2
+                    },
+                    {
+                        "id": "Tile10",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "3tile0textq3",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "options": {
+                                    "key":{
+                                        "name":"{$D2EthicsQ3}",
+                                        "optionAlign": "START",
+                                        "optionTextColor": "#000080",
+                                        "optionfontSize": 16
+                                    },
+                                    "list":[
+                                        {
+                                        "label": "3label0ess"
+                                        },
+                                        {
+                                        "label": "3label1ness"
+                                        }
+                                    ],
+                                    "validation": [
+                                        {
+                                            "name": "REQUIRED_FIELD",
+                                            "error": "validation5xk9r"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "fontSize": 16,
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "${}",
+                        "order": 2
+                    },
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "1tile0iitextqaqm",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile10",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "1qtile0textq1",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "options": {
+                                    "key":{
+                                        "name":"{$D2QualityQ1}",
+                                        "optionAlign": "START",
+                                        "optionTextColor": "#000080",
+                                        "optionfontSize": 16
+                                    },
+                                    "list":[
+                                        {
+                                        "label": "1qlabel0ess"
+                                        },
+                                        {
+                                        "label": "1qlabel1ness"
+                                        }
+                                    ],
+                                    "validation": [
+                                        {
+                                            "name": "REQUIRED_FIELD",
+                                            "error": "validation5xk9r"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "fontSize": 16,
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "${}",
+                        "order": 2
+                    },
+                    {
+                        "id": "Tile10",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "2qtile0textq2",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "options": {
+                                    "key":{
+                                        "name":"{$D2QualityQ2}",
+                                        "optionAlign": "START",
+                                        "optionTextColor": "#000080",
+                                        "optionfontSize": 16
+                                    },
+                                    "list":[
+                                        {
+                                        "label": "2qlabel0ess"
+                                        },
+                                        {
+                                        "label": "2qlabel1ness"
+                                        }
+                                    ],
+                                    "validation": [
+                                        {
+                                            "name": "REQUIRED_FIELD",
+                                            "error": "validation5xk9r"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "fontSize": 16,
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "${}",
+                        "order": 2
+                    }  
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action1}",
+                    "order": 1
+                },
+                {
+                    "id": "EN01BottomButton1",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": "2en01bottombuttonNext"
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BUTTON",
+                    "uiAction": "${action2}",
+                    "order": 2
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action1": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-casqwb3x4u11n81com3surveys-d1-c5"
+                }
+            ]
+        },
+        "action2": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-casqwb3x4u11n81com3surveys-d2-c2"
+                }
+            ]
+        }
+    }
+}

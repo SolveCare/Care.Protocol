@@ -1,0 +1,486 @@
+{
+    "id": "cd-xrqjy00p6m3hudjbldi34t2ml80n",
+    "name": "ID Requests",
+    "cardData": {
+        "0tile0iitextiihbm": "Male, 22 Years, White",
+        "1tile0iitextii27b": "Medical records:",
+        "2tile14iitextiivrk": "View attachment",
+        "imageUrl6c42x": "https://d1fgr2dke6q42b.cloudfront.net/dev/media/a1920ec3-027a-43cc-9226-36fad59c0b6a/go_next_grey_icon.png",
+        "3tile1iitextii01i": "Participant’s first name",
+        "3tile1iitextiirkl": "",
+        "3tile1iihintii6vp": "Enter Level Text",
+        "3tile1iierroriiz9c": "Value should be between 1 and 30",
+        "4tile1iitextiig5f": " Participant’s last name",
+        "4tile1iitextii6t0": "",
+        "4tile1iihintii28c": "Enter Level Text",
+        "4tile1iierroriiiu9": "Value should be between 1 and 30",
+        "5tile12iitextiixfv": "Report Type: ",
+        "5tile12iitextiiyoz": "Option1",
+        "imageUrlc4aqc": "https://d1fgr2dke6q42b.cloudfront.net/dev/media/a1920ec3-027a-43cc-9226-36fad59c0b6a/drop_down_list_greyn_155460.png",
+        "5tile12iihintiiivg": "View drop-down list",
+        "5tile12iidataiistg": [
+            "Option1",
+            "Option2",
+            "Option3"
+        ],
+        "6tile12iitextii9pv": "Report Tag: ",
+        "6tile12iitextii0bp": "Option1",
+        "imageUrlcgx0d": "https://d1fgr2dke6q42b.cloudfront.net/dev/media/a1920ec3-027a-43cc-9226-36fad59c0b6a/drop_down_list_greyn_155460.png",
+        "6tile12iihintii5wi": "View drop-down list",
+        "6tile12iidataii7ic": [
+            "Option1",
+            "Option2",
+            "Option3"
+        ],
+        "7tile6aiitextiidpg": "Age of record",
+        "labelqnl5j": "less than 90 days",
+        "labelv660q": "less than 180 days",
+        "labelbcyti": "less than 365 days",
+        "labelehn2j": "greater than 365 days",
+        "validationfc3wi": "Please select atleast one of the value",
+        "8tile1iitextiimsx": "Additional comments",
+        "8tile1iitextii9c7": "",
+        "8tile1iihintiittf": "Enter comments here",
+        "8tile1iierroriilc1": "Value should be between 1 and 30",
+        "9tile0aiitextiignc": "Status",
+        "9tile0aiitextiikyx": "Expired"
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile0iitextiihbm",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#afafaf",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "1tile0iitextii27b",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#ffffff",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile14",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "2tile14iitextiivrk",
+                                    "fontSize": 16,
+                                    "style": "REGULAR"
+                                },
+                                "img": {
+                                    "text": "imageUrl6c42x",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 2
+                    },
+                    {
+                        "id": "Tile1",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "3tile1iitextii01i",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "subTitle": {
+                                    "text": "3tile1iitextiirkl",
+                                    "hint": "3tile1iihintii6vp",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START",
+                                    "fontSize": 16,
+                                    "keyboard": "text",
+                                    "min": "1",
+                                    "max": "30",
+                                    "validation": [
+                                        {
+                                            "name": "REQUIRED_FIELD",
+                                            "error": "3tile1iierroriiz9c"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 3
+                    },
+                    {
+                        "id": "Tile1",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "4tile1iitextiig5f",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "subTitle": {
+                                    "text": "4tile1iitextii6t0",
+                                    "hint": "4tile1iihintii28c",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START",
+                                    "fontSize": 16,
+                                    "keyboard": "text",
+                                    "min": "1",
+                                    "max": "30",
+                                    "validation": [
+                                        {
+                                            "name": "REQUIRED_FIELD",
+                                            "error": "4tile1iierroriiiu9"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 4
+                    },
+                    {
+                        "id": "Tile12",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "5tile12iitextiixfv",
+                                    "style": "REGULAR",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "subTitle": {
+                                    "text": "5tile12iitextiiyoz",
+                                    "fontSize": 16,
+                                    "data": "5tile12iidataiistg",
+                                    "hint": "5tile12iihintiiivg",
+                                    "keyboard": "text",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START"
+                                },
+                                "img": {
+                                    "text": "imageUrlc4aqc",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 5
+                    },
+                    {
+                        "id": "Tile12",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "6tile12iitextii9pv",
+                                    "style": "REGULAR",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "subTitle": {
+                                    "text": "6tile12iitextii0bp",
+                                    "fontSize": 16,
+                                    "data": "6tile12iidataii7ic",
+                                    "hint": "6tile12iihintii5wi",
+                                    "keyboard": "text",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START"
+                                },
+                                "img": {
+                                    "text": "imageUrlcgx0d",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 6
+                    },
+                    {
+                        "id": "Tile6a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "7tile6aiitextiidpg",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "options": {
+                                    "key": {
+                                        "name": "{answer}",
+                                        "optionAlign": "START",
+                                        "optionTextColor": "#000080",
+                                        "optionfontSize": 16
+                                    },
+                                    "list": [
+                                        {
+                                            "label": "labelqnl5j"
+                                        },
+                                        {
+                                            "label": "labelv660q"
+                                        },
+                                        {
+                                            "label": "labelbcyti"
+                                        },
+                                        {
+                                            "label": "labelehn2j"
+                                        }
+                                    ],
+                                    "validation": [
+                                        {
+                                            "name": "REQUIRED_FIELD",
+                                            "error": "validationfc3wi"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "fontSize": 16,
+                        "backgroundColor": "#ffffff",
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "${}",
+                        "order": 7
+                    },
+                    {
+                        "id": "Tile1",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "8tile1iitextiimsx",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "subTitle": {
+                                    "text": "8tile1iitextii9c7",
+                                    "hint": "8tile1iihintiittf",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START",
+                                    "fontSize": 16,
+                                    "keyboard": "text",
+                                    "min": "1",
+                                    "max": "30",
+                                    "validation": [
+                                        {
+                                            "name": "REQUIRED_FIELD",
+                                            "error": "8tile1iierroriilc1"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 8
+                    },
+                    {
+                        "id": "Tile0a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "9tile0aiitextiignc",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "subTitle": {
+                                    "text": "9tile0aiitextiikyx",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "END",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 9
+                    }
+
+                    ,
+
+                    {
+                        "id": "Tile17a",
+                        "subView": [
+                            {
+                                "options": {
+                                    "list": [
+                                        {
+                                            "subTitle": {
+                                                "text": "10tile14iitextiizxq",
+                                                "subtitleAlign": "CENTER",
+                                                "colorCode": "#000080",
+                                                "style": "REGULAR"
+                                            },
+                                            "img": {
+                                                "text": "imageUrlo9w7y"
+                                            },
+                                            "uiAction": "action17aBack",
+                                            "itemBorderColor": "#ffffff"
+                                        },
+                                        {
+                                            "subTitle": {
+                                                "text": "9tile14iitextii0ak",
+                                                "subtitleAlign": "CENTER",
+                                                "colorCode": "#000080",
+                                                "style": "REGULAR"
+                                            },
+                                            "img": {
+                                                "text": "imageUrlynopr"
+                                            },
+                                            "uiAction": "action17aNope",
+                                            "itemBorderColor": "#ffffff"
+                                        },
+                                        {
+                                            "subTitle": {
+                                                "text": "8tile14iitextiimyk",
+                                                "subtitleAlign": "CENTER",
+                                                "colorCode": "#000080",
+                                                "style": "REGULAR"
+                                            },
+                                            "img": {
+                                                "text": "imageUrlk6cem"
+                                            },
+                                            "uiAction": "action17aInterested",
+                                            "itemBorderColor": "#ffffff"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "borderColor": "#ffffff",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 8
+                    }
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "style": {
+            "fontSize": 16,
+            "bgColor": "#ffffff",
+            "borderWidth": 1
+        },
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action1}",
+                    "order": 1
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "": {
+            "action": null
+        },
+        "action1": {
+            "action": "HOME"
+        },
+        "action17aBack": {
+            "action": [
+              {
+                "name": "Function.reloadData",
+                "resultKey": "Back"
+              }
+            ]
+          },
+          "action17aNope": {
+            "action": [
+              {
+                "name": "Function.reloadData",
+                "resultKey": "Nope"              }
+            ]
+          },
+          "action17aInterested": {
+            "action": [
+              {
+                "name": "e-w-broad-matching"
+              },
+
+              {
+                "name": "Function.reloadData",
+                "resultKey": "Interested"
+              }
+            ]
+          }
+    }
+}

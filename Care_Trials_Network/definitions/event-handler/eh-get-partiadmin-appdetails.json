@@ -1,0 +1,25 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "e-get-partiadmin-appdetails",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "name": "getONE",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "GET",
+                                    "url": "/transactions/PARTICIPANT_ADMIN_TRIALS_SAVED?filter=[{\"fieldName\":\"transactionalGuid\",\"queryMatcher\":\"EQUAL\",\"value\":\"${transactionalGuid}\"}]"
+                                }
+                            ]
+                        } 
+                    ],
+                    "postAction": "",
+                    "refId": "e-get-partiadmin-appdetails"
+                }
+            ]
+        }
+    ]
+}

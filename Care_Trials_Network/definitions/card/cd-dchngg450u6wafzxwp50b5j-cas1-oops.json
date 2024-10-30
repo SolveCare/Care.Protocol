@@ -1,0 +1,123 @@
+{
+    "id": "cd-dchngg450u6wafzxwp50b5j-cas1-oops",
+    "name": "Certificate of Completion",
+    "cardData": {
+        "0tile0iitextiikga": "It looks like you haven't completed the assessment yet, so your certificate is currently unavailable.\n\nPlease complete the form to view your certificate here.",
+        "imageUrlkbhj": "https://i.ibb.co/kQ7wWDT/survey.png",
+        "2en01bottombutton1iitextiiyaq": "Start"
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+
+                    {
+                        "id": "Tile16",
+                        "subView": [
+                            {
+                                "img": {
+                                    "text": "imageUrlkbhj",
+                                    "isUrl": true,
+                                    "height": "100",
+                                    "width": "100"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 2
+                    }
+                    ,
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile0iitextiikga",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "CENTER",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    }
+                    
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action300}",
+                    "order": 1
+                },
+                {
+                    "id": "EN01BottomButton1",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": "2en01bottombutton1iitextiiyaq"
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BUTTON",
+                    "visibleIf":"${isNotAnswered}",
+                    "uiAction": "${action5}",
+                    "order": 2
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action5": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-dchngg450u6wafzxwp50b5j-cas1-dp"
+                }
+            ]
+        },
+        "action300": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-dchngg450u6wafzxwp50b5j-cas1"
+                }
+            ]
+        },
+       
+        "action75": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-dchngg450u6wafzxwp50b5j-cas700"
+                }
+            ]
+        }
+    }
+}

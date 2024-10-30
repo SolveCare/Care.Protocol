@@ -1,0 +1,96 @@
+{
+    "id": "td-TRIAL_ADMIN_DATA_TA",
+    "path": "td/td-TRIAL_ADMIN_DATA_TA.json",
+    "definition": {
+        "version": 1,
+        "collection": "TRIAL_ADMIN_DATA_TA",
+        "description": "TRIAL_ADMIN_DATA_TA",
+        "name": "TRIAL_ADMIN_DATA_TA",
+        "resource": "TRIAL_ADMIN_DATA_TA",
+        "status": "RELEASED",
+        "type": "TRANSACTIONAL_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "name": "InclusionCriteria",
+                "code": "InclusionCriteria",
+                "type_definition": {
+                "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 13,
+                "times": 1
+                },
+                {
+                    "name": "ExclusionCriteria",
+                    "code": "ExclusionCriteria",
+                    "type_definition": {
+                    "type": "string"
+                    },
+                    "required": false,
+                    "system": false,
+                    "order": 13,
+                    "times": 1
+                    },
+            {
+                "name": "archived",
+                "code": "archived",
+                "type_definition": {
+                "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 13,
+                "times": 1
+                },
+
+            {
+                "name": "UniqueCode",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": true,
+                "system": false,
+                "code": "UniqueCode",
+                "order": 2,
+                "times": 1
+            },
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "order": 10
+            },
+            {
+                "code": "createdAt",
+                "name": "createdAt",
+                "type_definition": {
+                    "type": "timestamp"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "order": 11
+            },
+            {
+                "name": "senderNodeAddress",
+                "code": "senderNodeAddress",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 12,
+                "times": 1
+            }
+        ],
+        "primary_key": "false"
+    }
+}

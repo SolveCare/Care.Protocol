@@ -1,0 +1,131 @@
+{
+    "ddf_type": "sponsor_info",
+    "meta_data": {
+        "description": "Collection to store Trial.Admin/Sponsor info"
+    },
+    "messages": [
+        {
+            "message_category": "CSV",
+            "message_type": "TRIALS",
+            "meta_data": {
+                "description": "Collection to store Trial.Admin/Sponsor info",
+                "indices": "sponsor_info"
+            },
+            "attributes": [
+         
+                     {
+                    "name": "phaseInterested",
+                    "description": "phaseInterested",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "phaseInterested"
+                },
+                {
+                    "name": "SponsorID",
+                    "description": "SponsorID",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "SponsorID"
+                },
+                {
+                    "name": "TrialID",
+                    "description": "TrialID",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "TrialID"
+                },
+                {
+                    "name": "SiteID",
+                    "description": "SiteID",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "SiteID"
+                },
+                {
+                    "name": "Location",
+                    "description": "Location",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "Location"
+                },
+                 {
+                    "name": "Country",
+                    "description": "Country",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "Country"
+                },
+                {
+                    "name": "specialization",
+                    "description": "specialization",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "specialization"
+                },
+                {
+                    "name": "experienceYears",
+                    "description": "experienceYears",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "experienceYears"
+                },
+                {
+                    "name": "trialsConducted",
+                    "description": "trialsConducted",
+                    "required": false,
+                    "index_field": true,
+                    "type": "integer",
+                    "data_location": "trialsConducted"
+                },
+                {
+                    "name": "StudyPhase",
+                    "description": "StudyPhase",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "StudyPhase"
+                },
+                {
+                    "name": "createdAt",
+                    "description": "createdAt",
+                    "required": false,
+                    "index_field": true,
+                    "type": "integer",
+                    "data_location": "createdAt"
+                },
+                 {
+                    "name": "senderNodeAddress",
+                    "description": "senderNodeAddress",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "senderNodeAddress"
+                },
+                {
+                    "name": "transactionalGuid",
+                    "description": "transactionalGuid",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "transactionalGuid"
+                },
+                {
+                    "name": "Date",
+                    "description": "Date",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "Date"
+                }
+            ]
+        }
+    ]
+}

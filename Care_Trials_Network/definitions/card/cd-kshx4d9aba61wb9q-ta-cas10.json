@@ -1,0 +1,270 @@
+{
+    "id": "cd-kshx4d9aba61wb9q-ta-cas10",
+    "name": "Competency Assessment Survey",
+    "cardData": {
+        "0tile0iitexti1": "4. Evaluate the design, conduct, and documentation of the research as required for compliance with Good Clinical Practice Guidelines",
+
+        "0tile0iitexti2": "5. Compare and contrast the regulations and guidelines of global regulatory bodies relating to the conduct of clinical research and trials",
+
+        "0tile0iitexti3": "6. Describe appropriate control, storage, and dispensing of investigational products",
+
+        "0tile0iitexti4": "7. Differentiate the types of adverse events (AEs) that may occur during clinical studies and explain the identification process and reporting requirements to IRBs/IECs, sponsors, regulatory authorities",
+
+        "0tile0iitexti5": "8. Describe how global regulations and guidelines assure human subject protection and privacy during the conduct of clinical research",
+
+        "0tile0iitexti6": "9. Describe the role and process of monitoring a clinical research/trial",
+
+        "0tile0iitexti7": "10. Describe the role and purpose of clinical study audits",
+
+        "validationdrhfc": "Please select one value",
+
+        "2en01bottombutton1iitextiiyaq": "Next"
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                  
+                    {
+                        "id": "Tile5",
+                        "subView": [
+                          {
+                            "title": {
+                              "text": "0tile0iitexti1"
+                            },
+                            "subTitle": {
+                              "text": "{$D2ClinicalPracticeQ4}",
+                              "start": 0,
+                              "end": 5,
+                              "count": 1,
+                              "validation": [
+                                {
+                                  "name": "REQUIRED_FIELD",                     
+                                  "error": "validationdrhfc"
+                                }
+                              ]
+                            }                      
+                          }                      
+                        ],                      
+                        "align": "START",                      
+                        "type": "CONTAINER",                      
+                        "uiAction": "",                      
+                        "order": 1                      
+                      },
+                      {
+                        "id": "Tile5",
+                        "subView": [
+                          {
+                            "title": {
+                              "text": "0tile0iitexti2"
+                            },
+                            "subTitle": {
+                              "text": "{$D2ClinicalPracticeQ5}",
+                              "start": 0,
+                              "end": 5,
+                              "count": 1,
+                              "validation": [
+                                {
+                                  "name": "REQUIRED_FIELD",                     
+                                  "error": "validationdrhfc"
+                                }
+                              ]
+                            }                      
+                          }                      
+                        ],                      
+                        "align": "START",                      
+                        "type": "CONTAINER",                      
+                        "uiAction": "",                      
+                        "order": 1                      
+                      },
+                      {
+                        "id": "Tile5",
+                        "subView": [
+                          {
+                            "title": {
+                              "text": "0tile0iitexti3"
+                            },
+                            "subTitle": {
+                              "text": "{$D2ClinicalPracticeQ6}",
+                              "start": 0,
+                              "end": 5,
+                              "count": 1,
+                              "validation": [
+                                {
+                                  "name": "REQUIRED_FIELD",                     
+                                  "error": "validationdrhfc"
+                                }
+                              ]
+                            }                      
+                          }                      
+                        ],                      
+                        "align": "START",                      
+                        "type": "CONTAINER",                      
+                        "uiAction": "",                      
+                        "order": 1                      
+                      },
+                      {
+                        "id": "Tile5",
+                        "subView": [
+                          {
+                            "title": {
+                              "text": "0tile0iitexti4"
+                            },
+                            "subTitle": {
+                              "text": "{$D2ClinicalPracticeQ7}",
+                              "start": 0,
+                              "end": 5,
+                              "count": 1,
+                              "validation": [
+                                {
+                                  "name": "REQUIRED_FIELD",                     
+                                  "error": "validationdrhfc"
+                                }
+                              ]
+                            }                      
+                          }                      
+                        ],                      
+                        "align": "START",                      
+                        "type": "CONTAINER",                      
+                        "uiAction": "",                      
+                        "order": 1                      
+                      },
+                      {
+                        "id": "Tile5",
+                        "subView": [
+                          {
+                            "title": {
+                              "text": "0tile0iitexti5"
+                            },
+                            "subTitle": {
+                              "text": "{$D2ClinicalPracticeQ8}",
+                              "start": 0,
+                              "end": 5,
+                              "count": 1,
+                              "validation": [
+                                {
+                                  "name": "REQUIRED_FIELD",                     
+                                  "error": "validationdrhfc"
+                                }
+                              ]
+                            }                      
+                          }                      
+                        ],                      
+                        "align": "START",                      
+                        "type": "CONTAINER",                      
+                        "uiAction": "",                      
+                        "order": 1                      
+                      },
+                      {
+                        "id": "Tile5",
+                        "subView": [
+                          {
+                            "title": {
+                              "text": "0tile0iitexti6"
+                            },
+                            "subTitle": {
+                              "text": "{$D2ClinicalPracticeQ9}",
+                              "start": 0,
+                              "end": 5,
+                              "count": 1,
+                              "validation": [
+                                {
+                                  "name": "REQUIRED_FIELD",                     
+                                  "error": "validationdrhfc"
+                                }
+                              ]
+                            }                      
+                          }                      
+                        ],                      
+                        "align": "START",                      
+                        "type": "CONTAINER",                      
+                        "uiAction": "",                      
+                        "order": 1                      
+                      },
+                      {
+                        "id": "Tile5",
+                        "subView": [
+                          {
+                            "title": {
+                              "text": "0tile0iitexti7"
+                            },
+                            "subTitle": {
+                              "text": "{$D2ClinicalPracticeQ10}",
+                              "start": 0,
+                              "end": 5,
+                              "count": 1,
+                              "validation": [
+                                {
+                                  "name": "REQUIRED_FIELD",                     
+                                  "error": "validationdrhfc"
+                                }
+                              ]
+                            }                      
+                          }                      
+                        ],                      
+                        "align": "START",                      
+                        "type": "CONTAINER",                      
+                        "uiAction": "",                      
+                        "order": 1                      
+                      }
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action300}",
+                    "order": 1
+                },
+                {
+                    "id": "EN01BottomButton1",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": "2en01bottombutton1iitextiiyaq"
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BUTTON",
+                    "uiAction": "${action5}",
+                    "order": 2
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action300": {
+            "action": [
+                {
+                     "name": "Function.Navigate",
+                     "cardId": "cd-kshx4d9aba61wb9q-ta-cas9"
+                }
+
+            ]
+        },
+        "action5": {
+            "action": [
+                {
+                     "name": "Function.Navigate",
+                     "cardId": "cd-kshx4d9aba61wb9q-ta-cas11"
+                }
+            ]        
+        }
+    }
+}

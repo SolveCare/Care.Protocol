@@ -1,0 +1,117 @@
+{
+    "id": "cd-izojwhk56g9j37bt2o1jc09xcvu1",
+    "name": "Limitations",
+    "cardData": {
+        "0tile7aiitextiiqlw": "Choose all that apply",
+        "labelw7vsz": "No limitations",
+        "labelv0685": "Bedridden",
+        "labelxuxyl": "Can not see",
+        "labeltnnzx": "Can not hear",
+        "labelc6vtd": "Can not walk",
+        "labelr80mm": "Can not talk",
+        "labelrau29": "Can not travel",
+        "2en01bottombutton1iitextiimag": "Next"
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "00tc01",
+                "tileComponent": [
+                    {
+                        "id": "Tile7a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile7aiitextiiqlw",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START"
+                                },
+                                "options": {
+                                    "key": {
+                                        "name": "{$Limitations}",
+                                        "optionAlign": "START",
+                                        "optionTextColor": "#000080"
+                                    },
+                                    "list": [
+                                        {
+                                            "label": "labelw7vsz"
+                                        },
+                                        {
+                                            "label": "labelv0685"
+                                        },
+                                        {
+                                            "label": "labelxuxyl"
+                                        },
+                                        {
+                                            "label": "labeltnnzx"
+                                        },
+                                        {
+                                            "label": "labelc6vtd"
+                                        },
+                                        {
+                                            "label": "labelr80mm"
+                                        },
+                                        {
+                                            "label": "labelrau29"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "${}",
+                        "order": 2
+                    }
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action637}",
+                    "order": 1
+                },
+                {
+                    "id": "EN01BottomButton1",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": "2en01bottombutton1iitextiimag"
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BUTTON",
+                    "uiAction": "${action434}",
+                    "order": 2
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "": {
+            "action": null
+        },
+        "action637": {
+            "action": "e-w-parti-navig-to-cd-2ex-ed9"
+        },
+        "action434": {
+            "action": "e-w-parti-navig-to-cd-lpz-xv5"
+        }
+    }
+}

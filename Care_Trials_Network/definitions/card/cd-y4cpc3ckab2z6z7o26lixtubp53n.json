@@ -1,0 +1,262 @@
+{
+    "id": "cd-y4cpc3ckab2z6z7o26lixtubp53n",
+    "name": "Reviewed record details",
+    "cardData": {
+        "1tile0iitextiikw5": "Records:",
+        "2tile14iitextiiyet": "View attachment",
+        "imageUrlut0p4": "https://d1fgr2dke6q42b.cloudfront.net/dev/media/a1920ec3-027a-43cc-9226-36fad59c0b6a/go_next_grey_icon.png",
+        "3tile1iitextiiv8z": "Participant’s first name",
+        "3tile1iitextii1hr": "",
+        "3tile1iihintiin8v": "Enter Level Text",
+        "3tile1iierroriiycl": "Value should be between 1 and 30",
+        "4tile1iitextiio4w": " Participant’s last name",
+        "4tile1iitextiie9t": "",
+        "4tile1iihintiiumg": "Enter Level Text",
+        "4tile1iierroriis77": "Value should be between 1 and 30",
+        "5tile12iitextiit7z": "Report Type: ",
+        "5tile12iitextii8cl": "Option1",
+        "imageUrlg1voa": "https://d1fgr2dke6q42b.cloudfront.net/dev/media/a1920ec3-027a-43cc-9226-36fad59c0b6a/drop_down_list_greyn_155460.png",
+        "5tile12iihintiip0e": "View drop-down list",
+        "5tile12iidataiiewm": [
+            "Option1",
+            "Option2",
+            "Option3"
+        ],
+        "6tile12iitextiia42": "Report Tag: ",
+        "6tile12iitextiiodf": "Option1",
+        "imageUrlh4l77": "https://d1fgr2dke6q42b.cloudfront.net/dev/media/a1920ec3-027a-43cc-9226-36fad59c0b6a/drop_down_list_greyn_155460.png",
+        "6tile12iihintiif9s": "View drop-down list",
+        "6tile12iidataiiu94": [
+            "Option1",
+            "Option2",
+            "Option3"
+        ],
+        "7tile6aiitextii8he": "Age of record",
+        "label761ne": "less than 90 days",
+        "labeltnbs3": "less than 180 days",
+        "labelmg1bs": "less than 365 days",
+        "labelb18p8": "greater than 365 days",
+        "validationfc4vp": "Please select atleast one of the value",
+        "8tile1iitextiizvg": "Additional comments",
+        "8tile1iitextiiw40": "",
+        "8tile1iihintii3cm": "Enter comments here",
+        "8tile1iierroriis8y": "Value should be between 1 and 30",
+        "9tile0aiitextiihk6": "Status",
+        "9tile0aiitextiiydm": "Expired",
+        "9tile0aiitextiircr1" : "Report type",
+        "9tile0aiitextiircr2" : "Report tag",
+        "9tile0aiitextiircr3" : "Age of record"
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "{$participantDetails}",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#afafaf",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "1tile0iitextiikw5",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#ffffff",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "AttachmentDownloadTile",
+                        "subView": [
+                          {
+                            "title": {
+                              "text": "2tile14iitextiiyet",
+                              "titleTextColor": "#000080",
+                              "fontSize": 16
+                            },
+                            "subTitle": {
+                              "text": "{$folderReference}",
+                              "subTitleTextColor": "#000080",
+                              "fontSize": 16
+                            }
+                          }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile0a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "9tile0aiitextiircr1",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "subTitle": {
+                                    "text": "{$reportType}",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "END",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 9
+                    },
+                    {
+                        "id": "Tile0a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "9tile0aiitextiircr2",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "subTitle": {
+                                    "text": "{$reportTags}",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "END",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 9
+                    },
+                    {
+                        "id": "Tile0a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "9tile0aiitextiircr3",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "subTitle": {
+                                    "text": "{$ageOfRecord}",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "END",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 9
+                    },
+                    {
+                        "id": "Tile11",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "8tile1iitextiizvg",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "subTitle": {
+                                    "text": "{$comments}",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    }
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "style": {
+            "fontSize": 16,
+            "bgColor": "#ffffff",
+            "borderWidth": 1
+        },
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action1}",
+                    "order": 1
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "": {
+            "action": null
+        },
+        "action1": {
+            "action": "e-w-admin-navig-to-cd-o84-zfj-7"
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "e-w-pt-navig-to-cd-b7ayf-spend",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "name": "submit",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "DETAILS",
+                                    "url": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "postAction": "cd-b7ayfecawcwtdqueb2b3vgwgp6g1",
+                    "refId": "e-w-pt-navig-to-cd-b7ayf-spend"
+                }
+            ]
+        }
+    ]
+}

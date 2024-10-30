@@ -1,0 +1,248 @@
+{
+    "id": "cd-partispecialz4t5mut6kgwaqvqak1",
+    "name": "Special Trial", 
+    "cardData": {
+        "0tile0iitextiimk41": "Difficult Airway Simulation-based Training",
+        "imageUrl58s6u1": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/SPECIAL_OFFER (1) 1.png",
+        "2tile0iitextiisdu1": "Others seem to find it interesting!",
+        "imageUrlhigh11" : "https://i.ibb.co/H2B8wBz/High.png",
+        "imageUrlactive11" : "https://i.ibb.co/4NvM3Z7/Active-En.png",
+        "highText11" : "High Demand",
+        "activeText11" : "Active Enrollment", 
+        "3tile14iitextii6kc1": "Trial info",
+        "imageUrlnky991": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/arrow-right blue.png",
+        "backText11" : "Previous",
+        "skipText11" : "Skip",
+        "likeText11" : "Like",
+        "imageUrlback11" : "https://i.ibb.co/CmKZ33N/Back.png",
+        "imageUrlskip11" : "https://i.ibb.co/9wq4p1d/Cancel-icon.png",
+        "imageUrllike11" :  "https://i.ibb.co/5RZJbkH/Like-icon.png"
+    },
+    "cardLayout": {
+        
+        "body": [ 
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "${TrialName}",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "CENTER",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#000080",
+                        "backgroundColor": "#000080",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile16",
+                        "subView": [
+                            {
+                                "img": {
+                                    "text": "imageUrl58s6u1",
+                                    "isUrl": true,
+                                    "height": "116",
+                                    "width": "306"
+                                }
+                            }
+                        ],
+                        "borderColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "2tile0iitextiisdu1",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                     "titleAlign": "CENTER",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#ffffff",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 2
+                    },
+                    {
+                        "id": "Tile17a",
+                        "subView": [
+                            {
+                                "options": {
+                                    "list": [
+                                        {
+                                            "subTitle": {
+                                                "text": "highText11",
+                                                "subtitleAlign": "CENTER",
+                                                "colorCode": "#000080",
+                                                "style": "REGULAR",
+                                                "fontSize": 14
+                                            },
+                                            "img": {
+                                                "text": "imageUrlhigh11"
+                                            },
+                                            "uiAction": "",
+                                            "itemBorderColor": "#FFFFFF"
+                                        },
+                                        {
+                                            "subTitle": {
+                                                "text": "activeText11",
+                                                "subtitleAlign": "CENTER",
+                                                "colorCode": "#000080",
+                                                "style": "REGULAR",
+                                                "fontSize": 14
+                                            },
+                                            "img": {
+                                                "text": "imageUrlactive11"
+                                            },
+                                            "uiAction": "",
+                                            "itemBorderColor": "#FFFFFF"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "borderColor": "#FFFFFF",
+                        "isSeparatorBetweenItems": false,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 5
+                    },
+                    {
+                        "id": "Tile14",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "3tile14iitextii6kc1",
+                                    "titleTextColor": "#000080",
+                                    "fontSize": 16,
+                                    "style": "REGULAR"
+                                },
+                                "img": {
+                                    "text": "imageUrlnky991",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "${action11}",
+                        "order": 3
+                    },
+                    {
+                        "id": "Tile17a",
+                        "subView": [
+                            {
+                                "options": {
+                                    "list": [
+                                       
+                                        {
+                                            "subTitle": {
+                                                "text": "skipText11",
+                                                "subtitleAlign": "CENTER",
+                                                "colorCode": "#000080",
+                                                "style": "REGULAR",
+                                                "fontSize": 14
+                                            },
+                                            "img": {
+                                                "text": "imageUrlskip11"
+                                            },
+                                            "uiAction": "action17d21",
+                                            "itemBorderColor": "#FFFFFF"
+                                        },
+                                        {
+                                            "subTitle": {
+                                                "text": "likeText11",
+                                                "subtitleAlign": "CENTER",
+                                                "colorCode": "#000080",
+                                                "style": "REGULAR",
+                                                "fontSize": 14
+                                            },
+                                            "img": {
+                                                "text": "imageUrllike11"
+                                            },
+                                            "uiAction": "action17d31",
+                                            "itemBorderColor": "#FFFFFF"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "borderColor": "#FFFFFF",
+                        "isSeparatorBetweenItems": false,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 5
+                    }
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "style": {
+            "fontSize": 16,
+            "bgColor": "#ffffff",
+            "borderWidth": 1
+        },
+        "footer": {
+            "menu": [
+                {
+
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action11": {
+            "action": "e-w-parti-navig-to-cd-8qu-tr1" 
+        },
+        "action17d21": {
+            "action": [
+                {
+                    "name": "Function.reloadData", 
+                    "resultKey": "Nope",
+                    "addAgainAfter": 10
+                }
+            ]
+        },
+        "action17d31": {
+            "action": [
+                {
+                    "name": "e-w-broad-specicamp"
+                },
+                {
+                    "name": "e-w-broad-matching-nur-s"
+                },
+                {
+                    "name": "Function.reloadData",
+                    "resultKey": "Interested"
+                }
+            ]
+        }
+    }
+}
+    

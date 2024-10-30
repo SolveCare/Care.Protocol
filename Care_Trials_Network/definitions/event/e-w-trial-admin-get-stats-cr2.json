@@ -1,0 +1,22 @@
+{
+    "definition": {
+        "description": "GET DATA for statistics card",
+        "name": "W-TRIAL-ADMIN-GET-STATS-CR2",
+        "resource": "W-TRIAL-ADMIN-GET-STATS-CR2",
+        "type": "EVENT_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 1,
+                "system": false,
+                "required": false
+            }
+        ]
+    }
+}

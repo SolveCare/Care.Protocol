@@ -1,0 +1,1 @@
+{"definition":{"description":"Event to Navigate from Request Review to cd-mev31thy3p9ikh4i7l1ygfenwl5","name":"W-TRIAL-ADMIN-NAVIG-TO-.I1M","resource":"W-TRIAL-ADMIN-NAVIG-TO-.I1M","type":"EVENT_DATA"},"structure":{"attributes":[{"code":"transactionalGuid","name":"transactionalGuid","type_definition":{"type":"string"},"order":1,"system":false,"required":false}]}}

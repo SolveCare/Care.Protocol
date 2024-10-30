@@ -1,0 +1,266 @@
+{
+  "id": "cd-siteprototypeRecordDetailsCard-6",
+  "name": "Record Details", 
+  "cardData": {
+      "0tile11iitextiibrl": "Medical Records",
+      "0tile11iitextii678": "Record uploaded on: 26-03-2024",
+      "1tile0aiitextiibcj": "Record type",
+      "1tile0aiitextii0o5": "MRI scan",
+      "2tile0aiitextiif8t": "Record tag",
+      "2tile0aiitextiixzt": "MRI",
+      "3tile0aiitextiizvt": "Age of record",
+      "3tile0aiitextiinud": "09/11/2022",
+      "4tile14iitextiiwo1": "View attachments",
+      "4tile0aiitextii72o1": "IMG_3211.png",
+      "mbdata": "0.3 MB",
+      "imageUrl31xo81":"https://i.ibb.co/92HVPxG/mr-1.png",
+      "imageUrl31xo82": "https://i.ibb.co/QjYYFMS/mr-2.png",
+      "0tile0iitextiik10": "Lead has sent you requested  medical records",
+      "3tile11iitextiilqk1rp1": "Requested documents",
+      "imageUrlfgtqd221": "https://i.ibb.co/2hNHNJC/Doc.png",
+      "3tile11iitextiilqk1rp2":"Date",
+      "imageUrlfgtqd222": "https://i.ibb.co/L6dNXxW/AptDays.png",
+      "3tile11iitextiilqk1rp3": "Status",
+      "imageUrlfgtqd223": "https://i.ibb.co/J3PJfVS/Status-Rec.png",
+      "textofMRI":"MRI",
+      "textofStatus":"Pending review",
+      "textofDate": "Sent on: 02/05/2024",
+      "imageUrlo4c5a": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/download symbol.png"
+  },
+  "cardLayout": {
+      "body": [
+          {
+              "id": "00tc01",
+              "tileComponent": [
+                {
+                    "id": "Tile0",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": "0tile0iitextiik10",
+                                "style": "BOLD",
+                                "titleTextColor": "#000080",
+                                "titleAlign": "START",
+                                "fontSize": 16
+                            }
+                        }
+                    ],
+                    "borderColor": "#C5C3C8",
+                    "backgroundColor": "#ffffff",
+                    "borderWidth": 1,
+                    "type": "CONTAINER",
+                    "uiAction": "",
+                    "order": 1
+                },
+                {
+                    "id": "Tile14a",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": "3tile11iitextiilqk1rp1",
+                                "style": "BOLD",
+                                "titleTextColor": "#000080",
+                                "titleAlign": "START"
+                            },
+                            "subTitle": {
+                                "text": "textofMRI",
+                                "style": "REGULAR",
+                                "subTitleTextColor": "#000080",
+                                "subTitleAlign": "START"
+                            },
+                            "img": {
+                                "text": "imageUrlfgtqd221",
+                                "isUrl": true,
+                                "height": "40",
+                                "width": "40"
+                            }
+                        }
+                    ],
+                    "borderColor": "#C5C3C8",
+                    "type": "CONTAINER",
+                    "uiAction": "",
+                    "order": 3
+                },
+                {
+                    "id": "Tile14a",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": "3tile11iitextiilqk1rp3",
+                                "style": "BOLD",
+                                "titleTextColor": "#000080",
+                                "titleAlign": "START"
+                            },
+                            "subTitle": {
+                                "text": "textofStatus",
+                                "style": "REGULAR",
+                                "subTitleTextColor": "#000080",
+                                "subTitleAlign": "START"
+                            },
+                            "img": {
+                                "text": "imageUrlfgtqd223",
+                                "isUrl": true,
+                                "height": "40",
+                                "width": "40"
+                            }
+                        }
+                    ],
+                    "borderColor": "#C5C3C8",
+                    "type": "CONTAINER",
+                    "uiAction": "",
+                    "order": 3
+                },
+                {
+                    "id": "Tile14a",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": "3tile11iitextiilqk1rp2",
+                                "style": "BOLD",
+                                "titleTextColor": "#000080",
+                                "titleAlign": "START"
+                            },
+                            "subTitle": {
+                                "text": "textofDate",
+                                "style": "REGULAR",
+                                "subTitleTextColor": "#000080",
+                                "subTitleAlign": "START"
+                            },
+                            "img": {
+                                "text": "imageUrlfgtqd222",
+                                "isUrl": true,
+                                "height": "40",
+                                "width": "40"
+                            }
+                        }
+                    ],
+                    "borderColor": "#C5C3C8",
+                    "type": "CONTAINER",
+                    "uiAction": "",
+                    "order": 3
+                },
+               
+                  {
+                    "id": "AttachmentDownloadTile",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": "4tile14iitextiiwo1",
+                                "titleTextColor": "#000080",
+                                "fontSize": 16
+                            },
+                            "subTitle": {
+                                "text": "{$folderReference}",
+                                "subTitleTextColor": "#000080",
+                                "fontSize": 16
+                            }
+                        }
+                    ],
+                    "borderColor": "#C5C3C8",
+                    "backgroundColor": "#ffffff",
+                    "borderWidth": 1,
+                    "type": "CONTAINER",
+                    "uiAction": "",
+                    "order": 1
+                  },
+                  {
+                    "id": "Tile0a",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": "4tile0aiitextii72o1",
+                                "style": "BOLD",
+                                "titleTextColor": "#000080",
+                                "titleAlign": "START"
+                            },
+                            "subTitle": {
+                                "text": "mbdata",
+                                "style": "REGULAR",
+                                "subTitleTextColor": "#000080",
+                                "subTitleAlign": "END"
+                            }
+                        }
+                    ],
+                    "borderColor": "#C5C3C8",
+                    "type": "CONTAINER",
+                    "uiAction": "",
+                    "order": 4
+                },
+                  {
+                    "id": "Tile16",
+                    "subView": [
+                        {
+                            "img": {
+                                "text": "imageUrl31xo81",
+                                "isUrl": true,
+                                "height": "150",
+                                "width": "150"
+                            }
+                        }
+                    ],
+                    "borderColor": "#C5C3C8",
+                    "borderWidth": 1,
+                    "type": "CONTAINER",
+                    "uiAction": "",
+                    "order": 1
+                },
+                {
+                    "id": "Tile16",
+                    "subView": [
+                        {
+                            "img": {
+                                "text": "imageUrl31xo82",
+                                "isUrl": true,
+                                "height": "150",
+                                "width": "150"
+                            }
+                        }
+                    ],
+                    "borderColor": "#C5C3C8",
+                    "borderWidth": 1,
+                    "type": "CONTAINER",
+                    "uiAction": "",
+                    "order": 1
+                }
+              ],
+              "tileType": "WRAP",
+              "uiAction": "",
+              "order": 1
+          }
+      ],
+      "style": {
+          "fontSize": 16,
+          "bgColor": "#ffffff",
+          "borderWidth": 1
+      },
+      "footer": {
+          "menu": [
+              {
+                  "id": "EN01BottomButtonBack",
+                  "subView": [
+                      {
+                          "title": {
+                              "text": ""
+                          }
+                      }
+                  ],
+                  "align": "START",
+                  "type": "BACK_BUTTON",
+                  "uiAction": "${action085}",
+                  "order": 1
+              }
+          ],
+          "orientation": "HORIZONTAL"
+      }
+  },
+  "cardUIAction": {
+    "action085": {
+        "action": [
+            {
+                "name": "Function.Navigate",
+                "cardId": "cd-siteprototypePartiRecordsIDCard-4"
+            }
+        ]
+      }
+  }
+}

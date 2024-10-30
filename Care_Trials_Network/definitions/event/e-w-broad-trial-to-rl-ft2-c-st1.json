@@ -1,0 +1,22 @@
+{
+    "definition": {
+        "description": "ACTIVATION",
+        "name": "ACTIVATE.ADMIN.CODE001",
+        "resource": "ACTIVATE.ADMIN.CODE001",
+        "type": "EVENT_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "name": "UniqueCode",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": true,
+                "system": false,
+                "code": "UniqueCode",
+                "order": 1
+            }
+        ]
+    }
+}

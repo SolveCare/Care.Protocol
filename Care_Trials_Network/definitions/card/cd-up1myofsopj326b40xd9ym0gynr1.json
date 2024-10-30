@@ -1,0 +1,287 @@
+{
+    "id": "cd-up1myofsopj326b40xd9ym0gynr1",
+    "name": "Exclusive Offer",
+    "cardData": {
+        "imageUrlgvlj8": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/image (6).png",
+        "imageUrlacj4i": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/EXCLUSIVE 1.png",
+        "2tile0iitextii0zd": "Free services from Site Admin for you ",
+        "3tile14iitextii74u": "Trial info",
+        "imageUrl2neq6": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/arrow-right blue.png",
+        "reviewText1" : "Records Review",
+        "verifyText1" : "ID Verification",
+        "locationText1" : "Ride to Location",
+        "imageUrlreview1" : "https://i.ibb.co/cwdVZQZ/Review.png",
+        "imageUrlverify1" : "https://i.ibb.co/zXGfQD8/Verify.png",
+        "imageUrllocation1" : "https://i.ibb.co/p4gQ987/Location.png",
+        "backText3" : "Back",
+        "skipText3" : "Skip",
+        "likeText3" : "Like",
+        "referText3" : "Refer",
+        "imageUrlback3" : "https://i.ibb.co/CmKZ33N/Back.png",
+        "imageUrlskip3" : "https://i.ibb.co/9wq4p1d/Cancel-icon.png",
+        "imageUrllike3" :  "https://i.ibb.co/5RZJbkH/Like-icon.png",
+        "imageUrlrefer3" : "https://i.ibb.co/r7Z6qdB/Refer.png",
+        "timerTextDay1": "days",
+        "timerTextHour1": "hours",
+        "timerTextMinute1": "minutes",
+        "timerTextSecond1": "seconds"
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    {
+                        "id": "CountdownTile",
+                        "subView": [
+                            { 
+                                "title": {
+                                    "text": "${CampaignEndTime}",
+                                    "style": "REGULAR",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "CENTER",
+                                    "fontSize": 15
+                                },
+                                "subTitle": {
+                                    "text": "${timerTextDay1}|{timerTextHour1}|{timerTextMinute1}|{timerTextSecond1}",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "CENTER",
+                                    "fontSize": 15
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 2
+                    },
+                    {
+                        "id": "Tile16",
+                        "subView": [
+                            {
+                                "img": {
+                                    "text": "imageUrlacj4i",
+                                    "isUrl": true,
+                                    "height": "110",
+                                    "width": "280"
+                                }
+                            }
+                        ],
+                        "borderColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "2tile0iitextii0zd",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "CENTER",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#ffffff",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 2
+                    },
+                    {
+                        "id": "Tile17a",
+                        "subView": [
+                            {
+                                "options": {
+                                    "list": [
+                                        {
+                                            "subTitle": {
+                                                "text": "reviewText1",
+                                                "subtitleAlign": "CENTER",
+                                                "colorCode": "#000080",
+                                                "style": "REGULAR",
+                                                "fontSize": 14
+                                            },
+                                            "img": {
+                                                "text": "imageUrlreview1"
+                                            },
+                                            "uiAction": "",
+                                            "itemBorderColor": "#FFFFFF"
+                                        },
+                                        {
+                                            "subTitle": {
+                                                "text": "verifyText1",
+                                                "subtitleAlign": "CENTER",
+                                                "colorCode": "#000080",
+                                                "style": "REGULAR",
+                                                "fontSize": 14
+                                            },
+                                            "img": {
+                                                "text": "imageUrlverify1"
+                                            },
+                                            "uiAction": "",
+                                            "itemBorderColor": "#FFFFFF"
+                                        },
+                                        {
+                                            "subTitle": {
+                                                "text": "locationText1",
+                                                "subtitleAlign": "CENTER",
+                                                "colorCode": "#000080",
+                                                "style": "REGULAR",
+                                                "fontSize": 14
+                                            },
+                                            "img": {
+                                                "text": "imageUrllocation1"
+                                            },
+                                            "uiAction": "",
+                                            "itemBorderColor": "#FFFFFF"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "borderColor": "#FFFFFF",
+                        "isSeparatorBetweenItems": false,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 5
+                    },
+                    {
+                        "id": "Tile14",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "3tile14iitextii74u",
+                                    "titleTextColor": "#000080",
+                                    "fontSize": 16,
+                                    "style": "REGULAR"
+                                },
+                                "img": {
+                                    "text": "imageUrl2neq6",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 3
+                    },
+                    {
+                        "id": "Tile17a",
+                        "subView": [
+                            {
+                                "options": {
+                                    "list": [
+                                        {
+                                            "subTitle": {
+                                                "text": "backText3",
+                                                "subtitleAlign": "CENTER",
+                                                "colorCode": "#000080",
+                                                "style": "REGULAR",
+                                                "fontSize": 14
+                                            },
+                                            "img": {
+                                                "text": "imageUrlback3"
+                                            },
+                                            "uiAction": "action17f1",
+                                            "itemBorderColor": "#FFFFFF"
+                                        },
+                                        {
+                                            "subTitle": {
+                                                "text": "skipText3",
+                                                "subtitleAlign": "CENTER",
+                                                "colorCode": "#000080",
+                                                "style": "REGULAR",
+                                                "fontSize": 14
+                                            },
+                                            "img": {
+                                                "text": "imageUrlskip3"
+                                            },
+                                            "uiAction": "action17f2",
+                                            "itemBorderColor": "#FFFFFF"
+                                        },
+                                        {
+                                            "subTitle": {
+                                                "text": "likeText3",
+                                                "subtitleAlign": "CENTER",
+                                                "colorCode": "#000080",
+                                                "style": "REGULAR",
+                                                "fontSize": 14
+                                            },
+                                            "img": {
+                                                "text": "imageUrllike3"
+                                            },
+                                            "uiAction": "action17f3",
+                                            "itemBorderColor": "#FFFFFF"
+                                        },
+                                        {
+                                            "subTitle": {
+                                                "text": "referText3",
+                                                "subtitleAlign": "CENTER",
+                                                "colorCode": "#000080",
+                                                "style": "REGULAR",
+                                                "fontSize": 14
+                                            },
+                                            "img": {
+                                                "text": "imageUrlrefer3"
+                                            },
+                                            "uiAction": "action17f4",
+                                            "itemBorderColor": "#FFFFFF"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "borderColor": "#FFFFFF",
+                        "isSeparatorBetweenItems": false,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 5
+                    }
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "style": {
+            "fontSize": 16,
+            "bgColor": "#ffffff",
+            "borderWidth": 1
+        },
+        "footer": {
+            "menu": [
+                {
+                    
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action1": {
+            "action": "HOME"
+        },
+        "action17f1": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-pfnlbf2tods57jj3sjvk8didijs1"
+                }
+            ]
+        }
+    }
+}

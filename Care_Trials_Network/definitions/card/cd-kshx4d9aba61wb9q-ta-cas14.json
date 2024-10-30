@@ -1,0 +1,284 @@
+{
+    "id": "cd-kshx4d9aba61wb9q-ta-cas14",
+    "name": "Competency Assessment Survey",
+    "cardData": {
+        "0tile0iitextiik12": "Study communications:",      
+
+        "0tile0iitexti1": "1. Ensure translation of patient-facing materials into a language/dialect that participants understand",
+
+        "0tile0iitexti2": "2. Identify, organize, analyze, and report project performance for comprehensive management of a study (e.g., providing updates, time-driven reports, or annual reports required by IRBs, etc.)",
+
+        "0tile0iitexti3": "3. Effectively liaise and coordinate with study site(s), teams, and relevant departments/divisions",
+
+        "0tile0iitexti4": "4. Facilitate and actively participate in meetings",
+
+        "0tile0iitextiik13": "Staff management:",  
+
+        "0tile0iitexti5": "1. Develop and manage the functional and operational efficiencies and personnel resources necessary to conduct the research (e.g., budget and business plan, outsourcing requirements and reporting, etc.)",
+        
+        "0tile0iitexti6": "2. Develop institution-specific job descriptions for each role involved in conduct of clinical research",
+
+        "validationdrhfc": "Please select one value",
+        "2en01bottombutton1iitextiiyaq": "Next"
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile0iitextiik12",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile5",
+                        "subView": [
+                          {
+                            "title": {
+                              "text": "0tile0iitexti1"
+                            },
+                            "subTitle": {
+                              "text": "{$D3StudyCommunicationsQ1}",
+                              "start": 0,
+                              "end": 5,
+                              "count": 1,
+                              "validation": [
+                                {
+                                  "name": "REQUIRED_FIELD",                     
+                                  "error": "validationdrhfc"
+                                }
+                              ]
+                            }                      
+                          }                      
+                        ],                      
+                        "align": "START",                      
+                        "type": "CONTAINER",                      
+                        "uiAction": "",                      
+                        "order": 1                      
+                    },
+                    {
+                      "id": "Tile5",
+                      "subView": [
+                        {
+                          "title": {
+                            "text": "0tile0iitexti2"
+                          },
+                          "subTitle": {
+                            "text": "{$D3StudyCommunicationsQ2}",
+                            "start": 0,
+                            "end": 5,
+                            "count": 1,
+                            "validation": [
+                              {
+                                "name": "REQUIRED_FIELD",                     
+                                "error": "validationdrhfc"
+                              }
+                            ]
+                          }                      
+                        }                      
+                      ],                      
+                      "align": "START",                      
+                      "type": "CONTAINER",                      
+                      "uiAction": "",                      
+                      "order": 1                      
+                    },
+                    {
+                      "id": "Tile5",
+                      "subView": [
+                        {
+                          "title": {
+                            "text": "0tile0iitexti3"
+                          },
+                          "subTitle": {
+                            "text": "{$D3StudyCommunicationsQ3}",
+                            "start": 0,
+                            "end": 5,
+                            "count": 1,
+                            "validation": [
+                              {
+                                "name": "REQUIRED_FIELD",                     
+                                "error": "validationdrhfc"
+                              }
+                            ]
+                          }                      
+                        }                      
+                      ],                      
+                      "align": "START",                      
+                      "type": "CONTAINER",                      
+                      "uiAction": "",                      
+                      "order": 1                      
+                    },
+                    {
+                        "id": "Tile5",
+                        "subView": [
+                          {
+                            "title": {
+                              "text": "0tile0iitexti4"
+                            },
+                            "subTitle": {
+                              "text": "{$D3StudyCommunicationsQ4}",
+                              "start": 0,
+                              "end": 5,
+                              "count": 1,
+                              "validation": [
+                                {
+                                  "name": "REQUIRED_FIELD",                     
+                                  "error": "validationdrhfc"
+                                }
+                              ]
+                            }                      
+                          }                      
+                        ],                      
+                        "align": "START",                      
+                        "type": "CONTAINER",                      
+                        "uiAction": "",                      
+                        "order": 1                      
+                      },
+                      {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile0iitextiik13",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                      "id": "Tile5",
+                      "subView": [
+                        {
+                          "title": {
+                            "text": "0tile0iitexti5"
+                          },
+                          "subTitle": {
+                            "text": "{$D3StaffManagementQ1}",
+                            "start": 0,
+                            "end": 5,
+                            "count": 1,
+                            "validation": [
+                              {
+                                "name": "REQUIRED_FIELD",                     
+                                "error": "validationdrhfc"
+                              }
+                            ]
+                          }                      
+                        }                      
+                      ],                      
+                      "align": "START",                      
+                      "type": "CONTAINER",                      
+                      "uiAction": "",                      
+                      "order": 1                      
+                    },
+                    {
+                      "id": "Tile5",
+                      "subView": [
+                        {
+                          "title": {
+                            "text": "0tile0iitexti6"
+                          },
+                          "subTitle": {
+                            "text": "{$D3StaffManagementQ2}",
+                            "start": 0,
+                            "end": 5,
+                            "count": 1,
+                            "validation": [
+                              {
+                                "name": "REQUIRED_FIELD",                     
+                                "error": "validationdrhfc"
+                              }
+                            ]
+                          }                      
+                        }                      
+                      ],                      
+                      "align": "START",                      
+                      "type": "CONTAINER",                      
+                      "uiAction": "",                      
+                      "order": 1                      
+                    }
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action300}",
+                    "order": 1
+                },
+                {
+                    "id": "EN01BottomButton1",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": "2en01bottombutton1iitextiiyaq"
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BUTTON",
+                    "uiAction": "${action5}",
+                    "order": 2
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action300": {
+            "action": [
+                {
+                     "name": "Function.Navigate",
+                     "cardId": "cd-kshx4d9aba61wb9q-ta-cas13"
+                }
+
+            ]
+        },
+        "action5": {
+            "action": [
+                {
+                     "name": "Function.Navigate",
+                     "cardId": "cd-kshx4d9aba61wb9q-ta-cas15"
+                }
+            ]        
+        }
+    }
+}

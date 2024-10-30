@@ -1,0 +1,25 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "e-w-parti-navig-to-cd-7t8-fva",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "name": "submit",
+                            "order": 1, 
+                            "parameter": [
+                                {
+                                    "method": "DETAILS",
+                                    "url": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "postAction": "cd-nvbviswn3aww7d1xosiozad7kulp", 
+                    "refId": "e-w-parti-navig-to-cd-7t8-fva" 
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,240 @@
+{
+    "id": "cd-kshx4d9aba61wb9q-ta-cas13",
+    "name": "Competency Assessment Survey",
+    "cardData": {
+        "0tile0iitexti1": "2. Secure and maintain contracts with effective assessments of vendors and suppliers based on their experience, accreditation, etc",
+
+        "0tile0iitexti2": "3. Identify the legal responsibilities, liabilities, and accountabilities that are involved in the conduct of clinical studies",
+
+        "0tile0iitexti3": "4. Identify and explain the specific procedural, documentation, and oversight requirements of principal investigators, sponsors, CROs, and regulatory authorities that relate to the conduct of a clinical research/trial",
+
+        "0tile0iitexti4": "5. Identify the relevant submissions required and administrative processes (e.g., trial registry, regulatory, ethics, other national or local requirements, etc.)",
+
+        "0tile0iitexti5": "6. Coordinate and maintain the required submissions and provide appropriate updates",
+        
+        "0tile0iitexti6": "7. Ensure that all applicable essential documents exist and are accurate, complete, kept up-to-date, maintained, and compliant with ALCOAC principles",
+
+        "validationdrhfc": "Please select one value",
+        "2en01bottombutton1iitextiiyaq": "Next"
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    {
+                        "id": "Tile5",
+                        "subView": [
+                          {
+                            "title": {
+                              "text": "0tile0iitexti1"
+                            },
+                            "subTitle": {
+                              "text": "{$D3RegulationsQ2}",
+                              "start": 0,
+                              "end": 5,
+                              "count": 1,
+                              "validation": [
+                                {
+                                  "name": "REQUIRED_FIELD",                     
+                                  "error": "validationdrhfc"
+                                }
+                              ]
+                            }                      
+                          }                      
+                        ],                      
+                        "align": "START",                      
+                        "type": "CONTAINER",                      
+                        "uiAction": "",                      
+                        "order": 1                      
+                    },
+                    {
+                      "id": "Tile5",
+                      "subView": [
+                        {
+                          "title": {
+                            "text": "0tile0iitexti2"
+                          },
+                          "subTitle": {
+                            "text": "{$D3RegulationsQ3}",
+                            "start": 0,
+                            "end": 5,
+                            "count": 1,
+                            "validation": [
+                              {
+                                "name": "REQUIRED_FIELD",                     
+                                "error": "validationdrhfc"
+                              }
+                            ]
+                          }                      
+                        }                      
+                      ],                      
+                      "align": "START",                      
+                      "type": "CONTAINER",                      
+                      "uiAction": "",                      
+                      "order": 1                      
+                    },
+                    {
+                      "id": "Tile5",
+                      "subView": [
+                        {
+                          "title": {
+                            "text": "0tile0iitexti3"
+                          },
+                          "subTitle": {
+                            "text": "{$D3RegulationsQ4}",
+                            "start": 0,
+                            "end": 5,
+                            "count": 1,
+                            "validation": [
+                              {
+                                "name": "REQUIRED_FIELD",                     
+                                "error": "validationdrhfc"
+                              }
+                            ]
+                          }                      
+                        }                      
+                      ],                      
+                      "align": "START",                      
+                      "type": "CONTAINER",                      
+                      "uiAction": "",                      
+                      "order": 1                      
+                    },
+                    {
+                        "id": "Tile5",
+                        "subView": [
+                          {
+                            "title": {
+                              "text": "0tile0iitexti4"
+                            },
+                            "subTitle": {
+                              "text": "{$D3RegulationsQ5}",
+                              "start": 0,
+                              "end": 5,
+                              "count": 1,
+                              "validation": [
+                                {
+                                  "name": "REQUIRED_FIELD",                     
+                                  "error": "validationdrhfc"
+                                }
+                              ]
+                            }                      
+                          }                      
+                        ],                      
+                        "align": "START",                      
+                        "type": "CONTAINER",                      
+                        "uiAction": "",                      
+                        "order": 1                      
+                      },
+                      {
+                        "id": "Tile5",
+                        "subView": [
+                          {
+                            "title": {
+                              "text": "0tile0iitexti5"
+                            },
+                            "subTitle": {
+                              "text": "{$D3RegulationsQ6}",
+                              "start": 0,
+                              "end": 5,
+                              "count": 1,
+                              "validation": [
+                                {
+                                  "name": "REQUIRED_FIELD",                     
+                                  "error": "validationdrhfc"
+                                }
+                              ]
+                            }                      
+                          }                      
+                        ],                      
+                        "align": "START",                      
+                        "type": "CONTAINER",                      
+                        "uiAction": "",                      
+                        "order": 1                      
+                      },
+                      {
+                        "id": "Tile5",
+                        "subView": [
+                          {
+                            "title": {
+                              "text": "0tile0iitexti6"
+                            },
+                            "subTitle": {
+                              "text": "{$D3RegulationsQ7}",
+                              "start": 0,
+                              "end": 5,
+                              "count": 1,
+                              "validation": [
+                                {
+                                  "name": "REQUIRED_FIELD",                     
+                                  "error": "validationdrhfc"
+                                }
+                              ]
+                            }                      
+                          }                      
+                        ],                      
+                        "align": "START",                      
+                        "type": "CONTAINER",                      
+                        "uiAction": "",                      
+                        "order": 1                      
+                      }
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action300}",
+                    "order": 1
+                },
+                {
+                    "id": "EN01BottomButton1",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": "2en01bottombutton1iitextiiyaq"
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BUTTON",
+                    "uiAction": "${action5}",
+                    "order": 2
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action300": {
+            "action": [
+                {
+                     "name": "Function.Navigate",
+                     "cardId": "cd-kshx4d9aba61wb9q-ta-cas12"
+                }
+
+            ]
+        },
+        "action5": {
+            "action": [
+                {
+                     "name": "Function.Navigate",
+                     "cardId": "cd-kshx4d9aba61wb9q-ta-cas14"
+                }
+            ]        
+        }
+    }
+}

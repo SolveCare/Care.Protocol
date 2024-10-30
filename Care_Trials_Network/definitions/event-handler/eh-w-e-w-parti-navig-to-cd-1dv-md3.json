@@ -1,0 +1,25 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "e-w-parti-navig-to-cd-1dv-md3",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "name": "submit",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "DETAILS",
+                                    "url": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "postAction": "cd-tjecbs28t1syyrj7sgj9eqpo6vip", 
+                    "refId": "e-w-parti-navig-to-cd-1dv-md3"
+                }
+            ]
+        }
+    ]
+}

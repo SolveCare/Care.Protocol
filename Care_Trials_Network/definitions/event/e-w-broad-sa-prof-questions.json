@@ -1,0 +1,1009 @@
+{
+    "definition": {
+        "description": "JOURNEY_ACTIVATION",
+        "name": "BROAD.SA.PROFQUES001",
+        "resource": "BROAD.SA.PROFQUES001",
+        "type": "EVENT_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "name": "DPP",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "DPP",
+                "order": 1
+            },
+            {
+                "name": "InstitutionName",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "InstitutionName",
+                "order": 1
+            },
+            {
+                "name": "AffiliationAddress",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "AffiliationAddress",
+                "order": 1
+            },
+            {
+                "name": "EstablishedYear",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "EstablishedYear",
+                "order": 1
+            },
+            {
+                "name": "TypeOfAffiliation",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "TypeOfAffiliation",
+                "order": 1
+            },
+            {
+                "name": "InstitutionDescription",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "InstitutionDescription",
+                "order": 2
+            },
+            {
+                "name": "TrialsDescription",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "TrialsDescription",
+                "order": 2
+            },
+            {
+                "name": "Website",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Website",
+                "order": 2
+            },
+            {
+                "name": "Email",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Email",
+                "order": 2
+            },
+            {
+                "name": "Phone",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Phone",
+                "order": 2
+            },
+            {
+                "name": "D1SpaceQ1",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D1SpaceQ1",
+                "order": 3
+            },
+            {
+                "name": "D1SpaceQ2",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D1SpaceQ2",
+                "order": 4
+            },
+            {
+                "name": "D1SpaceQ3",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D1SpaceQ3",
+                "order": 5
+            },
+            {
+                "name": "D1SpaceQ4",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D1SpaceQ4",
+                "order": 6
+            },
+            {
+                "name": "D1PathologyQ1",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D1PathologyQ1",
+                "order": 7
+            },
+            {
+                "name": "D1PathologyQ2",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D1PathologyQ2",
+                "order": 9
+            },
+            {
+                "name": "D1PathologyQ3",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D1PathologyQ3",
+                "order": 10
+            },
+            {
+                "name": "D1PathologyQ4",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D1PathologyQ4",
+                "order": 11
+            },
+            {
+                "name": "D1PharmacyQ1",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D1PharmacyQ1",
+                "order": 11
+            },
+            {
+                "name": "D1DiagnosticQ1",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D1DiagnosticQ1",
+                "order": 11
+            },
+            {
+                "name": "D1DiagnosticQ2",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D1DiagnosticQ2",
+                "order": 11
+            },
+            {
+                "name": "D1DiagnosticQ3",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D1DiagnosticQ3",
+                "order": 11
+            },
+            {
+                "name": "D1SpecServicesQ1",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D1SpecServicesQ1",
+                "order": 11
+            },
+            {
+                "name": "D1SpecServicesQ2",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D1SpecServicesQ2",
+                "order": 11
+            },
+            {
+                "name": "D1SpecServicesQ3",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D1SpecServicesQ3",
+                "order": 11
+            },
+            {
+                "name": "D1StorageQ1",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D1StorageQ1",
+                "order": 11
+            },
+            {
+                "name": "D1StorageQ2",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D1StorageQ2",
+                "order": 11
+            },
+            {
+                "name": "D1StructureSuppQ1",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D1StructureSuppQ1",
+                "order": 11
+            },
+            {
+                "name": "D1StructureSuppQ2",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D1StructureSuppQ2",
+                "order": 11
+            },
+            {
+                "name": "D1StructureSuppQ3",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D1StructureSuppQ3",
+                "order": 11
+            },
+            {
+                "name": "D1StructureSuppQ4",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D1StructureSuppQ4",
+                "order": 11
+            },
+            {
+                "name": "D1StructureSuppQ5",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D1StructureSuppQ5",
+                "order": 11
+            },
+            {
+                "name": "D1StructureSuppQ6",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D1StructureSuppQ6",
+                "order": 11
+            },
+            {
+                "name": "D1StructureSuppQ7",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D1StructureSuppQ7",
+                "order": 11
+            },
+            {
+                "name": "D1StructureSuppQ8",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D1StructureSuppQ8",
+                "order": 11
+            },
+            {
+                "name": "D1StructureSuppQ9",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D1StructureSuppQ9",
+                "order": 11
+            },
+            {
+                "name": "D1StructureSuppQ10",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D1StructureSuppQ10",
+                "order": 11
+            },
+            {
+                "name": "D1ResourcesQ1",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D1ResourcesQ1",
+                "order": 11
+            },
+            {
+                "name": "D1ResourcesQ2",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D1ResourcesQ2",
+                "order": 11
+            },
+            {
+                "name": "D1ResourcesQ3",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D1ResourcesQ3",
+                "order": 11
+            },
+            {
+                "name": "D1ResourcesQ4",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D1ResourcesQ4",
+                "order": 11
+            },
+            {
+                "name": "D1SelfGrading",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D1SelfGrading",
+                "order": 11
+            },
+            {
+                "name": "D2EthicsQ1",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D2EthicsQ1",
+                "order": 11
+            },
+            {
+                "name": "D2EthicsQ2",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D2EthicsQ2",
+                "order": 11
+            },
+            {
+                "name": "D2EthicsQ3",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D2EthicsQ3",
+                "order": 11
+            },
+            {
+                "name": "D2QualityQ1",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D2QualityQ1",
+                "order": 11
+            },
+            {
+                "name": "D2QualityQ2",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D2QualityQ2",
+                "order": 11
+            },
+            {
+                "name": "D2QualityQ3",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D2QualityQ3",
+                "order": 11
+            },
+            {
+                "name": "D2QualityQ4",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D2QualityQ4",
+                "order": 11
+            },
+            {
+                "name": "D2SafetyQ1",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D2SafetyQ1",
+                "order": 11
+            },
+            {
+                "name": "D2SafetyQ2",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D2SafetyQ2",
+                "order": 11
+            },
+            {
+                "name": "D2SafetyQ3",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D2SafetyQ3",
+                "order": 11
+            },
+            {
+                "name": "D2SafetyQ4",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D2SafetyQ4",
+                "order": 11
+            },
+            {
+                "name": "D2TrainingQ1",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D2TrainingQ1",
+                "order": 11
+            },
+            {
+                "name": "D2TrainingQ2",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D2TrainingQ2",
+                "order": 11
+            },
+            {
+                "name": "D2TrainingQ3",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D2TrainingQ3",
+                "order": 11
+            },
+            {
+                "name": "D2SelfGrading",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D2SelfGrading",
+                "order": 11
+            },
+            {
+                "name": "D3PartnershipsQ1",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D3PartnershipsQ1",
+                "order": 11
+            },
+            {
+                "name": "D3PartnershipsQ2",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D3PartnershipsQ2",
+                "order": 11
+            },
+            {
+                "name": "D3PartnershipsQ3",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D3PartnershipsQ3",
+                "order": 11
+            },
+            {
+                "name": "D3PartnershipsQ4",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D3PartnershipsQ4",
+                "order": 11
+            },
+            {
+                "name": "D3PartnershipsQ5",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D3PartnershipsQ5",
+                "order": 11
+            },
+            {
+                "name": "D3SponsorsQ1",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D3SponsorsQ1",
+                "order": 11
+            },
+            {
+                "name": "D3SponsorsQ2",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D3SponsorsQ2",
+                "order": 11
+            },
+            {
+                "name": "D3SponsorsQ3",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D3SponsorsQ3",
+                "order": 11
+            },
+            {
+                "name": "D3GovernmentQ1",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D3GovernmentQ1",
+                "order": 11
+            },
+            {
+                "name": "D3SelfGrading",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D3SelfGrading",
+                "order": 11
+            },
+            {
+                "name": "D4BasicInfrastructureQ1",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D4BasicInfrastructureQ1",
+                "order": 11
+            },
+            {
+                "name": "D4BasicInfrastructureQ2",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D4BasicInfrastructureQ2",
+                "order": 11
+            },
+            {
+                "name": "D4TechnologiesQ1",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D4TechnologiesQ1",
+                "order": 11
+            },
+            {
+                "name": "D4TechnologiesQ2",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D4TechnologiesQ2",
+                "order": 11
+            },
+            {
+                "name": "D4TechnologiesQ3",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D4TechnologiesQ3",
+                "order": 11
+            },
+            {
+                "name": "D4TechnologiesQ4",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D4TechnologiesQ4",
+                "order": 11
+            },
+            {
+                "name": "D4TechnologiesQ5",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D4TechnologiesQ5",
+                "order": 11
+            },
+            {
+                "name": "D4TechnologiesQ6",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D4TechnologiesQ6",
+                "order": 11
+            },
+            {
+                "name": "D4TechnologiesQ7",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D4TechnologiesQ7",
+                "order": 11
+            },
+            
+            {
+                "name": "D4DataManagQ1",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D4DataManagQ1",
+                "order": 11
+            },
+            {
+                "name": "D4DataManagQ2",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D4DataManagQ2",
+                "order": 11
+            },
+            {
+                "name": "D4DataManagQ3",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D4DataManagQ3",
+                "order": 11
+            },
+            {
+                "name": "D4DataManagQ4",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D4DataManagQ4",
+                "order": 1
+            },
+            {
+                "name": "D4DataManagQ5",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D4DataManagQ5",
+                "order": 1
+            },
+            {
+                "name": "D4SecurityQ1",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D4SecurityQ1",
+                "order": 1
+            },
+            {
+                "name": "D4SecurityQ2",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D4SecurityQ2",
+                "order": 1
+            },
+            {
+                "name": "D4SecurityQ3",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D4SecurityQ3",
+                "order": 1
+            },
+            {
+                "name": "D4SelfGrading",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "D4SelfGrading",
+                "order": 11
+            },
+            {
+                "name": "isAnswered",
+                "type_definition": {
+                    "type": "boolean"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "isAnswered",
+                "order": 1
+            },
+            {
+                "name": "isNotAnswered",
+                "type_definition": {
+                    "type": "boolean"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "isNotAnswered",
+                "order": 1
+            },
+            {
+                "name": "IssuedOn",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "IssuedOn",
+                "order": 6
+            },
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "order": 12
+            },
+            {
+                "code": "createdAt",
+                "name": "createdAt",
+                "type_definition": {
+                    "type": "timestamp"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "order": 13
+            },
+            {
+                "name": "senderNodeAddress",
+                "code": "senderNodeAddress",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 14
+            }
+        ],
+        "primary_key": "false"
+    }
+}

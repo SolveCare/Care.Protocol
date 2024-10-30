@@ -1,0 +1,15 @@
+{
+    "nodeEventHandlers": [
+
+        {
+            "type": "NEXT_EVENT_RECIPIENT",
+            "name": "Fetch sender address",
+            "order": 2,
+            "recipientAddress": {
+                "source": "EVENT_PAYLOAD",
+                "value": "senderNodeAddress"
+            },
+            "handlerOutput": "HANDLER_ARGUMENTS"
+        }
+    ]
+}

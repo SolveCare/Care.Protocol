@@ -1,0 +1,185 @@
+{
+    "id": "cd-nvbviswn3aww7d1xosiozad7ku-sg1",
+    "name": "Trials you liked",
+    "cardData": {
+        "textmatched": "Matched",
+        "textnoresp": "No response",
+        "textnotfit":"Not a fit",
+        "Trials" : "trial/s",
+        "imageUrl4mjtk1": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/arrow-right blue.png"
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                   
+                    {
+                        "id": "Tile14a", 
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "textmatched",
+                                    "style": "REGULAR",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "subTitle": {
+                                    "text": "{$total_matched}|Trials",
+                                    "style": "BOLD",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "img": {
+                                    "text": "imageUrl4mjtk1",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 3, 
+                        "type": "CONTAINER",
+                        "uiAction": "${action5}",
+                        "order": 3
+                    },
+                    
+                   
+                    {
+                        "id": "Tile14a", 
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "textnoresp",
+                                    "style": "REGULAR",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "subTitle": {
+                                    "text": "{$total_noresponse}|Trials",
+                                    "style": "BOLD",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "img": {
+                                    "text": "imageUrl4mjtk1",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 3, 
+                        "type": "CONTAINER",
+                        "uiAction": "${action6}",
+                        "order": 3
+                    },
+                    
+                    {
+                        "id": "Tile14a", 
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "textnotfit",
+                                    "style": "REGULAR",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "subTitle": {
+                                    "text": "{$total_notfit}|Trials",
+                                    "style": "BOLD",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "img": {
+                                    "text": "imageUrl4mjtk1",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 3, 
+                        "type": "CONTAINER",
+                        "uiAction": "${action7}",
+                        "order": 3
+                    }
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "style": {
+            "fontSize": 16,
+            "bgColor": "#ffffff",
+            "borderWidth": 1
+        },
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action1}",
+                    "order": 1
+                } 
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+
+        "action5": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-1dv94aa24zfk7fr7q3s1rv991bi1"
+                }
+            ]
+        },
+        "action6": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-nvbviswn3aww7d1xosiozad7ku-sg2"
+                }
+            ]
+        },
+        "action7": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-nvbviswn3aww7d1xosiozad7ku-sg3"
+                }
+            ]
+        },
+        
+        "action1": {
+            "action": "HOME"
+        }
+        
+                    
+                    
+                    
+    }
+}

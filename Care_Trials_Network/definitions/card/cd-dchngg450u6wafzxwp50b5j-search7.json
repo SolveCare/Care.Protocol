@@ -1,0 +1,89 @@
+{
+    "id": "cd-dchngg450u6wafzxwp50b5j-search7",
+    "name": "Engagement Request",
+    "cardData": {
+        "0tile11iitextiiq01" : "You are in!",
+        "0tile11iitextiig01" : "You are now in the Care.Trials network and proud member of the global community working to find cures faster!",
+        "0tile11iitextiiq011" : "Before you start searching",
+        "0tile11iitextiig011" : "We are searching for all relevant CROs/sponsors near you. This process will take about 5 minutes and you will receive a message when its done.",
+        "0tile14aiitextiip03" : "Upcoming Trial Discussion",
+        "imageUrls5i03" : "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/arrow-right blue.png",
+        "2en01bottombutton1iitextiij2u": "Done"
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "list",
+                "tileComponent": [
+                    {
+                        "id": "Tile14a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "{$meetingPurpose}",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080"
+                                },
+                                "subTitle": {
+                                    "text": "{$timeMessage}",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000080"
+                                },    
+                                "img": {
+                                    "text": "imageUrls5i03",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "DATA",
+                        "uiAction": "${action2}",
+                        "order": 1
+                    }
+                ],
+                "tileType": "LIST",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action300}",
+                    "order": 1
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action300": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-dchngg450u6wafzxwp50b5j-search6"
+                }
+            ]
+        },
+        "action2": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-dchngg450u6wafzxwp50b5j-search8"
+                }
+            ]
+        }
+    }
+}

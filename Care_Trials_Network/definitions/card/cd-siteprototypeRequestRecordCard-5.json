@@ -1,0 +1,184 @@
+{
+  "id": "cd-siteprototypeRequestRecordCard-5",
+  "name": "Records Request",
+    "cardData": {
+        "0tile12iitextiib35": "Select request type",
+        "0tile12iitextiiptw": "Option1",
+        "imageUrlrzlqt": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/f116d56b-00a4-4091-932b-240e9cf64504/arrow-right.png",
+        "0tile12iihintii7v7": "Select from list",
+        "0tile12iidataiicyw": [
+           "Medical Records",
+           "ID"
+        ],
+        "1tile12iitextii513": "Select request documents",
+        "1tile1iitextiiixo": "Receive requested records at",
+        "1tile1iihintii6km":"Enter email",
+        "1tile12iitextiizes": "Option1",
+        "imageUrlbnb40": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/f116d56b-00a4-4091-932b-240e9cf64504/arrow-right.png",
+        "1tile12iihintiipor": "Select from list",
+        "1tile12iidataiixpt": [
+            "Blood Test Reports",
+            "Imaging Reports", 
+            "Medication Records",
+            "MRI Scan",
+            "X-ray Reports",
+            "Doctor Notes",
+            "Clinical Notes",
+            "Hospital admission records", 
+            "Driver's License",
+            "ID Card",
+            "Utility Bill",
+            "Others" 
+        ],
+        "2en01bottombutton1iitextiiuey": "Request",
+        "compliancetext": "Please ensure that the email server you're using to receive records complies with patient privacy and other regulatory compliance issues. Do not use an email address which can put the patient's data at risk.",
+        "1tile1iitextiiiyp": "Provide a unique identifier to include in their email subject line",
+        "1tile1iihintii6ln": "Enter unique identifier",
+        "2tile2iitipii3m61": "Email is invalid",
+        "textreqadminrec": "Select what documents you would like to request from the lead "
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "textreqadminrec",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile12",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile12iitextiib35",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "{$recordType}",
+                                    "data": "0tile12iidataiicyw",
+                                    "hint": "0tile12iihintii7v7",
+                                    "keyboard": "text",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START"
+                                },
+                                "img": {
+                                    "text": "imageUrlrzlqt",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile12",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "1tile12iitextii513",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "{$medicalIdRecords}",
+                                    "data": "1tile12iidataiixpt",
+                                    "hint": "1tile12iihintiipor",
+                                    "fieldFormat": "multiple",
+                                    "keyboard": "text",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START"
+                                },
+                                "img": {
+                                    "text": "imageUrlbnb40",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    }
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action795}",
+                    "order": 1
+                },
+                {
+                    "id": "EN01BottomButton1",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": "2en01bottombutton1iitextiiuey"
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BUTTON",
+                    "uiAction": "${action453}",
+                    "order": 2
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action795": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-siteprototypePartiRecordsIDCard-4"
+                }
+            ]
+          },
+          "action453": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-siteprototypePartiRecordsIDCard-4"
+                }
+            ]
+          }
+    }
+}

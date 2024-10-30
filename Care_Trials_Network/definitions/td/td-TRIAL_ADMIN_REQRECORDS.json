@@ -1,0 +1,119 @@
+{
+    "id": "td-TRIAL_ADMIN_REQRECORDS",
+    "path": "td/td-TRIAL_ADMIN_REQRECORDS.json",
+    "definition": {
+        "version": 1,
+        "collection": "TRIAL_ADMIN_REQRECORDS",
+        "description": "Store Records requests for Care.Admin",
+        "name": "TRIAL_ADMIN_REQRECORDS",
+        "resource": "TRIAL_ADMIN_REQRECORDS",
+        "status": "RELEASED",
+        "type": "TRANSACTIONAL_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "name": "reviewPayWith",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "reviewPayWith",
+                "order": 6
+            },
+            {
+                "name": "PromoCode",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "PromoCode",
+                "order": 6
+            },
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 1,
+                "required": true,
+                "system": false
+            },
+            {
+                "name": "TrialID",
+                "code": "TrialID",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 8
+            },
+            {
+                "code": "SiteID",
+                "name": "SiteID",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 2,
+                "required": false,
+                "system": false
+            },
+            {
+                "code": "leadNodeAddress",
+                "name": "leadNodeAddress",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 3,
+                "required": true,
+                "system": false
+            },
+            {
+                "code": "recordType",
+                "name": "recordType",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 4,
+                "required": true,
+                "system": false
+            },
+            {
+                "code": "medicalIdRecords",
+                "name": "medicalIdRecords",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 5,
+                "required": true,
+                "system": false
+            },
+            {
+                "code": "createdAt",
+                "name": "createdAt",
+                "type_definition": {
+                    "type": "timestamp"
+                }, 
+                "order": 6,
+                "required": true,
+                "system": false
+            },
+            {
+                "name": "updatedAt",
+                "code": "updatedAt",
+                "type_definition": {
+                    "type": "timestamp"
+                },
+                "required": true,
+                "system": false,
+                "order": 7
+            }
+        ]
+    }
+}

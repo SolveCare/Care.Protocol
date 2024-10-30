@@ -1,0 +1,72 @@
+{
+    "definition": {
+        "description": "Save DEFAULT at Participants",
+        "name": "W-BROAD-DEFAU-TO-RL-7AN_72D",
+        "resource": "W-BROAD-DEFAU-TO-RL-7AN_72D",
+        "type": "EVENT_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 1,
+                "required": false,
+                "system": false
+            },
+            {
+                "code": "createdAt",
+                "name": "createdAt",
+                "type_definition": {
+                    "type": "timestamp"
+                },
+                "order": 2,
+                "required": false,
+                "system": false
+            },
+            {
+                "code": "answer",
+                "name": "answer",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 3,
+                "required": false,
+                "system": false
+            },
+            {
+                "name": "senderNodeAddress",
+                "code": "senderNodeAddress",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 4
+            },
+            {
+                "code": "TotalReferral",
+                "name": "TotalReferral",
+                "type_definition": {
+                    "type": "number"
+                },
+                "order": 3,
+                "required": false,
+                "system": false
+            },
+            {
+                "code": "WalletID",
+                "name": "WalletID",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 3,
+                "required": false,
+                "system": false
+            }
+        ]
+    }
+}

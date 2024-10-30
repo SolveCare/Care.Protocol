@@ -1,0 +1,98 @@
+{
+    "ddf_type": "trial_admin_stats",
+    "meta_data": {
+        "description": "Collection to store Trial.Admin statistics"
+    },
+    "messages": [
+        {
+            "message_category": "CSV",
+            "message_type": "TRIALS",
+            "meta_data": {
+                "description": "Collection to store Trial.Admin statistics",
+                "indices": "trial_admin_stats"
+            },
+            "attributes": [
+                {
+                    "name": "TrialID",
+                    "description": "TrialID",
+                    "required": true,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "TrialID"
+                },
+                {
+                    "name": "SiteID",
+                    "description": "SiteID",
+                    "required": true,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "SiteID"
+                },
+                {
+                    "name": "trialLikesCount",
+                    "description": "trialLikesCount",
+                    "required": false,
+                    "index_field": true,
+                    "type": "integer",
+                    "data_location": "trialLikesCount"
+                },
+                {
+                    "name": "trialTotalSites",
+                    "description": "trialTotalSites",
+                    "required": false,
+                    "index_field": true,
+                    "type": "integer",
+                    "data_location": "trialTotalSites"
+                },
+                {
+                    "name": "trialActiveSites",
+                    "description": "trialActiveSites",
+                    "required": false,
+                    "index_field": true,
+                    "type": "integer",
+                    "data_location": "trialActiveSites"
+                },
+                {
+                    "name": "trialCampaignsLikesCount",
+                    "description": "trialCampaignsLikesCount",
+                    "required": false,
+                    "index_field": true,
+                    "type": "integer",
+                    "data_location": "trialCampaignsLikesCount"
+                },
+                {
+                    "name": "siteLikesCount",
+                    "description": "siteLikesCount",
+                    "required": false,
+                    "index_field": true,
+                    "type": "integer",
+                    "data_location": "siteLikesCount"
+                },
+                {
+                    "name": "siteCampaignsCount",
+                    "description": "siteCampaignsCount",
+                    "required": false,
+                    "index_field": true,
+                    "type": "integer",
+                    "data_location": "siteCampaignsCount"
+                },
+                {
+                    "name": "siteCampaignsLikesCount",
+                    "description": "siteCampaignsLikesCount",
+                    "required": false,
+                    "index_field": true,
+                    "type": "integer",
+                    "data_location": "siteCampaignsLikesCount"
+                },
+                {
+                    "name": "trialAdminScAddress",
+                    "description": "trialAdminScAddress",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "trialAdminScAddress"
+                }
+            ]
+        }
+    ]
+}

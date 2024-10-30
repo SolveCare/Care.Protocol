@@ -1,0 +1,196 @@
+{
+    "id": "cd-y2vi222vdh4ppd06nvm4gz6ck3rp",
+    "name": "ID Request",
+    "cardData": {
+        "0tile0iitextiir5q": "Difficult Airway Simulation-based Training",
+        "1tile0aiitextii1ke": "Status",
+        "1tile0aiitextiixck": "Completed",
+        "2tile11iitextii21t": "To proceed with trial, please send the required ID",
+        "2tile11iitextiibny": "Driver license",
+        "3tile14iitextiito41": "Upload Records",
+        "0tile1iitextiinm71": "View Attachments",
+        "1tile13iihintiisdl2": "jpg or png",
+        "imageUrla6kyp": "https://d1fgr2dke6q42b.cloudfront.net/dev/media/a1920ec3-027a-43cc-9226-36fad59c0b6a/go_next_grey_icon.png"
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile0iitextiir5q",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#ffffff",
+                        "backgroundColor": "#000080",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile0a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "1tile0aiitextii1ke",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "subTitle": {
+                                    "text": "1tile0aiitextiixck",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "END",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile11",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "2tile11iitextii21t",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "subTitle": {
+                                    "text": "2tile11iitextiibny",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 2
+                    },
+                    {
+                        "id": "AttachmentUploadTile",
+                        "subView": [
+                          {
+                            "title": {
+                              "text": "3tile14iitextiito41",
+                              "titleTextColor": "#000080",
+                              "titleAlign": "START",
+                              "fontSize": 16
+                            },
+                            "subTitle": {
+                              "text": "{$record}",
+                              "hint": "1tile13iihintiisdl2",
+                              "fileType": "pdf,png,jpg,jpeg,swg,webp,xls,doc,csv,docx,xlsx,zip",
+                              "subTitleTextColor": "#000080",
+                              "subTitleAlign": "START",
+                              "fontSize": 16,
+                              "validation": [
+                                {
+                                  "name": "REQUIRED_FIELD",
+                                  "error": "1tile1iierroriilpf"
+                                }
+                              ]
+                            }
+                          }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "${actionUploadAttachmentsAndSubmit}",
+                        "order": 1
+                      },
+                      {
+                        "id": "AttachmentDownloadTile",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile1iitextiinm71",
+                                    "titleTextColor": "#000080",
+                                    "fontSize": 16
+                                },
+                                "subTitle": {
+                                    "text": "{$record}",
+                                    "subTitleTextColor": "#000080",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                      }
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "style": {
+            "fontSize": 16,
+            "bgColor": "#ffffff",
+            "borderWidth": 1
+        },
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action1}",
+                    "order": 1
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action1": {
+            "action": "HOME"
+        },
+        "actionUploadAttachmentsAndSubmit": {
+            "action": [
+              {
+                "name": "Function.uploadFiles",
+                "sourceKeys": [
+                  "attachingFiles"
+                ],
+                "resultKey": "record"
+              },
+              {
+                "name": "e-w-broad-defau-to-rl-acc-w08"
+              }
+            ]
+          }
+        }
+    }

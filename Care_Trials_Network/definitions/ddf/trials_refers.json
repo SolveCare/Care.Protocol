@@ -1,0 +1,90 @@
+{
+    "ddf_type": "trials_refers",
+    "meta_data": {
+        "description": "Collection to store all Refers of Platinum Campaigns"
+    },
+    "messages": [
+        {
+            "message_category": "CSV",
+            "message_type": "TRIALS",
+            "meta_data": {
+                "description": "Collection to store all Refers of Platinum Campaigns",
+                "indices": "trials_refers"
+            },
+            "attributes": [
+                {
+                    "name": "senderNodeAddress",
+                    "description": "senderNodeAddress",
+                    "required": true,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "senderNodeAddress"
+                },
+                {
+                    "name": "recipientPublicKey",
+                    "description": "recipientPublicKey",
+                    "required": true,
+                    "index_field": false,
+                    "type": "string",
+                    "data_location": "recipientPublicKey"
+                },
+                {
+                    "name": "recipientScAddress",
+                    "description": "recipientScAddress",
+                    "required": true,
+                    "index_field": false,
+                    "type": "string",
+                    "data_location": "recipientScAddress"
+                },
+                {
+                    "name": "CampaignId",
+                    "description": "CampaignId",
+                    "required": true,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "CampaignId"
+                },
+                {
+                    "name": "CampaignType",
+                    "description": "CampaignType",
+                    "required": true,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "CampaignType"
+                },
+                {
+                    "name": "SiteID",
+                    "description": "SiteID",
+                    "required": true,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "SiteID"
+                },
+                {
+                    "name": "TrialID",
+                    "description": "TrialID",
+                    "required": true,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "TrialID"
+                },
+                {
+                    "name": "TrialName",
+                    "description": "TrialName",
+                    "required": false,
+                    "index_field": false,
+                    "type": "string",
+                    "data_location": "TrialName"
+                },
+                {
+                    "name": "BriefSummary",
+                    "description": "BriefSummary",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "BriefSummary"
+                }
+            ]
+        }
+    ]
+}

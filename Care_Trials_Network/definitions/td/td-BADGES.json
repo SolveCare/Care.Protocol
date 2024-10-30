@@ -1,0 +1,73 @@
+{
+    "id": "td-BADGES",
+    "path": "td/td-BADGES.json",
+    "definition": {
+        "version": 1,
+        "collection": "BADGES",
+        "description": "BADGES",
+        "name": "BADGES",
+        "resource": "BADGES",
+        "status": "RELEASED",
+        "type": "TRANSACTIONAL_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "order": 3
+            },
+            {
+                "name": "IDBadges",
+                "code": "IDBadges",
+                "type_definition": {
+                "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 13,
+                "times": 1
+                },
+            {
+                "name": "recordBadges",
+                "code": "recordBadges",
+                "type_definition": {
+                "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 13,
+                "times": 1
+                },
+                {
+                    "code": "Badges",
+                    "name": "Badges",
+                    "type_definition": {
+                        "type": "string"
+                    },
+                    "order": 14,
+                    "required": false,
+                    "system": false
+                },
+                {
+                    "name": "senderNodeAddress",
+                    "code": "senderNodeAddress",
+                    "type_definition": {
+                        "type": "string"
+                    },
+                    "required": false,
+                    "system": false,
+                    "order": 12,
+                    "times": 1
+                }
+                
+         
+        ]
+    }
+}

@@ -1,0 +1,255 @@
+{
+    "id": "cd-trialslikedbylead-3",
+    "name": "Trial Info",
+    "cardData": {
+        "0tile0iitextii3b3": "Male, 42 years, White",
+        "1tile14aiitextiimce": "Interested in",
+        "1tile14aiitextii7hm": "Long-term Assessment of Balloon Eustachian Tuboplasty for Obstructive Eustachian Tube Disease",
+        "imageUrlbs2ns": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/f116d56b-00a4-4091-932b-240e9cf64504/user (4).png",
+        "2tile14aiitextiin0r": "550 km from trial location",
+        "2tile14aiitextii7ed": "Texas, USA,\nWilling to travel 1000 km ",
+        "imageUrl4mjtc": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/f116d56b-00a4-4091-932b-240e9cf64504/location-pointer.png",
+        "3tile14aiitextiiv2i": "Conditions that concern you",
+        "3tile14aiitextiicm9": "Acne, Allergies, Insomnia",
+        "imageUrlw0joe": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/f116d56b-00a4-4091-932b-240e9cf64504/analysis.png",
+        "4tile14aiitextii5l9": "Constraints",
+        "4tile14aiitextiiv9a": "None",
+        "imageUrlud9zq": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/f116d56b-00a4-4091-932b-240e9cf64504/self-restraint.png",
+        "4tile14iitextiid1n": "Active",
+        "imageUrlcf7p7": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/f116d56b-00a4-4091-932b-240e9cf64504/shield-badge.png",
+        "5tile14iitextiiynf": "Records",
+        "imageUrloomap": "https://i.ibb.co/xDrnjVy/Bronze-2.png",
+        "6tile14iitextiirrc": "ID",
+        "imageUrl8712p": "https://i.ibb.co/stSV6pW/Bronze-3.png",
+        "8tile14iitextiimyk": "Buy",
+        "imageUrlk6cem": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/f116d56b-00a4-4091-932b-240e9cf64504/accept-circular-button-outline.png",
+        "9tile14iitextii0ak": "Skip",
+        "imageUrlynopr": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/f116d56b-00a4-4091-932b-240e9cf64504/multiply.png",
+        "10tile14iitextiizxq": "Previous",
+        "imageUrlo9w7y": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/71651957-ecc1-4943-961a-9f3bbb53f626/previous.png",
+
+        "3tile0aiitextii117": "Trial type",
+        "6tile0aiitextiic53": "Activity",
+        "7tile0aiitextiimvk": "Duration",
+        "8tile0aiitextiibne": "Frequency",
+        "0tile11iitextiief1": "Inclusion criteria",
+        "0tile11iitextiiov9": "Completely normal check-up, including physical examination, ECG, echocardiography and spirometry",
+        "0tile11iitextiief2": "Exclusion criteria",
+        
+        "8tile1iitextiiqc0": "Inclusion criteria",
+        "8tile1iitextiidza": "",
+        "8tile1iihintiiam1": "Enter the criteria",
+        "8tile1iierroriie4p": "Value should be between 1 and 30",
+        "9tile1iitextiityf": "Exclusion criteria",
+        "9tile1iitextiimiy": "",
+        "9tile1iihintiikev": "Enter Level Text",
+        "9tile1iierroriiw04": "Value should be between 1 and 30",
+
+
+        "11tile0aiitextiisbf": "Compensation",
+        "urltext": "View additional info about the trial",
+        "imageUrlfgtqd1": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/f116d56b-00a4-4091-932b-240e9cf64504/MicrosoftTeams-image (35).png",
+        "2tile14aiitextiiwrx1": "Eligibility",
+        "imageUrl967jd1": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/f116d56b-00a4-4091-932b-240e9cf64504/MicrosoftTeams-image (32).png",
+        "imageUrluvjyl": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/f116d56b-00a4-4091-932b-240e9cf64504/earning (2).png",
+        "imageUrldgqhy": "https://i.ibb.co/WcXyd2M/arrow-right-blue.png",
+        "title112233" : "Request from site admin",
+
+        "inclusionimage":"https://i.ibb.co/jWWybCB/Status.png",
+        "exclusionimage":"https://i.ibb.co/Ln0GPf6/Decline-Icon.png"
+    },
+   
+    "cardLayout": {
+        "body": [
+            {
+                "id": "00tc01",
+                "tileComponent": [
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "{$TrialName}",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "CENTER",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#000080",
+                        "backgroundColor": "#000080",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile0a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "3tile0aiitextii117",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "{$StudyType}",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "END"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 2
+                    },
+                    { 
+                        "id": "Tile14a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "{$Distance}",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080"
+                                },
+                                "subTitle": {
+                                    "text": "{$Location_Text}",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000080"
+                                },
+                                "img": {
+                                    "text": "imageUrlfgtqd1",
+                                    "isUrl": true,
+                                    "height": "40",
+                                    "width": "40"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 3
+                    },
+                    {
+                        "id": "Tile14a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "2tile14aiitextiiwrx1",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080"
+                                },
+                                "subTitle": {
+                                    "text": "{$Eligible}",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000080"
+                                },
+                                "img": {
+                                    "text": "imageUrl967jd1",
+                                    "isUrl": true,
+                                    "height": "40",
+                                    "width": "40"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 4
+                    },
+                    {
+                        "id": "Tile14a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "8tile1iitextiiqc0",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080"
+                                },
+                                "subTitle": {
+                                    "text": "{$InclusionCriteria}",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000080"
+                                },
+                                "img": {
+                                    "text": "inclusionimage",
+                                    "isUrl": true,
+                                    "height": "40",
+                                    "width": "40"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 4
+                    },
+                    {
+                        "id": "Tile14a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "9tile1iitextiityf",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080"
+                                },
+                                "subTitle": {
+                                    "text": "{$ExclusionCriteria}",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000080"
+                                },
+                                "img": {
+                                    "text": "exclusionimage",
+                                    "isUrl": true,
+                                    "height": "40",
+                                    "width": "40"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 4
+                    }
+                  
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 0
+            }
+        ],
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action710}",
+                    "order": 1
+                }
+            ],
+            "orientation": "HORIZONTAL" 
+        }
+    },
+    "cardUIAction": {
+        "action710": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-trialslikedbylead-2"
+                }
+            ]
+        }
+    }
+}

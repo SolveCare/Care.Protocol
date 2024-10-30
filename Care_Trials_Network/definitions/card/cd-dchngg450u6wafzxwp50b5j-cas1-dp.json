@@ -1,0 +1,304 @@
+{
+    "id": "cd-dchngg450u6wafzxwp50b5j-cas1-dp",
+    "name": "Data Privacy Policy Statement",
+    "cardData": {
+        "0tile0iitextiikga": "THE NATIONAL CLINICAL TRIALS AND TRANSLATION CENTER (NCTTC) REGISTRY",
+        "imageUrlkbhj0": "https://i.ibb.co/dcCMpk5/image-40.png",
+        "2tile14aiitextii078": "The National Clinical Trials and Translation Center (NCTTC) of the National Institutes of Health, University of the Philippines Manila, was established in 2022 to serve as the central resource hub for clinical research and capacity building in the Philippines, creating new knowledge that will improve the quality of healthcare of Filipinos. Specifically, the NCTTC aims to: (1) provide a central hub for clinical trial operations of multi-center and multi-regional clinical research; (2) significantly increase Filipino participation in local and international clinical research; (3) to encourage Filipino researchers to conduct studies on new drugs, devices, and innovations; and (4) translate research findings into relevant policies, technologies, and products for improving health outcomes of Filipinos.\n\n The capacities of clinical research institutions and trial sites, clinical research professionals, and trial participants are important in the effective and efficient design and conduct of high-quality clinical trials. \n\n The NCTTC is launching the NCTTC Registry for Clinical Research (NRCR) this August 2024 to provide a platform for the development of the clinical research community. Together with the NRCR, the NCTTC is introducing the NCTTC Clinical Research Capacity Framework (NCRCF) that enables us to better map the existing capacities for clinical research. \n\n Through the support of the Department of Science and Technology, the NCTTC Competency Development for Clinical Research Professionals allows us to produce a new generation of promising and leading clinical trialists in the Philippines. \n\nIf you are starting your career in clinical research, we invite you to join the NCTTC Registry for Clinical Research (NCRC). Joining the NRCR will help you to: \n\n1. Join a growing network of clinical research institutions and trial units, and clinical research professionals.\n\n2. Develop your institution or yourself professionally.\n\n3. Contribute to initiatives and efforts for strengthened clinical research in the Philippines and in the region.",
+        "text0": "The University of the Philippines respects your privacy and is committed to protecting it.\n\nThe following explains how we collect, use, and safeguard your personal information.",
+        "h1":  "Collection of Personal Information",   
+        "text1": "We may ask you for personal information such as your name and other demographic data. Any data you provide will be voluntary. We will not collect any personal data beyond what is necessary for the purposes of the registry and survey.",   
+        "h2":  "Use of Personal Information",   
+        "text2": "The personal information collected in this survey will be used strictly for the purpose of establishing the National Clinical Trials and Translation Center (NCTTC) Registry for Clinical Research (NCRC) and operationalizing the NCTTC Clinical Research Capacity Framework (NCRCF) through a survey. Any publications or reports will be fully anonymized.",   
+        "h3":  "Data Security",   
+        "text3": "We use appropriate data collection, storage, and processing practices, as well as security measures to protect against unauthorized access, alteration, disclosure, or destruction of your personal information. However, no method of transmission or electronic storage is 100% secure, and while we strive to protect your personal information, we cannot guarantee its absolute security.\n\nBy participating in this survey, you acknowledge that you understand and agree to this Data Privacy Statement.\n\nThank you for your trust and for participating in our initiatives at NCTTC",   
+    
+        
+        
+        "2tile6aiitextiin9b":"Data privacy policy",
+        "labelocajs": "I agree",
+        "validations103c": "Please agree to the Data Privacy Policy Statement.",
+        "2tile14aiitextii07": "Competency Assessment Survey",
+        "imageUrl4mjtk": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/arrow-right blue.png",
+        "2en01bottombutton1iitextiiyaq": "Next"
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile0iitextiikga",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "CENTER",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                   
+                    
+                    {
+                        "id": "Tile16",
+                        "subView": [
+                            {
+                                "img": {
+                                    "text": "imageUrlkbhj0",
+                                    "isUrl": true,
+                                    "height": "111",
+                                    "width": "382"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 2
+                    }, 
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "text0",
+                                    "style": "REGULAR",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "LEFT",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "h1",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "LEFT",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "text1",
+                                    "style": "REGULAR",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "LEFT",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "h2",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "LEFT",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "text2",
+                                    "style": "REGULAR",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "LEFT",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "h3",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "LEFT",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "text3",
+                                    "style": "REGULAR",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "LEFT",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile7a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "2tile6aiitextiin9b",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START"
+                                },
+                                "options": {
+                                    "key": {
+                                        "name": "{$DPP}",
+                                        "optionAlign": "JUSTIFY",
+                                        "optionTextColor": "#000080"
+                                    },
+                                    "list": [
+                                        {
+                                            "label": "labelocajs"
+                                        }
+                                    ],
+                                    "validation": [
+                                        {
+                                            "name": "REQUIRED_FIELD",
+                                            "error": "validations103c"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "${}",
+                        "order": 5
+                    }
+                    
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action300}",
+                    "order": 1
+                },
+                {
+                    "id": "EN01BottomButton1",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": "2en01bottombutton1iitextiiyaq"
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BUTTON",
+                    "uiAction": "${action5}",
+                    "order": 2
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action5": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-dchngg450u6wafzxwp50b5j-cas2a"
+                }
+            ]
+        },
+       
+        "action300": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-dchngg450u6wafzxwp50b5j-cas1"
+                }
+            ]
+        }
+    }
+}

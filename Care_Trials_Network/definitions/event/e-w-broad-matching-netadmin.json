@@ -1,0 +1,420 @@
+{
+    "definition": {
+        "description": "Save UDETAILS",
+        "name": "TRIAL.SEARCH001",
+        "resource": "TRIAL.SEARCH001",
+        "type": "EVENT_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "name": "InclusionCriteria",
+                "code": "InclusionCriteria",
+                "type_definition": {
+                "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 13,
+                "times": 1
+                },
+                {
+                    "name": "ExclusionCriteria",
+                    "code": "ExclusionCriteria",
+                    "type_definition": {
+                    "type": "string"
+                    },
+                    "required": false,
+                    "system": false,
+                    "order": 13,
+                    "times": 1
+                    },
+            {
+                "name": "userLocationLatitude",
+                "type_definition": {
+                  "type": "number"
+                },
+                "required": false,
+                "system": false,
+                "code": "userLocationLatitude",
+                "order": 2,
+                "times": 1
+              },
+              {
+                "name": "userLocationLongitude",
+                "type_definition": {
+                  "type": "number"
+                },
+                "required": false,
+                "system": false,
+                "code": "userLocationLongitude",
+                "order": 2,
+                "times": 1
+              },
+            {
+                "name": "match",
+                "code": "match",
+                "type_definition": {
+                "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 13,
+                "times": 1
+                },
+                {
+                    "name": "match_text",
+                    "code": "match_text",
+                    "type_definition": {
+                    "type": "string"
+                    },
+                    "required": false,
+                    "system": false,
+                    "order": 13,
+                    "times": 1
+                    },
+                    {
+                        "name": "match_icon",
+                        "code": "match_icon",
+                        "type_definition": {
+                        "type": "string"
+                        },
+                        "required": false,
+                        "system": false,
+                        "order": 13,
+                        "times": 1
+                        },
+            {
+                "name": "IDBadges",
+                "code": "IDBadges",
+                "type_definition": {
+                "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 13,
+                "times": 1
+                },
+            {
+                "name": "recordBadges",
+                "code": "recordBadges",
+                "type_definition": {
+                "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 13,
+                "times": 1
+                },
+
+            {
+                "name": "archived",
+                "code": "archived",
+                "type_definition": {
+                "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 13,
+                "times": 1
+                },
+
+                {
+                    "name": "Location_Text",
+                    "type_definition": {
+                        "type": "string"
+                    },
+                    "required": false,
+                    "system": false,
+                    "code": "Location_Text",
+                    "order": 2,
+                    "times": 1
+                },
+                
+                {
+                    "code": "Badges",
+                    "name": "Badges",
+                    "type_definition": {
+                        "type": "string"
+                    },
+                    "order": 3,
+                    "required": false,
+                    "system": false
+                },
+
+                {
+                    "name": "Miles_Text",
+                    "type_definition": {
+                        "type": "string"
+                    },
+                    "required": false,
+                    "system": false,
+                    "code": "Miles_Text",
+                    "order": 2,
+                    "times": 1
+                },
+                
+                {
+                    "name": "Eligible",
+                    "type_definition": {
+                        "type": "string"
+                    },
+                    "required": false,
+                    "system": false,
+                    "code": "Eligible",
+                    "order": 2,
+                    "times": 1
+                },
+
+                {
+                    "name": "AgeRange",
+                    "type_definition": {
+                        "type": "string"
+                    },
+                    "required": false,
+                    "system": false,
+                    "times": 1,
+                    "code": "AgeRange",
+                    "order": 8
+                },
+    
+                {
+                    "name": "Limitations",
+                    "type_definition": {
+                        "type": "string"
+                    },
+                    "required": false,
+                    "system": false,
+                    "code": "Limitations",
+                    "order": 4,
+                    "times": 1
+                },
+
+                {
+                    "name": "Distance",
+                    "type_definition": {
+                        "type": "string"
+                    },
+                    "required": false,
+                    "system": false,
+                    "code": "Distance",
+                    "order": 2,
+                    "times": 1
+                },
+
+            {
+                "name": "Miles",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "Miles",
+                "order": 2,
+                "times": 1
+            },
+            {
+                "name": "MinimumAge",
+                "type_definition": {
+                    "type": "number"
+                },
+                "required": false,
+                "system": false,
+                "code": "MinimumAge",
+                "order": 3,
+                "times": 1
+            },
+            
+            {
+                "name": "StudyType",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "StudyType",
+                "order": 4,
+                "times": 1
+            },
+            {
+                "name": "LocationFacility",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "LocationFacility",
+                "order": 4,
+                "times": 1
+            },
+            {
+                "name": "TrialName",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "TrialName",
+                "order": 4,
+                "times": 1
+            },
+            {
+                "name": "BriefSummary",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "BriefSummary",
+                "order": 4,
+                "times": 1
+            },
+
+            {
+                "name": "Conditions",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Conditions",
+                "order": 5
+            },
+            {
+                "name": "LeadSponsorName",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "LeadSponsorName",
+                "order": 6
+            },
+            {
+                "name": "Ethnicity",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Ethnicity",
+                "order": 6
+            },
+            {
+                "name": "Gender",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Gender",
+                "order": 7
+            },
+            {
+                "name": "Age",
+                "type_definition": {
+                    "type": "number"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Age",
+                "order": 8
+            },
+            {
+                "name": "Country",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Country",
+                "order": 9
+            },
+            {
+                "name": "City",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "City",
+                "order": 9
+            },
+           
+
+
+            {
+                "code": "createdAt",
+                "name": "createdAt",
+                "type_definition": {
+                    "type": "timestamp"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "order": 11
+            },
+            {
+                "name": "senderNodeAddress",
+                "code": "senderNodeAddress",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 12,
+                "times": 1
+            },
+            {
+                "name": "TrialID",
+                "code": "TrialID",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 8
+            },
+            {
+                "name": "SiteID",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": true,
+                "system": false,
+                "code": "SiteID",
+                "order": 13,
+                "times": 1
+            },
+
+            {
+                "name": "Site_UniqueCode",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "Site_UniqueCode",
+                "order": 14
+            },
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "order": 10
+            }
+        ]
+    }
+}

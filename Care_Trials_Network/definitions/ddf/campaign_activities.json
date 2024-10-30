@@ -1,0 +1,258 @@
+{
+  "ddf_type": "campaign_activities",
+  "meta_data": {
+    "description": "Campaign activities"
+  },
+  "messages": [
+    {
+      "message_category": "CAMPAIGN",
+      "message_type": "ACTIVITIES",
+      "meta_data": {
+        "description": "Campaign activities",
+        "indices": "campaign_activities"
+      },
+      "events": [],
+      "attributes": [
+        {
+          "name": "NCTId",
+          "description": "NCTId",
+          "required": true,
+          "index_field": true,
+          "type": "string",
+          "data_location": "NCTId"
+        },
+        {
+          "name": "SiteID",
+          "description": "SiteID",
+          "required": true,
+          "index_field": true,
+          "type": "string",
+          "data_location": "SiteID"
+        },
+        {
+          "name": "CampaignID",
+          "description": "campaign identifier",
+          "required": true,
+          "index_field": false,
+          "type": "string",
+          "data_location": "CampaignID"
+        },
+        {
+          "name": "OwnerNodeScAddress",
+          "description": "OwnerNodeScAddress",
+          "required": true,
+          "index_field": true,
+          "type": "string",
+          "data_location": "OwnerNodeScAddress",
+          "min_length": 42,
+          "max_length": 42,
+          "allowed_characters": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        {
+          "name": "CampaignType",
+          "description": "campaign type such as: Silver, Gold, Platinum",
+          "required": true,
+          "index_field": false,
+          "type": "string",
+          "data_location": "CampaignType"
+        },
+        {
+          "name": "StartDate",
+          "description": "start date of campaign",
+          "required": true,
+          "index_field": false,
+          "type": "string",
+          "data_location": "StartDate"
+        },
+        {
+          "name": "EndDate",
+          "description": "end date of campaign",
+          "required": true,
+          "index_field": false,
+          "type": "string",
+          "data_location": "EndDate"
+        },
+        {
+          "name": "Amount",
+          "description": "amount of payment",
+          "required": true,
+          "index_field": false,
+          "type": "float",
+          "data_location": "Amount"
+        }
+      ]
+    }
+  ],
+  "integrations": [
+    {
+      "type": "hubspot",
+      "message_category": "CAMPAIGN",
+      "message_type": "ACTIVITIES",
+      "schema": {
+        "schema": {
+          "name": "campaign_activities_table",
+          "description": "Campaign Activities Table",
+          "labels": {
+            "plural": "Campaign Activities",
+            "singular": "Campaign Activity"
+          },
+          "requiredProperties": [
+            "site_id",
+            "trial_id",
+            "campaign_id",
+            "campaign_type",
+            "start_date",
+            "end_date",
+            "amount"
+          ],
+          "searchableProperties": [
+            "site_id",
+            "trial_id",
+            "campaign_id",
+            "campaign_type",
+            "start_date",
+            "end_date",
+            "amount"
+          ],
+          "primaryDisplayProperty": "campaign_id",
+          "secondaryDisplayProperties": [
+            "site_id",
+            "campaign_type"
+          ],
+          "properties": [
+            {
+              "name": "site_id",
+              "label": "Site ID",
+              "type": "string",
+              "isPrimaryDisplayLabel": true,
+              "displayOrder": 1
+            },
+            {
+              "name": "trial_id",
+              "label": "Trial ID",
+              "type": "string",
+              "displayOrder": 2
+            },
+            {
+              "name": "campaign_id",
+              "label": "Campaign ID",
+              "type": "string",
+              "hasUniqueValue": true,
+              "displayOrder": 3
+            },
+            {
+              "name": "campaign_type",
+              "label": "Campaign Type",
+              "type": "enumeration",
+              "fieldType": "select",
+              "options": [
+                {
+                  "label": "Silver",
+                  "value": "Silver",
+                  "hidden": false,
+                  "description": "Silver Campaign",
+                  "displayOrder": 1
+                },
+                {
+                  "label": "Gold",
+                  "value": "Gold",
+                  "hidden": false,
+                  "description": "Gold Campaign",
+                  "displayOrder": 2
+                },
+                {
+                  "label": "Platinum",
+                  "value": "Platinum",
+                  "hidden": false,
+                  "description": "Platinum Campaign",
+                  "displayOrder": 3
+                }
+              ],
+              "displayOrder": 4
+            },
+            {
+              "name": "start_date",
+              "label": "Start Date of campaign",
+              "type": "date",
+              "fieldType": "date",
+              "displayOrder": 5
+            },
+            {
+              "name": "end_date",
+              "label": "End Date of campaign",
+              "type": "date",
+              "fieldType": "date",
+              "displayOrder": 6
+            },
+            {
+              "name": "amount",
+              "label": "Amount of payment",
+              "type": "number",
+              "fieldType": "number",
+              "showCurrencySymbol": false,
+              "displayOrder": 7
+            },
+            {
+              "name": "comments",
+              "label": "Comments",
+              "type": "string",
+              "displayOrder": 8
+            }
+          ]
+        },
+        "association": {
+          "name": "company_activities_to_sites",
+          "reference": "site_info_table",
+          "association_keys": [
+            "site_id"
+          ]
+        }
+      },
+      "mapping": [
+        {
+          "attribute": "SiteID",
+          "ext_name": "site_id"
+        },
+        {
+          "attribute": "NCTId",
+          "ext_name": "trial_id"
+        },
+        {
+          "attribute": "CampaignID",
+          "ext_name": "campaign_id"
+        },
+        {
+          "attribute": "CampaignType",
+          "ext_name": "campaign_type"
+        },
+        {
+          "attribute": "StartDate",
+          "ext_name": "start_date"
+        },
+        {
+          "attribute": "EndDate",
+          "ext_name": "end_date"
+        },
+        {
+          "attribute": "Amount",
+          "ext_name": "amount"
+        }
+      ],
+      "actions": [
+        {
+          "type": "export",
+          "operation_type": "UPSERT",
+          "query": {
+            "query": {
+              "match_all": {}
+            }
+          },
+          "skip_for_update": [
+            "SiteID",
+            "NCTId"
+          ]
+        }
+      ]
+    }
+  ]
+}

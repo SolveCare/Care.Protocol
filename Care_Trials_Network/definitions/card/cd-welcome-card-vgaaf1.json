@@ -1,0 +1,178 @@
+{
+    "id": "cd-welcome-card-vgaaf1",
+    "name": "Care.Trials",
+    "cardData": {
+        "0tile11iitextii1xp": "Description",
+        "0tile11iitextiiz7e": "Care.Trials is an anonymous network for clinical trial participation. Earn rewards while contributing to healthcare advancements.",
+        "1tile0iitextiiqx6": "Publisher",
+        "1tile0iitextiiqx7": "Solve.Care",
+        "2tile0iitextiiimo": "Care.Trials Network",
+        "3tile11iitextiirll": "Publisher contact",
+        "3tile11iitextii1ez": "Website : https://caretrials.net/ ",
+        "4tile0iitextiivav": "Published on",
+        "4tile0iitextiiva7":"04/08/2023",
+        "5tile0iitextiia0d": "Participant: 335",
+        "6tile12iitextii5i4": "Choose your role",
+        "imageUrlrbjpx": "https://d1fgr2dke6q42b.cloudfront.net/dev/media/a1920ec3-027a-43cc-9226-36fad59c0b6a/drop_down_list_greyn_155460.png",
+        "6tile12iihintii4lv": "Select Role",
+        "6tile12iidataiiquz": [
+            "Participant",
+            "Site Admin (Representing Site/Institution)",
+            "Trial Admin (Representing CROs/Sponsor; other Clinical Research Professionals)",
+            "Physician/Principal Investigator"
+        ],
+        "2en01bottombutton1iitextiid7e": "Next"
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile11iitextiiz7e",
+                                    "style": "REGULAR",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "LEFT"
+                                }
+                            }
+                        ],
+                        "borderColor": "#afafaf",
+                        "backgroundColor": "#ffffff",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile0a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "1tile0iitextiiqx6",
+                                    "style": "REGULAR",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "1tile0iitextiiqx7",
+                                    "style": "BOLD",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "END"
+                                }
+                            }
+                        ],
+                        "borderColor": "#afafaf",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 2
+                    },
+                    {
+                        "id": "Tile0a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "4tile0iitextiivav",
+                                    "style": "REGULAR",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "4tile0iitextiiva7",
+                                    "style": "BOLD",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "END"
+                                }
+                            }
+                        ],
+                        "borderColor": "#afafaf",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 2
+                    },
+                    {
+                        "id": "Tile12",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "6tile12iitextii5i4",
+                                    "titleTextColor": "#000000",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "${roleName}",
+                                    "data": "6tile12iidataiiquz",
+                                    "hint": "6tile12iihintii4lv",
+                                    "keyboard": "text",
+                                    "subTitleTextColor": "#000000",
+                                    "subTitleAlign": "START"
+                                },
+                                "img": {
+                                    "text": "imageUrlrbjpx",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#afafaf",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 6
+                    }
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action1}",
+                    "order": 1
+                },
+                {
+                    "id": "EN01BottomButton1",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": "2en01bottombutton1iitextiid7e"
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BUTTON",
+                    "uiAction": "${action2}",
+                    "order": 2
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action1": {
+            "action": "HOME"
+        },
+        "action2": {
+            "action": [
+                {
+                    "name": "Function.NavigateToRoleJoiningJourney",
+                    "sourceKey": "roleName"
+                }
+            ]
+        }
+    }
+}

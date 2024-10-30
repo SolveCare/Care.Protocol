@@ -1,0 +1,184 @@
+{
+    "id": "td-BUDGET",
+    "path": "td/td-BUDGET.json",
+    "definition": {
+        "version": 1,
+        "collection": "BUDGET",
+        "description": "BUDGET",
+        "name": "BUDGET",
+        "resource": "BUDGET",
+        "status": "RELEASED",
+        "type": "TRANSACTIONAL_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "name": "Comments",
+                "code": "Comments",
+                "type_definition": {
+                "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "order": 1
+            },
+            {
+                "code": "requested_amount",
+                "name": "requested_amount",
+                "type_definition": {
+                    "type": "number"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "order": 2
+            },
+            {
+                "code": "requested_comment",
+                "name": "requested_comment",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "order": 2
+            },
+            
+            {
+                "code": "Budget",
+                "name": "Budget",
+                "type_definition": {
+                    "type": "number"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "order": 2
+            },
+            {
+                "name": "SiteID",
+                "code": "SiteID",
+                "type_definition": {
+                "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "order": 1
+            },
+            {
+                "name": "TrialID",
+                "code": "TrialID",
+                "type_definition": {
+                "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "order": 1
+            },
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "order": 3
+            },
+            {
+                "code": "createdAt",
+                "name": "createdAt",
+                "type_definition": {
+                    "type": "timestamp"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "order": 4
+            },
+            {
+                "name": "senderNodeAddress",
+                "code": "senderNodeAddress",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "order": 5
+            }
+            ,
+            {
+                "name": "available_funds",
+                "code": "available_funds",
+                "type_definition": {
+                    "type": "number"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "order": 5
+            },
+            {
+                "name": "oldBudget",
+                "code": "oldBudget",
+                "type_definition": {
+                    "type": "number"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "order": 5
+            },
+            {
+                "name": "total_expenses",
+                "code": "total_expenses",
+                "type_definition": {
+                    "type": "number"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "order": 5
+            },
+            {
+                "name": "remaining_budget",
+                "code": "remaining_budget",
+                "type_definition": {
+                    "type": "number"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "order": 5
+            },
+            {
+                "name": "updated_date",
+                "code": "updated_date",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "order": 5
+            },
+            {
+                "name": "submittedAt",
+                "code": "submittedAt",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "order": 6
+            }
+        ]
+    }
+}

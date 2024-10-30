@@ -1,0 +1,228 @@
+{
+    "id": "cd-p-submit-rec-to-n1",
+    "name": "Upload to Site Admin",  
+    "cardData": {
+        "2tile11iitextii21t": "To proceed with trial, please send the required records.",
+        "textparti001": "Please make sure to allow your records to be shared with the Admin when you upload the required records.",
+        "imageUrla6kyp": "https://d1fgr2dke6q42b.cloudfront.net/dev/media/a1920ec3-027a-43cc-9226-36fad59c0b6a/go_next_grey_icon.png",
+ 
+
+        "0tile12iitextii7r5": "Attachment Type",
+        "0tile12iitextiif8o": "Select Record Type",
+        "imageUrlmm81q": "https://d1fgr2dke6q42b.cloudfront.net/dev/media/a1920ec3-027a-43cc-9226-36fad59c0b6a/drop_down_list_greyn_155460.png",
+        "0tile12iihintiitzc": "View drop-down list",
+        "0tile12iidataiim3e": [
+            "Medical",
+            "ID"
+        ], 
+        "imageUrlmm81":"https://i.ibb.co/GsmtQLb/down-arrow.png",
+        "1tile13iitextiiixa": "Upload your records & a photograph of yourself.",
+        "1tile13iitextiimxn": "",
+        "1tile13iihintiisdl": "PDF or PNG",
+        "0tile13iihintiisdl": "To request a nurse review/verification a fee of 1000 SOLVE will be deducted from the site admin account",
+        "1tile1iierroriilpf" : "Please select one type",
+        "2en01bottombutton1iitextiijil": "Upload",
+        "0tile0iitextiidghu": "Ensure that you have responded to the 7 questions in the initial \"Start Here\" journey. This step is crucial for further processing.",
+
+        "2tile10aiitextiixxl": "Do you want to share attachments automatically with the Site Admin?",
+        "labelvh6c4": "Yes",
+        "label66n6g": "No"
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "{$TrialName}",
+                                    "style": "REGULAR",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "CENTER",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#ffffff",
+                        "backgroundColor": "#000080",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1 
+                    },
+                    {
+                        "id": "Tile11",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "2tile11iitextii21t",
+                                    "style": "REGULAR",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "subTitle": {
+                                    "text": "{$medicalIdRecords}",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START",
+                                    "style": "BOLD"
+
+                                }
+                            }
+                        ],
+                        "borderColor": "#87ceed",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 2
+                    },
+                   
+                    {
+                        "id": "Tile12",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile12iitextii7r5",
+                                    "style": "REGULAR",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "subTitle": {
+                                    "text": "{$recordType}",
+                                    "fontSize": 16,
+                                    "data": "0tile12iidataiim3e",
+                                    "hint": "0tile12iihintiitzc",
+                                    "keyboard": "text",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START",
+                                    "validation": [
+                                        {
+                                            "name": "REQUIRED_FIELD",
+                                            "error": "1tile1iierroriilpf"
+                                        }
+                                    ]
+                                },
+                                
+                                "img": {
+                                    "text": "imageUrlmm81",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "AttachmentUploadTile",
+                        "subView": [
+                          {
+                            "title": {
+                              "text": "1tile13iitextiiixa",
+                              "titleTextColor": "#000080",
+                              "titleAlign": "START",
+                              "fontSize": 16
+                            },
+                            "subTitle": {
+                              "text": "{$attachingFiles}",
+                              "hint": "1tile13iihintiisdl",
+                              "fileType": "pdf,png,jpg,jpeg,swg,webp,xls,doc,csv,docx,xlsx,zip",
+                              "subTitleTextColor": "#000080",
+                              "subTitleAlign": "START",
+                              "fontSize": 16,
+                              "validation": [
+                                {
+                                  "name": "REQUIRED_FIELD",
+                                  "error": "1tile1iierroriilpf"
+                                }
+                              ]
+                            }
+                          }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "${actionUploadAttachmentsAndSubmit}",
+                        "order": 1
+                    }   
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "style": {
+            "fontSize": 16,
+            "bgColor": "#ffffff",
+            "borderWidth": 1
+        },
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action301}",
+                    "order": 1
+                },
+                {
+                    "id": "EN01BottomButton1",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": "2en01bottombutton1iitextiijil"
+                            }
+                        }
+                    ],
+                    "align": "END",
+                    "type": "BUTTON",
+                    "uiAction": "${actionUploadAttachmentsAndSubmit}",
+                    "order": 2
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "": {
+            "action": null
+        },
+        "action301": {
+            "action": "e-w-role-a-navig-to-cd-one-det-sub"
+        }
+
+    ,
+    "actionUploadAttachmentsAndSubmit": {
+        "action": [
+          {
+            "name": "Function.uploadFiles",
+            "sourceKeys": [
+              "attachingFiles"
+            ],
+            "resultKey": "folderReference",
+            "timestampKey": "createdAt"
+          },
+          {
+            "name": "e-w-broad-one-rec-submit-to-sa"
+          }
+        ]
+      }
+    }
+}

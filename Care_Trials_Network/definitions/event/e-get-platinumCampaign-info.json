@@ -1,0 +1,22 @@
+{
+    "definition": {
+        "description": "Get platinumCampaign info",
+        "name": "Get platinumCampaign info",
+        "resource": "Get platinumCampaign info",
+        "type": "EVENT_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 1,
+                "system": false,
+                "required": false
+            }
+        ]
+    }
+}

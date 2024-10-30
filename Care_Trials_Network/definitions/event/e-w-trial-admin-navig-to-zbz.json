@@ -1,0 +1,1 @@
+{"definition":{"description":"Event to Navigate from Update Trial Info to cd-wms992m1ecgq1yd0cc8y5m530ek","name":"W-TRIAL-ADMIN-NAVIG-TO-.ZBZ","resource":"W-TRIAL-ADMIN-NAVIG-TO-.ZBZ","type":"EVENT_DATA"},"structure":{"attributes":[{"code":"transactionalGuid","name":"transactionalGuid","type_definition":{"type":"string"},"order":1,"system":false,"required":false}]}}

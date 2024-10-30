@@ -1,0 +1,112 @@
+{
+    "id": "cd-answertonurse",
+    "name": "Answer to nurse", 
+    "cardData": {
+        "0tile0iitextiiddm": "Communication with site admin:",
+        "1tile0aiitextiieip": "Status",
+        "1tile0aiitextii8w4": "Completed",
+        "6tile1iitextiiwxy1": "Question: ",
+        "6tile1iitextiixk71": "",
+        "6tile1iihintiiiqc1": "Enter answer",
+        "6tile1iierroriix8a1": "Value should be between 1 and 500",
+        "textaddquestion1": "Question 1",
+        "textaddquestion2": "Answer 1",
+        "2en01bottombutton1iitextiirnj1": "Send"
+    }, 
+    "cardLayout": {
+        "body": [ 
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    {
+                        "id": "Tile1a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "{$questionText}",
+                                    "titleTextColor": "#000080",
+                                    "style": "BOLD",
+                                    "titleAlign": "JUSTIFY"
+                                },
+                                "subTitle": {
+                                    "text": "{$answerUpdateText}",
+                                    "hint": "6tile1iihintiiiqc1",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START",
+                                    "keyboard": "text",
+                                    "min": "1",
+                                    "max": "1000",
+                                    "validation": [
+                                        {
+                                            "name": "REQUIRED_FIELD",
+                                            "error": "6tile1iierroriix8a1"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 4
+                    }
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+
+        ],
+        "style": {
+            "fontSize": 16,
+            "bgColor": "#ffffff",
+            "borderWidth": 1
+        },
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action3}",
+                    "order": 1
+                },
+                {
+                    "id": "EN01BottomButton1",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": "2en01bottombutton1iitextiirnj1"
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BUTTON",
+                    "uiAction": "${action662}",
+                    "order": 2
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action3": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-qandalistfromnurse"
+                }
+            ]
+          },
+        "action662": {
+            "action": "e-w-broad-sendqatonurse"
+        }
+    }
+}

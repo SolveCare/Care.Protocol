@@ -1,0 +1,22 @@
+{
+    "definition": {
+        "description": "GET ONE for admin card1",
+        "name": "W.0.ADMIN.GET.ONE.0YRA-7",
+        "resource": "W.0.ADMIN.GET.ONE.0YRA-7",
+        "type": "EVENT_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 1,
+                "system": false,
+                "required": false
+            }
+        ]
+    }
+}

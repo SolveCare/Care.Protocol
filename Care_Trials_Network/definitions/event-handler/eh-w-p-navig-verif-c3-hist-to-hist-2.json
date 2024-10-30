@@ -1,0 +1,25 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "e-w-p-navig-verif-c3-hist-to-hist-2",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "name": "submit",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "DETAILS",
+                                    "url": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "postAction": "cd-1oeogij51yh1jtk0i08pn1-verif-c3-hist-2",
+                    "refId": "e-w-p-navig-verif-c3-hist-to-hist-2" 
+                }
+            ]
+        }
+    ]
+}

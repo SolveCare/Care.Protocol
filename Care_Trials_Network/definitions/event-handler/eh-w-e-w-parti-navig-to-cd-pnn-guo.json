@@ -1,0 +1,25 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "e-w-parti-navig-to-cd-pnn-guo",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "name": "submit",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "GET",
+                                    "url": "/transactions/PARTICIPANT_ADMIN_TRIALS_SAVED?filter=[{\"queryMatcher\": \"EQUAL\",\"inverted\": false,\"fieldName\": \"SiteID\",\"value\": \"${SiteID}\"}]"
+                                }
+                            ] 
+                        }
+                    ],
+                    "postAction": "cd-7t8aauxdkv6fxipc6vlx4hkwe1n1", 
+                    "refId": "e-w-parti-navig-to-cd-pnn-guo"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,206 @@
+{
+  "id": "cd-siteprotowelcometocaretrialsz2",
+  "name": "Welcome to Care.Trials",
+  "cardData": {
+    "1tile14iitextiil4": "Manage site",
+    "imageUrl8n0i": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/arrow-right blue.png",
+    "imageUrllxobv": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/f116d56b-00a4-4091-932b-240e9cf64504/Admin finalv.png",
+    "1tile14iitextiil4x": "FAQs",
+    "1tile14iitextiil4x1": "Difficult Airway Simulation-based Training",    
+    "imageUrl8n0i9": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/arrow-right blue.png",
+    "2tile14iitextiiltl": "To activate site, click here",
+    "imageUrlg7dpe": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/f116d56b-00a4-4091-932b-240e9cf64504/arrow-right blue.png",
+    "tileText": "It just takes a few seconds to connect with participants worldwide",
+    "textYourTrial": "Activate Site to start swiping",
+    "textLearnMore": "Got questions on Care.Trials?", 
+    "imageUrli0ikq1": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/f116d56b-00a4-4091-932b-240e9cf64504/run_clinical_trials_1.png",
+    "2en01bottombutton1iitextiirde2": "Activate Site",
+    "3tile14iitextiimbp": "Promotion campaigns",
+    "imageUrlkc03t": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/arrow-right blue.png",
+    "4tile14iitextiiabj": "Upgrade plan",
+    "imageUrl27qt7": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/arrow-right blue.png",
+    "3tile14iitextiimbp1" : "Active site",
+    "3tile14iitextiimbp2": "Your activated site is listed here. You can manage by tapping on it.",
+    "imageUrlkc03t1" : "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/arrow-right blue.png",
+    "imageUrl8063p": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/care.Trials_Admin tutorial_v1701 (1).mp4",
+    "imageUrl1uqfz": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/arrow-right blue.png"
+
+},
+"cardLayout": {
+    "body": [
+        {
+            "id": "000t1",
+            "tileComponent": [
+                {
+                    "id": "Tile0",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": "tileText",
+                                "style": "BOLD",
+                                "titleTextColor": "#000080",
+                                "titleAlign": "CENTER",
+                                "fontSize": 16
+                            }
+                        }
+                    ],
+                    "borderColor": "#C5C3C8",
+                    "backgroundColor": "#ffffff",
+                    "borderWidth": 1,
+                    "type": "CONTAINER",
+                    "uiAction": "",
+                    "order": 1
+                },
+                {
+                    "id": "VideoTile",
+                    "subView": [
+                        {
+                            "img": {
+                                "text": "imageUrl8063p",
+                                "isUrl": true,
+                                "height": "24",
+                                "width": "24"
+                            }
+                        }
+                    ],
+                    "borderColor": "#ffffff",
+                    "borderWidth": 1,
+                    "type": "CONTAINER",
+                    "uiAction": "",
+                    "order": 1
+                },
+                {
+                    "id": "Tile14",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": "1tile14iitextiil4x",
+                                "titleTextColor": "#000080",
+                                "style": "REGULAR"
+                            },
+                            "img": {
+                                "text": "imageUrl8n0i9",
+                                "isUrl": true,
+                                "height": "25",
+                                "width": "25"
+                            }
+                        }
+                    ],
+                    "borderColor": "#C5C3C8",
+                    "borderWidth": 3,
+                    "type": "CONTAINER",
+                    "uiAction": "",
+                    "order": 1
+                },
+                {
+                    "id": "Tile0",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": "3tile14iitextiimbp1",
+                                "style": "BOLD",
+                                "titleTextColor": "#000080",
+                                "titleAlign": "START",
+                                "fontSize": 16
+                            }
+                        }
+                    ],
+                    "borderColor": "#ffffff",
+                    "backgroundColor": "#ffffff",
+                    "borderWidth": 1,
+                    "type": "CONTAINER",
+                    "uiAction": "",
+                    "order": 1
+                },
+                {
+                    "id": "Tile0",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": "3tile14iitextiimbp2",
+                                "style": "REGULAR",
+                                "titleTextColor": "#000080",
+                                "titleAlign": "START",
+                                "fontSize": 16
+                            }
+                        }
+                    ],
+                    "borderColor": "#ffffff",
+                    "backgroundColor": "#ffffff",
+                    "borderWidth": 1,
+                    "type": "CONTAINER",
+                    "uiAction": "",
+                    "order": 1
+                },
+                {
+                  "id": "Tile14",
+                  "subView": [
+                      {
+                          "title": {
+                              "text": "1tile14iitextiil4x1",
+                              "titleTextColor": "#000080",
+                              "fontSize": 16,
+                              "style": "REGULAR"
+                          },
+                          "img": {
+                              "text": "imageUrl8n0i",
+                              "isUrl": true,
+                              "height": "25",
+                              "width": "25"
+                          }
+                      }
+                  ],
+                  "borderColor": "#C5C3C8",
+                  "backgroundColor": "#ffffff",
+                  "borderWidth": 3,
+                  "type": "CONTAINER",
+                  "uiAction": "${action84}",
+                  "order": 1
+              }
+                
+                
+            ],
+            "tileType": "WRAP",
+            "uiAction": "",
+            "order": 1
+        }
+    ],
+    "footer": {
+        "menu": [
+            {
+                "id": "EN01BottomButtonBack",
+                "subView": [
+                    {
+                        "title": {
+                            "text": ""
+                        }
+                    }
+                ],
+                "align": "START",
+                "type": "BACK_BUTTON",
+                "uiAction": "${action794}",
+                "order": 1
+            }
+        ],
+        "orientation": "HORIZONTAL"
+    }
+},
+"cardUIAction": {
+    "action84": {
+        "action": [
+            {
+                "name": "Function.Navigate",
+                "cardId": "cd-siteprototypeTrialcard3"
+            }
+        ]
+    },
+    "action794": {
+      "action": [
+          {
+              "name": "Function.Navigate",
+              "cardId": "cd-siteprotocaretrialsfirstcard2"
+          }
+      ]
+  }
+}
+}

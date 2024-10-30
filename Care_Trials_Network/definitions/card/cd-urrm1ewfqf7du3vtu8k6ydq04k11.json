@@ -1,0 +1,105 @@
+{
+    "id": "cd-urrm1ewfqf7du3vtu8k6ydq04k11",
+    "name": "Congratulations",
+    "cardData": {
+        "0tile14aiitextiito6": "To start swiping trials, click here",
+        "0tile14aiitextii792": "You are all set and ready to start swiping trials. The more you swipe, the more you earn.",
+        "imageUrl30gu5": "https://i.ibb.co/WcXyd2M/arrow-right-blue.png",
+        "1tile14aiitextiirp2": "Fun fact",
+        "1tile14aiitextiihsc": "There are 25 trials available within 100 km of your current location.",
+        "imageUrlbjqq9": "https://i.ibb.co/myj7KLs/idea.png"
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "00tc01",
+                "tileComponent": [
+                    {
+                        "id": "Tile14a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile14aiitextiito6",
+                                    "titleTextColor": "#000080",
+                                    "style": "BOLD"
+                                },
+                                "subTitle": {
+                                    "text": "0tile14aiitextii792",
+                                    "subTitleTextColor": "#000080",
+                                    "style": "REGULAR"
+                                },
+                                "img": {
+                                    "text": "imageUrl30gu5",
+                                    "isUrl": true,
+                                    "height": "40",
+                                    "width": "40"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "${action163}",
+                        "order": 3
+                    },
+                    {
+                        "id": "Tile14a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "1tile14aiitextiirp2",
+                                    "titleTextColor": "#000080",
+                                    "style": "BOLD"
+                                },
+                                "subTitle": {
+                                    "text": "1tile14aiitextiihsc",
+                                    "subTitleTextColor": "#000080",
+                                    "style": "REGULAR"
+                                },
+                                "img": {
+                                    "text": "imageUrlbjqq9",
+                                    "isUrl": true,
+                                    "height": "58",
+                                    "width": "68"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 2
+                    }
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action728}",
+                    "order": 1
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action163": {
+            "action": "e-w-parti-navig-to-cd-2c2-iju"
+        },
+        "action728": {
+            "action": "e-w-parti-navig-to-home-7o17"
+        }
+    }
+}

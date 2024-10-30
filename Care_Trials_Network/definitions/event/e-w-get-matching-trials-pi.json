@@ -1,0 +1,22 @@
+{
+    "definition": {
+        "description": "Get Matching Trials",
+        "name": "TRIAL.SEARCH.RESULTS004",
+        "resource": "TRIAL.SEARCH.RESULTS004",
+        "type": "EVENT_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 1,
+                "system": false,
+                "required": false
+            }
+        ]
+    }
+}

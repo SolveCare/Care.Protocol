@@ -1,0 +1,186 @@
+{
+    "definition": {
+        "description": "Save 6_QUESTIONS at Participant",
+        "name": "W-BROAD-6_QUE-TO-RL-WXQ_G6L",
+        "resource": "W-BROAD-6_QUE-TO-RL-WXQ_G6L",
+        "type": "EVENT_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "name": "record",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "record",
+                "order": 7
+            },
+            {
+                "name": "ReferralCode",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "Referallcode",
+                "order": 1
+            },
+            {
+                "name": "userLocationLatitude",
+                "type_definition": {
+                  "type": "number"
+                },
+                "required": false,
+                "system": false,
+                "code": "userLocationLatitude",
+                "order": 2,
+                "times": 1
+              },
+              {
+                "name": "userLocationLongitude",
+                "type_definition": {
+                  "type": "number"
+                },
+                "required": false,
+                "system": false,
+                "code": "userLocationLongitude",
+                "order": 2,
+                "times": 1
+              },
+            {
+                "name": "Conditions",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": true,
+                "system": false,
+                "code": "Conditions",
+                "order": 2,
+                "times": 1
+            },
+            {
+                "name": "Limitations",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Limitations",
+                "order": 3
+            },
+            {
+                "name": "Age",
+                "type_definition": {
+                    "type": "number"
+                },
+                "required": true,
+                "system": false,
+                "times": 1,
+                "code": "Age",
+                "order": 4
+            },
+            {
+                "name": "Gender",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": true,
+                "system": false,
+                "times": 1,
+                "code": "Gender",
+                "order": 5
+            },
+            {
+                "name": "Ethnicity",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Ethnicity",
+                "order": 6
+            },
+            {
+                "name": "Miles",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": true,
+                "system": false,
+                "times": 1,
+                "code": "Miles",
+                "order": 7
+            },
+            {
+                "name": "T&C",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": true,
+                "system": false,
+                "times": 1,
+                "code": "T&C",
+                "order": 6
+            },
+            {
+                "name": "Location",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Location",
+                "order": 8
+            },
+            {
+                "name": "Country",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Country",
+                "order": 9
+            },
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "order": 9
+            },
+            {
+                "code": "createdAt",
+                "name": "createdAt",
+                "type_definition": {
+                    "type": "timestamp"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "order": 10
+            },
+            {
+                "name": "senderNodeAddress",
+                "code": "senderNodeAddress",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 11
+            }
+        ]
+    }
+}

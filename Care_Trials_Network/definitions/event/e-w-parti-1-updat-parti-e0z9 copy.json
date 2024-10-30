@@ -1,0 +1,385 @@
+{
+    "definition": {
+        "description": "Save PARTICIPANT_DATA at Participant 1", 
+        "name": "UPDATE.TRIAL.INFO-001",
+        "resource": "UPDATE.TRIAL.INFO-001",
+        "type": "EVENT_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "name": "userLocationLatitude",
+                "type_definition": {
+                  "type": "number"
+                },
+                "required": false,
+                "system": false,
+                "code": "userLocationLatitude",
+                "order": 2,
+                "times": 1
+              },
+              {
+                "name": "userLocationLongitude",
+                "type_definition": {
+                  "type": "number"
+                },
+                "required": false,
+                "system": false,
+                "code": "userLocationLongitude",
+                "order": 2,
+                "times": 1
+              },
+            {
+                "name": "City",
+                "type_definition": { 
+                    "type": "string"
+                },
+                "required": true,
+                "system": false,
+                "code": "City",
+                "order": 1
+            },
+           
+            {
+                "name": "Eligible",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "Eligible",
+                "order": 2,
+                "times": 1
+            },
+            {
+                "name": "Location_Text",
+                "type_definition": { 
+                    "type": "string"
+                },
+                "required": true,
+                "system": false,
+                "code": "Location_Text",
+                "order": 1
+            },
+            {
+                "name": "Country",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Country",
+                "order": 2
+            },
+            
+            {
+                "name": "Activity",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "Activity",
+                "order": 2,
+                "times": 1
+            },
+            {
+                "name": "TrialDuration",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "TrialDuration",
+                "order": 2,
+                "times": 1
+            },
+            {
+                "name": "Frequency",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "Frequency",
+                "order": 2,
+                "times": 1
+            },
+            {
+                "name": "Inclusion",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "Inclusion",
+                "order": 2,
+                "times": 1
+            },
+            {
+                "name": "Exclusion",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "Exclusion",
+                "order": 2,
+                "times": 1
+            },
+            {
+                "name": "Compensation",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "Compensation",
+                "order": 2,
+                "times": 1
+            },
+            {
+                "name": "AdditionalTrialInfo",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "AdditionalTrialInfo",
+                "order": 2,
+                "times": 1
+            },
+            {
+                "name": "AgeRange",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": true,
+                "system": false,
+                "times": 1,
+                "code": "AgeRange",
+                "order": 3
+            },
+            {
+                "name": "Age",
+                "type_definition": {
+                    "type": "number"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Age",
+                "order": 4
+            },
+            {
+                "name": "Gender",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": true,
+                "system": false,
+                "times": 1,
+                "code": "Gender",
+                "order": 5
+            },
+            {
+                "name": "Ethnicity",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Ethnicity",
+                "order": 6
+            },
+            {
+                "name": "LeadSponsorName",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "LeadSponsorName",
+                "order": 7
+            },
+            {
+                "name": "Limitations",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Limitations",
+                "order": 8
+            },
+            {
+                "name": "Conditions",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Conditions",
+                "order": 9
+            },
+            {
+                "name": "StudyType",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "StudyType",
+                "order": 10
+            },
+            {
+                "name": "MinimumAge",
+                "type_definition": {
+                    "type": "number"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "MinimumAge",
+                "order": 11
+            },
+            {
+                "name": "TrialID",
+                "code": "TrialID",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 8
+            },
+            {
+                "name": "SiteID",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "SiteID",
+                "order": 12
+            },
+            {
+                "name": "Distance",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Distance",
+                "order": 13
+            },
+            {
+                "name": "AdminAddress",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": true,
+                "system": false,
+                "times": 1,
+                "code": "AdminAddress",
+                "order": 14
+            },
+            {
+                "name": "Site_UniqueCode",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Site_UniqueCode",
+                "order": 15
+            },
+            {
+                "name": "archived",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "archived",
+                "order": 16
+            },
+            {
+                "name": "Miles",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Miles",
+                "order": 17
+            },
+            {
+                "name": "LocationFacility",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "LocationFacility",
+                "order": 4,
+                "times": 1
+            },
+            { 
+                "name": "TrialName",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": true,
+                "system": false,
+                "code": "TrialName",
+                "order": 18,
+                "times": 1
+            },
+            {
+                "name": "BriefSummary",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "BriefSummary",
+                "order": 4,
+                "times": 1
+            },
+
+            {
+                "code": "createdAt",
+                "name": "createdAt",
+                "type_definition": {
+                    "type": "timestamp"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "order": 20
+            },
+            {
+                "name": "senderNodeAddress",
+                "code": "senderNodeAddress",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 21
+            }
+        ]
+    }
+}

@@ -1,0 +1,195 @@
+{
+  "id": "cd-siteprototypeGoldCard13",
+  "name": "Promotion Campaigns",
+  "cardData": {
+      "0tile0iitextiidgh": "Gold",
+      "imageUrlvlx11": "https://i.ibb.co/1dNKhDv/gold-km.png",
+      "2tile14iitextii3pc": "View campaign card",
+      "imageUrlf3rjd": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/arrow-right blue.png",
+      "imageUrlwvxut": "https://i.ibb.co/yF1HhfQ/left-arrow-to-navigate.png",
+      "subTitleTextc2u1h": "Previous",
+      "imageUrlyutwj": "https://i.ibb.co/LvtBk5q/check-out.png",
+      "subTitleText9lwmv": "Buy Now",
+      "imageUrlk9yef": "https://i.ibb.co/DzDz95k/right-arrow-to-navigate.png",
+      "subTitleTextw2eyw": "Next",
+      "imageUrl8710p": "https://i.ibb.co/yF1HhfQ/left-arrow-to-navigate.png",
+      "imageUrl8711p": "https://i.ibb.co/LvtBk5q/check-out.png",
+      "imageUrl8712p": "https://i.ibb.co/DzDz95k/right-arrow-to-navigate.png",
+      "previousText3": "Previous",
+      "buyNowText3": "Buy Now",
+      "NextText3": "Next"
+  },
+  "cardLayout": {
+      "body": [ 
+          {
+              "id": "000t1",
+              "tileComponent": [
+                  { 
+                      "id": "Tile0",
+                      "subView": [
+                          {
+                              "title": {
+                                  "text": "0tile0iitextiidgh",
+                                  "style": "BOLD",
+                                  "titleTextColor": "#000080",
+                                  "titleAlign": "CENTER",
+                                  "fontSize": 16
+                              }
+                          }
+                      ],
+                      "borderColor": "#000080",
+                      "backgroundColor": "#000080",
+                      "borderWidth": 1,
+                      "type": "CONTAINER",
+                      "uiAction": "",
+                      "order": 1
+                  },
+                  {
+                      "id": "Tile16",
+                      "subView": [
+                          {
+                              "img": {
+                                  "text": "imageUrlvlx11",
+                                  "isUrl": true,
+                                  "height": "372",
+                                  "width": "281"
+                              }
+                          }
+                      ],
+                      "borderColor": "#ffffff",
+                      "borderWidth": 1,
+                      "type": "CONTAINER",
+                      "uiAction": "",
+                      "order": 1
+                  },
+                  {
+                      "id": "Tile14",
+                      "subView": [
+                          {
+                              "title": {
+                                  "text": "2tile14iitextii3pc",
+                                  "titleTextColor": "#000080",
+                                  "fontSize": 16,
+                                  "style": "REGULAR"
+                              },
+                              "img": {
+                                  "text": "imageUrlf3rjd",
+                                  "isUrl": true,
+                                  "height": "25",
+                                  "width": "25"
+                              }
+                          }
+                      ],
+                      "borderColor": "#C5C3C8",
+                      "backgroundColor": "#ffffff",
+                      "borderWidth": 3,
+                      "type": "CONTAINER",
+                      "uiAction": "",
+                      "order": 2
+                  },
+                  {
+                      "id": "Tile17a",
+                      "subView": [
+                          {
+                              "options": {
+                                  "list": [
+                                      {
+                                          "subTitle": {
+                                              "text": "previousText3",
+                                              "subtitleAlign": "CENTER",
+                                              "colorCode": "#000080",
+                                              "style": "REGULAR",
+                                              "fontSize": 14
+                                          },
+                                          "img": {
+                                              "text": "imageUrl8710p"
+                                          },
+                                          "uiAction": "action17a1",
+                                          "itemBorderColor": "#FFFFFF"
+                                      },
+                                      {
+                                          "subTitle": {
+                                              "text": "buyNowText3",
+                                              "subtitleAlign": "CENTER",
+                                              "colorCode": "#000080",
+                                              "style": "REGULAR",
+                                              "fontSize": 14
+                                          },
+                                          "img": {
+                                              "text": "imageUrl8711p"
+                                          },
+                                          "uiAction": "action17a2",
+                                          "itemBorderColor": "#FFFFFF"
+                                      },
+                                      {
+                                          "subTitle": {
+                                              "text": "NextText3",
+                                              "subtitleAlign": "CENTER",
+                                              "colorCode": "#000080",
+                                              "style": "REGULAR",
+                                              "fontSize": 14
+                                          },
+                                          "img": {
+                                              "text": "imageUrl8712p"
+                                          },
+                                          "uiAction": "action17a3",
+                                          "itemBorderColor": "#FFFFFF"
+                                      }
+                                  ]
+                              }
+                          }
+                      ],
+                      "borderColor": "#FFFFFF",
+                      "isSeparatorBetweenItems": false,
+                      "type": "CONTAINER",
+                      "uiAction": "",
+                      "order": 5
+                  }
+              ],
+              "tileType": "WRAP",
+              "uiAction": "",
+              "order": 1
+          }
+      ],
+      "style": {
+          "fontSize": 16,
+          "bgColor": "#ffffff",
+          "borderWidth": 1
+      },
+      "footer": {
+          "menu": [
+              {
+                  
+              }
+          ],
+          "orientation": "HORIZONTAL"
+      }
+  },
+  "cardUIAction": {
+     
+      "action17a1": {
+          "action": [
+              {
+                  "name": "Function.Navigate",
+                  "cardId": "cd-siteprototypeSilvercard9"
+              }
+          ]
+      },
+      "action17a2": {
+        "action": [
+            {
+                "name": "Function.Navigate",
+                "cardId": "cd-siteprototypeGoldConfirmpaycard15"
+            }
+        ]
+    },
+      "action17a3": {
+          "action": [
+              {
+                  "name": "Function.Navigate",
+                  "cardId": "cd-siteprototypePlatiCard14"
+              }
+          ]
+      }
+  }
+}

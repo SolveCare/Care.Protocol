@@ -1,0 +1,79 @@
+{
+    "nodeEventHandlers": [
+        {
+            "type": "MAPPER",
+            "name": "Append attributes",
+            "order": 1,
+            "dataSource": "EVENT_PAYLOAD",
+            "additionalAttributes": {
+                "transactionalGuid": {
+                    "source": "EVENT_PAYLOAD",
+                    "value": "transactionalGuid"
+                }, 
+                "SiteID": {
+                    "source": "EVENT_PAYLOAD",
+                    "value": "SiteID"
+                },
+                "adminNodeAddress": {
+                    "source": "EVENT",
+                    "value": "SENDER"
+                },
+                
+                "apptPurpose": {
+                    "source": "EVENT_PAYLOAD",
+                    "value": "apptPurpose"
+                },
+                "apptLocation": {
+                    "source": "EVENT_PAYLOAD",
+                    "value": "apptLocation"
+                },
+                "apptWorkDays": {
+                    "source": "EVENT_PAYLOAD",
+                    "value": "apptWorkDays"
+                },
+                "apptWorkHours": {
+                    "source": "EVENT_PAYLOAD",
+                    "value": "apptWorkHours"
+                },
+                "createdAt": {
+                    "source": "GENERATED",
+                    "value": "CURRENT_TIMESTAMP"
+                },
+                "updatedAt": {
+                    "source": "GENERATED",
+                    "value": "CURRENT_TIMESTAMP"
+                },
+                "isApptStatus": {
+                    "source": "CONSTANT",
+                    "value": true
+                },
+                "isApptStatusNot": {
+                    "source": "CONSTANT",
+                    "value": false
+                },
+                "statusIcon": {
+                    "source": "CONSTANT",
+                    "value": "https://i.ibb.co/J3PJfVS/Status-Rec.png"
+                }
+            },
+            "excludedAttributes": []
+        },
+        {
+            "type": "EXPRESSION_LANGUAGE",
+            "name": "Append attributes",
+            "order": 2,
+            "dataSource": "HANDLER_ARGUMENTS",
+            "computedAttributes": {
+                "submittedAt": "\"Received on: \" + new java.text.SimpleDateFormat(\"dd/MM/yyyy\").format(new java.util.Date(arguments['createdAt']))"            }
+        },
+        {
+            "type": "VAULT_INSERT",
+            "name": "PARTICIPANT_APPOINTMENT",
+            "order": 2,
+            "collection": "PARTICIPANT_APPOINTMENT",
+            "collectionVersion": 1,
+            "dataSource": "HANDLER_ARGUMENTS",
+            "handlerOutput": "PERSISTED_ENTITY"
+        }
+    ]
+} 

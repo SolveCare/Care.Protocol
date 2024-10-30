@@ -1,0 +1,22 @@
+{
+    "definition": {
+        "description": "GET DATA for statistic",
+        "name": "GET.STATS002",
+        "resource": "GET.STATS002",
+        "type": "EVENT_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 1,
+                "system": false,
+                "required": false
+            }
+        ]
+    }
+}

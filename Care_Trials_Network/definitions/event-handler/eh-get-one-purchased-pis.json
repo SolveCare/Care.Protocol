@@ -1,0 +1,25 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "e-get-one-purchased-pis",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "name": "getONE",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "GET",
+                                    "url": "/transactions/PHYSICIAN_SPONSOR?filter=[{\"fieldName\":\"transactionalGuid\",\"queryMatcher\":\"EQUAL\",\"value\":\"${transactionalGuid}\"}]"
+                                }
+                            ]
+                        }
+                    ],
+                    "postAction": "",
+                    "refId": "e-get-one-purchased-pis"
+                }
+            ]
+        }
+    ]
+}

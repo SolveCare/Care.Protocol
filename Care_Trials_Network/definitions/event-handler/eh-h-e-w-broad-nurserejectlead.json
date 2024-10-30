@@ -1,0 +1,88 @@
+{
+    "nodeEventHandlers": [
+        {
+            "type": "MAPPER",
+            "name": "Append attributes",
+            "order": 1,
+            "dataSource": "EVENT_PAYLOAD",
+            "additionalAttributes": {
+                "transactionalGuid": {
+                    "source": "GENERATED",
+                    "value": "UUID"
+                },
+                "SiteID": {
+                    "source": "EVENT_PAYLOAD",
+                    "value": "SiteID"
+                },
+                "eligibleStatus": {
+                    "source": "CONSTANT",
+                    "value": "Lead is not eligible"
+                },
+                "createdAt": {
+                    "source": "GENERATED",
+                    "value": "CURRENT_TIMESTAMP"
+                }
+            },
+            "excludedAttributes": [
+            ]
+        },
+        {
+            "type": "EXPRESSION_LANGUAGE",
+            "name": "Append attributes",
+            "order": 2,
+            "dataSource": "HANDLER_ARGUMENTS",
+            "computedAttributes": {
+                "updatedAt": "\"Rejected on: \" + new java.text.SimpleDateFormat(\"dd/MM/yyyy\").format(new java.util.Date(arguments['createdAt']))"}
+        },
+        {
+            "type": "VAULT_UPDATE",
+            "name": "TRIALS_SAVED",
+            "order": 2,
+            "collection": "TRIALS_SAVED",
+            "collectionVersion": 1,
+            "dataSource": "HANDLER_ARGUMENTS",
+            "insertIfAbsent": true,
+            "searchCriteria": [
+                {
+                    "queryMatcher": "EQUAL",
+                    "fieldName": "SiteID",
+                    "dynamicValue": {
+                        "source": "EVENT_PAYLOAD",
+                        "value": "SiteID"
+                    }
+                }
+            ],
+            "handlerOutput": "PERSISTED_ENTITY"
+        },
+        {
+            "type": "NEXT_EVENT_RECIPIENT",
+            "name": "Fetch sender address",
+            "order": 3,
+            "recipientAddress": {
+                "source": "EVENT_PAYLOAD",
+                "value": "senderNodeAddress"
+            },
+            "handlerOutput": "HANDLER_ARGUMENTS"
+        },
+        {
+            "type": "MAPPER",
+            "name": "Append and Exclude attributes in the result",
+            "order": 4,
+            "dataSource": "EVENT_PAYLOAD",
+            "additionalAttributes": {
+                "transactionalGuid": {
+                    "source": "HANDLER_ARGUMENTS",
+                    "value": "transactionalGuid"
+                },
+                "SiteID": {
+                    "source": "EVENT_PAYLOAD",
+                    "value": "SiteID"
+                }
+            },
+            "excludedAttributes": [
+
+
+            ]
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "e-get-matching-pis",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "name": "getONE",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "GET",
+                                    "url": "/transactions/PHYSICIAN_SPONSOR?filter=[{\"queryMatcher\": \"EQUAL\",\"inverted\": true,\"fieldName\": \"physicianStatus\",\"value\": \"BOUGHT\"}]"
+
+                                }
+                            ]
+                        }
+                    ],
+                    "postAction": "",
+                    "refId": "e-get-matching-pis"
+                }
+            ]
+        }
+    ]
+}

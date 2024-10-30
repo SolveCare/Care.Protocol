@@ -1,0 +1,22 @@
+{
+    "definition": {
+        "description": "VERIFICATION",
+        "name": "GET.IDENTITY002",
+        "resource": "GET.IDENTITY002",
+        "type": "EVENT_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 1,
+                "system": false,
+                "required": false
+            }
+        ]
+    }
+}

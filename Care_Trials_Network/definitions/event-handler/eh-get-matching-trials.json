@@ -1,0 +1,25 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "ev-get-matching-trials",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "name": "",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "GET",
+                                    "url": "/transactions/TRIALS_UNIQ?filter=[{\"queryMatcher\": \"EQUAL\",\"inverted\": false,\"fieldName\": \"trialStatus\",\"value\": \"NEW\"}]"
+                                }
+                            ]
+                        }
+                    ],
+                    "postAction": "",
+                    "refId": "ev-get-matching-trials"
+                }
+            ]
+        }
+    ]
+}

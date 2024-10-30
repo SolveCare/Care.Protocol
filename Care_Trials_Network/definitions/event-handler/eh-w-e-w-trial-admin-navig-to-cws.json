@@ -1,0 +1,25 @@
+{
+  "walletEventHandler": [
+    {
+      "refId": "e-w-trial-admin-navig-to-cws",
+      "walletEvents": [
+        {
+          "actions": [
+            {
+              "name": "submit",
+              "order": 1,
+              "parameter": [
+                {
+                  "method": "GET",
+                  "url": "/transactions/PARTICIPANT_ADMIN_TRIALS_SAVED?filter=[{\"queryMatcher\": \"EQUAL\",\"inverted\": false,\"fieldName\": \"SiteID\",\"value\": \"${SiteID}\"},{\"queryMatcher\":\"EQUAL\",\"fieldName\":\"leadNodeAddress\",\"value\":\"${leadNodeAddress}\"}]"
+                }
+              ]
+            }
+          ],
+          "postAction": "cd-yf1qts6ozpbp0e50fegn1ul79v91",
+          "refId": "e-w-trial-admin-navig-to-cws"
+        }
+      ]
+    }
+  ]
+}

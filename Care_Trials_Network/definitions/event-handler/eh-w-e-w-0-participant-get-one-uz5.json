@@ -1,0 +1,25 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "e-w-0-participant-get-one-uz5",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "name": "getONE",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "GET",
+                                    "url": "/transactions/RECORD_DATA?filter=[{\"fieldName\":\"transactionalGuid\",\"queryMatcher\":\"EQUAL\",\"value\":\"${transactionalGuid}\"}]"
+                                }
+                            ]
+                        }
+                    ],
+                    "postAction": "",
+                    "refId": "e-w-0-participant-get-one-uz5"
+                }
+            ]
+        }
+    ]
+}

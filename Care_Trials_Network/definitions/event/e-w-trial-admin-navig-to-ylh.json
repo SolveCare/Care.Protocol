@@ -1,0 +1,22 @@
+{
+    "definition": {
+        "description": "Event to Navigate from Engage to cd-vmat1uqhs6u1mibjinqaber9wx51",
+        "name": "W-TRIAL-ADMIN-NAVIG-TO-.YLH",
+        "resource": "W-TRIAL-ADMIN-NAVIG-TO-.YLH",
+        "type": "EVENT_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 1,
+                "system": false,
+                "required": false
+            }
+        ]
+    }
+}

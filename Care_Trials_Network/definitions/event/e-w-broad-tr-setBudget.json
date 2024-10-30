@@ -1,0 +1,44 @@
+{
+    "definition": {
+        "description": "Save UDETAILS",
+        "name": "W-BROAD-TR-SETBUDGET",
+        "resource": "W-BROAD-TR-SETBUDGET",
+        "type": "EVENT_DATA"
+    },
+    "structure": {
+        "attributes": [
+            
+            {
+                "name": "Budget",
+                "code": "Budget",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": true,
+                "system": false,
+                "order": 1
+            },
+            {
+                "name": "senderNodeAddress",
+                "code": "senderNodeAddress",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": true,
+                "system": false,
+                "order": 2
+            },
+            {
+                "name": "comments",
+                "code": "comments",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 3
+            }
+        ],
+        "primary_key": "false"
+    }
+}

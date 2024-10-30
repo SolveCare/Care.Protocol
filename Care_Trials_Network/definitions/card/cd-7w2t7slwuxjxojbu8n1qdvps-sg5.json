@@ -1,0 +1,194 @@
+{
+    "id": "cd-7w2t7slwuxjxojbu8n1qdvps-sg5",
+    "name": "Oops",
+    "cardData": {
+        "imageUrl31xo8": "https://i.ibb.co/nR3pRrk/oops-1.png",
+        "1tile0iitextiij7r": "Low Balance! Nothing to worry. \nYou can top it up easily with a few simple steps.",
+        "2en01bottombutton1iitextii91b": "Top Up Balance",
+        "2tile14iitextii8ek": "Top Up Balance",
+        "9tile0aiitextii6681": "Current balance, SOLVE",
+        "9tile0aiitextii668s": "View lead price", 
+        "9tile0aiitextiiprice": "50.00",
+        "9tile0aiitextii668s1": "Buy lead price",
+        "9tile0aiitextiiprice1": "4950.00",
+        "imageUrlnky99": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/arrow-right blue.png"
+
+
+    },
+    "prerenderingFunctions": [
+        {"name": "Function.SOLVE.getTokenBalance",
+        "sourceKeys": [],
+        "totalKey": "",
+        "resultKey": "solveBalance"} 
+    ],
+    "cardLayout": {
+        "body": [
+            {
+                "id": "00tc01",
+                "tileComponent": [
+                    {
+                        "id": "Tile16",
+                        "subView": [
+                            {
+                                "img": {
+                                    "text": "imageUrl31xo8",
+                                    "isUrl": true,
+                                    "height": "120",
+                                    "width": "120"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "1tile0iitextiij7r",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile0a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "9tile0aiitextii6681",
+                                    "style": "REGULAR",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "{$solveBalance}",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "END"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 8
+                    },
+                    {
+                        "id": "Tile0a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "9tile0aiitextii668s",
+                                    "style": "REGULAR",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "9tile0aiitextiiprice",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "END"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 8
+                    },
+                    {
+                        "id": "Tile0a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "9tile0aiitextii668s1",
+                                    "style": "REGULAR",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "9tile0aiitextiiprice1",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "END"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 8
+                    },
+                    {    
+                        "id": "Tile14",    
+                        "subView": [        
+                            {            
+                                "title": {                
+                                    "text": "2tile14iitextii8ek"            
+                                    },            
+                                    "img": {                
+                                        "text": "imageUrlnky99",                
+                                        "isUrl": true,                
+                                        "height": "25",                
+                                        "width": "25"            
+                                        }        
+                                    }    
+                                ],    
+                                "borderColor": "#C5C3C8",    
+                                "type": "CONTAINER",    
+                                "uiAction": "Function.deposit.SOLVE",    
+                                "order": 2
+                    }
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "style": {
+            "fontSize": 16,
+            "bgColor": "#ffffff",
+            "borderWidth": 1
+        },
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action400}",
+                    "order": 1
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action400":{
+            "action": "HOME"
+        }
+        
+    }
+
+}

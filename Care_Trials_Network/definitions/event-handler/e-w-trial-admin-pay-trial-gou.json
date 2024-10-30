@@ -1,0 +1,31 @@
+{
+    "nodeEventHandlers": [
+        {
+            "type": "PAYMENT_STACK",
+            "name": "Payment Handler",
+            "order": 1,
+            "stack": {
+                "totalSolveAmount": {
+                    "source": "CONSTANT",
+                    "value": 3069.0
+                },
+                "transfers": [
+                    {
+                        "fromAddress": {
+                            "source": "EVENT",
+                            "value": "SENDER"
+                        },
+                        "toAddress": {
+                            "source": "EVENT_PAYLOAD",
+                            "value": "senderNodeAddress"
+                        },
+                        "percentageFromTotal": {
+                            "source": "CONSTANT",
+                            "value": 100.0
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

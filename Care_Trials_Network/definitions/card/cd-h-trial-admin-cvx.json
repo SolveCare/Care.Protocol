@@ -1,0 +1,156 @@
+{
+    "id": "cd-h-trial-admin-cvx",
+    "name": "Care.Trial v1.1 - Home",
+    "cardData": {
+        "0tile0iitextiia0p": "Manage the site admins instantly",
+        "imageUrld6ln3": "https://i.ibb.co/ykw9Fb4/New-Activate.png",
+        "labelmcxg8": "Start Here",
+        "description-1": "by activating your code",
+        "imageUrlqt3xw": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/connect.png",
+        "labellwqrd": "Manage",
+        "description-2": "site admins instantly",
+
+        "imageUrlqt3": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/connect.png",
+        "labellwqrd-3": "See ",
+        "description-3": "your PIs & Engage",
+
+        "imageUrlqt4": "https://i.ibb.co/9TBWB8b/image-34.png",
+        "labellwqrd-4": "National Clinical Trials",
+        "description-4": "and Translation Center Registry"
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile0iitextiia0p",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000000",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#afafaf",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 2
+                    },
+                    {
+                        "id": "Tile17Journey",
+                        "subView": [
+                            {
+                                "options": {
+                                    "key": {
+                                        "name": "{answer}",
+                                        "optionAlign": "START",
+                                        "optionTextColor": "#000000",
+                                        "optionfontSize": 16
+                                    },
+                                    "list": [
+                                        {
+                                            "label": "labelmcxg8",
+                                            "hint": "description-1",
+                                            "img": {
+                                                "text": "imageUrld6ln3",
+                                                "isUrl": true,
+                                                "height": "",
+                                                "width": ""
+                                            },
+                                            "journey": {
+                                                "journeyId": "jn-k5fkmw0gub1qj6bxafi8vgzql4k"
+                                            }
+                                        },
+                                        {
+                                            "label": "labellwqrd-4",
+                                            "hint": "description-4",
+                                            "img": {
+                                                "text": "imageUrlqt4",
+                                                "isUrl": true,
+                                                "height": "",
+                                                "width": ""
+                                            },
+                                            "journey": {
+                                                "journeyId": "jn-kshx4d9aba61wb9q-ta-cas"
+                                            }
+                                        },
+                                        {
+                                            "label": "labellwqrd",
+                                            "hint": "description-2",
+                                            "img": {
+                                                "text": "imageUrlqt3xw",
+                                                "isUrl": true,
+                                                "height": "",
+                                                "width": ""
+                                            },
+                                            "journey": {
+                                                "journeyId": "jn-kshx4d9aba61wb9qum9r487une6"
+                                            }
+                                        },
+                                        {
+                                            "label": "labellwqrd-3",
+                                            "hint": "description-3",
+                                            "img": {
+                                                "text": "imageUrlqt3xw",
+                                                "isUrl": true,
+                                                "height": "",
+                                                "width": ""
+                                            },
+                                            "journey": {
+                                                "journeyId": "jn-kshx4d9aba61wb9q-see-pis"
+                                            }
+                                        }
+                                        
+                                    ]
+                                }
+                            }
+                        ],
+                        "borderColor": "#afafaf",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 2
+                    }
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "style": {
+            "fontSize": 16,
+            "bgColor": "#ffffff",
+            "borderWidth": 1
+        },
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action1}",
+                    "order": 1
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action1": {
+            "action": "HOME"
+        }
+    }
+}

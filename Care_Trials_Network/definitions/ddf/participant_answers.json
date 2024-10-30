@@ -1,0 +1,284 @@
+{
+    "ddf_type": "participant_answers",
+    "meta_data": {
+        "description": "Participant Answers"
+    },
+    "messages": [
+        {
+            "message_category": "PARTICIPANT",
+            "message_type": "ANSWERS",
+            "meta_data": {
+                "description": "Participant Answers",
+                "indices": "participant_answers"
+            },
+            "events": [],
+            "attributes": [
+                {
+                    "name": "ReferralCode",
+                    "description": "ReferralCode",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "ReferralCode"
+                },
+                {
+                    "name": "senderNodeAddress",
+                    "description": "senderNodeAddress",
+                    "required": true,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "senderNodeAddress"
+                },
+                {
+                    "name": "Smoke",
+                    "description": "Smoke",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "Smoke"
+                },
+                {
+                    "name": "Gender",
+                    "description": "Gender",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "Gender"
+                },
+                {
+                    "name": "userLocationLatitude",
+                    "description": "userLocationLatitude",
+                    "required": false,
+                    "index_field": true,
+                    "type": "float",
+                    "data_location": "userLocationLatitude"
+                },
+                {
+                    "name": "Conditions",
+                    "description": "Conditions",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "Conditions"
+                },
+                {
+                    "name": "transactionalGuid",
+                    "description": "transactionalGuid",
+                    "required": true,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "transactionalGuid"
+                },
+                {
+                    "name": "Miles",
+                    "description": "Miles",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "Miles"
+                },
+                {
+                    "name": "createdAt",
+                    "description": "integer",
+                    "required": false,
+                    "index_field": true,
+                    "type": "integer",
+                    "data_location": "createdAt"
+                },
+                {
+                    "name": "Date",
+                    "description": "Date",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "Date"
+                },
+                {
+                    "name": "T&C",
+                    "description": "T&C",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "T&C"
+                },
+                {
+                    "name": "userLocationLongitude",
+                    "description": "userLocationLongitude",
+                    "required": false,
+                    "index_field": true,
+                    "type": "float",
+                    "data_location": "userLocationLongitude"
+                },
+                {
+                    "name": "Country",
+                    "description": "Country",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "Country"
+                },
+                {
+                    "name": "Age",
+                    "description": "Age",
+                    "required": false,
+                    "index_field": true,
+                    "type": "integer",
+                    "data_location": "Age"
+                }
+                
+            ]
+        }
+    ],
+    "integrations": [
+        {
+            "type": "hubspot",
+            "message_category": "PARTICIPANT",
+            "message_type": "ANSWERS",
+            "schema": {
+                "schema": {
+                    "name": "participant_answers_table",
+                    "description": "Participant Answers Table",
+                    "labels": {
+                        "plural": "Participant Answers",
+                        "singular": "Participant Answer"
+                    },
+                    "requiredProperties": [
+                        "sender_node_address",
+                        "transactional_guid"
+                    ],
+                    "searchableProperties": [
+                        "sender_node_address",
+                        "gender",
+                        "age",
+                        "miles",
+                        "referral_code",
+                        "country"
+                    ],
+                    "primaryDisplayProperty": "sender_node_address",
+                    "secondaryDisplayProperties": [
+                        "referral_code",
+                        "date"
+                    ],
+                    "properties": [
+                        {
+                            "name": "sender_node_address",
+                            "label": "Sender Node Address",
+                            "type": "string",
+                            "isPrimaryDisplayLabel": true,
+                            "displayOrder": 1
+                        },
+                        {
+                            "name": "gender",
+                            "label": "Gender",
+                            "type": "string",
+                            "displayOrder": 2
+                        },
+                        {
+                            "name": "age",
+                            "label": "Age",
+                            "type": "number",
+                            "fieldType": "number",
+                            "displayOrder": 3
+                        },
+                        {
+                            "name": "miles",
+                            "label": "Miles",
+                            "type": "string",
+                            "displayOrder": 4
+                        },
+                        {
+                            "name": "referral_code",
+                            "label": "Referral Code",
+                            "type": "string",
+                            "displayOrder": 5
+                        },
+                        {
+                            "name": "country",
+                            "label": "Country",
+                            "type": "string",
+                            "displayOrder": 6
+                        },
+                        {
+                            "name": "date",
+                            "label": "Date",
+                            "type": "date",
+                            "fieldType": "date",
+                            "displayOrder": 7
+                        },
+                        {
+                            "name": "transactional_guid",
+                            "label": "Transactional Guid",
+                            "type": "string",
+                            "hasUniqueValue": true,
+                            "displayOrder": 8
+                        } 
+                    ]
+                }
+            },
+            "mapping": [
+                {
+                    "attribute": "senderNodeAddress",
+                    "ext_name": "sender_node_address"
+                },
+                {
+                    "attribute": "Gender",
+                    "ext_name": "gender"
+                },
+                {
+                    "attribute": "Age",
+                    "ext_name": "age"
+                },
+                {
+                    "attribute": "Miles",
+                    "ext_name": "miles"
+                },
+                {
+                    "attribute": "ReferralCode",
+                    "ext_name": "referral_code"
+                },
+                {
+                    "attribute": "Country",
+                    "ext_name": "country"
+                },
+                {
+                    "attribute": "Date",
+                    "ext_name": "date"
+                },
+                {
+                    "attribute": "transactionalGuid",
+                    "ext_name": "transactional_guid"
+                }
+            ],
+            "actions": [
+                {
+                    "type": "export",
+                    "operation_type": "UPSERT",
+                    "query": {
+                        "query": {
+                            "bool": {
+                                "must": [
+                                    {
+                                        "exists": {
+                                            "field": "ReferralCode"
+                                        }
+                                    }
+                                ],
+                                "must_not": [
+                                    {
+                                        "match": {
+                                            "ReferralCode.keyword": ""
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    "skip_for_update": [
+                        "transactionalGuid",
+                        "senderNodeAddress"
+                    ]
+                }
+            ]
+        }
+    ]
+}

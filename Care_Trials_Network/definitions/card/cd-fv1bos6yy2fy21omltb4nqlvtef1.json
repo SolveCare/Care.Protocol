@@ -1,0 +1,219 @@
+{
+    "id": "cd-fv1bos6yy2fy21omltb4nqlvtef1",
+    "name": "Submit for Review/Verification", 
+    "cardData": {
+        "0tile14aiitextii3an": "Medical Records",
+        "0tile14aiitextiir57": "Uploaded on: 09/05/2023",
+        "imageUrlcr7ph": "https://d1fgr2dke6q42b.cloudfront.net/dev/media/a1920ec3-027a-43cc-9226-36fad59c0b6a/go_next_grey_icon.png",
+        "1tile14iitextii0ve": "View attachments",
+        "imageUrlgvg6u": "https://d1fgr2dke6q42b.cloudfront.net/dev/media/a1920ec3-027a-43cc-9226-36fad59c0b6a/go_next_grey_icon.png",
+        "2tile6aiitextiiwy7": "Pay with:",
+        "labelgbklb": "1000 SOLVE",
+        "label7ygou": "with Promo Code",
+        "validationf9db0": "Please select atleast one of the value",
+        "2en01bottombutton1iitextiilbn": "Submit",
+        "0tile1iitextiinm7": "Attachment(s)",
+        "1tile13iitextiiixa": "Attach a selfie",
+        "1tile13iihintiisdl": "jpg or png",
+        "text123": "To request a nurse review or verification, you can either pay a fee of 1000 SOLVE or use a promo code for payment.",
+        "validationdrhfc": "Please select one value",
+        "1tile1iitextiiixo": "Enter Promo Code",
+        "textwith1000solve": "Pay with 1000 SOLVE",
+        "textwithpromocode": "Pay with Promo Code",
+        "imageUrlnky99": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/arrow-right blue.png"
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "text123",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+
+                    {
+                        "id": "Tile11",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "{$recordType}",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "subTitle": {
+                                    "text": "{$timeMessage}",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "AttachmentDownloadTile",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile1iitextiinm7",
+                                    "titleTextColor": "#000080",
+                                    "fontSize": 16
+                                },
+                                "subTitle": {
+                                    "text": "{$folderReference}",
+                                    "subTitleTextColor": "#000080",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                      },
+                      
+                      
+                      {
+                        "id": "Tile14",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "textwith1000solve",
+                                    "titleTextColor": "#000080",
+                                    "fontSize": 16,
+                                    "style": "REGULAR"
+                                },
+                                "img": {
+                                    "text": "imageUrlnky99",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "${action11}",
+                        "order": 3
+                    },
+                    {
+                        "id": "Tile14",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "textwithpromocode",
+                                    "titleTextColor": "#000080",
+                                    "fontSize": 16,
+                                    "style": "REGULAR"
+                                },
+                                "img": {
+                                    "text": "imageUrlnky99",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "${action111}",
+                        "order": 3
+                    }
+                  
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "style": {
+            "fontSize": 16,
+            "bgColor": "#ffffff",
+            "borderWidth": 1
+        },
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action1}",
+                    "order": 1
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "": {
+            "action": null
+        },
+        "action1": {
+            "action": "e-w-trial-admin-navig-to-cms"
+        },
+        "action636": {
+            "action": "e-w-broad-defau-to-rl-acc-w08"
+        },
+        "action11": {
+            "action": [
+                {
+                    "name": "Function.SOLVE.getTokenBalance",
+                    "resultKey": "solveBalance"
+                },
+                {
+                    "name": "Function.Navigate",
+                    "compareKey": "solveBalance",
+                    "compareValue": 1000,
+                    "cardIdForGreaterValue": "cd-paywithsolve",
+                    "cardIdForLessValue": "cd-7w2t7slwuxjxojbu8n1qdvps-sg3",
+                    "cardId": "cd-fv1bos6yy2fy21omltb4nqlvtef1"
+                }
+            ]
+        },
+        "action111": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-paywithpromocode"
+                }
+            ]
+        }
+    }
+}

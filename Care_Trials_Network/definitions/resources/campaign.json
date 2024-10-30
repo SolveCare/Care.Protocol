@@ -1,0 +1,13 @@
+{
+  "rows": [
+    {
+      "GoldCampaignType": "Gold",
+      "GoldCampaignCost": 17500,
+      "PlatinumCampaignType": "Platinum",
+      "PlatinumCampaignCost": 22500,
+      "SilverCampaignType": "Silver",
+      "SilverCampaignCost": 10000,
+      "amountType": "SOLVE"
+    }
+  ]
+}

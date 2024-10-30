@@ -1,0 +1,22 @@
+{
+    "definition": {
+        "description": "Event to Navigate from Engage to cd-70pocvre4vjmzn78k32p767eyqj1",
+        "name": "W-TRIAL-ADMIN-NAVIG-TO-.MNB",
+        "resource": "W-TRIAL-ADMIN-NAVIG-TO-.MNB",
+        "type": "EVENT_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 1,
+                "system": false,
+                "required": false
+            }
+        ]
+    }
+}

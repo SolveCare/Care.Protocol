@@ -1,0 +1,344 @@
+{
+    "id": "cd-dchngg450u6wafzxwp50b5j-search8",
+    "name": "Engagement Details",
+    "cardData": {
+        "0tile11iitextiiq01" : "Meeting Type",
+        "0tile11iitextiig01" : "Purpose",
+        "0tile11iitextiiq011" : "Meeting Link/Location",
+        "0tile11iitextiig011" : "Date",
+        "0tile14aiitextiip03" : "Time",
+        "0tile14aiitextiip0" : "Status",
+
+        "acceptText1": "Accept",
+        "imageUrlk6cem": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/f116d56b-00a4-4091-932b-240e9cf64504/accept-circular-button-outline.png",
+        "skipText1": "Decline",
+        "imageUrlynopr": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/f116d56b-00a4-4091-932b-240e9cf64504/multiply.png",
+        "backText1": "Previous",
+        "imageUrlo9w7y": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/71651957-ecc1-4943-961a-9f3bbb53f626/previous.png",
+
+        "typeimg": "https://i.ibb.co/9GxP91T/image-29.png",
+        "purposeimg": "https://i.ibb.co/421thSf/image-30.png",
+        "linkimg": "https://i.ibb.co/XJbg6nB/image-31.png",
+        "dateimg": "https://i.ibb.co/jhvvmzD/image-32.png",
+        "timeimg": "https://i.ibb.co/87RF19t/image-33.png"        
+ 
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    {
+                        "id": "Tile14a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile11iitextiiq01",
+                                    "titleTextColor": "#000080",
+                                    "style": "BOLD"
+                                },
+                                "subTitle": {
+                                    "text": "${meetingType}",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "img": {
+                                    "text": "typeimg",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "borderWidth": 3,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 10
+                    },
+                    {
+                        "id": "Tile14a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile11iitextiig01",
+                                    "titleTextColor": "#000080",
+                                    "style": "BOLD"
+                                },
+                                "subTitle": {
+                                    "text": "${meetingPurpose}",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "img": {
+                                    "text": "purposeimg",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "borderWidth": 3,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 10
+                    },
+                    {
+                        "id": "Tile14a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile11iitextiiq011",
+                                    "titleTextColor": "#000080",
+                                    "style": "BOLD"
+                                },
+                                "subTitle": {
+                                    "text": "${meetingLink}",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "img": {
+                                    "text": "linkimg",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "borderWidth": 3,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 5
+                    },
+                    {
+                        "id": "Tile14a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile11iitextiig011",
+                                    "titleTextColor": "#000080",
+                                    "style": "BOLD"
+                                },
+                                "subTitle": {
+                                    "text": "${meetingDate}",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "img": {
+                                    "text": "dateimg",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "borderWidth": 3,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 5
+                    },
+                    {
+                        "id": "Tile14a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile14aiitextiip03",
+                                    "titleTextColor": "#000080",
+                                    "style": "BOLD"
+                                },
+                                "subTitle": {
+                                    "text": "${meetingTime}",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "img": {
+                                    "text": "timeimg",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "borderWidth": 3,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 10
+                    },
+                    
+                  
+                    {
+                        "id": "Tile14a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile14aiitextiip0",
+                                    "titleTextColor": "#000080",
+                                    "style": "BOLD"
+                                },
+                                "subTitle": {
+                                    "text": "${timeMessage}",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "img": {
+                                    "text": "{$statusIcon}",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "borderWidth": 3,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 10
+                    },
+                    
+                   
+                    
+                    {
+                        "id": "Tile17a",
+                        "subView": [
+                            {
+                                "options": {
+                                    "list": [
+                                        {
+                                            "subTitle": {
+                                                "text": "backText1",
+                                                "subtitleAlign": "CENTER",
+                                                "colorCode": "#000080",
+                                                "style": "BOLD"
+                                            },
+                                            "img": {
+                                                "text": "imageUrlo9w7y"
+                                            },
+                                            "uiAction": "action17aBack",
+                                            "itemBorderColor": "#ffffff"
+                                        },
+                                        {
+                                            "subTitle": {
+                                                "text": "skipText1",
+                                                "subtitleAlign": "CENTER",
+                                                "colorCode": "#000080",
+                                                "style": "BOLD"
+                                            },
+                                            "img": {
+                                                "text": "imageUrlynopr"
+                                            },
+                                            "uiAction": "action17aNope",
+                                            "itemBorderColor": "#ffffff"
+                                        },
+                                        {
+                                            "subTitle": {
+                                                "text": "acceptText1",
+                                                "subtitleAlign": "CENTER",
+                                                "colorCode": "#000080",
+                                                "style": "BOLD"
+                                            },
+                                            "img": {
+                                                "text": "imageUrlk6cem"
+                                            },
+                                            "uiAction": "action17aInterested",
+                                            "itemBorderColor": "#ffffff"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "borderColor": "#ffffff",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "visibleIf":"${isEngageStatusNot}",
+                        "order": 5
+                    }
+                    
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action300}",
+                    "visibleIf":"${isChecked}",
+                    "order": 1
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action300": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-dchngg450u6wafzxwp50b5j-search7"
+                }
+            ]
+        },
+        "action702": {
+            "action": "HOME"
+        },
+
+        "action17aBack": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-dchngg450u6wafzxwp50b5j-search7"
+                }
+            ]
+        },
+        "action17aNope": {
+            "action": [
+                {
+                    "name": "e-w-pi-decline-eng"
+                },
+                {
+                    "name": "Function.reloadData",
+                    "resultKey": "Nope"              
+                }
+             ]
+        },
+        "action17aInterested": {  
+            "action": [
+                {
+                    "name": "e-w-pi-accept-eng"
+                },     
+                {
+                    "name": "Function.reloadData",
+                    "resultKey": "Interested"
+                }
+            ]
+                 
+        }
+    }
+}

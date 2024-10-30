@@ -1,0 +1,213 @@
+{
+    "id": "cd-consent-rl-ilzgtkrk34yxgh15vpc1etli4gcn",
+    "name": "Final Step : Give Consent",
+    "cardData": {
+        "0tile0aGiveConsentTitle": "Give consent to",
+        "0tile0aGiveConsentSubTitle": "CTN2",
+        "1tile0aRoleTitle": "As a network participant ",
+        "1tile0aRoleSubTitle": "Nurse",
+        "2tile7aAccessTitle": "For access to:",
+        "3tile14TermsAndConditions": "Care.Network needs access to specific cards in your profile. Please review data use terms of this Care.Network",
+        "imageUrlf8m7r": "https://d1fgr2dke6q42b.cloudfront.net/dev/media/a1920ec3-027a-43cc-9226-36fad59c0b6a/go_next_grey_icon.png",
+        "2en01bottombutton1iitextii5xj": "Agree",
+        "validations103cci": "All items are required",
+        "labelWALLET": "Care.Wallet ID",
+        "labelPHONE": "Email/Phone number",
+        "labelCONTACT": "\"CONTACT\" Card"
+    },
+    "cardLayout": {
+        "body": [
+            { 
+                "id": "000t1",
+                "tileComponent": [
+                    {
+                        "id": "Tile0a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile0aGiveConsentTitle",
+                                    "style": "REGULAR",
+                                    "titleTextColor": "#000000",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "0tile0aGiveConsentSubTitle",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000000",
+                                    "subTitleAlign": "END"
+                                }
+                            }
+                        ],
+                        "borderColor": "#afafaf",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile0a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "1tile0aRoleTitle",
+                                    "style": "REGULAR",
+                                    "titleTextColor": "#000000",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "1tile0aRoleSubTitle",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000000",
+                                    "subTitleAlign": "END"
+                                }
+                            }
+                        ],
+                        "borderColor": "#afafaf",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile7a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "2tile7aAccessTitle", 
+                                    "titleTextColor": "#000000",
+                                    "titleAlign": "START"
+                                },
+                                "options": {
+                                    "key": {
+                                        "name": "${profileAccess}",
+                                        "optionAlign": "START",
+                                        "optionTextColor": "#000000"
+                                    },
+                                    "list": [
+                                        {
+                                            "label": "labelWALLET",
+                                            "uiAction": "WALLET"
+                                        },
+										{
+                                            "label": "labelPHONE",
+                                            "uiAction": "PHONE"
+                                        }
+                                    ],
+                                    "validation": [
+                                        {
+                                            "name": "REQUIRED_FIELD",
+                                            "error": "validations103cci",
+                                            "requiredAll": true
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "borderColor": "#afafaf",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 2
+                    },
+                    {
+                        "id": "Tile14",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "3tile14TermsAndConditions"
+                                },
+                                "img": {
+                                    "text": "imageUrlf8m7r",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#afafaf",
+                        "type": "CONTAINER",
+                        "uiAction": "${action3}",
+                        "order": 3
+                    }
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action1}",
+                    "order": 1
+                },
+                {
+                    "id": "EN01BottomButton1",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": "2en01bottombutton1iitextii5xj"
+                            }
+                        }
+                    ],
+                    "align": "END",
+                    "type": "BUTTON",
+                    "uiAction": "${action2}",
+                    "order": 2
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        },
+        "style": {
+            "fontSize": 16,
+            "bgColor": "#ffffff",
+            "borderWidth": 1
+        }
+    },
+    "cardUIAction": {
+        "action1": {
+            "action": "HOME"
+        },
+        "action2": {
+            "action": [
+                {
+                    "name": "Function.Profile.Card01.blockchain_address",
+                    "resultKey": "walletOwnerAddress"
+                },
+                {
+                    "name": "Function.Profile.Card01.blockchain_address",
+                    "resultKey": "blockchainAddress"
+                },
+                {
+                    "name": "Function.Profile.Card01.cwNodeScAddress",
+                    "resultKey": "cwNodeScAddress"
+                },
+                {
+                    "name": "Function.Profile.Card02.phone",
+                    "resultKey": "identity"
+                },
+                {
+                    "name": "Function.ProvideJoiningConsent"
+                },
+                {
+                    "name": "Function.InviteAndJoin"
+                }
+            ]
+        },
+
+        "action3": {
+            "action": {
+                "name": "Function.CallEventHandler",
+                "method": "DETAILS",
+                "NAVIGATION": "cd-nurse-terms"
+            }
+        }
+    }
+}

@@ -1,0 +1,290 @@
+{
+    "id": "cd-kshx4d9aba61wb9q-ta-cas15",
+    "name": "Competency Assessment Survey",
+    "cardData": {
+        "0tile0iitexti1": "3. Recruit and select an appropriately qualified team",
+
+        "0tile0iitexti2": "4. Train and monitor on Root Cause Analysis and Corrective and Preventive Actions",
+
+        "0tile0iitexti3": "5. Create or deliver appropriate trainings",
+
+        "0tile0iitexti4": "6. Lead, motivate, mentor, supervise, monitor, train, or advise staff in their work",
+
+        "0tile0iitextiik13": "Resource management:",  
+
+        "0tile0iitexti5": "1. Manage logistical tasks and ensure that the infrastructure and facilities are in order",
+        
+        "0tile0iitexti6": "2. Maintain equipment and resource inventory, and perform troubleshooting where necessary",
+        
+        "0tile0iitexti7": "3. Manage the study budget, including preparing financial reports",
+
+        "validationdrhfc": "Please select one value",
+        "2en01bottombutton1iitextiiyaq": "Next"
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    {
+                      "id": "Tile5",
+                      "subView": [
+                        {
+                          "title": {
+                            "text": "0tile0iitexti1"
+                          },
+                          "subTitle": {
+                            "text": "{$D3StaffManagementQ3}",
+                            "start": 0,
+                            "end": 5,
+                            "count": 1,
+                            "validation": [
+                              {
+                                "name": "REQUIRED_FIELD",                     
+                                "error": "validationdrhfc"
+                              }
+                            ]
+                          }                      
+                        }                      
+                      ],                      
+                      "align": "START",                      
+                      "type": "CONTAINER",                      
+                      "uiAction": "",                      
+                      "order": 1                      
+                    },
+                    {
+                      "id": "Tile5",
+                      "subView": [
+                        {
+                          "title": {
+                            "text": "0tile0iitexti2"
+                          },
+                          "subTitle": {
+                            "text": "{$D3StaffManagementQ4}",
+                            "start": 0,
+                            "end": 5,
+                            "count": 1,
+                            "validation": [
+                              {
+                                "name": "REQUIRED_FIELD",                     
+                                "error": "validationdrhfc"
+                              }
+                            ]
+                          }                      
+                        }                      
+                      ],                      
+                      "align": "START",                      
+                      "type": "CONTAINER",                      
+                      "uiAction": "",                      
+                      "order": 1                      
+                    },
+                    {
+                      "id": "Tile5",
+                      "subView": [
+                        {
+                          "title": {
+                            "text": "0tile0iitexti3"
+                          },
+                          "subTitle": {
+                            "text": "{$D3StaffManagementQ5}",
+                            "start": 0,
+                            "end": 5,
+                            "count": 1,
+                            "validation": [
+                              {
+                                "name": "REQUIRED_FIELD",                     
+                                "error": "validationdrhfc"
+                              }
+                            ]
+                          }                      
+                        }                      
+                      ],                      
+                      "align": "START",                      
+                      "type": "CONTAINER",                      
+                      "uiAction": "",                      
+                      "order": 1                      
+                    },
+                    {
+                      "id": "Tile5",
+                      "subView": [
+                        {
+                          "title": {
+                            "text": "0tile0iitexti4"
+                          },
+                          "subTitle": {
+                            "text": "{$D3StaffManagementQ6}",
+                            "start": 0,
+                            "end": 5,
+                            "count": 1,
+                            "validation": [
+                              {
+                                "name": "REQUIRED_FIELD",                     
+                                "error": "validationdrhfc"
+                              }
+                            ]
+                          }                      
+                        }                      
+                      ],                      
+                      "align": "START",                      
+                      "type": "CONTAINER",                      
+                      "uiAction": "",                      
+                      "order": 1                      
+                    },
+                    {
+                      "id": "Tile0",
+                      "subView": [
+                          {
+                              "title": {
+                                  "text": "0tile0iitextiik13",
+                                  "style": "BOLD",
+                                  "titleTextColor": "#000080",
+                                  "titleAlign": "START",
+                                  "fontSize": 16
+                              }
+                          }
+                      ],
+                      "borderColor": "#C5C3C8",
+                      "backgroundColor": "#ffffff",
+                      "borderWidth": 1,
+                      "type": "CONTAINER",
+                      "uiAction": "",
+                      "order": 1
+                    },
+                    {
+                      "id": "Tile5",
+                      "subView": [
+                        {
+                          "title": {
+                            "text": "0tile0iitexti5"
+                          },
+                          "subTitle": {
+                            "text": "{$D3ResourceManagementQ1}",
+                            "start": 0,
+                            "end": 5,
+                            "count": 1,
+                            "validation": [
+                              {
+                                "name": "REQUIRED_FIELD",                     
+                                "error": "validationdrhfc"
+                              }
+                            ]
+                          }                      
+                        }                      
+                      ],                      
+                      "align": "START",                      
+                      "type": "CONTAINER",                      
+                      "uiAction": "",                      
+                      "order": 1                      
+                    },
+                    {
+                      "id": "Tile5",
+                      "subView": [
+                        {
+                          "title": {
+                            "text": "0tile0iitexti6"
+                          },
+                          "subTitle": {
+                            "text": "{$D3ResourceManagementQ2}",
+                            "start": 0,
+                            "end": 5,
+                            "count": 1,
+                            "validation": [
+                              {
+                                "name": "REQUIRED_FIELD",                     
+                                "error": "validationdrhfc"
+                              }
+                            ]
+                          }                      
+                        }                      
+                      ],                      
+                      "align": "START",                      
+                      "type": "CONTAINER",                      
+                      "uiAction": "",                      
+                      "order": 1                      
+                    },
+                    {
+                      "id": "Tile5",
+                      "subView": [
+                        {
+                          "title": {
+                            "text": "0tile0iitexti7"
+                          },
+                          "subTitle": {
+                            "text": "{$D3ResourceManagementQ3}",
+                            "start": 0,
+                            "end": 5,
+                            "count": 1,
+                            "validation": [
+                              {
+                                "name": "REQUIRED_FIELD",                     
+                                "error": "validationdrhfc"
+                              }
+                            ]
+                          }                      
+                        }                      
+                      ],                      
+                      "align": "START",                      
+                      "type": "CONTAINER",                      
+                      "uiAction": "",                      
+                      "order": 1                      
+                    }
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action300}",
+                    "order": 1
+                },
+                {
+                    "id": "EN01BottomButton1",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": "2en01bottombutton1iitextiiyaq"
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BUTTON",
+                    "uiAction": "${action5}",
+                    "order": 2
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action300": {
+            "action": [
+                {
+                     "name": "Function.Navigate",
+                     "cardId": "cd-kshx4d9aba61wb9q-ta-cas14"
+                }
+
+            ]
+        },
+        "action5": {
+            "action": [
+                {
+                     "name": "Function.Navigate",
+                     "cardId": "cd-kshx4d9aba61wb9q-ta-cas16"
+                }
+            ]        
+        }
+    }
+}

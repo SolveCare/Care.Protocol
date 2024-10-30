@@ -1,0 +1,179 @@
+{
+    "id": "cd-trialslikedbylead-01",
+    "name": "Review Leads",
+    "cardData": {
+        "heading": "Streamline Lead Eligibility Verification: Review and Approve Trials Liked by Leads",
+        "textmatched": "Pending Review",
+        "textnoresp": "Reviewed Leads",
+        "textnotfit":"Not a fit",
+        "Trials" : "trial/s",
+        "imageUrl4mjtk1": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/arrow-right blue.png",
+        "imageUrli0ikq2": "https://i.ibb.co/r5YShzv/nurse-image.png%22"
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+               
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "heading",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "CENTER",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#000080",
+                        "backgroundColor": "#000080",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile16",
+                        "subView": [
+                            {
+                                "img": {
+                                    "text": "imageUrli0ikq2",
+                                    "isUrl": true,
+                                    "height": "308",
+                                    "width": "382"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 2
+                    }, 
+                    {
+                        "id": "Tile14", 
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "textmatched",
+                                    "style": "REGULAR",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                },
+
+                                "img": {
+                                    "text": "imageUrl4mjtk1",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 3, 
+                        "type": "CONTAINER",
+                        "uiAction": "${action5}",
+                        "order": 3
+                    },
+                    
+                   
+                    {
+                        "id": "Tile14", 
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "textnoresp",
+                                    "style": "REGULAR",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                },
+
+                                "img": {
+                                    "text": "imageUrl4mjtk1",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 3, 
+                        "type": "CONTAINER",
+                        "uiAction": "${action6}",
+                        "order": 3
+                    }
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "style": {
+            "fontSize": 16,
+            "bgColor": "#ffffff",
+            "borderWidth": 1
+        },
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action1}",
+                    "order": 1
+                } 
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+
+        "action5": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-trialslikedbylead-1"
+                }
+            ]
+        },
+        "action6": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-trialslikedbylead-02"
+                }
+            ]
+        },
+        "action7": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-nvbviswn3aww7d1xosiozad7ku-sg3"
+                }
+            ]
+        },
+        
+        "action1": {
+            "action": "HOME"
+        }
+        
+                    
+                    
+                    
+    }
+}

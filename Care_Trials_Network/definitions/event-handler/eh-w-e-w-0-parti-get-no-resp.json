@@ -1,0 +1,25 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "e-w-0-parti-get-no-resp",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "name": "getPARTICIPANT_ADMIN_TRIALS",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "GET",
+                                    "url": "/transactions/TRIALS_UNIQ?filter=[{\"queryMatcher\": \"EQUAL\",\"inverted\": false,\"fieldName\": \"trialStatus\",\"value\": \"SAVED\"}]"
+                                }
+                            ]
+                        }
+                    ],
+                    "postAction": "",
+                    "refId": "e-w-0-parti-get-no-resp"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "e-w-broad-req_n-to-rl-tp2-2nr",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "name": "submit",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "POST",
+                                    "url": "/events"
+                                }
+                            ]
+                        }
+                    ],
+                    "postAction": "cd-tcfgtgqdhop5cegq3y2hd0abs6v1",
+                    "refId": "e-w-broad-req_n-to-rl-tp2-2nr"
+                }
+            ]
+        }
+    ]
+}

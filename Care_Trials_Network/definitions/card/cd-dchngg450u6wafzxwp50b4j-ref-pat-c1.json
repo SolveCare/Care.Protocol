@@ -1,0 +1,116 @@
+{
+    "id": "cd-dchngg450u6wafzxwp50b4j-ref-pat-c1",
+    "name": "Refer Patients",
+    "cardData": {
+        "0tile0iitextiikga": "Refer Patients to Transformative Clinicak Trials",
+        "imageUrlkbhj0": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/CTN_Participant.mp4",
+        "imageUrli0ikq2": "https://i.ibb.co/Lhf1Tf5/image-19.png",
+        "2tile14aiitextii078": "Refer patients by sharing the below Care.Wallet application",
+        "test2tile14aiitexturl": "https://apps...",
+        "imageUrldgqhy": "https://i.ibb.co/r7Z6qdB/Refer.png",
+        "shareicon":"https://i.ibb.co/JrfGjNm/image-20.png"
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile0iitextiikga",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "CENTER",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    
+                    {
+                        "id": "Tile16",
+                        "subView": [
+                            {
+                                "img": {
+                                    "text": "imageUrli0ikq2",
+                                    "isUrl": true,
+                                    "height": "308",
+                                    "width": "382"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 2
+                    }, 
+                    {
+                        "id": "Tile14a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "2tile14aiitextii078",
+                                    "titleTextColor": "#000080",
+                                    "style": "BOLD"
+                                },
+                                "subTitle": {
+                                    "text": "test2tile14aiitexturl",
+                                    "style": "REGULAR",
+                                    "subTitleTextColor": "#000080"
+                                },
+                                "img": {
+                                    "text": "shareicon",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "Function.COPY.TEXT",
+                        "order": 1
+                    }
+                    
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action300}",
+                    "order": 1
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action300": {
+            "action": "HOME"
+        }
+    }
+}

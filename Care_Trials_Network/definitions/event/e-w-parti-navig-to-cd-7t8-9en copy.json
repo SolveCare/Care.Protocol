@@ -1,0 +1,1 @@
+{"definition":{"description":"Event to Navigate from My Requests to cd-7t8aauxdkv6fxipc6vlx4hkwe1n1","name":"W-PARTI-NAVIG-TO-CD-7T8.9EN","resource":"W-PARTI-NAVIG-TO-CD-7T8.9EN","type":"EVENT_DATA"},"structure":{"attributes":[{"code":"transactionalGuid","name":"transactionalGuid","type_definition":{"type":"string"},"order":1,"system":false,"required":false}]}}

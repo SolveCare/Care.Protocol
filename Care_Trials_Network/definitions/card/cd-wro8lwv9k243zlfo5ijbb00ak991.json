@@ -1,0 +1,234 @@
+{
+    "id": "cd-wro8lwv9k243zlfo5ijbb00ak991",
+    "name": "FAQ",
+    "cardData": {
+        "0tile11iitextiitky": "How can I access the trials as an administrator?",
+        "0tile11iitextiim5d": "To activate trials as an administrator, click on activate trial and enter your activation code for activation",
+        "1tile11iitextii1y9": "What if I don't have an activation code for a trial?",
+        "1tile11iitextii107": "If you don't have an activation code for a particular trial, you can request one. Simply follow the prompts to request the code",
+        "2tile11iitextiiawt": "Can I activate multiple trials?",
+        "2tile11iitextii3b7": " You can enter activation code and activate multiple trials sequentially by following the process for each one",
+        "2tile11iitextiiaxu": "Can I update information after a trial has been activated?",
+        "2tile11iitextii3c8": "You will be able to update information about a trial after activation. ",
+        "2tile11iitextiiayv": "Why cant I see any leads on see your matches journey?",
+        "2tile11iitextii3d9": "The See Your Matches journey is where you can view & purchase your leads. If you don't see any leads, it might be because your trial is not activated or you currently have no leads.",
+        "2tile11iitextiiazw": "What is the lead purchase system, and how does it work?",
+        "2tile11iitextii3e1": "The lead purchase system allows administrators to acquire leads for a specified amount of SOLVE tokens. To purchase leads, you need to maintain a balance of at least 5000 SOLVE and to view next available leads, you need to need to spend 50 SOLVE. If your balance falls below these threshold, you'll be prompted to add more SOLVE.",
+        "2tile11iitextiiaax": "How can I track my SOLVE balance and transaction history?",
+        "2tile11iitextii3f2": "You can always view your SOLVE balance and transaction history by clicking on the token menu available on the footer.",
+        "2tile11iitextiiavs": "What should I do if I encounter technical issues while accessing trials?",
+        "2tile11iitextii3a6": "If you face any technical difficulties, please reach out to our dedicated support team through the provided contact information. We're here to assist you promptly."
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    {
+                        "id": "Tile11",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile11iitextiitky",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "0tile11iitextiim5d",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile11",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "1tile11iitextii1y9",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "1tile11iitextii107",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 2
+                    },
+                    {
+                        "id": "Tile11",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "2tile11iitextiiawt",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "2tile11iitextii3b7",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 2
+                    },
+                    {
+                        "id": "Tile11",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "2tile11iitextiiaxu",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "2tile11iitextii3c8",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 2
+                    },
+                    {
+                        "id": "Tile11",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "2tile11iitextiiayv",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "2tile11iitextii3d9",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 2
+                    },
+                    {
+                        "id": "Tile11",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "2tile11iitextiiazw",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "2tile11iitextii3e1",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 2
+                    },
+                    {
+                        "id": "Tile11",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "2tile11iitextiiaax",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "2tile11iitextii3f2",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 2
+                    },
+                    {
+                        "id": "Tile11",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "2tile11iitextiiavs",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "2tile11iitextii3a6",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 3
+                    }
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action764}",
+                    "order": 1
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action764": {
+            "action": "e-w-trial-admin-navig-to-ese"
+        }
+    }
+}

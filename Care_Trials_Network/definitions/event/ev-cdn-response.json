@@ -1,0 +1,49 @@
+{
+  "definition": {
+    "description": "CDN message response",
+    "name": "N_CDN_RESPONSE",
+    "resource": "N_CDN_RESPONSE",
+    "type": "EVENT_DATA"
+  },
+  "structure": {
+    "attributes": [
+      {
+        "code": "transactionId",
+        "name": "transactionId",
+        "type_definition": {
+          "type": "string"
+        },
+        "order": 1,
+        "system": false
+      },
+      {
+        "code": "ddfType",
+        "name": "ddfType",
+        "type_definition": {
+          "type": "string"
+        },
+        "order": 3,
+        "system": false
+      },
+      {
+        "code": "msgType",
+        "name": "msgType",
+        "type_definition": {
+          "type": "string"
+        },
+        "order": 3,
+        "system": false
+      },
+      {
+        "code": "matchMessageId",
+        "name": "matchMessageId",
+        "type_definition": {
+          "type": "string"
+        },
+        "order": 4,
+        "system": false,
+        "required": false
+      }
+    ]
+  }
+}

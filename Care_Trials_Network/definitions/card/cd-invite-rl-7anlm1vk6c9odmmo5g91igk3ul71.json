@@ -1,0 +1,162 @@
+{
+    "id": "cd-invite-rl-7anlm1vk6c9odmmo5g91igk3ul71",
+    "name": "Care.Trials",
+    "cardData": {
+        "0tile11iitextii81e": "Description",
+        "0tile11iitextiin3f": "Care.Trials is an anonymous network for clinical trial participation. Earn rewards while contributing to healthcare advancements.",
+        "1tile0iitextii00a": "Publisher",
+        "1tile0iitextii00c": "Solve.Care",
+        "2tile0iitextii52z": "Care.Trials Network",
+        "3tile11iitextiifzu": "Publisher contact",
+        "3tile11iitextii9nc": "Website : https://caretrials.net/  ",
+        "4tile0iitextiivav": "Published on",
+        "4tile0iitextiiesd": "04/08/2023",
+        "5tile0iitextiieal": "Participants: 335",
+        "6tile0iitextiifq1": "Your assigned role",
+        "6tile0iitextiifq5": "Site Admin (Representing Site/Institution)",
+        "2en01bottombutton1iitextiisfx": "Next"
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile11iitextiin3f",
+                                    "style": "REGULAR",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "LEFT"
+                                }
+                            }
+                        ],
+                        "borderColor": "#afafaf",
+                        "backgroundColor": "#ffffff",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile0a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "1tile0iitextii00a",
+                                    "style": "REGULAR",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "1tile0iitextii00c",
+                                    "style": "BOLD",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "END"
+                                }
+                            }
+                        ],
+                        "borderColor": "#afafaf",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 2
+                    },
+                    {
+                        "id": "Tile0a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "4tile0iitextiivav",
+                                    "style": "REGULAR",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "4tile0iitextiiesd",
+                                    "style": "BOLD",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "END"
+                                }
+                            }
+                        ],
+                        "borderColor": "#afafaf",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 2
+                    },                  
+                     {"id": "Tile0a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "6tile0iitextiifq1",
+                                    "style": "REGULAR",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "6tile0iitextiifq5",
+                                    "style": "BOLD",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "END"
+                                }
+                            }
+                        ],
+                        "borderColor": "#afafaf",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 2
+                    }
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action1}",
+                    "order": 1
+                },
+                {
+                    "id": "EN01BottomButton1",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": "2en01bottombutton1iitextiisfx"
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BUTTON",
+                    "uiAction": "${action2}",
+                    "order": 2
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action1": {
+            "action": "HOME"
+        },
+        "action2": {
+            "action": {
+                "name": "Function.CallEventHandler",
+                "method": "DETAILS",
+                "NAVIGATION": "cd-consent-rl-7anlm1vk6c9odmmo5g91igk3ul71"
+            }
+        }
+    }
+}

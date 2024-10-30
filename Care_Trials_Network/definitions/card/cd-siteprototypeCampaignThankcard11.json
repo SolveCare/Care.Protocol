@@ -1,0 +1,97 @@
+{
+  "id": "cd-siteprototypeCampaignThankcard11",
+  "name": "Thank You",
+    "cardData": {
+        "imageUrl31xo8": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/Done pic.png",
+        "1tile0iitextiij7r": "Congratulations! Your payment for the subscription plan has been successfully processed. We appreciate your commitment to advancing medical research through our Care. Trials administration platform.",
+        "2en01bottombutton1iitextii91b": "Done",
+        "0tile11iitextiiozm" : "Congratulations!",
+        "0tile11iitextiik7x": "Your payment for the campaign plan has been successfully processed. We appreciate your commitment to advancing medical research through Care.Trials Network."
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "00tc01",
+                "tileComponent": [
+                    {
+                        "id": "Tile16",
+                        "subView": [
+                            {
+                                "img": {
+                                    "text": "imageUrl31xo8",
+                                    "isUrl": true,
+                                    "height": "120",
+                                    "width": "120"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile11",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile11iitextiiozm",
+                                    "titleTextColor": "#000080",
+                                    "style": "BOLD",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "0tile11iitextiik7x",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "JUSTIFY"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    }
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "style": {
+            "fontSize": 16,
+            "bgColor": "#ffffff",
+            "borderWidth": 1
+        },
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButton1",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": "2en01bottombutton1iitextii91b"
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BUTTON",
+                    "uiAction": "${action123}",
+                    "order": 2
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    }, 
+    "cardUIAction": {
+        "action123": {
+            "action": [
+                {
+                    "name": "Function.Navigate",
+                    "cardId": "cd-siteprototypeBuyCampcard8"
+                }
+            ]
+        }
+    }
+}

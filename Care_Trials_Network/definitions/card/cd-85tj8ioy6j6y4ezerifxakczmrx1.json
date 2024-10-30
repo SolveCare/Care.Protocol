@@ -1,0 +1,348 @@
+{
+    "id": "cd-85tj8ioy6j6y4ezerifxakczmrx1",
+    "name": "FAQ",
+    "cardData": {
+        "0tile11iitextiiozm": "What is Care.Trials, and what does it offer to participants?",
+        "0tile11iitextiik7x": "Care.Trial is a global clinical trial network. It offers participants the opportunity to discover various clinical trials in which they may be eligible to participate, contributing to medical advancements and earning rewards.",
+        "1tile11iitextiir57": "Who is the company behind care trials?",
+        "1tile11iitextiid8q": "The company behind Care.Trials is Solve.Care. Solve.Care is a global healthcare platform that uses blockchain technology to improve and simplify healthcare.",
+        "2tile11iitextiihbg": "How do I start my journey?",
+        "2tile11iitextiivxq": "If it is your first time on the network, you must start by answering the 7 questions in “Start Here” journey. We use your answers to gather information that will help us provide you with clinical trials that are most suited to you. ",
+        "3tile11iitextii3oq": "Do I have to answer all seven questions?",
+        "3tile11iitextiin43": "Yes, completing all seven questions is required. This information is essential for personalizing your experience and ensuring that you are matched with the most eligible trials for you.",
+        "3tile11iitextii3pr": "Can I change my answers to these questions later?",
+        "3tile11iitextiiny3": "Yes, you can update your answers to these questions after you have saved it once. This allows you to keep your information up to date",
+        "3tile11iitextii3qs": "What is the purpose of Discover Trials journey where I see various clinical trials?",
+        "3tile11iitextiinz4": "This journey is designed to help you discover clinical trials that may be of interest to you. It allows you to explore different trials and express your interest in them",
+        "3tile11iitextii3rt": "How do I express interest in a clinical trial?",
+        "3tile11iitextiina5": "You can express interest in a clinical trial by clicking the Interested button associated with that trial. This helps us identify trials that match your preferences.",
+        "3tile11iitextii3st": "What happens after I express interest in a clinical trial?",
+        "3tile11iitextiinb6": "After you express interest, the site administrator will review your profile and decide whether to reciprocate interest. If there's a match, you'll be notified that you've matched the trial. ",
+        "3tile11iitextii3uv": "How does the network ensure anonymity and privacy during enrolment?",
+        "3tile11iitextiinc7": "The network allows anonymous enrolment. Personal identifying information is kept confidential until participants decide to enroll in a trial, ensuring privacy.  Your information will never be released without your consent.",
+        "3tile11iitextii3vw": "How much will I be paid?",
+        "3tile11iitextiind8": "How much you will be paid will vary from one trial to another and is determined by the site administrators.  ",
+        "3tile11iitextii3wx": "What is solve and what can I do with solve?",
+        "3tile11iitextiine9": "Users can use SOLVE tokens to pay for healthcare services and products on the platform.",
+        "3tile11iitextii3xy": "How do I know a trial is legit?",
+        "3tile11iitextiinf1": "All trials on Care.Trials network are screened for compliance and legitimacy against the clinical trials research industry.",
+        "2en01bottombutton1iitextii5x3": "Done"
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    {
+                        "id": "Tile11",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile11iitextiiozm",
+                                    "titleTextColor": "#000080",
+                                    "style": "BOLD",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "0tile11iitextiik7x",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "JUSTIFY"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile11",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "1tile11iitextiir57",
+                                    "titleTextColor": "#000080",
+                                    "style": "BOLD",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "1tile11iitextiid8q",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "JUSTIFY"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile11",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "2tile11iitextiihbg",
+                                    "titleTextColor": "#000080",
+                                    "style": "BOLD",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "2tile11iitextiivxq",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "JUSTIFY"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 2
+                    },
+                    {
+                        "id": "Tile11",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "3tile11iitextii3oq",
+                                    "titleTextColor": "#000080",
+                                    "style": "BOLD",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "3tile11iitextiin43",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "JUSTIFY"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 3
+                    },
+                    {
+                        "id": "Tile11",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "3tile11iitextii3pr",
+                                    "titleTextColor": "#000080",
+                                    "style": "BOLD",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "3tile11iitextiiny3",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "JUSTIFY"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 3
+                    },
+                    {
+                        "id": "Tile11",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "3tile11iitextii3qs",
+                                    "titleTextColor": "#000080",
+                                    "style": "BOLD",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "3tile11iitextiinz4",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "JUSTIFY"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 3
+                    },
+                    {
+                        "id": "Tile11",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "3tile11iitextii3rt",
+                                    "titleTextColor": "#000080",
+                                    "style": "BOLD",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "3tile11iitextiina5",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "JUSTIFY"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 3
+                    },
+                    {
+                        "id": "Tile11",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "3tile11iitextii3st",
+                                    "titleTextColor": "#000080",
+                                    "style": "BOLD",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "3tile11iitextiinb6",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "JUSTIFY"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 3
+                    },
+                    {
+                        "id": "Tile11",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "3tile11iitextii3uv",
+                                    "titleTextColor": "#000080",
+                                    "style": "BOLD",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "3tile11iitextiinc7",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "JUSTIFY"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 3
+                    },
+                    {
+                        "id": "Tile11",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "3tile11iitextii3vw",
+                                    "titleTextColor": "#000080",
+                                    "style": "BOLD",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "3tile11iitextiind8",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "JUSTIFY"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 3
+                    },
+                    {
+                        "id": "Tile11",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "3tile11iitextii3wx",
+                                    "titleTextColor": "#000080",
+                                    "style": "BOLD",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "3tile11iitextiine9",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "JUSTIFY"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 3
+                    },
+                    {
+                        "id": "Tile11",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "3tile11iitextii3xy",
+                                    "titleTextColor": "#000080",
+                                    "style": "BOLD",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "3tile11iitextiinf1",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "JUSTIFY"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 3
+                    }
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action65}",
+                    "order": 1
+                },
+                {
+                    "id": "EN01BottomButton1",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": "2en01bottombutton1iitextii5x3"
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BUTTON",
+                    "uiAction": "${action711}",
+                    "order": 2
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action65": {
+            "action": "e-w-parti-navig-to-cd-back"
+        },
+        "action711": {
+            "action": "e-w-parti-navig-to-cd-bge-hmf"
+        }
+    }
+}

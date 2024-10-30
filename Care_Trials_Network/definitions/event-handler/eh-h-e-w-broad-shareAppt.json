@@ -1,0 +1,134 @@
+{
+    "nodeEventHandlers": [
+        {
+            "type": "MAPPER",
+            "name": "Append attributes",
+            "order": 1,
+            "dataSource": "EVENT_PAYLOAD",
+            "additionalAttributes": {
+                "transactionalGuid": {
+                    "source": "GENERATED",
+                    "value": "UUID" 
+                },
+                "SiteID": {
+                    "source": "EVENT_PAYLOAD",
+                    "value": "SiteID"
+                },
+                "leadNodeAddress": {
+                    "source": "EVENT_PAYLOAD",
+                    "value": "senderNodeAddress"
+                },
+            
+                "apptPurpose": {
+                    "source": "EVENT_PAYLOAD",
+                    "value": "apptPurpose"
+                },
+                "apptLocation": {
+                    "source": "EVENT_PAYLOAD",
+                    "value": "apptLocation"
+                },
+                "apptWorkDays": {
+                    "source": "EVENT_PAYLOAD",
+                    "value": "apptWorkDays"
+                },
+                "apptWorkHours": {
+                    "source": "EVENT_PAYLOAD",
+                    "value": "apptWorkHours"
+                },
+                "createdAt": {
+                    "source": "GENERATED",
+                    "value": "CURRENT_TIMESTAMP"
+                },
+                "updatedAt": {
+                    "source": "GENERATED",
+                    "value": "CURRENT_TIMESTAMP"
+                },
+                "isApptStatus": {
+                    "source": "CONSTANT",
+                    "value": true
+                },
+                "isApptStatusNot": {
+                    "source": "CONSTANT",
+                    "value": false
+                },
+                "statusIcon": {
+                    "source": "CONSTANT",
+                    "value": "https://i.ibb.co/J3PJfVS/Status-Rec.png"
+                }
+            },
+            "excludedAttributes": [
+                "senderNodeAddress"
+            ]
+        },
+        {
+            "type": "EXPRESSION_LANGUAGE",
+            "name": "Append attributes",
+            "order": 2,
+            "dataSource": "HANDLER_ARGUMENTS",
+            "computedAttributes": {
+                "submittedAt": "\"Pending review: \" + new java.text.SimpleDateFormat(\"dd/MM/yyyy\").format(new java.util.Date(arguments['createdAt']))"            }
+        },
+        {
+            "type": "VAULT_INSERT",
+            "name": "TRIAL_ADMIN_APPOINTMENT",
+            "order": 3,
+            "collection": "TRIAL_ADMIN_APPOINTMENT",
+            "collectionVersion": 1,
+            "dataSource": "HANDLER_ARGUMENTS",
+            "handlerOutput": "PERSISTED_ENTITY"
+        },
+        {
+            "type": "NEXT_EVENT_RECIPIENT",
+            "name": "Fetch sender address",
+            "order": 4,
+            "recipientAddress": {
+                "source": "EVENT_PAYLOAD",
+                "value": "senderNodeAddress"
+            },
+            "handlerOutput": "HANDLER_ARGUMENTS"
+        },
+        {
+            "type": "MAPPER",
+            "name": "Append and Exclude attributes in the result",
+            "order": 5,
+            "dataSource": "EVENT_PAYLOAD",
+            "additionalAttributes": {
+                "transactionalGuid": {
+                    "source": "HANDLER_ARGUMENTS",
+                    "value": "transactionalGuid"
+                },
+                "submittedAt": {
+                    "source": "HANDLER_ARGUMENTS",
+                    "value": "submittedAt"
+                },
+                "SiteID": {
+                    "source": "EVENT_PAYLOAD",
+                    "value": "SiteID"
+                },
+
+                "apptPurpose": {
+                    "source": "EVENT_PAYLOAD",
+                    "value": "apptPurpose"
+                },
+                "apptLocation": {
+                    "source": "EVENT_PAYLOAD",
+                    "value": "apptLocation"
+                },
+                "apptWorkDays": {
+                    "source": "EVENT_PAYLOAD",
+                    "value": "apptWorkDays"
+                },
+                "apptWorkHours": {
+                    "source": "EVENT_PAYLOAD",
+                    "value": "apptWorkHours"
+                }
+            },
+            "excludedAttributes": [
+                "createdAt",
+                "updatedAt",
+                "leadNodeAddress",
+                "senderNodeAddress"
+            ]
+        }
+    ]
+}

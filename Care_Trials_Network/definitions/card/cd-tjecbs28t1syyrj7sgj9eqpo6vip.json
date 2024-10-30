@@ -1,0 +1,142 @@
+{
+    "id": "cd-tjecbs28t1syyrj7sgj9eqpo6vip",
+    "name": "Medical & ID Request Details", 
+    "cardData": {
+        "0tile0iitextiir5q": "Difficult Airway Simulation-based Training",
+        "1tile0aiitextii1ke": "Status",
+        "1tile0aiitextiixck": "Completed",
+        "2tile11iitextii21t": "To proceed with trial, please send the required records.",
+        "2tile11iitextiibny": "Driver license",
+        "3tile14iitextiito4": "Upload attachments ",
+        "3tile14iitextiito4s": "Upload a selfie ",
+        "0tile1iitextiinm7": "View Attachments",
+        "1tile13iihintiisdl1": "jpg or png",
+        "textparti001": "Please make sure to allow your records to be shared with the Admin when you upload the required records.",
+        "2en01bottombutton1iitextiijil":"Upload",
+        "imageUrla6kyp": "https://d1fgr2dke6q42b.cloudfront.net/dev/media/a1920ec3-027a-43cc-9226-36fad59c0b6a/go_next_grey_icon.png"
+    },    "cardLayout": {
+        "body": [ 
+            { 
+                "id": "000t1", 
+                "tileComponent": [
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "{$TrialName}",
+                                    "style": "REGULAR",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "CENTER",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#ffffff",
+                        "backgroundColor": "#000080",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1 
+                    },
+                    {
+                        "id": "Tile11",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "2tile11iitextii21t",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "subTitle": {
+                                    "text": "{$medicalIdRecords}",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START"
+                                }
+                            }
+                        ],
+                        "borderColor": "#87ceed",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 2
+                    },
+            
+                    
+                      {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "textparti001",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#87ceed",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    }
+                ],
+                "tileType": "WRAP",
+                "uiAction": ""
+            }
+        ],
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "isSearchable": false,
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "order": 1,
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action2}"
+                },
+                {
+                    "id": "EN01BottomButton1",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": "2en01bottombutton1iitextiijil"
+                            }
+                        }
+                    ],
+                    "align": "END",
+                    "type": "BUTTON",
+                    "uiAction": "${action200}",
+                    "order": 2
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        },
+        "style": {
+            "fontSize": 16,
+            "bgColor": "#ffffff",
+            "borderWidth": 1
+        }
+    },
+    "cardUIAction": { 
+        "action2": {
+            "action": "e-w-parti-navig-to-cd-1dv-md1"
+        },
+        "action200": {
+            "action": "e-w-parti-navig-to-cd-wq7-paup"
+        }
+        
+    }
+}

@@ -1,0 +1,254 @@
+{
+    "definition": {
+        "description": "Save DEFAULT at admin",
+        "name": "W-BROAD-DEFAU-TO-RL-F9V_FAF",
+        "resource": "W-BROAD-DEFAU-TO-RL-F9V_FAF",
+        "type": "EVENT_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "name": "reviewPayWith",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "reviewPayWith",
+                "order": 6
+            },
+            {
+                "name": "PromoCode",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "PromoCode",
+                "order": 6
+            },
+            {
+                "name": "comments",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "comments",
+                "order": 7
+            },
+            {
+                "name": "recordDate",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "recordDate",
+                "order": 7
+            },
+            {
+                "name": "ageOfRecord",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "ageOfRecord",
+                "order": 7
+            },
+            {
+                "name": "reportTags",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "reportTags",
+                "order": 7
+            },
+            {
+                "name": "reportType",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "reportType",
+                "order": 7
+            },
+            {
+                "name": "participantLastName",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "participantLastName",
+                "order": 7
+            },
+            {
+                "name": "participantFirstName",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "participantFirstName",
+                "order": 7
+            },
+            {
+                "name": "folderReference",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "folderReference",
+                "order": 7
+            },
+            {
+                "name": "sendToAdmin",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "sendToAdmin",
+                "order": 6
+            },
+            {
+                "name": "recordType",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "recordType",
+                "order": 6
+            },
+            {
+                "name": "participantDetails",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "participantDetails",
+                "order": 1
+            },
+            {
+                "name": "name",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "name",
+                "order": 1
+            },
+            {
+                "name": "recordStatus",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "recordStatus",
+                "order": 1
+            },
+            {
+                "name": "recordAge",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "recordAge",
+                "order": 1
+            },
+            {
+                "name": "time",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "time",
+                "order": 1
+            },
+            {
+                "name": "timeMessage",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "timeMessage",
+                "order": 1
+            },
+            {
+                "name": "verifiedTime",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "verifiedTime",
+                "order": 1
+            },
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 1,
+                "required": false,
+                "system": false
+            },
+            {
+                "code": "createdAt",
+                "name": "createdAt",
+                "type_definition": {
+                    "type": "timestamp"
+                },
+                "order": 2,
+                "required": false,
+                "system": false
+            },
+            {
+                "code": "answer",
+                "name": "answer",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 3,
+                "required": false,
+                "system": false
+            },
+            {
+                "name": "senderNodeAddress",
+                "code": "senderNodeAddress",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 4
+            }
+        ]
+    }
+}

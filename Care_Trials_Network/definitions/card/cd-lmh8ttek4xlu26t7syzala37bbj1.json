@@ -1,0 +1,156 @@
+{
+    "id": "cd-lmh8ttek4xlu26t7syzala37bbj1",
+    "name": "FAQ",
+    "cardData": {
+        "1tile11iitextiichn": "How does the network ensure anonymity and privacy during enrollment?",
+        "1tile11iitextiii4i": "The network allows anonymous enrollment. Personal identifying information is kept confidential until participants decide to enroll in a trial, ensuring privacy.",
+        "2tile11iitextii1ej": "Why is data collection necessary for improving clinical trials?",
+        "2tile11iitextiia6e": "Data collection tailors the trials to participants' needs, improving efficacy, and advancing medical research.",
+        "3tile11iitextiif5w": "Will personal information be secure and not shared with third parties?",
+        "3tile11iitextii2vm": "Yes, the network prioritizes data security. Personal information is safeguarded and not shared without consent.",
+        "4tile11iitextiioog": "How does the joining rewards and referral program work, and what rewards can participants earn?",
+        "4tile11iitextiiyzc": "By joining the network, you earn 100 SOLVE tokens. When you refer someone who joins, you receive an additional 25 SOLVE tokens as a reward.",
+        "2en01bottombutton1iitextii7mj": "Next"
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    {
+                        "id": "Tile11",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "1tile11iitextiichn",
+                                    "titleTextColor": "#000080",
+                                    "style": "BOLD",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "1tile11iitextiii4i",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "JUSTIFY"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile11",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "2tile11iitextii1ej",
+                                    "titleTextColor": "#000080",
+                                    "style": "BOLD",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "2tile11iitextiia6e",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "JUSTIFY"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 2
+                    },
+                    {
+                        "id": "Tile11",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "3tile11iitextiif5w",
+                                    "titleTextColor": "#000080",
+                                    "style": "BOLD",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "3tile11iitextii2vm",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "JUSTIFY"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 3
+                    },
+                    {
+                        "id": "Tile11",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "4tile11iitextiioog",
+                                    "titleTextColor": "#000080",
+                                    "style": "BOLD",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "4tile11iitextiiyzc",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "JUSTIFY"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 4
+                    }
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action659}",
+                    "order": 1
+                },
+                {
+                    "id": "EN01BottomButton1",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": "2en01bottombutton1iitextii7mj"
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BUTTON",
+                    "uiAction": "${action195}",
+                    "order": 2
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action659": {
+            "action": "e-w-parti-navig-to-cd-bge-szj"
+        },
+        "action195": {
+            "action": "e-w-parti-navig-to-cd-85t-sym"
+        }
+    }
+}

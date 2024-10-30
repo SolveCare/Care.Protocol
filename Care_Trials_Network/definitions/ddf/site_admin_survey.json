@@ -1,0 +1,673 @@
+{
+    "ddf_type": "site_admin_survey",
+    "meta_data": {
+        "description": "Collection to store Site.Admin info"
+    },
+    "messages": [
+        {
+            "message_category": "CSV",
+            "message_type": "ANSWERS",
+            "meta_data": {
+                "description": "Collection to store Site.Admin info",
+                "indices": "site_admin_survey"
+            },
+            "attributes": [
+                {
+                    "name": "D1SpaceQ1",
+                    "description": "D1SpaceQ1",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D1SpaceQ1"
+
+                },
+                {
+                    "name": "D1SpaceQ2",
+                    "description": "D1SpaceQ2",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D1SpaceQ2"
+                    
+                },
+                {
+                    "name": "D1SpaceQ3",
+                    "description": "D1SpaceQ3",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D1SpaceQ3"
+                },
+                {
+                    "name": "D1SpaceQ4",
+                    "description": "D1SpaceQ4",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D1SpaceQ4"
+                },
+                {
+                    "name": "D1PathologyQ1",
+                    "description": "D1PathologyQ1",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D1PathologyQ1"
+                },
+                {
+                    "name": "D1PathologyQ2",
+                    "description": "D1PathologyQ2",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D1PathologyQ2"
+                },
+                {
+                    "name": "D1PathologyQ3",
+                    "description": "D1PathologyQ3",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D1PathologyQ3"
+                },
+                {
+                    "name": "D1PathologyQ4",
+                    "description": "D1PathologyQ4",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D1PathologyQ4"
+                },
+                {
+                    "name": "D1PharmacyQ1",
+                    "description": "D1PharmacyQ1",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D1PharmacyQ1"
+                },
+                {
+                    "name": "D1DiagnosticQ1",
+                    "description": "D1DiagnosticQ1",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D1DiagnosticQ1"
+                },
+                {
+                    "name": "D1DiagnosticQ2",
+                    "description": "D1DiagnosticQ2",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D1DiagnosticQ2"
+                },
+                {
+                    "name": "D1DiagnosticQ3",
+                    "description": "D1DiagnosticQ3",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D1DiagnosticQ3"
+                },
+                {
+                    "name": "D1SpecServicesQ1",
+                    "description": "D1SpecServicesQ1",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D1SpecServicesQ1"
+
+                },
+                {
+                    "name": "D1SpecServicesQ2",
+                    "description": "D1SpecServicesQ2",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D1SpecServicesQ2"
+                    
+                },
+                {
+                    "name": "D1SpecServicesQ3",
+                    "description": "D1SpecServicesQ3",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D1SpecServicesQ3"
+                },
+                {
+                    "name": "D1StorageQ1",
+                    "description": "D1StorageQ1",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D1StorageQ1"
+                },
+                {
+                    "name": "D1StorageQ2",
+                    "description": "D1StorageQ2",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D1StorageQ2"
+                },
+                {
+                    "name": "D1StructureSuppQ1",
+                    "description": "D1StructureSuppQ1",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D1StructureSuppQ1"
+                },
+                {
+                    "name": "D1StructureSuppQ2",
+                    "description": "D1StructureSuppQ2",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D1StructureSuppQ2"
+                },
+                {
+                    "name": "D1StructureSuppQ3",
+                    "description": "D1StructureSuppQ3",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D1StructureSuppQ3"
+                },
+                {
+                    "name": "D1StructureSuppQ4",
+                    "description": "D1StructureSuppQ4",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D1StructureSuppQ4"
+                },
+                {
+                    "name": "D1StructureSuppQ5",
+                    "description": "D1StructureSuppQ5",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D1StructureSuppQ5"
+                },
+                {
+                    "name": "D1StructureSuppQ6",
+                    "description": "D1StructureSuppQ6",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D1StructureSuppQ6"
+                },
+                {
+                    "name": "D1StructureSuppQ7",
+                    "description": "D1StructureSuppQ7",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D1StructureSuppQ7"
+                },
+                {
+                    "name": "D1StructureSuppQ8",
+                    "description": "D1StructureSuppQ8",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D1StructureSuppQ8"
+                },
+                {
+                    "name": "D1StructureSuppQ9",
+                    "description": "D1StructureSuppQ9",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D1StructureSuppQ9"
+                },
+                {
+                    "name": "D1StructureSuppQ10",
+                    "description": "D1StructureSuppQ10",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D1StructureSuppQ10"
+                },
+                {
+                    "name": "D1ResourcesQ1",
+                    "description": "D1ResourcesQ1",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D1ResourcesQ1"
+                },
+                {
+                    "name": "D1ResourcesQ2",
+                    "description": "D1ResourcesQ2",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D1ResourcesQ2"
+                },
+                {
+                    "name": "D1ResourcesQ3",
+                    "description": "D1ResourcesQ3",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D1ResourcesQ3"
+                },
+                {
+                    "name": "D1ResourcesQ4",
+                    "description": "D1ResourcesQ4",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D1ResourcesQ4"
+                },
+                {
+                    "name": "D1SelfGrading",
+                    "description": "D1SelfGrading",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D1SelfGrading"
+                },
+                {
+                    "name": "D2EthicsQ1",
+                    "description": "D2EthicsQ1",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D2EthicsQ1"
+                },
+                {
+                    "name": "D2EthicsQ2",
+                    "description": "D2EthicsQ2",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D2EthicsQ2"
+                },
+                {
+                    "name": "D2EthicsQ3",
+                    "description": "D2EthicsQ3",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D2EthicsQ3"
+                },
+                {
+                    "name": "D2QualityQ1",
+                    "description": "D2QualityQ1",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D2QualityQ1"
+                },
+                {
+                    "name": "D2QualityQ2",
+                    "description": "D2QualityQ2",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D2QualityQ2"
+                },
+                {
+                    "name": "D2QualityQ3",
+                    "description": "D2QualityQ3",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D2QualityQ3"
+                },
+                {
+                    "name": "D2QualityQ4",
+                    "description": "D2QualityQ4",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D2QualityQ4"
+                },
+                {
+                    "name": "D2SafetyQ1",
+                    "description": "D2SafetyQ1",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D2SafetyQ1"
+                },
+                {
+                    "name": "D2SafetyQ2",
+                    "description": "D2SafetyQ2",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D2SafetyQ2"
+                },
+                {
+                    "name": "D2SafetyQ3",
+                    "description": "D2SafetyQ3",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D2SafetyQ3"
+                },
+                {
+                    "name": "D2SafetyQ4",
+                    "description": "D2SafetyQ4",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D2SafetyQ4"
+                },
+                {
+                    "name": "D2TrainingQ1",
+                    "description": "D2TrainingQ1",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D2TrainingQ1"
+                },
+                {
+                    "name": "D2TrainingQ2",
+                    "description": "D2TrainingQ2",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D2TrainingQ2"
+                },
+                {
+                    "name": "D2TrainingQ3",
+                    "description": "D2TrainingQ3",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D2TrainingQ3"
+                },
+                {
+                    "name": "D2SelfGrading",
+                    "description": "D2SelfGrading",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D2SelfGrading"
+                },
+                {
+                    "name": "D3PartnershipsQ1",
+                    "description": "D3PartnershipsQ1",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D3PartnershipsQ1"
+                },
+                {
+                    "name": "D3PartnershipsQ2",
+                    "description": "D3PartnershipsQ2",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D3PartnershipsQ2"
+                },
+                {
+                    "name": "D3PartnershipsQ3",
+                    "description": "D3PartnershipsQ3",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D3PartnershipsQ3"
+                },
+                {
+                    "name": "D3PartnershipsQ4",
+                    "description": "D3PartnershipsQ4",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D3PartnershipsQ4"
+                },
+                {
+                    "name": "D3PartnershipsQ5",
+                    "description": "D3PartnershipsQ5",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D3PartnershipsQ5"
+                },
+                {
+                    "name": "D3SponsorsQ1",
+                    "description": "D3SponsorsQ1",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D3SponsorsQ1"
+                },
+                {
+                    "name": "D3SponsorsQ2",
+                    "description": "D3SponsorsQ2",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D3SponsorsQ2"
+                },
+                {
+                    "name": "D3SponsorsQ3",
+                    "description": "D3SponsorsQ3",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D3SponsorsQ3"
+                },
+                {
+                    "name": "D3GovernmentQ1",
+                    "description": "D3GovernmentQ1",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D3GovernmentQ1"
+                },
+                {
+                    "name": "D3SelfGrading",
+                    "description": "D3SelfGrading",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D3SelfGrading"
+                },
+                {
+                    "name": "D4BasicInfrastructureQ1",
+                    "description": "D4BasicInfrastructureQ1",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D4BasicInfrastructureQ1"
+                },
+                {
+                    "name": "D4BasicInfrastructureQ2",
+                    "description": "D4BasicInfrastructureQ2",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D4BasicInfrastructureQ2"
+                },
+                {
+                    "name": "D4TechnologiesQ1",
+                    "description": "D4TechnologiesQ1",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D4TechnologiesQ1"
+                },
+                {
+                    "name": "D4TechnologiesQ2",
+                    "description": "D4TechnologiesQ2",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D4TechnologiesQ2"
+                },
+                {
+                    "name": "D4TechnologiesQ3",
+                    "description": "D4TechnologiesQ3",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D4TechnologiesQ3"
+                },
+                {
+                    "name": "D4TechnologiesQ4",
+                    "description": "D4TechnologiesQ4",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D4TechnologiesQ4"
+                },
+                {
+                    "name": "D4TechnologiesQ5",
+                    "description": "D4TechnologiesQ5",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D4TechnologiesQ5"
+                },
+                {
+                    "name": "D4TechnologiesQ6",
+                    "description": "D4TechnologiesQ6",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D4TechnologiesQ6"
+                },
+                {
+                    "name": "D4TechnologiesQ7",
+                    "description": "D4TechnologiesQ7",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D4TechnologiesQ7"
+                },
+                
+                {
+                    "name": "D4DataManagQ1",
+                    "description": "D4DataManagQ1",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D4DataManagQ1"
+                },
+                {
+                    "name": "D4DataManagQ2",
+                    "description": "D4DataManagQ2",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D4DataManagQ2"
+                },
+                {
+                    "name": "D4DataManagQ3",
+                    "description": "D4DataManagQ3",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D4DataManagQ3"
+                },
+                {
+                    "name": "D4DataManagQ4",
+                    "description": "D4DataManagQ4",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D4DataManagQ4"
+                },
+                {
+                    "name": "D4DataManagQ5",
+                    "description": "D4DataManagQ5",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D4DataManagQ5"
+                },
+                {
+                    "name": "D4SecurityQ1",
+                    "description": "D4SecurityQ1",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D4SecurityQ1"
+                },
+                {
+                    "name": "D4SecurityQ2",
+                    "description": "D4SecurityQ2",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D4SecurityQ2"
+                },
+                {
+                    "name": "D4SecurityQ3",
+                    "description": "D4SecurityQ3",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D4SecurityQ3"
+                },
+                {
+                    "name": "D4SelfGrading",
+                    "description": "D3SelfGrading",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "D3SelfGrading"
+                },
+                {
+                    "name": "isAnswered",
+                    "description": "isAnswered",
+                    "required": false,
+                    "index_field": true,
+                    "type": "boolean",
+                    "data_location": "isAnswered"
+                },
+                {
+                    "name": "isNotAnswered",
+                    "description": "isNotAnswered",
+                    "required": false,
+                    "index_field": true,
+                    "type": "boolean",
+                    "data_location": "isNotAnswered"
+                },
+                {
+                    "name": "IssuedOn",
+                    "description": "IssuedOn",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "IssuedOn"
+                },
+                {
+                    "code": "transactionalGuid",
+                    "name": "transactionalGuid",
+                    "description": "transactionalGuid",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "transactionalGuid"
+                },
+                {
+                    "code": "Date",
+                    "name": "Date",
+                    "description": "Date",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "Date"
+                },
+                {
+                    "name": "senderNodeAddress",
+                    "description": "senderNodeAddress",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "senderNodeAddress"
+                }
+            ]
+        }
+    ]
+}

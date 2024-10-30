@@ -1,0 +1,22 @@
+{
+    "definition": {
+        "description": "Get Pending Records",
+        "name": "Get Pending Records",
+        "resource": "Get Pending Records",
+        "type": "EVENT_DATA"
+    },
+    "structure": { 
+        "attributes": [
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 1,
+                "system": false,
+                "required": false
+            }
+        ]
+    }
+}

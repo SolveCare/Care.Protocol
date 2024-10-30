@@ -1,0 +1,308 @@
+{
+    "id": "cd-register-rl-pekxu18fdt274yke3bt9shx4ffh",
+    "name": "Register Care.Trial v1.1",
+    "cardData": {
+        "0tile0Description": "Please complete the required information to join this Care.Network as a Trial Admin",
+        "1tile12CountryTitle": "Country",
+        "1tile12CountrySubTitle": "",
+        "imageUrl186v0": "https://d1fgr2dke6q42b.cloudfront.net/dev/media/a1920ec3-027a-43cc-9226-36fad59c0b6a/drop_down_list_greyn_155460.png",
+        "1tile12CountryHint": "Select Country",
+        "1tile12CountryList": [
+            "United States of America",
+            "South Korea",
+            "Ukraine",
+            "India"
+        ],
+        "2tile1PhoneTitle": "Phone number",
+        "2tile1PhoneSubTitle": "",
+        "2tile1PhoneHint": "Enter Phone number",
+        "2tile1Validation": "Phone should be between 1 and 30",
+        "3tile1EmailTitle": "Email",
+        "3tile1EmailSubTitle": "",
+        "3tile1EmailSubTitleHint": "Enter Email",
+        "3tile1EmailValidation": "Email should be between 1 and 200",
+        "4tile12CityTitle": "City",
+        "4tile12CitySubTitle": "",
+        "imageUrlkspce": "https://d1fgr2dke6q42b.cloudfront.net/dev/media/a1920ec3-027a-43cc-9226-36fad59c0b6a/drop_down_list_greyn_155460.png",
+        "4tile12CityHint": "Select City",
+        "4tile12CityListData": [
+            "Austin",
+            "New York",
+            "Atlanta"
+        ],
+        "5tile1ZipTitle": "ZIP/Postal Code",
+        "5tile1ZipSubTitle": "",
+        "5tile1ZipSubTitleHint": "Enter ZIP/Postal Code",
+        "5tile1ZipValidation": "ZIP should be between 1 and 30",
+        "6tile1StreetAddressTitle": "Street Address",
+        "6tile1StreetAddressSubTitle": "",
+        "6tile1StreetAddressSubTitleHint": "Enter Street Address",
+        "6tile1StreetAddressValidation": "Street Address should be between 1 and 500",
+        "2en01bottombutton1iitextii7l5": "Next"
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "00tc01",
+                "tileComponent": [
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile0Description",
+                                    "style": "REGULAR",
+                                    "titleTextColor": "#212121",
+                                    "titleAlign": "START"
+                                }
+                            }
+                        ],
+                        "borderColor": "#afafaf",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile12",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "1tile12CountryTitle",
+                                    "titleTextColor": "#000000",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "${country}",
+                                    "data": "1tile12CountryList",
+                                    "hint": "1tile12CountryHint",
+                                    "keyboard": "text",
+                                    "subTitleTextColor": "#000000",
+                                    "subTitleAlign": "START"
+                                },
+                                "img": {
+                                    "text": "imageUrl186v0",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#afafaf",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile1",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "2tile1PhoneTitle",
+                                    "titleTextColor": "#000000",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "${phoneNumber}",
+                                    "hint": "2tile1PhoneHint",
+                                    "subTitleTextColor": "#000000",
+                                    "subTitleAlign": "START",
+                                    "keyboard": "text",
+                                    "min": "1",
+                                    "max": "30",
+                                    "validation": [
+                                        {
+                                            "name": "REQUIRED_FIELD",
+                                            "error": "2tile1Validation"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "borderColor": "#afafaf",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 2
+                    },
+                    {
+                        "id": "Tile1",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "3tile1EmailTitle",
+                                    "titleTextColor": "#000000",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "${email}",
+                                    "hint": "3tile1EmailSubTitleHint",
+                                    "subTitleTextColor": "#000000",
+                                    "subTitleAlign": "START",
+                                    "keyboard": "text",
+                                    "min": "1",
+                                    "max": "200",
+                                    "validation": [
+                                        {
+                                            "name": "REQUIRED_FIELD",
+                                            "error": "3tile1EmailValidation"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "borderColor": "#afafaf",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 3
+                    },
+                    {
+                        "id": "Tile12",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "4tile12CityTitle",
+                                    "titleTextColor": "#000000",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "${city}",
+                                    "data": "4tile12CityListData",
+                                    "hint": "4tile12CityHint",
+                                    "keyboard": "text",
+                                    "subTitleTextColor": "#000000",
+                                    "subTitleAlign": "START"
+                                },
+                                "img": {
+                                    "text": "imageUrlkspce",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#afafaf",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 4
+                    },
+                    {
+                        "id": "Tile1",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "5tile1ZipTitle",
+                                    "titleTextColor": "#000000",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "${zip}",
+                                    "hint": "5tile1ZipSubTitleHint",
+                                    "subTitleTextColor": "#000000",
+                                    "subTitleAlign": "START",
+                                    "keyboard": "text",
+                                    "min": "1",
+                                    "max": "30",
+                                    "validation": [
+                                        {
+                                            "name": "REQUIRED_FIELD",
+                                            "error": "5tile1ZipValidation"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "borderColor": "#afafaf",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 5
+                    },
+                    {
+                        "id": "Tile1",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "6tile1StreetAddressTitle",
+                                    "titleTextColor": "#000000",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "${streetAddress}",
+                                    "hint": "6tile1StreetAddressSubTitleHint",
+                                    "subTitleTextColor": "#000000",
+                                    "subTitleAlign": "START",
+                                    "keyboard": "text",
+                                    "min": "1",
+                                    "max": "500",
+                                    "validation": [
+                                        {
+                                            "name": "REQUIRED_FIELD",
+                                            "error": "6tile1StreetAddressValidation"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "borderColor": "#afafaf",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 6
+                    }
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 0
+            }
+        ],
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action1}",
+                    "order": 1
+                },
+                {
+                    "id": "EN01BottomButton1",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": "2en01bottombutton1iitextii7l5"
+                            }
+                        }
+                    ],
+                    "align": "END",
+                    "type": "BUTTON",
+                    "uiAction": "${action2}",
+                    "order": 2
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        },
+        "style": {
+            "fontSize": 16,
+            "bgColor": "#ffffff",
+            "borderWidth": 1
+        }
+    },
+    "cardUIAction": {
+        "action1": {
+            "action": "HOME"
+        },
+        "action2": {
+            "action": [
+                {
+                    "name": "Function.CallEventHandler",
+                    "method": "DETAILS",
+                    "NAVIGATION": "cd-consent-rl-pekxu18fdt274yke3bt9shx4ffh"
+                }
+            ]
+        }
+    }
+}

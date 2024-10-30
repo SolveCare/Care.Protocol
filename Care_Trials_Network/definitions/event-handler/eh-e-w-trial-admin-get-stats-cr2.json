@@ -1,0 +1,25 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "e-w-trial-admin-get-stats-cr2",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "name": "getDataForStat",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "GET",
+                                    "url": "/transactions/TRIALS_TA_SH"
+                                }
+                            ]
+                        }
+                    ],
+                    "postAction": "",
+                    "refId": "e-w-trial-admin-get-stats-cr2"
+                }
+            ]
+        }
+    ]
+}

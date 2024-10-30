@@ -1,0 +1,50 @@
+{
+    "ddf_type": "trial_admin_assignments",
+    "meta_data": {
+        "description": "Collection to store Trial.Admin assignments"
+    },
+    "messages": [
+        {
+            "message_category": "CSV",
+            "message_type": "TRIALS",
+            "meta_data": {
+                "description": "Collection to store Trial.Admin assignments",
+                "indices": "trial_admin_assignments"
+            },
+            "attributes": [
+                {
+                    "name": "TrialID",
+                    "description": "TrialID",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "TrialID"
+                },
+                {
+                    "name": "TrialName",
+                    "description": "TrialName",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "TrialName"
+                },
+                {
+                    "name": "BriefSummary",
+                    "description": "BriefSummary",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "BriefSummary"
+                },
+                {
+                    "name": "trialAdminScAddress",
+                    "description": "trialAdminScAddress",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "trialAdminScAddress"
+                }
+            ]
+        }
+    ]
+}

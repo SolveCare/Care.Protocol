@@ -1,0 +1,102 @@
+{
+    "definition": {
+        "description": "APPOINTMENT",
+        "name": "GET.APPOINTMENT001",
+        "resource": "GET.APPOINTMENT001",
+        "type": "EVENT_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 1
+            },
+            {
+                "name": "TrialID",
+                "code": "TrialID",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 8
+            },
+            {
+                "name": "SiteID",
+                "code": "SiteID",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": true,
+                "system": false,
+                "order": 2
+            },
+            {
+                "name": "apptInfo",
+                "code": "apptInfo",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 3
+            },
+            {
+                "name": "apptPurpose",
+                "code": "apptPurpose",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": true,
+                "system": false,
+                "order": 4
+            },
+            {
+                "name": "apptLocation",
+                "code": "apptLocation",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": true,
+                "system": false,
+                "order": 5
+            },
+            {
+                "name": "apptWorkDays",
+                "code": "apptWorkDays",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": true,
+                "system": false,
+                "order": 6
+            },
+            {
+                "name": "apptWorkHours",
+                "code": "apptWorkHours",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": true,
+                "system": false,
+                "order": 7
+            },
+            {
+                "name": "submittedAt",
+                "code": "submittedAt",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": true,
+                "system": false,
+                "order": 8
+            }
+        ]
+    }
+}

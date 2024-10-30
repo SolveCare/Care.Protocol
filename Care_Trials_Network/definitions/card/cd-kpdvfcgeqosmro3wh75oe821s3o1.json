@@ -1,0 +1,76 @@
+{
+    "id": "cd-kpdvfcgeqosmro3wh75oe821s3o1",
+    "name": "View Records",
+    "cardData": {
+        "0tile14iitextiit03": "Blood Test Report",
+        "imageUrlje0mc": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/f116d56b-00a4-4091-932b-240e9cf64504/arrow-right blue.png",
+        "1tile14iitextiinhk": "X-ray Report",
+        "imageUrlmqxgu": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/f116d56b-00a4-4091-932b-240e9cf64504/arrow-right blue.png",
+        "2tile14iitextii53u": "MRI Scan",
+        "imageUrl1muuv": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/f116d56b-00a4-4091-932b-240e9cf64504/arrow-right blue.png",
+        "urltext": "View records",
+        "7tile0iitextii01e":"",
+        "imageUrl4yogh" : "https://i.ibb.co/WcXyd2M/arrow-right-blue.png"
+    }, 
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    {
+                        "id": "Tile14",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "urltext",
+                                    "isLink": true,
+                                    "urls": [{"label":"View records","url":"https://drive.google.com" }],
+                                    "style": "REGULAR",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START"
+                                },
+                                "img": {
+                                    "text": "imageUrl4yogh",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 10
+                    }
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "",
+                    "order": 1
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action890": {
+            "action": "e-w-trial-admin-navig-to-2vu"
+        }
+    }
+}

@@ -1,0 +1,178 @@
+{
+    "id": "cd-1oeogij51yh1jtk0i08pn1-verif-c2-sub",
+    "name": "Upload & Submit Your Identity",  
+    "cardData": {
+        "0tile0iitext": "Upload and submit your identity to nurse for the verification",
+        "3tile2iitextiivec": "Full name",
+        "3tile2iitextiivec2": "Name",
+        "3tile2iihintiisvf": "Type name",
+        "1tile13iitextiiixa": "Upload your identity",
+        "1tile13iitextiiixa2": "File",
+        "1tile13iihintiisdl": "PDF or PNG",
+        "1tile1iierroriilpf" : "Please select one type",
+        "2en01bottombutton1sub": "Submit"
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile0iitext",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "CENTER",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#ffffff",
+                        "backgroundColor": "#000080",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1 
+                    },
+                    {
+                        "id": "SmartTile1",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "3tile2iitextiivec",
+                                    "titleTextColor": "#000080",
+                                    "style": "REGULAR",
+                                    "titleAlign": "START"
+                                },
+                                "subTitle": {
+                                    "text": "{$physicianName}",
+                                    "hint": "3tile2iihintiisvf",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START",
+                                    "fieldFormat": "multiple",
+                                    "min": "1",
+                                    "max": "100",
+                                    "validation": [
+                                        {
+                                            "name": "REQUIRED_FIELD",
+                                            "error": "validationdrhfc"
+                                        }
+                                    ]
+                                },
+                                "img": {
+                                    "text": "imageUrl17wro",
+                                    "isUrl": true,
+                                    "height": "24",
+                                    "width": "24"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 3
+                    },
+                    {
+                        "id": "AttachmentUploadTile",
+                        "subView": [
+                          {
+                            "title": {
+                              "text": "1tile13iitextiiixa",
+                              "titleTextColor": "#000080",
+                              "titleAlign": "START",
+                              "fontSize": 16
+                            },
+                            "subTitle": {
+                              "text": "{$attachingFiles}",
+                              "hint": "1tile13iihintiisdl",
+                              "fileType": "pdf,png,jpg,jpeg,swg,webp,xls,doc,csv,docx,xlsx,zip",
+                              "subTitleTextColor": "#000080",
+                              "subTitleAlign": "START",
+                              "fontSize": 16,
+                              "validation": [
+                                {
+                                  "name": "REQUIRED_FIELD",
+                                  "error": "1tile1iierroriilpf"
+                                }
+                              ]
+                            }
+                          }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "${actionUploadAttachmentsAndSubmit}",
+                        "order": 1
+                    }
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "style": {
+            "fontSize": 16,
+            "bgColor": "#ffffff",
+            "borderWidth": 1
+        },
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action201}",
+                    "order": 1
+                },
+                {
+                    "id": "EN01BottomButton1",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": "2en01bottombutton1sub"
+                            }
+                        }
+                    ],
+                    "align": "END",
+                    "type": "BUTTON",
+                    "uiAction": "${actionUploadAttachmentsAndSubmit}",
+                    "order": 2
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "": {
+            "action": null
+        },
+        "action201": {
+            "action": "e-w-p-navig-verif-c2-sub-to-c1"
+        },
+        "actionUploadAttachmentsAndSubmit": {
+            "action": [
+                {
+                    "name": "Function.uploadFiles",
+                    "sourceKeys": [
+                    "attachingFiles"
+                    ],
+                    "resultKey": "folderReference",
+                    "timestampKey": "createdAt"
+                },
+                {
+                    "name": "e-w-submit-identity-to-nurse"
+                }
+            ]
+        }
+    }
+}

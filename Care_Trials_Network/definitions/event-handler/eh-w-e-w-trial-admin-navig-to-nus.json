@@ -1,0 +1,25 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "e-w-trial-admin-navig-to-nus",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "name": "submit",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "DETAILS",
+                                    "url": ""
+                                }
+                            ]
+                        }
+                    ], 
+                    "postAction": "cd-lc7uz8s3c4zjznyt2j9iie5irj41",
+                    "refId": "e-w-trial-admin-navig-to-nus"
+                }
+            ]
+        }
+    ]
+}

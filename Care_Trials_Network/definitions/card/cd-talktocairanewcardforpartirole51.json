@@ -1,0 +1,63 @@
+{
+  "id": "cd-talktocairanewcardforpartirole51",
+  "name": "Talk to Caira",
+  "cardData": { 
+    "imageUrl99ry0":"https://i.ibb.co/KL3XG1w/Talk-to-Caira-journey.png"
+
+  },
+  "cardLayout": {
+    "body": [
+      {
+        "id": "00tc01",
+        "tileComponent": [
+            {
+                "id": "CareTrialsCairaTile",
+                "subView": [
+                    {
+                        "img": {
+                            "text": "imageUrl99ry0",
+                            "isUrl": true,
+                            "height": "",
+                            "width": ""
+                        }
+                    }
+                ],
+                "type": "CONTAINER",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "tileType": "WRAP",
+        "uiAction": "",
+        "order": 0
+    }
+      
+    ],
+    "footer": {
+      "menu": [
+        {
+          "id": "EN01BottomButtonBack",
+          "subView": [
+            {
+              "title": {
+                "text": ""
+              }
+            }
+          ],
+          "align": "START",
+          "type": "BACK_BUTTON",
+          "uiAction": "${action297}",
+          "order": 1
+        }
+      ],
+      "orientation": "HORIZONTAL"
+    }
+  },
+  "cardUIAction": {
+    "action297": {
+      "action": "HOME"
+    }
+    
+  
+}
+}

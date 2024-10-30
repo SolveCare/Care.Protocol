@@ -1,0 +1,25 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "e-w-parti-1-updat-parti-e0z9",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "name": "submit",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "POST",
+                                    "url": "/events"
+                                }
+                            ]
+                        }
+                    ],
+                    "postAction": "cd-sp9r1iqjcat1odwk2rsls0733131gn",
+                    "refId": "e-w-parti-1-updat-parti-e0z9"
+                }
+            ]
+        }
+    ]
+}

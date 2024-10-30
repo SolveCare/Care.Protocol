@@ -1,0 +1,60 @@
+{
+  "definition": {
+    "description": "Broadcast CDN message",
+    "name": "N_CDN_BROADCAST_MESSAGE",
+    "resource": "N_CDN_BROADCAST_MESSAGE",
+    "type": "EVENT_DATA"
+  },
+  "structure": {
+    "attributes": [
+      {
+        "code": "transactionId",
+        "name": "transactionId",
+        "type_definition": {
+          "type": "string"
+        },
+        "order": 1,
+        "system": false
+      },
+      {
+        "code": "indexName",
+        "name": "indexName",
+        "type_definition": {
+          "type": "string"
+        },
+        "order": 2,
+        "system": false
+      },
+      {
+        "code": "ddfType",
+        "name": "ddfType",
+        "type_definition": {
+          "type": "string"
+        },
+        "order": 3,
+        "system": false
+      },
+      {
+        "code": "msgType",
+        "name": "msgType",
+        "type_definition": {
+          "type": "string"
+        },
+        "order": 4,
+        "system": false
+      },
+      {
+        "code": "attributes",
+        "name": "attributes",
+        "type_definition": {
+          "type": "collection",
+          "item_type_definition": {
+            "type": "string"
+          }  
+        },
+        "order": 5,
+        "system": false
+      }
+    ]
+  }
+}

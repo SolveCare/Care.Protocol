@@ -1,0 +1,25 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "e-ta-get-engage-req",
+            "walletEvents": [
+                {
+                    "actions": [ 
+                        {
+                            "name": "",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "GET",
+                                    "url": "/transactions/ENGAGEMENT?filter=[{\"fieldName\":\"physicianNodeAddress\",\"queryMatcher\":\"EQUAL\",\"value\":\"${physicianNodeAddress}\"}]"
+                                }
+                            ]
+                        } 
+                    ],
+                    "postAction": "",
+                    "refId": "e-ta-get-engage-req"
+                }
+            ]
+        }
+    ]
+}

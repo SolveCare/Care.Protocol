@@ -1,0 +1,102 @@
+{
+    "id": "td-PHYSICIAN_ANSWERS",
+    "path": "td/td-PHYSICIAN_ANSWERS.json",
+    "definition": {
+        "version": 1,
+        "collection": "PHYSICIAN_ANSWERS",
+        "description": "PHYSICIAN_ANSWERS",
+        "name": "PHYSICIAN_ANSWERS",
+        "resource": "PHYSICIAN_ANSWERS",
+        "status": "RELEASED",
+        "type": "TRANSACTIONAL_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "name": "Country",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "Country",
+                "order": 1
+            },
+            {
+                "name": "specialization",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "specialization",
+                "order": 1
+            },
+            {
+                "name": "experienceYears",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "experienceYears",
+                "order": 1
+            },
+            {
+                "name": "trialsConducted",
+                "type_definition": {
+                    "type": "number"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "trialsConducted",
+                "order": 2
+            },
+            {
+                "name": "phaseInterested",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "phaseInterested",
+                "order": 3
+            },
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "order": 12
+            },
+            {
+                "code": "createdAt",
+                "name": "createdAt",
+                "type_definition": {
+                    "type": "timestamp"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "order": 13
+            },
+            {
+                "name": "senderNodeAddress",
+                "code": "senderNodeAddress",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 14
+            }
+        ],
+        "primary_key": "false"
+    }
+}

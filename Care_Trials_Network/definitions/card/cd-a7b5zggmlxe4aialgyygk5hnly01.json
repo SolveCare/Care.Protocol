@@ -1,0 +1,163 @@
+{
+    "id": "cd-a7b5zggmlxe4aialgyygk5hnly01",
+    "name": "Request Verification",
+    "cardData": {
+        "0tile0iitextiiz3x": "In order to request a review you require to pay a fee of  500 SOLVE",
+        "1tile11iitextiire3": "ID",
+        "1tile11iitextiicon": "Uploaded on: 25/10/2023",
+        "2tile14iitextii3s8": "View attachment",
+        "imageUrl0nj3v": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/download symbol.png",
+        "3tile14iitextiieiz": "View selfie",
+        "imageUrlblz4f": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/download symbol.png",
+        "2en01bottombutton1iitextii85y": "Request Verification"
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile0iitextiiz3x",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "CENTER",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile11",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "1tile11iitextiire3",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                },
+                                "subTitle": {
+                                    "text": "1tile11iitextiicon",
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 4
+                    },
+                    {
+                        "id": "AttachmentDownloadTile",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "2tile14iitextii3s8",
+                                    "titleTextColor": "#000080",
+                                    "fontSize": 16
+                                },
+                                "subTitle": {
+                                    "text": "{$folderReference}",
+                                    "subTitleTextColor": "#000080",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                      },
+                      {
+                        "id": "AttachmentDownloadTile",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "3tile14iitextiieiz",
+                                    "titleTextColor": "#000080",
+                                    "fontSize": 16
+                                },
+                                "subTitle": {
+                                    "text": "{$folderReference}",
+                                    "subTitleTextColor": "#000080",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                      }
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "style": {
+            "fontSize": 16,
+            "bgColor": "#ffffff",
+            "borderWidth": 1
+        },
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action873}",
+                    "order": 1
+                },
+                {
+                    "id": "EN01BottomButton1",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": "2en01bottombutton1iitextii85y"
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BUTTON",
+                    "uiAction": "${action285}",
+                    "order": 2
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action873": {
+            "action": "e-w-trial-admin-navig-to-mfm"
+        },
+        "action285": {
+            "action": "e-w-trial-admin-navig-to-lbe"
+        }
+    }
+}

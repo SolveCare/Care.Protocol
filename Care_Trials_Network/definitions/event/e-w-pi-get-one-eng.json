@@ -1,0 +1,22 @@
+{
+    "definition": {
+        "description": "GET ONE engagement request",
+        "name": "GET.ENGAGEMENT.REQ004",
+        "resource": "GET.ENGAGEMENT.REQ004",
+        "type": "EVENT_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 1,
+                "system": false,
+                "required": false
+            }
+        ]
+    }
+}

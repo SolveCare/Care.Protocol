@@ -1,0 +1,169 @@
+{
+    "id": "cd-lpz4n1h7g5yfrkfzt2vk7j6ypg11",
+    "name": "Final Step",
+    "cardData": {
+        "0tile14iitextiilsv": "View terms & conditions",
+        "imageUrlfu8en": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/arrow-right blue.png",
+        "1tile14iitextiiliv": "View privacy policy",
+        "imageUrli7j5q": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/arrow-right blue.png",
+        "2tile6aiitextiin9b": "T&C and privacy policy",
+        "labelocajs": "I agree",
+        "validations103c": "Item is required",
+        "0tile0iitextiiith": "Have a referral code? Enter it here",
+        "1tile1iitextiiixo": "Enter referral code",
+        "1tile1iihintii6km": "Enter here",
+        "1tile1iierrorii6se": "",
+        "2en01bottombutton1iitextiij2u": "Submit"
+    },
+    "prerenderingFunctions": [
+        {
+            "name": "Function.getGPSLocation",
+            "sourceKeys": [ "userLocationLatitude", "userLocationLongitude" ]
+        }
+    ],
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                          {
+                            "title": {
+                              "text": "0tile0iitextiiith",
+                              "style": "BOLD",
+                              "titleTextColor": "#000080",
+                              "titleAlign": "START"
+                            }
+                          }
+                        ],
+                        "borderColor": "#ffffff",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                      },
+                    {
+                        "id": "Tile1a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "1tile1iitextiiixo",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "JUSTIFY"
+                                },
+                                "subTitle": {
+                                    "text": "{$ReferralCode}",
+                                    "hint": "1tile1iihintii6km", 
+                                    "subTitleTextColor": "#000080",
+                                    "subTitleAlign": "START",
+                                    "keyboard": "text",
+                                    "min": "4",
+                                    "max": "42",
+                                    "validation": [
+                                        {
+                                            "name": "OPTIONAL",
+                                            "error": "1tile1iierrorii6se"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 4
+                    },
+                    {
+                        "id": "Tile7a",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "2tile6aiitextiin9b",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START"
+                                },
+                                "options": {
+                                    "key": {
+                                        "name": "{$T&C}",
+                                        "optionAlign": "JUSTIFY",
+                                        "optionTextColor": "#000080"
+                                    },
+                                    "list": [
+                                        {
+                                            "label": "labelocajs"
+                                        }
+                                    ],
+                                    "validation": [
+                                        {
+                                            "name": "REQUIRED_FIELD",
+                                            "error": "validations103c"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "${}",
+                        "order": 5
+                    }
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action932}",
+                    "order": 1
+                },
+                {
+                    "id": "EN01BottomButton1",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": "2en01bottombutton1iitextiij2u"
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BUTTON",
+                    "uiAction": "${action111}",
+                    "order": 2
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action175": {
+            "action": "e-w-parti-navig-to-cd-wq7-wi2"
+        },
+        "action187": {
+            "action": "e-w-parti-navig-to-cd-8qu-el4"
+        },
+        "": {
+            "action": null
+        },
+        "action932": {
+            "action": "e-w-parti-navig-to-cd-2c2-b7r"
+        },
+        "action111": {
+            "action": "e-w-broad-7_que-to-rl-tp2-i9l"
+            
+        }
+        }
+    }

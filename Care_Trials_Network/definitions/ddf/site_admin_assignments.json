@@ -1,0 +1,58 @@
+{
+    "ddf_type": "site_admin_assignments",
+    "meta_data": {
+        "description": "Collection to store Site.Admin assignments"
+    },
+    "messages": [
+        {
+            "message_category": "CSV",
+            "message_type": "TRIALS",
+            "meta_data": {
+                "description": "Collection to store Site.Admin assignments",
+                "indices": "site_admin_assignments"
+            },
+            "attributes": [
+                {
+                    "name": "SiteID",
+                    "description": "SiteID",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "SiteID"
+                },
+                {
+                    "name": "TrialID",
+                    "description": "TrialID",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "TrialID"
+                },
+                {
+                    "name": "TrialName",
+                    "description": "TrialName",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "TrialName"
+                },
+                {
+                    "name": "BriefSummary",
+                    "description": "BriefSummary",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "BriefSummary"
+                },
+                {
+                    "name": "siteAdminScAddress",
+                    "description": "siteAdminScAddress",
+                    "required": false,
+                    "index_field": true,
+                    "type": "string",
+                    "data_location": "siteAdminScAddress"
+                }
+            ]
+        }
+    ]
+}

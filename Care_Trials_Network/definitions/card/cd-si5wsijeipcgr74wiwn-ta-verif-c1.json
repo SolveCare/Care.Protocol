@@ -1,0 +1,137 @@
+{
+    "id": "cd-si5wsijeipcgr74wiwn-ta-verif-c1",
+    "name": "Verify Your Identity",
+    "cardData": {
+        "tileTextConnRefTransf": "Confirm Your Eligibility: Verify Your Identity",
+        "imageUrli0ikq2":  "https://i.ibb.co/8xPm0RZ/P-Verify.png",
+        "2tile14aiitextii078": "Verify your identity",
+        "2tile14aiitextii0781": "ID History",
+        "imageUrldgqhy":"https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/arrow-right blue.png",
+        "imageUrldgqhy1":"https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/arrow-right blue.png"
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "00tc01",
+                "tileComponent": [
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "tileTextConnRefTransf",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "CENTER",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile16",
+                        "subView": [
+                            {
+                                "img": {
+                                    "text": "imageUrli0ikq2",
+                                    "isUrl": true,
+                                    "height": "308",
+                                    "width": "382"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 2
+                    }, 
+                    {
+                        "id": "Tile14",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "2tile14aiitextii078",
+                                    "titleTextColor": "#000080",
+                                    "style": "BOLD"
+                                },
+                                "img": {
+                                    "text": "imageUrldgqhy",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "${action201}",
+                        "visibleIf":"${isNotSend}",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile14",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "2tile14aiitextii0781",
+                                    "titleTextColor": "#000080",
+                                    "style": "BOLD"
+                                },
+                                "img": {
+                                    "text": "imageUrldgqhy1",
+                                    "isUrl": true,
+                                    "height": "25",
+                                    "width": "25"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "type": "CONTAINER",
+                        "uiAction": "${action202}",
+                        "order": 1
+                    }
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action1}",
+                    "order": 1
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action1": {
+            "action": "HOME"
+        },
+        "action201": {
+            "action": "e-w-navig-ta-verif-c1-to-c2-sub"
+        },
+        "action202": {
+            "action": "e-w-navig-ta-verif-c1-to-c3-hist"
+        }
+    }
+}

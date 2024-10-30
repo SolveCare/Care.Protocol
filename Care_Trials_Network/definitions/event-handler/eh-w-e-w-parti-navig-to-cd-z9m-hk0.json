@@ -1,0 +1,25 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "e-w-parti-navig-to-cd-z9m-hk0",
+            "walletEvents": [
+                {
+                    "actions": [
+                        { 
+                            "name": "submit",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "DETAILS",
+                                    "url": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "postAction": "cd-qandalistcardfortheparticipantrole51",
+                    "refId": "e-w-parti-navig-to-cd-z9m-hk0"
+                }
+            ]
+        }
+    ]
+}

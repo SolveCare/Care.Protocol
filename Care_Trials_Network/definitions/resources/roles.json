@@ -1,0 +1,135 @@
+{
+  "protocol" : {
+    "networkId" : "nae-network-0473",
+    "version" : 16,
+    "status" : "REGISTERED",
+    "sponsorWalletAddress" : "0x94ac17bc841161e04714fe6cc6dbe66e887fc9f9",
+    "operationalAccountAddress" : "0x57567d54fd53f1df14fe73ccb0f28727558bec5d"
+  },
+  "events" : [ {
+    "name" : "W-BROAD-7_QUE-TO-RL-TP2.FAG",
+    "fromRole" : "rl-aom7t1oc6laj7k353ysvldm0gbk",
+    "toRole" : "rl-3ymm7f9pefjjh6etz1dpg782lam",
+    "status" : "REGISTERED"
+  }, {
+    "name" : "GET.TRIAL.INFO-008",
+    "fromRole" : "rl-7anlm1vk6c9odmmo5g91igk3ul7",
+    "toRole" : "rl-aom7t1oc6laj7k353ysvldm0gbk",
+    "status" : "REGISTERED"
+  }, {
+    "name" : "W-BROAD-RECORD-NEXT1",
+    "fromRole" : "rl-7anlm1vk6c9odmmo5g91igk3ul7",
+    "toRole" : "rl-aom7t1oc6laj7k353ysvldm0gbk",
+    "status" : "REGISTERED"
+  }, {
+    "name" : "SITE.ACTIVATE.W",
+    "fromRole" : "rl-7anlm1vk6c9odmmo5g91igk3ul7",
+    "toRole" : "rl-7anlm1vk6c9odmmo5g91igk3ul7",
+    "status" : "REGISTERED"
+  }, {
+    "name" : "W-BROAD-REQ_N-TO-RL-TP2.2NR",
+    "fromRole" : "rl-7anlm1vk6c9odmmo5g91igk3ul7",
+    "toRole" : "rl-7anlm1vk6c9odmmo5g91igk3ul7",
+    "status" : "REGISTERED"
+  }, {
+    "name" : "TRIAL.SEARCH001",
+    "fromRole" : "rl-aom7t1oc6laj7k353ysvldm0gbk",
+    "toRole" : "rl-aom7t1oc6laj7k353ysvldm0gbk",
+    "status" : "REGISTERED"
+  }, {
+    "name" : "SITE.BUY.LEAD",
+    "fromRole" : "rl-7anlm1vk6c9odmmo5g91igk3ul7",
+    "toRole" : "rl-aom7t1oc6laj7k353ysvldm0gbk",
+    "status" : "REGISTERED"
+  }, {
+    "name" : "W-BROAD-REQ_N-TO-RL-TP2.KR3",
+    "fromRole" : "rl-7anlm1vk6c9odmmo5g91igk3ul7",
+    "toRole" : "rl-3ymm7f9pefjjh6etz1dpg782lam",
+    "status" : "REGISTERED"
+  }, {
+    "name" : "PATIENT.LIKE.SITE",
+    "fromRole" : "rl-aom7t1oc6laj7k353ysvldm0gbk",
+    "toRole" : "rl-7anlm1vk6c9odmmo5g91igk3ul7",
+    "status" : "REGISTERED"
+  }, {
+    "name" : "TRIAL.SEARCH.RESULTS001",
+    "fromRole" : "rl-aom7t1oc6laj7k353ysvldm0gbk",
+    "toRole" : "rl-3ymm7f9pefjjh6etz1dpg782lam",
+    "status" : "REGISTERED"
+  }, {
+    "name" : "W-BROAD-7_QUE-TO-RL-TP2.I9L",
+    "fromRole" : "rl-aom7t1oc6laj7k353ysvldm0gbk",
+    "toRole" : "rl-aom7t1oc6laj7k353ysvldm0gbk",
+    "status" : "REGISTERED"
+  }, {
+    "name" : "W-BROAD-MATCHING1",
+    "fromRole" : "rl-7anlm1vk6c9odmmo5g91igk3ul7",
+    "toRole" : "rl-7anlm1vk6c9odmmo5g91igk3ul7",
+    "status" : "REGISTERED"
+  }, {
+    "name" : "W-PARTI-1-UPDAT-PARTI-E0Z9-NEXT",
+    "fromRole" : "rl-7anlm1vk6c9odmmo5g91igk3ul7",
+    "toRole" : "rl-7anlm1vk6c9odmmo5g91igk3ul7",
+    "status" : "REGISTERED"
+  }, {
+    "name" : "PATIENT.LIKE.SITE.W",
+    "fromRole" : "rl-aom7t1oc6laj7k353ysvldm0gbk",
+    "toRole" : "rl-aom7t1oc6laj7k353ysvldm0gbk",
+    "status" : "REGISTERED"
+  }, {
+    "name" : "REQUEST.RECORD001",
+    "fromRole" : "rl-7anlm1vk6c9odmmo5g91igk3ul7",
+    "toRole" : "rl-7anlm1vk6c9odmmo5g91igk3ul7",
+    "status" : "REGISTERED"
+  }, {
+    "name" : "W-BROAD-7_QUE-TO-RL-TP2.KIS",
+    "fromRole" : "rl-aom7t1oc6laj7k353ysvldm0gbk",
+    "toRole" : "rl-3ymm7f9pefjjh6etz1dpg782lam",
+    "status" : "REGISTERED"
+  }, {
+    "name" : "W-BROAD-7_QUE-TO-RL-TP2.4IY",
+    "fromRole" : "rl-aom7t1oc6laj7k353ysvldm0gbk",
+    "toRole" : "rl-3ymm7f9pefjjh6etz1dpg782lam",
+    "status" : "REGISTERED"
+  }, {
+    "name" : "SHARE.TRIAL.INFO001",
+    "fromRole" : "rl-7anlm1vk6c9odmmo5g91igk3ul7",
+    "toRole" : "rl-7anlm1vk6c9odmmo5g91igk3ul7",
+    "status" : "REGISTERED"
+  }, {
+    "name" : "W-BROAD-TRIAL-TO-RL-TP2.D7C",
+    "fromRole" : "rl-7anlm1vk6c9odmmo5g91igk3ul7",
+    "toRole" : "rl-3ymm7f9pefjjh6etz1dpg782lam",
+    "status" : "REGISTERED"
+  }, {
+    "name" : "UPDATE.TRIAL.INFO-001",
+    "fromRole" : "rl-7anlm1vk6c9odmmo5g91igk3ul7",
+    "toRole" : "rl-7anlm1vk6c9odmmo5g91igk3ul7",
+    "status" : "REGISTERED"
+  } ],
+  "roles" : [ {
+    "roleId" : "rl-7anlm1vk6c9odmmo5g91igk3ul7",
+    "address" : "0xb6834634acb4f532fbe53fffc173c7e0b5fb23ea",
+    "publicKey" : "0xce80fa511f372b2b14ddaf5065a54657c3bfab941967ca61db5a5a79c5a93c00e27adf51a5c06a978aa941f5542fe7353fbba23a1a5d1046787044b301b64177",
+    "status" : "REGISTERED",
+    "childRolesIds" : [ ]
+  }, {
+    "roleId" : "rl-aom7t1oc6laj7k353ysvldm0gbk",
+    "address" : "0xb5a78d3dbaf61621c8f719ed9ed514b4796fd883",
+    "publicKey" : "0x77eeeaa08447cc5f788b4225f61ad6e863c6f5285dac5e32bac3a19fe33102dd678dc27202916f1a1bf93deb725cfd7af027b2e85ced28a0e43ee4294a424ec6",
+    "status" : "REGISTERED",
+    "childRolesIds" : [ ]
+  }, {
+    "roleId" : "DATA_NODE",
+    "address" : "0x520c74e397744212b30d1f1e0df624487661f889",
+    "publicKey" : "0xe00464fda9c6b2300cd2878701ec604491c0e1a5dc6bbc9ecfff224adbd5d8be31fa16730421be829db9a153862a4f2b9f54c7277425a37e1134a4659010acef",
+    "status" : "REGISTERED",
+    "childRolesIds" : [ ]
+  }, {
+    "roleId" : "rl-3ymm7f9pefjjh6etz1dpg782lam",
+    "address" : "0xdf3bbfa6487b415591fcdc76fa58fa7707327b72",
+    "publicKey" : "0xb25ac76af897c102aeedb197ee56946905931c8f766790fd5e86283c6f284b9dd6b325a22d52ba71b2c88f8e79e173bbdff7a921b885e4561bda05c29e334033",
+    "status" : "REGISTERED",
+    "childRolesIds" : [ ]
+  } ]
+}

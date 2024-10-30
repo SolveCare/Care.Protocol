@@ -1,0 +1,113 @@
+{
+    "nodeEventHandlers": [
+        {
+            "type": "MAPPER",
+            "name": "Append attributes",
+            "order": 1,
+            "dataSource": "EVENT_PAYLOAD",
+            "additionalAttributes": {
+                "transactionalGuid": {
+                    "source": "EVENT_PAYLOAD",
+                    "value": "transactionalGuid"
+                },
+                "SiteID": {
+                    "source": "EVENT_PAYLOAD",
+                    "value": "SiteID"
+                },
+                "adminNodeAddress": {
+                    "source": "EVENT_PAYLOAD",
+                    "value": "adminNodeAddress"
+                },
+                "answerText": {
+                    "source": "EVENT_PAYLOAD",
+                    "value": "answerUpdateText"
+                },
+                "isAnswered": {
+                    "source": "CONSTANT",
+                    "value": true
+                },
+                "isPending": {
+                    "source": "CONSTANT",
+                    "value": false
+                },
+                "createdAt": {
+                    "source": "GENERATED",
+                    "value": "CURRENT_TIMESTAMP"
+                },
+                "updatedAt": {
+                    "source": "GENERATED",
+                    "value": "CURRENT_TIMESTAMP"
+                }
+            },
+            "excludedAttributes": [
+                "answerUpdateText"
+            ]
+        },
+        {
+            "type": "VAULT_UPDATE",
+            "name": "PARTICIPANT_QA",
+            "order": 2,
+            "collection": "PARTICIPANT_QA",
+            "collectionVersion": 1,
+            "dataSource": "HANDLER_ARGUMENTS",
+            "insertIfAbsent": true,
+            "searchCriteria": [
+                {
+                    "queryMatcher": "EQUAL",
+                    "fieldName": "transactionalGuid",
+                    "dynamicValue": {
+                        "source": "EVENT_PAYLOAD",
+                        "value": "transactionalGuid"
+                    }
+                },
+                {
+                    "queryMatcher": "EQUAL",
+                    "fieldName": "SiteID",
+                    "dynamicValue": {
+                        "source": "EVENT_PAYLOAD",
+                        "value": "SiteID"
+                    }
+                }
+            ],
+            "handlerOutput": "PERSISTED_ENTITY"
+        },
+        {
+            "type": "NEXT_EVENT_RECIPIENT",
+            "name": "Fetch sender address",
+            "order": 3,
+            "recipientAddress": {
+                "source": "EVENT_PAYLOAD",
+                "value": "adminNodeAddress"
+            },
+            "handlerOutput": "HANDLER_ARGUMENTS"
+        },
+        {
+            "type": "MAPPER",
+            "name": "Append and Exclude attributes in the result",
+            "order": 4,
+            "dataSource": "EVENT_PAYLOAD",
+            "additionalAttributes": {
+                "transactionalGuid": {
+                    "source": "HANDLER_ARGUMENTS",
+                    "value": "transactionalGuid"
+                },
+                "SiteID": {
+                    "source": "EVENT_PAYLOAD",
+                    "value": "SiteID"
+                },
+                "answerText": {
+                    "source": "EVENT_PAYLOAD",
+                    "value": "answerUpdateText"
+                }
+            },
+            "excludedAttributes": [
+                "createdAt",
+                "updatedAt",
+                "adminNodeAddress",
+                "answerUpdateText",
+                "isAnswered",
+                "isPending"
+            ]
+        }
+    ]
+}

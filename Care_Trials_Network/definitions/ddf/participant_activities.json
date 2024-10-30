@@ -1,0 +1,242 @@
+{
+  "ddf_type": "participant_activities",
+  "meta_data": {
+    "description": "Participants activities"
+  },
+  "messages": [
+    {
+      "message_category": "PARTICIPANT",
+      "message_type": "ACTIVITIES",
+      "meta_data": {
+        "description": "Participant activities",
+        "indices": "participant_activities"
+      },
+      "events": [],
+      "attributes": [
+        {
+          "name": "NCTId",
+          "description": "NCTId",
+          "required": true,
+          "index_field": true,
+          "type": "string",
+          "data_location": "NCTId"
+        },
+        {
+          "name": "SiteID",
+          "description": "SiteID",
+          "required": true,
+          "index_field": true,
+          "type": "string",
+          "data_location": "SiteID"
+        },
+        {
+          "name": "ActionID",
+          "description": "ActionID",
+          "required": true,
+          "index_field": true,
+          "type": "string",
+          "data_location": "ActionID"
+        },
+        {
+          "name": "WalletID",
+          "description": "WalletID",
+          "required": true,
+          "index_field": true,
+          "type": "string",
+          "data_location": "WalletID"
+        },
+        {
+          "name": "Action",
+          "description": "Action",
+          "required": true,
+          "index_field": true,
+          "type": "string",
+          "data_location": "Action"
+        },
+        {
+          "name": "ActionRelatedData",
+          "description": "ActionRelatedData",
+          "required": true,
+          "index_field": false,
+          "type": "string",
+          "data_location": "ActionRelatedData"
+        },
+        {
+          "name": "Date",
+          "description": "Date",
+          "required": true,
+          "index_field": false,
+          "type": "string",
+          "data_location": "Date"
+        }
+      ]
+    }
+  ],
+  "integrations": [
+    {
+      "type": "hubspot",
+      "message_category": "PARTICIPANT",
+      "message_type": "ACTIVITIES",
+      "schema": {
+        "schema": {
+          "name": "participant_activities_table",
+          "description": "Participant Activities Table",
+          "labels": {
+            "plural": "Participant Activities",
+            "singular": "Participant Activity"
+          },
+          "requiredProperties": [
+            "site_id",
+            "trial_id",
+            "wallet_id",
+            "action_id",
+            "action",
+            "date"
+          ],
+          "searchableProperties": [
+            "site_id",
+            "trial_id",
+            "wallet_id",
+            "action",
+            "date"
+          ],
+          "primaryDisplayProperty": "action_id",
+          "secondaryDisplayProperties": [
+            "wallet_id",
+            "action"
+          ],
+          "properties": [
+            {
+              "name": "site_id",
+              "label": "Site ID",
+              "type": "string",
+              "displayOrder": 1
+            },
+            {
+              "name": "trial_id",
+              "label": "Trial ID",
+              "type": "string",
+              "displayOrder": 2
+            },
+            {
+              "name": "action_id",
+              "label": "Action ID",
+              "type": "string",
+              "isPrimaryDisplayLabel": true,
+              "hasUniqueValue": true,
+              "displayOrder": 3
+            },
+            {
+              "name": "wallet_id",
+              "label": "Wallet ID",
+              "type": "string",
+              "displayOrder": 4
+            },
+            {
+              "name": "action",
+              "label": "Action",
+              "type": "enumeration",
+              "fieldType": "select",
+              "options": [
+                {
+                  "label": "Like",
+                  "value": "Like",
+                  "hidden": false,
+                  "description": "Like",
+                  "displayOrder": 1
+                },
+                {
+                  "label": "Relike",
+                  "value": "Relike",
+                  "hidden": false,
+                  "description": "Relike",
+                  "displayOrder": 2
+                },
+                {
+                  "label": "View",
+                  "value": "View",
+                  "hidden": false,
+                  "description": "View",
+                  "displayOrder": 3
+                },
+                {
+                  "label": "Buy",
+                  "value": "Buy",
+                  "hidden": false,
+                  "description": "Buy",
+                  "displayOrder": 4
+                }
+              ],
+              "displayOrder": 5
+            },
+            {
+              "name": "action_related_data",
+              "label": "Action Related data",
+              "type": "string",
+              "displayOrder": 6
+            },
+            {
+              "name": "date",
+              "label": "Date",
+              "type": "datetime",
+              "fieldType": "date",
+              "displayOrder": 7
+            }
+          ]
+        },
+        "association": {
+          "name": "participant_activities_to_sites",
+          "reference": "site_info_table",
+          "association_keys": [
+            "site_id"
+          ]
+        }
+      },
+      "mapping": [
+        {
+          "attribute": "SiteID",
+          "ext_name": "site_id"
+        },
+        {
+          "attribute": "NCTId",
+          "ext_name": "trial_id"
+        },
+        {
+          "attribute": "ActionID",
+          "ext_name": "action_id"
+        },
+        {
+          "attribute": "WalletID",
+          "ext_name": "wallet_id"
+        },
+        {
+          "attribute": "Action",
+          "ext_name": "action"
+        },
+        {
+          "attribute": "ActionRelatedData",
+          "ext_name": "action_related_data"
+        },
+        {
+          "attribute": "Date",
+          "ext_name": "date"
+        }
+      ],
+      "actions": [
+        {
+          "type": "export",
+          "operation_type": "UPSERT",
+          "query": {
+            "query": {
+              "match_all": {}
+            }
+          },
+          "skip_for_update": [
+            "SiteID",
+            "NCTId"
+          ]
+        }
+      ]
+    }
+  ]
+}

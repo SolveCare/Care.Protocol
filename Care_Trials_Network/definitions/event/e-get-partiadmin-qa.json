@@ -1,0 +1,22 @@
+{
+    "definition": {
+        "description": "Get Records History",
+        "name": "Get Records History",
+        "resource": "Get Records History",
+        "type": "EVENT_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 1,
+                "system": false,
+                "required": false
+            }
+        ]
+    }
+}

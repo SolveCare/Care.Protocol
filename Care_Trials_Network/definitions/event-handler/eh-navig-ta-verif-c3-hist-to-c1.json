@@ -1,0 +1,25 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "e-w-navig-ta-verif-c3-hist-to-c1",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "name": "",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "GET",
+                                    "url": "/transactions/IDENTITY"
+                                }
+                            ]
+                        }
+                    ],
+                    "postAction": "cd-si5wsijeipcgr74wiwn-ta-verif-c1",
+                    "refId": "e-w-navig-ta-verif-c3-hist-to-c1" 
+                }
+            ]
+        }
+    ]
+}

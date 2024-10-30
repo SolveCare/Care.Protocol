@@ -1,0 +1,1184 @@
+{
+    "id": "td-PHYS_SURVEY",
+    "path": "td/td-PHYS_SURVEY.json",
+    "definition": {
+        "version": 1,
+        "collection": "PHYS_SURVEY",
+        "description": "PHYS_SURVEY",
+        "name": "PHYS_SURVEY",
+        "resource": "PHYS_SURVEY",
+        "status": "RELEASED",
+        "type": "TRANSACTIONAL_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "name": "isAns",
+                "type_definition": {
+                    "type": "boolean"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "isAns",
+                "order": 1
+            },
+            {
+                "name": "isNotAns",
+                "type_definition": {
+                    "type": "boolean"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "isNotAns",
+                "order": 1
+            },
+            
+            {
+                "name": "Q1",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q1",
+                "order": 1
+            },
+            {
+                "name": "Q2",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q2",
+                "order": 1
+            },
+            {
+                "name": "Q3",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q3",
+                "order": 1
+            },
+            {
+                "name": "Q4",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q4",
+                "order": 1
+            },
+            {
+                "name": "Q5",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q5",
+                "order": 1
+            },
+            {
+                "name": "Q6",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q6",
+                "order": 1
+            },
+            {
+                "name": "Q7",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q7",
+                "order": 1
+            },
+            {
+                "name": "Q8",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q8",
+                "order": 1
+            },
+            {
+                "name": "Q9",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q9",
+                "order": 1
+            },
+            {
+                "name": "Q10",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q10",
+                "order": 1
+            },
+            {
+                "name": "Q11",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q11",
+                "order": 1
+            },
+            {
+                "name": "Q12",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q12",
+                "order": 1
+            },
+            {
+                "name": "Q13",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q13",
+                "order": 1
+            },
+            {
+                "name": "Q14",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q14",
+                "order": 1
+            },
+            {
+                "name": "Q15",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q15",
+                "order": 1
+            },
+            {
+                "name": "Q16",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q16",
+                "order": 1
+            },
+            {
+                "name": "Q17",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q17",
+                "order": 1
+            },
+            {
+                "name": "Q18",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q18",
+                "order": 1
+            },
+            {
+                "name": "Q19",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q19",
+                "order": 1
+            },
+            {
+                "name": "Q20",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q20",
+                "order": 1
+            },
+            {
+                "name": "Q21",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q21",
+                "order": 1
+            },
+            {
+                "name": "Q22",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q22",
+                "order": 1
+            },
+            {
+                "name": "Q23",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q23",
+                "order": 1
+            },
+            {
+                "name": "Q24",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q24",
+                "order": 1
+            },
+            {
+                "name": "Q25",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q25",
+                "order": 1
+            },
+            {
+                "name": "Q26",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q26",
+                "order": 1
+            },
+            {
+                "name": "Q27",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q27",
+                "order": 1
+            },
+            {
+                "name": "Q28",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q28",
+                "order": 1
+            },
+            {
+                "name": "Q29",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q29",
+                "order": 1
+            },
+            {
+                "name": "Q30",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q30",
+                "order": 1
+            },
+            {
+                "name": "Q31",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q31",
+                "order": 1
+            },
+            {
+                "name": "Q32",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q32",
+                "order": 1
+            },
+            {
+                "name": "Q33",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q33",
+                "order": 1
+            },
+            {
+                "name": "Q34",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q34",
+                "order": 1
+            },
+            {
+                "name": "Q35",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q35",
+                "order": 1
+            },
+            {
+                "name": "Q36",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q36",
+                "order": 1
+            },
+            {
+                "name": "Q37",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q37",
+                "order": 1
+            },
+            {
+                "name": "Q38",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q38",
+                "order": 1
+            },
+            {
+                "name": "Q39",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q39",
+                "order": 1
+            },
+            {
+                "name": "Q40",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q40",
+                "order": 1
+            },
+            {
+                "name": "Q41",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q41",
+                "order": 1
+            },
+            {
+                "name": "Q42",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q42",
+                "order": 1
+            },
+            {
+                "name": "Q43",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q43",
+                "order": 1
+            },
+            {
+                "name": "Q44",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q44",
+                "order": 1
+            },
+            {
+                "name": "Q45",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q45",
+                "order": 1
+            },
+            {
+                "name": "Q46",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q46",
+                "order": 1
+            },
+            {
+                "name": "Q47",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q47",
+                "order": 1
+            },
+            {
+                "name": "Q48",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q48",
+                "order": 1
+            },
+            {
+                "name": "Q49",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q49",
+                "order": 1
+            },
+            {
+                "name": "Q50",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q50",
+                "order": 1
+            },
+            {
+                "name": "Q51",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q51",
+                "order": 1
+            },
+            {
+                "name": "Q52",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q52",
+                "order": 1
+            },
+            {
+                "name": "Q53",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q53",
+                "order": 1
+            },
+            {
+                "name": "Q54",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q54",
+                "order": 1
+            },
+            {
+                "name": "Q55",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q55",
+                "order": 1
+            },
+            {
+                "name": "Q56",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q56",
+                "order": 1
+            },
+            {
+                "name": "Q57",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q57",
+                "order": 1
+            },
+            {
+                "name": "Q58",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q58",
+                "order": 1
+            },
+            {
+                "name": "Q59",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q59",
+                "order": 1
+            },
+            {
+                "name": "Q60",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q60",
+                "order": 1
+            },
+            {
+                "name": "Q61",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q61",
+                "order": 1
+            },
+            {
+                "name": "Q62",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q62",
+                "order": 1
+            },
+            {
+                "name": "Q63",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q63",
+                "order": 1
+            },
+            {
+                "name": "Q64",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q64",
+                "order": 1
+            },
+            {
+                "name": "Q65",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q65",
+                "order": 1
+            },
+            {
+                "name": "Q66",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q66",
+                "order": 1
+            },
+            {
+                "name": "Q67",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q67",
+                "order": 1
+            },
+            {
+                "name": "Q68",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q68",
+                "order": 1
+            },
+            {
+                "name": "Q69",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q69",
+                "order": 1
+            },
+            {
+                "name": "Q70",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q70",
+                "order": 1
+            },
+            {
+                "name": "Q71",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q71",
+                "order": 1
+            },
+            {
+                "name": "Q72",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q72",
+                "order": 1
+            },
+            {
+                "name": "Q73",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q73",
+                "order": 1
+            },
+            {
+                "name": "Q74",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q74",
+                "order": 1
+            },
+            {
+                "name": "Q75",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q75",
+                "order": 1
+            },
+            {
+                "name": "Q76",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q76",
+                "order": 1
+            },
+            {
+                "name": "Q77",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q77",
+                "order": 1
+            },
+            {
+                "name": "Q78",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q78",
+                "order": 1
+            },
+            {
+                "name": "Q79",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q79",
+                "order": 1
+            },
+            {
+                "name": "Q80",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q80",
+                "order": 1
+            },
+            {
+                "name": "Q81",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q81",
+                "order": 1
+            },
+            {
+                "name": "Q82",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q82",
+                "order": 1
+            },
+            {
+                "name": "Q83",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q83",
+                "order": 1
+            },
+            {
+                "name": "Q84",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q84",
+                "order": 1
+            },
+            {
+                "name": "Q85",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q85",
+                "order": 1
+            },
+            {
+                "name": "Q86",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q86",
+                "order": 1
+            },
+            {
+                "name": "Q87",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q87",
+                "order": 1
+            },
+            {
+                "name": "Q88",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q88",
+                "order": 1
+            },
+            {
+                "name": "Q89",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q89",
+                "order": 1
+            },
+            {
+                "name": "Q90",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q90",
+                "order": 1
+            },
+            {
+                "name": "Q91",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q91",
+                "order": 1
+            },
+            {
+                "name": "Q92",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q92",
+                "order": 1
+            },
+            {
+                "name": "Q93",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q93",
+                "order": 1
+            },
+            {
+                "name": "Q94",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q94",
+                "order": 1
+            },
+            {
+                "name": "Q95",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q95",
+                "order": 1
+            },
+            {
+                "name": "Q96",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q96",
+                "order": 1
+            },
+            {
+                "name": "Q97",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q97",
+                "order": 1
+
+            },
+            {
+                "name": "Q98",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q98",
+                "order": 1
+            },
+            {
+                "name": "Q99",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q99",
+                "order": 1
+            },
+            {
+                "name": "Q100",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Q100",
+                "order": 1
+            },
+
+
+
+
+
+            
+
+
+            
+            
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "order": 8
+            },
+            {
+                "code": "createdAt",
+                "name": "createdAt",
+                "type_definition": {
+                    "type": "timestamp"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "order": 9
+            },
+            {
+                "name": "senderNodeAddress",
+                "code": "senderNodeAddress",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 10
+            }
+        ],
+        "primary_key": "false"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "e-get-participant-referral",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "name": "getPARTICIPANT_DATA",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "GET",
+                                    "url": "/transactions/BADGES"
+                                }
+                            ]
+                        }
+                    ],
+                    "postAction": "",
+                    "refId": "e-get-participant-referral"
+                }
+            ]
+        }
+    ]
+}

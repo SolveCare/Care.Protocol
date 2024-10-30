@@ -1,0 +1,25 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "e-w-trial-admin-navig-to-apr3",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "name": "submit",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "GET",
+                                    "url": "/transactions/PARTICIPANT_ADMIN_TRIALS_SAVED?filter=[{\"queryMatcher\": \"EQUAL\",\"inverted\": false,\"fieldName\": \"SiteID\",\"value\": \"${SiteID}\"},{\"queryMatcher\":\"EQUAL\",\"fieldName\":\"senderNodeAddress\",\"value\":\"${leadNodeAddress}\"}]"
+                                }
+                            ]
+                        }
+                    ],
+                    "postAction": "cd-appointmentlistfirstcardadmin21",
+                    "refId": "e-w-trial-admin-navig-to-apr3" 
+                }
+            ]
+        }
+    ]
+}

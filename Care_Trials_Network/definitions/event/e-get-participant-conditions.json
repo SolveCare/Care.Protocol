@@ -1,0 +1,22 @@
+{
+    "definition": {
+        "description": "GET-PARTICIPANT-CONDITIONS",
+        "name": "GET.CONDITIONS001",
+        "resource": "GET.CONDITIONS001",
+        "type": "EVENT_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "order": 1,
+                "system": false,
+                "required": false
+            }
+        ]
+    }
+}

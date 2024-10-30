@@ -1,0 +1,23 @@
+{
+    "definition": {
+        "description": "TRIALS",
+        "name": "GET.TRIALS002",
+        "resource": "GET.TRIALS002",
+        "type": "EVENT_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "name": "transactionalGuid",
+                "code": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 1,
+                "times": 1
+            }
+        ]
+    }
+}

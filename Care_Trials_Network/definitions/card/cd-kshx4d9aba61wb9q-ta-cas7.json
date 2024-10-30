@@ -1,0 +1,234 @@
+{
+    "id": "cd-kshx4d9aba61wb9q-ta-cas7",
+    "name": "Competency Assessment Survey",
+    "cardData": {
+        "0tile0iitexti1": "3. Describe best practices and resources required for standardizing data collection, capture, management, analysis, and reporting",
+
+        "0tile0iitexti2": "4. Describe, develop, and implement processes for data quality assurance",
+
+        "0tile0iitextiik1": "Analysis, interpretation, writing, and dissemination:",
+
+        "0tile0iitexti3": "1. Analyze and interpret data",
+
+        "0tile0iitexti4": "2. Write annual safety reports and the end-of-study report",
+
+        "0tile0iitexti5": "3. Disseminate and publish research findings in appropriate format(s) such as journal publication",
+
+        "validationdrhfc": "Please select one value",
+        "2en01bottombutton1iitextiiyaq": "Next"
+    },
+    "cardLayout": {
+        "body": [
+            {
+                "id": "000t1",
+                "tileComponent": [
+                    {
+                        "id": "Tile5",
+                        "subView": [
+                          {
+                            "title": {
+                              "text": "0tile0iitexti1"
+                            },
+                            "subTitle": {
+                              "text": "{$D1DataManagementQ3}",
+                              "start": 0,
+                              "end": 5,
+                              "count": 1,
+                              "validation": [
+                                {
+                                  "name": "REQUIRED_FIELD",                     
+                                  "error": "validationdrhfc"
+                                }
+                              ]
+                            }                      
+                          }                      
+                        ],                      
+                        "align": "START",                      
+                        "type": "CONTAINER",                      
+                        "uiAction": "",                      
+                        "order": 1                      
+                      },
+                      {
+                        "id": "Tile5",
+                        "subView": [
+                          {
+                            "title": {
+                              "text": "0tile0iitexti2"
+                            },
+                            "subTitle": {
+                              "text": "{$D1DataManagementQ4}",
+                              "start": 0,
+                              "end": 5,
+                              "count": 1,
+                              "validation": [
+                                {
+                                  "name": "REQUIRED_FIELD",                     
+                                  "error": "validationdrhfc"
+                                }
+                              ]
+                            }                      
+                          }                      
+                        ],                      
+                        "align": "START",                      
+                        "type": "CONTAINER",                      
+                        "uiAction": "",                      
+                        "order": 1                      
+                      },
+                      {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "0tile0iitextiik1",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "START",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                      "id": "Tile5",
+                      "subView": [
+                        {
+                          "title": {
+                            "text": "0tile0iitexti3"
+                          },
+                          "subTitle": {
+                            "text": "{$D1AnalysisQ1}",
+                            "start": 0,
+                            "end": 5,
+                            "count": 1,
+                            "validation": [
+                              {
+                                "name": "REQUIRED_FIELD",                     
+                                "error": "validationdrhfc"
+                              }
+                            ]
+                          }                      
+                        }                      
+                      ],                      
+                      "align": "START",                      
+                      "type": "CONTAINER",                      
+                      "uiAction": "",                      
+                      "order": 1                      
+                    },
+                    {
+                      "id": "Tile5",
+                      "subView": [
+                        {
+                          "title": {
+                            "text": "0tile0iitexti4"
+                          },
+                          "subTitle": {
+                            "text": "{$D1AnalysisQ2}",
+                            "start": 0,
+                            "end": 5,
+                            "count": 1,
+                            "validation": [
+                              {
+                                "name": "REQUIRED_FIELD",                     
+                                "error": "validationdrhfc"
+                              }
+                            ]
+                          }                      
+                        }                      
+                      ],                      
+                      "align": "START",                      
+                      "type": "CONTAINER",                      
+                      "uiAction": "",                      
+                      "order": 1                      
+                    },
+                    {
+                      "id": "Tile5",
+                      "subView": [
+                        {
+                          "title": {
+                            "text": "0tile0iitexti5"
+                          },
+                          "subTitle": {
+                            "text": "{$D1AnalysisQ3}",
+                            "start": 0,
+                            "end": 5,
+                            "count": 1,
+                            "validation": [
+                              {
+                                "name": "REQUIRED_FIELD",                     
+                                "error": "validationdrhfc"
+                              }
+                            ]
+                          }                      
+                        }                      
+                      ],                      
+                      "align": "START",                      
+                      "type": "CONTAINER",                      
+                      "uiAction": "",                      
+                      "order": 1                      
+                    }
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action300}",
+                    "order": 1
+                },
+                {
+                    "id": "EN01BottomButton1",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": "2en01bottombutton1iitextiiyaq"
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BUTTON",
+                    "uiAction": "${action5}",
+                    "order": 2
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action300": {
+            "action": [
+                {
+                     "name": "Function.Navigate",
+                     "cardId": "cd-kshx4d9aba61wb9q-ta-cas6"
+                }
+
+            ]
+        },
+        "action5": {
+            "action": [
+                {
+                     "name": "Function.Navigate",
+                     "cardId": "cd-kshx4d9aba61wb9q-ta-cas8"
+                }
+            ]        
+        }
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "nodeEventHandlers": [
+        {
+            "type": "MAPPER",
+            "name": "Append or Exclude attributes to DEFAULT payload",
+            "order": 1,
+            "dataSource": "EVENT_PAYLOAD",
+            "additionalAttributes": {
+                "paidByNodeAddress": {
+                    "source": "EVENT",
+                    "value": "SENDER"
+                },
+                "totalSolveCost": {
+                    "source": "CONSTANT",
+                    "value": 17500
+                },
+                "paymentStatus": {
+                    "source": "CONSTANT",
+                    "value": "SUCCESS"
+                },
+                "transactionHash": {
+                    "source": "CONTEXT",
+                    "value": "TRANSACTION_HASH"
+                },
+                "createdAt": {
+                    "source": "GENERATED",
+                    "value": "CURRENT_TIMESTAMP"
+                },
+                "updatedAt": {
+                    "source": "GENERATED",
+                    "value": "CURRENT_TIMESTAMP"
+                }
+            },
+            "excludedAttributes": []
+        },
+        {
+            "type": "NEXT_EVENT_RECIPIENT",
+            "name": "Fetch sender address",
+            "order": 2,
+            "recipientAddress": {
+                "source": "EVENT",
+                "value": "SENDER"
+            },
+            "handlerOutput": "HANDLER_ARGUMENTS"
+        }
+    ]
+}

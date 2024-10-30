@@ -1,0 +1,25 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "e-nurse-get-trials-leads-pen",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "name": "getPARTICIPANT_ADMIN_TRIALS",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "GET",
+                                    "url": "/transactions/TRIALS_SAVED?filter=[{\"queryMatcher\": \"EQUAL\",\"inverted\": false,\"fieldName\": \"eligibleStatus\",\"value\": \"Pending\"}]"
+                                }
+                            ]
+                        }
+                    ],
+                    "postAction": "",
+                    "refId": "e-nurse-get-trials-leads-pen"
+                }
+            ]
+        }
+    ]
+}

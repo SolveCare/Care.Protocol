@@ -1,0 +1,25 @@
+{
+    "walletEventHandler": [
+        {
+            "refId": "e-w-broad-sponsor-ans",
+            "walletEvents": [
+                {
+                    "actions": [
+                        {
+                            "name": "submit",
+                            "order": 1,
+                            "parameter": [
+                                {
+                                    "method": "POST",
+                                    "url": "/events"
+                                }
+                            ]
+                        }
+                    ],
+                    "postAction": "cd-794zs8jrs1bz9z9kvx-see-pis-3",
+                    "refId": "e-w-broad-sponsor-ans"
+                } 
+            ]
+        }
+    ]
+}

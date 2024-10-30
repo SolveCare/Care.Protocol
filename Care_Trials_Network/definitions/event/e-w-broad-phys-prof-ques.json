@@ -1,0 +1,351 @@
+{
+    "definition": {
+        "description": "JOURNEY_ACTIVATION",
+        "name": "PHY.PROFQUES.CONFIRM002",
+        "resource": "PHY.PROFQUES.CONFIRM002",
+        "type": "EVENT_DATA"
+    },
+    "structure": {
+        "attributes": [
+            {
+                "name": "DPP",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "DPP",
+                "order": 1
+            },
+            {
+                "name": "FirstName",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "FirstName",
+                "order": 1
+            },
+            {
+                "name": "LastName",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "LastName",
+                "order": 1
+            },
+            {
+                "name": "Education",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "Education",
+                "order": 1
+            },
+
+            {
+                "name": "SpecializationField",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "SpecializationField",
+                "order": 1
+            },
+
+            {
+                "name": "InstitutionalAffiliation",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "InstitutionalAffiliation",
+                "order": 1
+            },
+
+            {
+                "name": "InstitutionAddress",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "InstitutionAddress",
+                "order": 1
+            },
+
+            {
+                "name": "orgAffiliation",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "orgAffiliation",
+                "order": 1
+            },
+
+            {
+                "name": "PositionInstitution",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "PositionInstitution",
+                "order": 1
+            },
+            {
+                "name": "InstitutionDescription",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "InstitutionDescription",
+                "order": 1
+            },
+            {
+                "name": "ExperienceYears",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "ExperienceYears",
+                "order": 1
+            },
+            {
+                "name": "ExpertiseAreas",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "ExpertiseAreas",
+                "order": 1
+            },
+            {
+                "name": "ParticipationDescription",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "ParticipationDescription",
+                "order": 1
+            },
+            {
+                "name": "TitleYear",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "TitleYear",
+                "order": 1
+            },
+            {
+                "name": "recentRole",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "recentRole",
+                "order": 1
+            },
+            {
+                "name": "Email",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "Email",
+                "order": 1
+            },
+            {
+                "name": "Phone",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "Phone",
+                "order": 1
+            },
+            {
+                "name": "InstitutionName",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "InstitutionName",
+                "order": 1
+            },
+            {
+                "name": "AffiliationAddress",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "AffiliationAddress",
+                "order": 1
+            },
+            {
+                "name": "EstablishedYear",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "EstablishedYear",
+                "order": 1
+            },
+            {
+                "name": "TypeOfAffiliation",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "TypeOfAffiliation",
+                "order": 1
+            },
+            {
+                "name": "AffiliationTypeOther",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "code": "AffiliationTypeOther",
+                "order": 1
+            },
+            
+            {
+                "name": "TrialsDescription",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "TrialsDescription",
+                "order": 2
+            },
+            {
+                "name": "ExistingCapacities",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "ExistingCapacities",
+                "order": 2
+            },
+             
+            {
+                "name": "Gaps",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Gaps",
+                "order": 2
+            },
+            {
+                "name": "Website",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "Website",
+                "order": 2
+            },
+            
+        
+            {
+                "name": "isAnswered",
+                "type_definition": {
+                    "type": "boolean"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "isAnswered",
+                "order": 1
+            },
+            {
+                "name": "isNotAnswered",
+                "type_definition": {
+                    "type": "boolean"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "code": "isNotAnswered",
+                "order": 1
+            },
+            {
+                "code": "transactionalGuid",
+                "name": "transactionalGuid",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "order": 12
+            },
+            {
+                "code": "createdAt",
+                "name": "createdAt",
+                "type_definition": {
+                    "type": "timestamp"
+                },
+                "required": false,
+                "system": false,
+                "times": 1,
+                "order": 13
+            },
+            {
+                "name": "senderNodeAddress",
+                "code": "senderNodeAddress",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 14
+            },
+                       
+            {
+                "name": "physicianNodeAddress",
+                "code": "physicianNodeAddress",
+                "type_definition": {
+                    "type": "string"
+                },
+                "required": false,
+                "system": false,
+                "order": 15
+            }
+        ],
+        "primary_key": "false"
+    }
+}

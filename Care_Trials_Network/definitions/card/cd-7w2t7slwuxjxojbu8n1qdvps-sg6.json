@@ -1,0 +1,124 @@
+{
+    "id": "cd-7w2t7slwuxjxojbu8n1qdvps-sg6",
+    "name": "Records & ID History",
+    "cardData": {
+        "imageUrl31xo8": "https://i.ibb.co/nR3pRrk/oops-1.png",
+        "1tile0iitextiij7r": "Seems, like you haven’t upload any records.\nLet’s start your journey  by uploading first record",
+        "2en01bottombutton1iitextii91b": "Upload",
+        "2tile14iitextii8ek": "Top Up Balance",
+        "9tile0aiitextii6681": "Current balance, SOLVE",
+        "9tile0aiitextii668s": "View lead price", 
+        "9tile0aiitextiiprice": "50.00",
+        "9tile0aiitextii668s1": "Buy lead price",
+        "9tile0aiitextiiprice1": "4950.00",
+        "imageUrlnky99": "https://d1fgr2dke6q42b.cloudfront.net/uat/media/1022dd5a-7203-4064-98fc-c95bde2fd7d0/arrow-right blue.png"
+        
+
+
+    },
+    "prerenderingFunctions": [
+         
+    ],
+    "cardLayout": {
+        "body": [
+            {
+                "id": "00tc01",
+                "tileComponent": [
+                    {
+                        "id": "Tile16",
+                        "subView": [
+                            {
+                                "img": {
+                                    "text": "imageUrl31xo8",
+                                    "isUrl": true,
+                                    "height": "190",
+                                    "width": "190"
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    },
+                    {
+                        "id": "Tile0",
+                        "subView": [
+                            {
+                                "title": {
+                                    "text": "1tile0iitextiij7r",
+                                    "style": "BOLD",
+                                    "titleTextColor": "#000080",
+                                    "titleAlign": "CENTER",
+                                    "fontSize": 16
+                                }
+                            }
+                        ],
+                        "borderColor": "#C5C3C8",
+                        "backgroundColor": "#ffffff",
+                        "borderWidth": 1,
+                        "type": "CONTAINER",
+                        "uiAction": "",
+                        "order": 1
+                    }
+                ],
+                "tileType": "WRAP",
+                "uiAction": "",
+                "order": 1
+            }
+        ],
+        "style": {
+            "fontSize": 16,
+            "bgColor": "#ffffff",
+            "borderWidth": 1
+        },
+        "footer": {
+            "menu": [
+                {
+                    "id": "EN01BottomButtonBack",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": ""
+                            }
+                        }
+                    ],
+                    "align": "START",
+                    "type": "BACK_BUTTON",
+                    "uiAction": "${action400}",
+                    "order": 1
+                },
+                {
+                    "id": "EN01BottomButton1",
+                    "subView": [
+                        {
+                            "title": {
+                                "text": "2en01bottombutton1iitextii91b",
+                                "style": "BOLD",
+                                "titleTextColor": "#ffffff",
+                                "titleAlign": "CENTER",
+                                "fontSize": 16
+                            }
+                        }
+                    ],
+                    "align": "END",
+                    "type": "BUTTON",
+                    "uiAction": "${action401}",
+                    "order": 2
+                }
+            ],
+            "orientation": "HORIZONTAL"
+        }
+    },
+    "cardUIAction": {
+        "action400":{
+            "action": "HOME"
+        },
+        "action401":{
+            "action": "HOME"
+        }
+        
+    }
+
+}
